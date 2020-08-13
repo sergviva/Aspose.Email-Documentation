@@ -1,7 +1,7 @@
 ---
 title: Aspose.Email for .NET 20.7 Release Notes
 type: docs
-weight: 10
+weight: 9
 url: /net/aspose-email-for-net-20-7-release-notes/
 ---
 
