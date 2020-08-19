@@ -47,27 +47,27 @@ This section includes the following topics:
 - Friday of the First ISO 8601 Week of the Year.
 - First Friday of the Year.
 ### **The Last Day of The Month**
-This samples [recurrence pattern](/net/introducing-recurrence-patterns/) specifies the last day of the month, every month.
+This samples [recurrence pattern](/email/net/introducing-recurrence-patterns/) specifies the last day of the month, every month.
 
 RRULE:FREQ=MONTHLY;BYMONTHDAY=-1
 
 Similarly, if you want an occurrence on a day before the last day of the month, use BYMONTHDAY=-2. If you specify BYMONTHDAY=31 then according to the iCalendar standard, there will be no occurrence generated in the months that have fewer than 31 day.
 ### **The Last Workday of Every Month**
-This samples [recurrence pattern](/net/introducing-recurrence-patterns/) specifies the last workday of the month, every month. Workdays are defined as the days on which you work. In Europe, for example, workdays are normally Monday to Friday.
+This samples [recurrence pattern](/email/net/introducing-recurrence-patterns/) specifies the last workday of the month, every month. Workdays are defined as the days on which you work. In Europe, for example, workdays are normally Monday to Friday.
 
 RRULE:FREQ=MONTHLY;BYDAY=MO,TU,WE,TH,FR;BYSETPOS=-1
 
 The above rule specifies all workdays of a month and selects the last of them. The net result is a last workday in a month.
 ### **The Last Monday of The Year**
-This sample [recurrence pattern](/net/introducing-recurrence-patterns/) specifies an event that occurs on the last Monday of the year.
+This sample [recurrence pattern](/email/net/introducing-recurrence-patterns/) specifies an event that occurs on the last Monday of the year.
 
 RRULE:FREQ=YEARLY;BYDAY=-1MO
 ### **Friday of the First ISO 8601 Week of the Year**
-This sample [recurrence pattern](/net/introducing-recurrence-patterns/) specifies the Friday of the first week of the year. In the ISO 8601 specification, the first week of the year, is the first week of the year is one with at least four days. When a year starts on a Saturday, for example, week 1 is the week immediately following, starting Monday, January 3.
+This sample [recurrence pattern](/email/net/introducing-recurrence-patterns/) specifies the Friday of the first week of the year. In the ISO 8601 specification, the first week of the year, is the first week of the year is one with at least four days. When a year starts on a Saturday, for example, week 1 is the week immediately following, starting Monday, January 3.
 
 FREQ=YEARLY;BYWEEKNO=1;BYDAY=FR
 ### **First Friday of the Year**
-This sample [recurrence pattern](/net/introducing-recurrence-patterns/) specifies an event that occurs on the 1st Friday of the year.
+This sample [recurrence pattern](/email/net/introducing-recurrence-patterns/) specifies an event that occurs on the 1st Friday of the year.
 
 FREQ=YEARLY;BYDAY=1FR
 

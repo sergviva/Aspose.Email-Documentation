@@ -24,7 +24,7 @@ Aspose.Email makes it possible to convert an OST file to PST with a single line 
 
 For performing other operations with OST files, please refer to the following pages:
 
-- [Read Outlook PST File and Get Folder and Subfolder Information](/net/read-outlook-pst-file-and-get-folders-and-subfolders-information/)
-- [Get Messages Information from an Outlook PST File](/net/working-with-messages-in-a-pst-file/#get-messages-information-from-an-outlook-pst-file)
-- [Extract Messages from Outlook PST File and Save to Disk or Stream in MSG Format](/net/working-with-messages-in-a-pst-file/#extracting-messages-form-pst-files)
-- [Access Contact Information from Outlook PST File and Save to Disk in MSG Format](/net/working-with-contacts-in-pst-file/#save-contacts-information-from-pst-file-in-msg-format)
+- [Read Outlook PST File and Get Folder and Subfolder Information](/email/net/read-outlook-pst-file-and-get-folders-and-subfolders-information/)
+- [Get Messages Information from an Outlook PST File](/email/net/working-with-messages-in-a-pst-file/#get-messages-information-from-an-outlook-pst-file)
+- [Extract Messages from Outlook PST File and Save to Disk or Stream in MSG Format](/email/net/working-with-messages-in-a-pst-file/#extracting-messages-form-pst-files)
+- [Access Contact Information from Outlook PST File and Save to Disk in MSG Format](/email/net/working-with-contacts-in-pst-file/#save-contacts-information-from-pst-file-in-msg-format)

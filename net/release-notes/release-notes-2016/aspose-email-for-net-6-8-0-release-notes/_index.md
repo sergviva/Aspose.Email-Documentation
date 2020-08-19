@@ -13,10 +13,10 @@ Aspose.Email for .NET is a class library that enables applications to manipulate
 
 |**Key** |**Summary** |**Category** |
 | :- | :- | :- |
-|EMAILNET-34829 |Option to [split PST](http://www.aspose.com/docs/display/emailnet/Splitting+and+Merging+PST+files#SplittingandMergingPSTfiles-SplittingPSTbasedonSpecifiedCriterion) based on time and other criteria |New Feature |
+|EMAILNET-34829 |Option to [split PST](/email/net/splitting-and-merging-pst-files/) based on time and other criteria |New Feature |
 |EMAILNET-38407 |Move Folder and Sub-folders to some other folder using ImapClient |New Feature |
-|EMAILNET-38432 |Provide [IsTnefMessage flag](http://www.aspose.com/docs/display/emailnet/Utility+Features+-+MailMessage#UtilityFeatures-MailMessage-DetectIfaMessageisTNEF)|Enhancement |
-|EMAILNET-38429 |Retrieving [Pop3MessageInfo](http://www.aspose.com/docs/display/emailnet/Working+with+Messages+from+Server#WorkingwithMessagesfromServer-RetrievingMessageSummaryInformationusingUniqueId)|Enhancement |
+|EMAILNET-38432 |Provide [IsTnefMessage flag](/email/net/utility-features/)|Enhancement |
+|EMAILNET-38429 |Retrieving [Pop3MessageInfo](/email/net/working-with-messages-from-server/)|Enhancement |
 |EMAILNET-35254 |Different informaiton in MailMessage and MapiMessage "To" header field |Bug |
 |EMAILNET-35268 |EML to XPS: Formatting issues |Bug |
 |EMAILNET-38411 |ImapClient hangs on request with special characters like double quote |Bug |

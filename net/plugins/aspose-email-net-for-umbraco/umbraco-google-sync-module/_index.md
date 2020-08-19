@@ -74,7 +74,7 @@ You will asked to enter Gmail Server details when clicking on any option for the
 
 ![todo:image_alt_text](http://www.aspose.com/blogs/wp-content/uploads/2014/11/Gmail-server-details.png)
 
-**Note:** You can get Client ID and Client Secret of your Google account using the steps explained on <http://www.aspose.com/docs/display/emailnet/Create+project+in+Google+Developer+Console>
+**Note:** You can get Client ID and Client Secret of your Google account using the steps explained on [Gmail Utility Features](/email/net/gmail-utility-features)
 
 Once the sync process is completed, a brief summary of migrated records count and list of records that already existed and are not imported is shown.
 ## **Video Demo**

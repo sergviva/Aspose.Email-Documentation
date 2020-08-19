@@ -7,7 +7,7 @@ url: /net/working-with-mapijournal-in-pst/
 
 
 ## **Adding MapiJournal to PST**
-[Create a New PST File and Add Subfolders](/net/create-new-pst-file-and-add-subfolders/#creating-a-new-pst-file-and-add-subfolders) showed how to create a PST file and add a subfolder to it. With Aspose.Email you can add [MapiJournal](https://apireference.aspose.com/net/email/aspose.email.mapi/mapijournal) to the Journal subfolder of a PST file that you have created or loaded. Below are the steps to add [MapiJournal](https://apireference.aspose.com/net/email/aspose.email.mapi/mapijournal) to a PST:
+[Create a New PST File and Add Subfolders](/email/net/create-new-pst-file-and-add-subfolders/#creating-a-new-pst-file-and-add-subfolders) showed how to create a PST file and add a subfolder to it. With Aspose.Email you can add [MapiJournal](https://apireference.aspose.com/net/email/aspose.email.mapi/mapijournal) to the Journal subfolder of a PST file that you have created or loaded. Below are the steps to add [MapiJournal](https://apireference.aspose.com/net/email/aspose.email.mapi/mapijournal) to a PST:
 
 1. Create a [MapiJournal](https://apireference.aspose.com/net/email/aspose.email.mapi/mapijournal) object
 1. Set the [MapiJournal](https://apireference.aspose.com/net/email/aspose.email.mapi/mapijournal) properties using a constructor and methods.

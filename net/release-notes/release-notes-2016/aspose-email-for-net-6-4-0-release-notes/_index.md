@@ -12,14 +12,14 @@ Aspose.Email for .NET is a class library that enables applications to manipulate
 - Paging Support in Email clients ([IMAP](/pages/createpage.action?spaceKey=emailnet&title=Listing+Messages+with+Paging+Support&linkCreation=true&fromPageId=11276234), EWS [Listing Messages](/pages/createpage.action?spaceKey=emailnet&title=List+Messages+on+an+Exchange+Server&linkCreation=true&fromPageId=11276234) [Listing Folders](/pages/createpage.action?spaceKey=emailnet&title=List+all+folders+from+the+Exchange+Server&linkCreation=true&fromPageId=11276234) [Listing Appointments](/pages/createpage.action?spaceKey=emailnet&title=Listing+Appointments+with+Paging+Support&linkCreation=true&fromPageId=11276234))
 - Saving messages as Outlook Template (.oft)
 - Context Timezone support in EWS Client
-- Using [search criteria and paging](http://www.aspose.com/docs/display/emailnet/Filtering+Messages+from+IMAP+Mailbox+Based+on+Sender%2C+Recipient+or+Date) simultaneously for messages listing using the IMAP client
+- Using [search criteria and paging](/email/net/filter-messages-from-server-using-imap-client/) simultaneously for messages listing using the IMAP client
 - Getting the division marker when working with MBOX format
 ### **Features and Improvements**
 
 |**Key** |**Summary** |**Category** |
 | :- | :- | :- |
-|EMAILNET-35183 |Support for saving [MailMessage](http://www.aspose.com/docs/display/emailnet/Loading+and+Saving+Message) and [MapiMessage](http://www.aspose.com/docs/display/emailnet/Managing+Message+Files+with+Aspose.Email.Outlook#ManagingMessageFileswithAspose.Email.Outlook-ReadingandWritingOutlookTemplateFile%28.OFT%29) to OFT format |New Feature |
-|EMAILNET-35136 |Sending [Calendar Invitation](http://www.aspose.com/docs/display/emailnet/Working+with+Calendar+Items+on+Exchange+Server#WorkingwithCalendarItemsonExchangeServer-SharingCalendarInvitation) Email |New Feature |
+|EMAILNET-35183 |Support for saving [MailMessage](/email/net/loading-and-saving-message/) and [MapiMessage](/email/net/managing-message-files-with-aspose-email-outlook/) to OFT format |New Feature |
+|EMAILNET-35136 |Sending [Calendar Invitation](/email/net/working-with-calendar-items-on-exchange-server/) Email |New Feature |
 |EMAILNET-35145 |Issue while having hyphen in domain name |Enhancement |
 |EMAILNET-35180 |Leaving out Attachment Name while saving using Aspose.Email? |Enhancement |
 |EMAILNET-35128 |IMAP: Combination of MailQuery and Paging Support |Enhancement |

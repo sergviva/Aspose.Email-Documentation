@@ -7,7 +7,7 @@ url: /net/working-with-contacts-in-pst-file/
 
 
 ## **Adding Contact to PST**
-[Create a New PST File and Add Subfolders](/net/create-new-pst-file-and-add-subfolders/#creating-a-new-pst-file-and-add-subfolders) showed how to create a PST file and add a subfolder to it. With Aspose.Email you can add a MapiContact to the Contacts subfolder of a PST file that you have created or loaded. Below are the steps to add MapiContact to a PST:
+[Create a New PST File and Add Subfolders](/email/net/create-new-pst-file-and-add-subfolders/#creating-a-new-pst-file-and-add-subfolders) showed how to create a PST file and add a subfolder to it. With Aspose.Email you can add a MapiContact to the Contacts subfolder of a PST file that you have created or loaded. Below are the steps to add MapiContact to a PST:
 
 1. Create a [MapiContact](https://apireference.aspose.com/email/net/aspose.email.mapi/mapicontact) object.
 1. Set the [MapiContact properties](https://apireference.aspose.com/email/net/aspose.email.mapi/mapicontact/properties/index) using different constructors and methods.

@@ -11,7 +11,7 @@ This page contains release notes information for Aspose.Email for C++ 20.4.
 
 {{% /alert %}} 
 
-Aspose.Email for C++ 20.4 is based on [Aspose.Email for .NET 20.4](https://docs.aspose.com/display/emailnet/Aspose.Email+for+.NET+20.4+Release+Notes).
+Aspose.Email for C++ 20.4 is based on [Aspose.Email for .NET 20.4](/email/net/aspose-email-for-net-20-4-release-notes/).
 ## **New features**
 #### **Support For The Ability To Ignore Exceptions**
 **ExceptionManager** class has been added to **provide ignore exceptions ability**. 
@@ -59,7 +59,7 @@ ExceptionManager::set_IgnoreExceptionsLogHandler(&CustomExceptionHandler);
 {{< /highlight >}}
 
 ## **Features not implemented**
-The following features are not implemented in Aspose.Email for C++ 20.4 but they are implemented in [Aspose.Email for .NET 20.4](https://docs.aspose.com/display/emailnet/Aspose.Email+for+.NET+20.4+Release+Notes):
+The following features are not implemented in Aspose.Email for C++ 20.4 but they are implemented in [Aspose.Email for .NET 20.4](/email/net/aspose-email-for-net-20-4-release-notes/):
 
 - Microsoft Graph REST API v1.0
 ## **API Resources**

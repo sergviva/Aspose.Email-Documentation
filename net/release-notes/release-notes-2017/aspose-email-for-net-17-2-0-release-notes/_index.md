@@ -14,7 +14,7 @@ Aspose.Email for .NET is a class library that enables applications to manipulate
 
 |**Key**|**Summary**|**Category**|
 | :- | :- | :- |
-|EMAILNET-38453|EWS: [Retrieve Extended Properties](https://docs.asposeptyltd.com/display/emailnet/Working+with+Calendar+Items+on+Exchange+Server#WorkingwithCalendarItemsonExchangeServer-https://docs.aspose.com/display/emailnet/Working+with+Calendar+Items+on+Exchange+Server#WorkingwithCalendarItemsonExchangeServer-RetrievingExtendedAttributesInformationfromCalendarItems) for Items|Enhancement|
+|EMAILNET-38453|EWS: [Retrieve Extended Properties](/email/net/working-with-calendar-items-on-exchange-server/) for Items|Enhancement|
 |EMAILNET-34620|[Exclude the public MhtFormatter class](/email/net/loading-and-saving-message/#loadingandsavingmessage-renderingcalendareventswhileconvertingtomhtml)|Enhancement|
 |EMAILNET-38573|EML to MHTML: Provision to determine output From and To fields automatically|Enhancement|
 |EMAILNET-38605|In MapiContact BirthDay, Anniversary etc. should be independent of local time zone|Enhancement|

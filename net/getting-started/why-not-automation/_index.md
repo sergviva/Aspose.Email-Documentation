@@ -44,5 +44,4 @@ This article has covered the key points as to why Aspose components are a better
 For more information, see the following Internet articles:
 
 - [Top 10 Reasons for Developers to Use the .NET Framework 1.1](http://msdn2.microsoft.com/en-us/netframework/aa497339.aspx)
-- [Aspose vs. Office Components](http://www.aspose.com/forums/ShowPost.aspx?PostID=11020)
 - [Considerations for Server-Side Automation of Office](http://support.microsoft.com/default.aspx?scid=kb;EN-US;q257757)[Licensing the Office 2000 Web Components and Office Server Extensions](http://support.microsoft.com/default.aspx?scid=kb;EN-US;q243006)

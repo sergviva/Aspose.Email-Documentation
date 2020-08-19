@@ -11,8 +11,8 @@ The [SmtpClient](https://apireference.aspose.com/net/email/aspose.email.clients.
 - The [SmtpClient](https://apireference.aspose.com/net/email/aspose.email.clients.smtp/smtpclient) class is the only major entry developers use to send mail messages.
 - The [SmtpClient](https://apireference.aspose.com/net/email/aspose.email.clients.smtp/smtpclient) class also provides other common email delivery methods, including writing email messages to the file system, message queue etc.
 - The [SmtpClient](https://apireference.aspose.com/net/email/aspose.email.clients.smtp/smtpclient) class fully supports these two programming models:
-  - [Synchronous](http://www.aspose.com/docs/display/emailnet/Sending+and+Forwarding+Messages#SendingandForwardingMessages-SendingEmailsSynchronously)
-  - [Asynchronous](http://www.aspose.com/docs/display/emailnet/Sending+and+Forwarding+Messages#SendingandForwardingMessages-SendingEmailsAsynchronously)
+  - [Synchronous](#sending-emails-synchronously)
+  - [Asynchronous](#sending-emails-asynchronously)
 - The [SmtpClient](https://apireference.aspose.com/net/email/aspose.email.clients.smtp/smtpclient) class also supports [sending messages as TNEF](#sending-message-as-tnef)
 
 To send the email message and block while waiting for the email to be transmitted to the SMTP server, use one of the synchronous Send methods. To allow your program's main thread to continue executing while the email is transmitted, use the [BeginSend](https://apireference.aspose.com/net/email/aspose.email.clients.smtp/smtpclient/methods/beginsend/index) method.

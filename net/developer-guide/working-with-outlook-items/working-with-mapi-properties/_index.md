@@ -15,7 +15,7 @@ The [MapiProperty](https://apireference.aspose.com/net/email/aspose.email.mapi/m
 ### **Getting MAPI Property using the MAPI Property Tag**
 To get MAPI properties:
 
-1. Create an instance of [MapiMessage](https://apireference.aspose.com/net/email/aspose.email.mapi/mapimessage) by [loading from files or stream](http://www.aspose.com/docs/display/emailnet/Managing+Message+Files+with+Aspose.Email.Outlook#ManagingMessageFileswithAspose.Email.Outlook-Loading%2CViewingandParsingMSGFile).
+1. Create an instance of [MapiMessage](https://apireference.aspose.com/net/email/aspose.email.mapi/mapimessage) by [loading from files or stream](/email/net/managing-message-files-with-aspose-email-outlook/).
 1. Get the [MapiProperty](https://apireference.aspose.com/net/email/aspose.email.mapi/mapiproperty) from [MapiMessage.Properties](https://apireference.aspose.com/net/email/aspose.email.mapi/mapiproperty/properties/index) by [MapiPropertyTag](https://apireference.aspose.com/net/email/aspose.email.mapi/mapipropertytag) keys.
 
 The following code snippet shows you how to get MAPI property using the MAPI property tag.

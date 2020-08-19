@@ -13,9 +13,9 @@ Aspose.Email for .NET is a class library that enables applications to manipulate
 
 |**Key** |**Summary** |**Category** |
 | :- | :- | :- |
-|EMAILNET-34970 |[Marking Items](http://www.aspose.com/docs/display/emailnet/Working+with+Messages+in+a+PST+File#WorkingwithMessagesinaPSTFile-UpdatingCustomProperitesinaPSTFile) in-place within a PST |New Feature |
+|EMAILNET-34970 |[Marking Items](/email/net/working-with-messages-in-a-pst-file/) in-place within a PST |New Feature |
 |EMAILNET-38414 |EWS: Provision of synching folder own name etc |New Feature |
-|EMAILNET-38448 |Provision to [identify embedded (nested) messages](http://www.aspose.com/docs/display/emailnet/Extracting+Message+Contents+from+Emails#ExtractingMessageContentsfromEmails-DeterminingifAttachmentisEmbeddedMessage) in TNEF messages |Enhancement |
+|EMAILNET-38448 |Provision to [identify embedded (nested) messages](/email/net/extracting-message-contents-from-emails/) in TNEF messages |Enhancement |
 |EMAILNET-35239 |Implement RTF Extension Algorithm to properly display body of message after converting from eml to msg |Enhancement |
 |EMAILNET-38446 |Convert inline attachments from RTF body to inline images in HTML body at MSG to EML conversion |Enhancement |
 |EMAILNET-38443 |Improve log methods to decrease delay which depends on log operations |Enhancement |

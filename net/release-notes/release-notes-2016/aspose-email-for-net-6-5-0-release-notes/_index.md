@@ -14,10 +14,10 @@ Aspose.Email for .NET is a class library that enables applications to manipulate
 
 |**Key** |**Summary** |**Category** |
 | :- | :- | :- |
-|EMAILNET-35201 |Bind [Smtp Client to specific IP](http://www.aspose.com/docs/display/emailnet/Connecting+to+SMTP+Server#ConnectingtoSMTPServer-BindSMTPClienttoSpecificIPAddressonHost) on source having multiple IPs |New Feature |
+|EMAILNET-35201 |Bind [Smtp Client to specific IP](/email/net/connecting-to-smtp-server/) on source having multiple IPs |New Feature |
 |EMAILNET-35192 |Saving EML has date with Weekday abbreviation |Enhancement |
-|EMAILNET-35198 |Ability to add [event to Secondary Calendar](http://www.aspose.com/docs/display/emailnet/Working+with+Calendar+Items+on+Exchange+Server#WorkingwithCalendarItemsonExchangeServer-AddingEventtoSecondaryCalendarfolderonExchangeServer) of Office 365 |Enhancement |
-|EMAILNET-35222 |Provide Insert method for adding [Header at specific location](http://www.aspose.com/docs/display/emailnet/Creating+and+setting+contents+of+Emails#CreatingandsettingcontentsofEmails-SetEmailHeaders)|Enhancement |
+|EMAILNET-35198 |Ability to add [event to Secondary Calendar](/email/net/working-with-calendar-items-on-exchange-server/) of Office 365 |Enhancement |
+|EMAILNET-35222 |Provide Insert method for adding [Header at specific location](/email/net/creating-and-setting-contents-of-emails/)|Enhancement |
 |EMAILNET-35188 |Exchange.Backup doesn't fetch more than 1000 emails |Bug |
 |EMAILNET-35154 |IEWSClient object can't get created on Windows Service on Windows Server 2003 |Bug |
 |EMAILNET-35158 |Conversion of a Bad MIME to Good one |Bug |

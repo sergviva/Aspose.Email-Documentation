@@ -11,7 +11,7 @@ This page contains release notes information for Aspose.Email for C++ 20.5.
 
 {{% /alert %}} 
 
-Aspose.Email for C++ 20.5 is based on [Aspose.Email for .NET 20.5](https://docs.aspose.com/display/emailnet/Aspose.Email+for+.NET+20.5+Release+Notes).
+Aspose.Email for C++ 20.5 is based on [Aspose.Email for .NET 20.5](/email/net/aspose-email-for-net-20-5-release-notes/).
 ## **New Features**
 #### **Email Threading Using ImapClient**
 **Email threading** is a useful feature that allows to organize emails into conversations in a hierarchical manner. It is possible by grouping all forwards, replies, and reply-all messages related to the same conversation together. Basically, the **IMAP** protocol may support the **THREAD** capability defined in [**RFC-5256**](https://tools.ietf.org/html/rfc5256). Besides, there is another **IMAP** extension provided by Gmail and described as [**X-GM-EXT-1**](https://developers.google.com/gmail/imap/imap-extensions#checking_for_the_presence_of_extensions).
@@ -148,7 +148,7 @@ The full code of the example can be found at [Aspose Email for C++ GitHub examp
 
 
 #### **Features Not Implemented**
-The following features are not implemented in Aspose.Email for C++ 20.5 but they are implemented in [Aspose.Email for .NET 20.5](https://docs.aspose.com/display/emailnet/Aspose.Email+for+.NET+20.5+Release+Notes):
+The following features are not implemented in Aspose.Email for C++ 20.5 but they are implemented in [Aspose.Email for .NET 20.5](/email/net/aspose-email-for-net-20-5-release-notes/):
 
 - Microsoft Graph REST API v1.0
 ## **API Resources**

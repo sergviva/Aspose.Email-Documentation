@@ -10,11 +10,11 @@ Aspose.Email supports working with Gmail contacts. Using the IGmailClient interf
 User name, email address, password, client ID, client secret refresh token.
 This article shows how to:
 
-- [Access Gmail contacts](http://www.aspose.com/docs/display/emailnet/Working+with+Gmail+Contacts#WorkingwithGmailContacts-AccessGmailContacts).
-- [Create new Gmail contacts](http://www.aspose.com/docs/display/emailnet/Working+with+Gmail+Contacts#WorkingwithGmailContacts-CreatingContact).
-- [Update existing contacts](http://www.aspose.com/docs/display/emailnet/Working+with+Gmail+Contacts#WorkingwithGmailContacts-UpdatingContact).
-- [Delete a contact](http://www.aspose.com/docs/display/emailnet/Working+with+Gmail+Contacts#WorkingwithGmailContacts-DeletingContact).
-- [Save contact](http://www.aspose.com/docs/display/emailnet/Working+with+Gmail+Contacts#WorkingwithGmailContacts-SavingContact).
+- [Access Gmail contacts](/email/net/working-with-gmail-contacts/).
+- [Create new Gmail contacts](/email/net/working-with-gmail-contacts/).
+- [Update existing contacts]/net/working-with-gmail-contacts/).
+- [Delete a contact]/net/working-with-gmail-contacts/).
+- [Save contact](/email/net/working-with-gmail-contacts/).
 ## **Access Gmail Contacts**
 Following is a sample application which can be used to access the detail of contacts in all the groups.
 

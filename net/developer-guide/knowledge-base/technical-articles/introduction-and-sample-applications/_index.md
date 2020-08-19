@@ -163,7 +163,7 @@ Add the following code into the click even handler of the **List Messages** butt
 
 {{< gist "aspose-email" "9e8fbeb51a8cbc4129dc71ca8cd55f0b" "Examples-CSharp-Knowledge-Base-AsposeEmailExchangeSampleApp-AsposeEmailExchange.cs" >}}
 ### **Exchange : Output**
-This screenshot shows the messages fetched from the Exchange Server. The ListMessages() method returns the basic information like subject, from, to and message ID. To get the full message, call the ExchangeClient.SaveMessage() method. (Using the ExchangeClient.SaveMessage() is described in the article [Saving Messages from Exchange Server Mailbox in EML and MSG Format](/net/working-with-exchange-mailbox-and-messages/#saving-messages).)
+This screenshot shows the messages fetched from the Exchange Server. The ListMessages() method returns the basic information like subject, from, to and message ID. To get the full message, call the ExchangeClient.SaveMessage() method. (Using the ExchangeClient.SaveMessage() is described in the article [Saving Messages from Exchange Server Mailbox in EML and MSG Format](/email/net/working-with-exchange-mailbox-and-messages/#saving-messages).)
 
 |![todo:image_alt_text](introduction-and-sample-applications_1.png)|
 | :- |

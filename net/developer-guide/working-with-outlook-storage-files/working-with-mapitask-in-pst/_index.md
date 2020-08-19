@@ -7,7 +7,7 @@ url: /net/working-with-mapitask-in-pst/
 
 
 ## **Adding MapiTask to PST**
-[Create a New PST File and Add Subfolders](/net/create-new-pst-file-and-add-subfolders/#creating-a-new-pst-file-and-add-subfolders) showed how to create a PST file and add a subfolder to it. With Aspose.Email you can add [MapiTask](https://apireference.aspose.com/net/email/aspose.email.mapi/mapitask) to the Tasks subfolder of a PST file that you have created or loaded. Below are the steps to add MapiTask to a PST:
+[Create a New PST File and Add Subfolders](/email/net/create-new-pst-file-and-add-subfolders/#creating-a-new-pst-file-and-add-subfolders) showed how to create a PST file and add a subfolder to it. With Aspose.Email you can add [MapiTask](https://apireference.aspose.com/net/email/aspose.email.mapi/mapitask) to the Tasks subfolder of a PST file that you have created or loaded. Below are the steps to add MapiTask to a PST:
 
 1. Create a [MapiTask](https://apireference.aspose.com/net/email/aspose.email.mapi/mapitask) object.
 1. Set the [MapiTask](https://apireference.aspose.com/net/email/aspose.email.mapi/mapitask) properties using constructor and different methods.

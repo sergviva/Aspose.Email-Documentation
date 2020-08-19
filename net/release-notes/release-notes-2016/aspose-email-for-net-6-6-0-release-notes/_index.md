@@ -17,14 +17,14 @@ Aspose.Email for .NET is a class library that enables applications to manipulate
 
 |**Key** |**Summary** |**Category** |
 | :- | :- | :- |
-|EMAILNET-34828 |Bulk [deletion](http://www.aspose.com/docs/display/emailnet/Working+with+Messages+in+a+PST+File#WorkingwithMessagesinaPSTFile-DeleteItemsinBulkfromPSTFile) and [update](http://www.aspose.com/docs/display/emailnet/Working+with+Messages+in+a+PST+File#WorkingwithMessagesinaPSTFile-UpdatingMessagePropertiesinaPSTFile) of messages in PST for optimized I/O |New Feature |
+|EMAILNET-34828 |Bulk [deletion]/net/working-with-messages-in-a-pst-file/) and [update](/email/net/working-with-messages-in-a-pst-file/) of messages in PST for optimized I/O |New Feature |
 |EMAILNET-35021 |Add support for Gmail IMAP protocol extensions |New Feature |
-|EMAILNET-35167 |Add new features in the [IMAP4 extended list command](http://www.aspose.com/docs/display/emailnet/Support+for+IMAP+Extensions#SupportforIMAPExtensions-IMAP4ExtendedListCommand)|New Feature |
-|EMAILNET-35205 |Add new features in the [IMAP4 ID extension (rfc2971)](http://www.aspose.com/docs/display/emailnet/Support+for+IMAP+Extensions#SupportforIMAPExtensions-SupportforIMAP4IDExtension)|New Feature |
-|EMAILNET-35226 |Add ability in ImapClient to [delete messages](http://www.aspose.com/docs/display/emailnet/Deleting+Messages+from+Server#DeletingMessagesfromServer-DeletingMultipleMessagess) and change flags for set of messages |Enhancement |
+|EMAILNET-35167 |Add new features in the [IMAP4 extended list command](/email/net/support-for-imap-idle-command-and-extensions/)|New Feature |
+|EMAILNET-35205 |Add new features in the [IMAP4 ID extension (rfc2971)](/email/net/support-for-imap-idle-command-and-extensions/)|New Feature |
+|EMAILNET-35226 |Add ability in ImapClient to [delete messages](/email/net/deleting-messages-from-server/) and change flags for set of messages |Enhancement |
 |EMAILNET-35230 |Use mail server IP address for connecting the ImapClient and Pop3Client without DNS resolution |Enhancement |
 |EMAILNET-35240 |Option to read X-APPLE-FILENAME for attachments in ICS from IOS |Enhancement |
-|EMAILNET-35242 |Improvement of copy method. Add ability to [copy multiple messages](http://www.aspose.com/docs/display/emailnet/Working+with+Folders+on+IMAP+Server#WorkingwithFoldersonIMAPServer-CopyMessagestoAnotherMailboxFolder) per invocation |Enhancement |
+|EMAILNET-35242 |Improvement of copy method. Add ability to [copy multiple messages](/email/net/working-with-folders-on-imap-server/) per invocation |Enhancement |
 |EMAILNET-34799 |Delete of items from PST: resultant file has very large size |Bug |
 |EMAILNET-34800 |Deleting Msgs from PST takes large time |Bug |
 |EMAILNET-35223 |SetBodyContent breaks the special characters |Bug |

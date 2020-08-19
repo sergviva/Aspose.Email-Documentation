@@ -11,7 +11,7 @@ This page contains release notes information for Aspose.Email for C++ 20.3.
 
 {{% /alert %}} 
 
-Aspose.Email for C++ 20.3 is based on [Aspose.Email for .NET 20.3](https://docs.aspose.com/display/emailnet/Aspose.Email+for+.NET+20.3+Release+Notes).
+Aspose.Email for C++ 20.3 is based on [Aspose.Email for .NET 20.3](/email/net/aspose-email-for-net-20-3-release-notes/).
 ## **New features**
 **What is OLM storage?**
 
@@ -42,7 +42,7 @@ for (auto folder : System::IterateOver(storage->get_FolderHierarchy()))
 
 {{< /highlight >}}
 ## **Features not implemented**
-The following features are not implemented in Aspose.Email for C++ 20.3 but they are implemented in [Aspose.Email for .NET 20.3](https://docs.aspose.com/display/emailnet/Aspose.Email+for+.NET+20.3+Release+Notes):
+The following features are not implemented in Aspose.Email for C++ 20.3 but they are implemented in [Aspose.Email for .NET 20.3](/email/net/aspose-email-for-net-20-3-release-notes/):
 
 - Microsoft Graph REST API v1.0
 - Exchange WebDav API

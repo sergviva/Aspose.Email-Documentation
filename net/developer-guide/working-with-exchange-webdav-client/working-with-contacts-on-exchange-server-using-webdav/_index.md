@@ -8,7 +8,7 @@ url: /net/working-with-contacts-on-exchange-server-using-webdav/
 
 {{% alert color="primary" %}} 
 
-Exchange Server accounts hold more than just email messages. As well as [fetching](/net/working-with-exchange-mailbox-and-messages-using-webdav/#fetch-messages-from-an-exchange-server-mailbox), [moving](/net/working-with-exchange-mailbox-and-messages-using-webdav/#moving-messages), [sending](/net/working-with-exchange-mailbox-and-messages-using-webdav/#sending-email-messages) and [deleting email messages](/net/working-with-exchange-mailbox-and-messages-using-webdav/#deleting-messages) from Exchange Servers, Aspose.Email allows you to work with contacts. This article explains how to retrieve contact information from an Exchange Server directly. This article also shows how you can list contacts from the Contacts folder.
+Exchange Server accounts hold more than just email messages. As well as [fetching](/email/net/working-with-exchange-mailbox-and-messages-using-webdav/#fetch-messages-from-an-exchange-server-mailbox), [moving](/email/net/working-with-exchange-mailbox-and-messages-using-webdav/#moving-messages), [sending](/email/net/working-with-exchange-mailbox-and-messages-using-webdav/#sending-email-messages) and [deleting email messages](/email/net/working-with-exchange-mailbox-and-messages-using-webdav/#deleting-messages) from Exchange Servers, Aspose.Email allows you to work with contacts. This article explains how to retrieve contact information from an Exchange Server directly. This article also shows how you can list contacts from the Contacts folder.
 
 {{% /alert %}} 
 ## **Getting Contacts from an Exchange Server**

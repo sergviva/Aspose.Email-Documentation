@@ -8,5 +8,5 @@ url: /net/aspose-email-net-for-dnn/
 
 This section has the following topics:
 
-- [DNN Exchange Sync Module](/net/dnn-exchange-sync-module/)
-- [DNN Gmail Sync Module](/net/dnn-gmail-sync-module/)
+- [DNN Exchange Sync Module](/email/net/dnn-exchange-sync-module/)
+- [DNN Gmail Sync Module](/email/net/dnn-gmail-sync-module/)

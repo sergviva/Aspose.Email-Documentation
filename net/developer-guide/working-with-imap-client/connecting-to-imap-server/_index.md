@@ -17,7 +17,7 @@ Once the [ImapClient](https://apireference.aspose.com/net/email/aspose.email.cli
 
 {{< gist "aspose-email" "9e8fbeb51a8cbc4129dc71ca8cd55f0b" "Examples-CSharp-IMAP-ConnectingWithIMAPServer-ConnectingWithIMAPServer.cs" >}}
 ## **Connecting with SSL Enabled IMAP Server**
-[Connecting with IMAP Server](http://localhost:1313/net/connecting-to-imap-server/#connecting-with-imap-server) described how to connect to an IMAP server in four simple steps:
+[Connecting with IMAP Server](/email/net/connecting-to-imap-server#connecting-with-imap-server) described how to connect to an IMAP server in four simple steps:
 
 1. Create an instance of the [ImapClient](https://apireference.aspose.com/net/email/aspose.email.clients.imap/imapclient) class.
 1. Specify the hostname, username, and password.

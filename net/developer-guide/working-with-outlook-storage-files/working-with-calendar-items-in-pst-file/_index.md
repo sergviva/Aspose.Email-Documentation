@@ -7,7 +7,7 @@ url: /net/working-with-calendar-items-in-pst-file/
 
 
 ## **Adding MapiCalendar to PST**
-[Create a New PST File and Add Subfolders](/net/create-new-pst-file-and-add-subfolders/#creating-a-new-pst-file-and-add-subfolders) showed how to create a PST file and add a subfolder to it. With Aspose.Email you can add MapiCalendar to the Calendar subfolder of a PST file that you have created or loaded. Below are the steps to add MapiCalendar to a PST:
+[Create a New PST File and Add Subfolders](/email/net/create-new-pst-file-and-add-subfolders/#creating-a-new-pst-file-and-add-subfolders) showed how to create a PST file and add a subfolder to it. With Aspose.Email you can add MapiCalendar to the Calendar subfolder of a PST file that you have created or loaded. Below are the steps to add MapiCalendar to a PST:
 
 1. Create a [MapiCalendar](https://apireference.aspose.com/net/email/aspose.email.mapi/mapicalendar) object.
 1. Set the [MapiCalendar](https://apireference.aspose.com/net/email/aspose.email.mapi/mapicalendar) properties using a constructor and methods.

@@ -20,9 +20,9 @@ Aspose.Email implements a number of network protocols, for example SMTP, MIME, P
 
 Following are the links to some useful resources you may need to accomplish your tasks.
 
-- [Aspose.Email for .NET Online Documentation](/net/)
-- [Aspose.Email for .NET Features](/net/features-overview)
-- [Aspose.Email for .NET Release Notes](/net/release-notes)
+- [Aspose.Email for .NET Online Documentation](/email/net/)
+- [Aspose.Email for .NET Features](/email/net/features-overview)
+- [Aspose.Email for .NET Release Notes](/email/net/release-notes)
 - [Aspose.Email for .NET Product Page](https://products.aspose.com/email/net)
 - [Install Aspose.Email for .NET NuGet Package](https://www.nuget.org/packages/Aspose.Email/)
 - [Aspose.Email for .NET API Reference Guide](https://apireference.aspose.com/net/email)

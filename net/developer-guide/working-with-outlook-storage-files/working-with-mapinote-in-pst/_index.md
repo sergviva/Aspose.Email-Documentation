@@ -7,7 +7,7 @@ url: /net/working-with-mapinote-in-pst/
 
 
 ## **Adding MapiNote to PST**
-[Create a New PST File and Add Subfolders](/net/create-new-pst-file-and-add-subfolders/#creating-a-new-pst-file-and-add-subfolders) showed how to create a PST file and add a subfolder to it. With Aspose.Email you can add a [MapiNote](https://apireference.aspose.com/net/email/aspose.email.mapi/mapinote) to the Notes subfolder of a PST file that you have created or loaded. To add a [MapiNote](https://apireference.aspose.com/net/email/aspose.email.mapi/mapinote) to a PST:
+[Create a New PST File and Add Subfolders](/email/net/create-new-pst-file-and-add-subfolders/#creating-a-new-pst-file-and-add-subfolders) showed how to create a PST file and add a subfolder to it. With Aspose.Email you can add a [MapiNote](https://apireference.aspose.com/net/email/aspose.email.mapi/mapinote) to the Notes subfolder of a PST file that you have created or loaded. To add a [MapiNote](https://apireference.aspose.com/net/email/aspose.email.mapi/mapinote) to a PST:
 
 1. Create a template [MapiNote](https://apireference.aspose.com/net/email/aspose.email.mapi/mapinote) using Microsoft Outlook and save it as an MSG file.
 1. Load the saved MSG note into a [MapiMessage](https://apireference.aspose.com/net/email/aspose.email.mapi/mapimessage) object.
