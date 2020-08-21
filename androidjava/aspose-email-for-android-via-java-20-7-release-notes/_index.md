@@ -1,7 +1,7 @@
 ---
 title: Aspose.Email for Android via Java 20.7 Release Notes
 type: docs
-weight: 10
+weight: 9
 url: /androidjava/aspose-email-for-android-via-java-20-7-release-notes/
 ---
 
