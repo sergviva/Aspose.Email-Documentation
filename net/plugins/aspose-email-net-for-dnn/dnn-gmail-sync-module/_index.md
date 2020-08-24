@@ -109,7 +109,7 @@ You can get the latest source code from one of the following locations
 You need to have the following installed in order to open and extend the source code
 
 - Visual Studio 2010 or higher
-- [DNN Development Template](http://www.aspose.com/docs/display/totalnet/1.2.1+Downloading)
+- [DNN Development Template](https://downloads.aspose.com/total/net)
 
 Please follow these simple steps to get started
 

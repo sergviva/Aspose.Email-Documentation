@@ -9,7 +9,7 @@ The following is a list of improvements and changes in this release of Aspose.Em
 
 Features
 
-{{< highlight java >}}
+``` java
 
  Support for Communication Protocols (
 
@@ -17,7 +17,7 @@ Available only in jdk17
 
 )
 
-{{< /highlight >}}
+```
 
 Support for SMTP
 
@@ -74,7 +74,7 @@ EMAILJAVA-33439 ImapClient.ListMessages raises exception
 
 The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Email for Java. If you have concerns about any change listed, please raise it on the Aspose.Email support forum.
 
-{{< highlight java >}}
+``` java
 
  Enum MapiMessageFlags.MSGFLAG_ORIGIN_INTERNET
 
@@ -92,4 +92,4 @@ Property getOriginalAddressString(), setOriginalAddressString(String value)
 
 Property isDraft(), isDraft(boolean value)
 
-{{< /highlight >}}
+```

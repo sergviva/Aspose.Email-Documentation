@@ -28,7 +28,7 @@ New API provides you with:
 
 **OLMClient** usage example:
 
-{{< highlight cpp >}}
+``` cpp
 
  System::SharedPtr<OlmStorage> storage = System::MakeObject<OlmStorage>(u"SampleOLM.olm");
 
@@ -40,7 +40,7 @@ for (auto folder : System::IterateOver(storage->get_FolderHierarchy()))
 
 }
 
-{{< /highlight >}}
+```
 ## **Features not implemented**
 The following features are not implemented in Aspose.Email for C++ 20.3 but they are implemented in [Aspose.Email for .NET 20.3](/email/net/aspose-email-for-net-20-3-release-notes/):
 

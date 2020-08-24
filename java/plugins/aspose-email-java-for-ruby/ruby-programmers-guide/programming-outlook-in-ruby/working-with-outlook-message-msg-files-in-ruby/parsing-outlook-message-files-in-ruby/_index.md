@@ -10,7 +10,7 @@ To Parse Outlook Message file using **Aspose.Email Java for Ruby**, simply invok
 
 **Ruby Code**
 
-{{< highlight ruby >}}
+``` ruby
 
  data_dir = File.dirname(File.dirname(File.dirname(File.dirname(__FILE__)))) + '/data/'
 
@@ -28,7 +28,7 @@ puts "Subject : " + outlook_message_file.getSubject().to_s
 
 puts "Body : " + outlook_message_file.getBody().to_s
 
-{{< /highlight >}}
+```
 ## **Download Running Code**
 Download **Parsing Outlook Message Files (Aspose.Email)** from any of the below mentioned social coding sites:
 

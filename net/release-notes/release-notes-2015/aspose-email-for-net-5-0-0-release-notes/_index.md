@@ -55,7 +55,7 @@ EMAILNET-34665 System.ArgumentOutOfRangeException raised when EML is tried to be
 
 The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Email for .NET. If you have concerns about any change listed, please raise it on the Aspose.Email support forum.
 
-{{< highlight java >}}
+``` java
 
  Class Aspose.Email.Outlook.Pst.MessageStore
 
@@ -77,4 +77,4 @@ Property PersonalStorage.MessageStoreProperties - Please use PersonalStorage.Sto
 
 Method PersonalStorage.ChangeDisplayName(string newName) - Please use PersonalStorage.Store.ChangeDisplayName method instead
 
-{{< /highlight >}}
+```

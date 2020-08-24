@@ -32,7 +32,7 @@ We have added the following members to MhtSaveOptions class:
 
 Code sample:
 
-{{< highlight csharp >}}
+``` cs
 
 string fileName = "input.msg";
 var mailMessage = MailMessage.Load(fileName);
@@ -48,4 +48,4 @@ private void TimeoutHandler(object sender, EventArgs ev)
   // your event handling here
 }
 
-{{< /highlight >}}
+```

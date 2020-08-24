@@ -28,7 +28,7 @@ We encounter schedules or recurrence patterns in many situations, for example:
 - Update website statistics every …
   Almost any event that occurs periodically can be represented as a recurrence pattern. For example, the following code will return an array containing ten occurrences of the previous team meeting example: 
 
-{{< highlight csharp >}}
+``` cs
 
 
 
@@ -42,7 +42,7 @@ DateArray dates = pattern.GenerateOccurrences();
 
 
 
-{{< /highlight >}}
+```
 
 {{% alert color="primary" %}} 
 

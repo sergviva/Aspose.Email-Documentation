@@ -10,7 +10,7 @@ To Add Attachments to a New Email Message using **Aspose.Email Java for Ruby**, 
 
 **Ruby Code**
 
-{{< highlight ruby >}}
+``` ruby
 
  def add_attachments()
 
@@ -60,7 +60,7 @@ To Add Attachments to a New Email Message using **Aspose.Email Java for Ruby**, 
 
 end
 
-{{< /highlight >}}
+```
 ## **Download Running Code**
 Download **Manage Attachments in Email Message (Aspose.Email)** from any of the below mentioned social coding sites:
 

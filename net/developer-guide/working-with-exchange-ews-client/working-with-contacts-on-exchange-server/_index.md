@@ -64,7 +64,7 @@ The following code snippets shows you how to deleting contacts from an exchange 
 ## **Working with Extended Properties of Contacts on Exchange Server**
 
 
-{{< highlight c-sharp >}}
+``` cs
 
  IEWSClient client = EWSClient.GetEWSClient("https://outlook.office365.com/ews/exchange.asmx", "testUser", "pwd", "domain");
 
@@ -102,4 +102,4 @@ foreach (string extraField in extraFields)
 
         Console.WriteLine(contact.ExtendedProperties[extraField].ToString());
 
-{{< /highlight >}}
+```

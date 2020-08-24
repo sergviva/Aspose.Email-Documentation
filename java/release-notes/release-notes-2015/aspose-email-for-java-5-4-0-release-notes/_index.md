@@ -76,7 +76,7 @@ EMAILJAVA-33508 MapiMessage.fromMailMessage raises ArgumentOutOfRangeException
 
 The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Email for Java. If you have concerns about any change listed, please raise it on the Aspose.Email support forum.
 
-{{< highlight java >}}
+``` java
 
  Method MailMessage.checkBounced
 
@@ -118,4 +118,4 @@ Property MapiCalendarDailyRecurrencePattern.getDayOfWeek, setDayOfWeek
 
 Property MapiCalendarRecurrencePattern.getSlidingFlag, setSlidingFlag
 
-{{< /highlight >}}
+```

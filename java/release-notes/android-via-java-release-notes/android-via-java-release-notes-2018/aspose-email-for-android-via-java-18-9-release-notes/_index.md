@@ -42,11 +42,11 @@ You should add following reference:
 1. PKIX/CMS/EAC/PKCS/OCSP/TSP/OPENSSL - <https://www.bouncycastle.org/download/bcpkix-jdk15on-159.jar>
 1. Add BouncyCastleProvider to java security:
 
-{{< highlight java >}}
+``` java
 
  Security.addProvider(new BouncyCastleProvider());
 
-{{< /highlight >}}
+```
 
 b) Use FIPS version of Bouncy Castle cryptography APIs.
 You should add following reference:
@@ -55,11 +55,11 @@ You should add following reference:
 1. CMS/EAC/OCSP/PKIX/PKCS/TSP - <https://downloads.bouncycastle.org/fips-java/bcpkix-fips-1.0.1.jar>
 1. Add BouncyCastleFipsProvider to java security:
 
-{{< highlight java >}}
+``` java
 
  Security.addProvider(new BouncyCastleFipsProvider());
 
-{{< /highlight >}}
+```
 
 c) Add both version of BC to classpath or do not add anything.
 ### **Added APIs**

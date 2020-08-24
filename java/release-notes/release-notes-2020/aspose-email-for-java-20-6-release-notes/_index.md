@@ -40,7 +40,7 @@ Sometimes, the message contains in-line attachments, that are shown up as icon
 
 We have fixed this problem so that the user can customize the icons for attachments when converting the message to HTML. For that, the HtmlSaveOptions.ResourceHtmlRendering event has been added:
 
-{{< highlight java >}}
+``` java
 
  HtmlSaveOptions options = new HtmlSaveOptions();
 
@@ -84,11 +84,11 @@ MailMessage mailMessage = MailMessage.load(fileName);
 
 mailMessage.save("fileName.html", options);
 
-{{< /highlight >}}
+```
 #### **Get Email Category in MHTML**
 We have introduced the ability to add a category header while converting message to MHML.
 
-{{< highlight java >}}
+``` java
 
  MapiMessage msg = new MapiMessage("from@aaa.com", "to@aaa.com", "subj", "body");
 
@@ -104,14 +104,14 @@ saveOptions.getRenderingHeaders().add(MhtTemplateName.CATEGORIES);
 
 msg.save("fileName.mhtml", saveOptions);
 
-{{< /highlight >}}
+```
 #### **Create PST with size more than 2Gb using OutputStream**
 The user can optimize PST internal cache using new PersonalStorage API method:
 
 blockSize - The optimal block size to expand cache buffer(in bytes)
 
-{{< highlight java >}}
+``` java
 
  PersonalStorage create(OutputStream stream, int blockSize, /*FileFormatVersion*/int version)
 
-{{< /highlight >}}
+```

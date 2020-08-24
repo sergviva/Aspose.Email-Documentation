@@ -9,7 +9,7 @@ url: /net/pragmatically-access-outlook-contacts/
 ## **VSTO**
 Below is the code to access contact from Outlook progmatically:
 
-{{< highlight cs >}}
+``` cs
 
     Outlook.MAPIFolder folderContacts = this.Application.ActiveExplorer().Session.
 
@@ -38,11 +38,11 @@ Below is the code to access contact from Outlook progmatically:
     MessageBox.Show("You have " + counter +  " contacts with last names that contain " + findLastName + ".");
 
 
-{{< /highlight >}}
+```
 ## **Aspose.Email**
 The MapiContact class can be used to load both Outlook MSG and VCard format contacts. The following code samples show how to load Outlook contacts saved as MSG and VCF into a MapiContact.
 
-{{< highlight cs >}}
+``` cs
 
      var vcfTest = VCardContact.Load("Jon.vcf");
 
@@ -51,7 +51,7 @@ The MapiContact class can be used to load both Outlook MSG and VCard format cont
     Console.WriteLine(contact.NameInfo.DisplayName);
 
 
-{{< /highlight >}}
+```
 ## **Download Sample Code**
 - [Codeplex](https://asposevsto.codeplex.com/releases/view/616980)
 - [Github](https://github.com/aspose-email/Aspose.Email-for-.NET/releases/tag/AsposeEmailVsVSTOv1.1)

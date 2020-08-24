@@ -84,7 +84,7 @@ EMAILNET-34749 Loading extracted VCards raises Invalid Format Exception
 
 The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Email for Java. If you have concerns about any change listed, please raise it on the Aspose.Email support forum.
 
-{{< highlight java >}}
+``` java
 
  Class  SyncFolderResult
 
@@ -118,4 +118,4 @@ Property  MailMessage.getReadReceiptTo(), MailMessage.setReadReceiptTo(MailAddre
 
 Property  MapiMessage.getReadReceiptRequested(), setReadReceiptRequested(boolean value)
 
-{{< /highlight >}}
+```

@@ -10,7 +10,7 @@ To Create new PST using **Aspose.Email Java for PHP**, simply invoke **CreatePST
 
 **PHP Code**
 
-{{< highlight php >}}
+``` php
 
  # Create an instance of PersonalStorage
 
@@ -30,7 +30,7 @@ $pst->getRootFolder()->getSubFolder("myInbox")->addMessage($mapi_message->fromFi
 
 print "Created PST successfully.".PHP_EOL;
 
-{{< /highlight >}}
+```
 ## **Download Running Code**
 Download **Create New PST (Aspose.Email)** from any of the below mentioned social coding sites:
 

@@ -9,7 +9,7 @@ url: /net/get-the-number-of-emails-in-the-mailbox/
 ## **VSTO**
 Below is the code to get the emails in the mailbox using VSTO Outlook.
 
-{{< highlight cs >}}
+``` cs
 
   // Create Application class and get namespace
 
@@ -29,11 +29,11 @@ Below is the code to get the emails in the mailbox using VSTO Outlook.
 
  MessageBox.Show("Message count: " + i);
 
-{{< /highlight >}}
+```
 ## **Aspose.Email**
 Below is the code to get the emails in the mailbox using aspose.email for .NET.
 
-{{< highlight cs >}}
+``` cs
 
   string MailBoxURI = "http://MachineName/exchange/Username";
 
@@ -55,7 +55,7 @@ Below is the code to get the emails in the mailbox using aspose.email for .NET.
 
  Console.WriteLine("Message count: " + i);
 
-{{< /highlight >}}
+```
 ## **Download Source Code**
 - [CodePlex](https://asposeemailvsto.codeplex.com/SourceControl/latest#Code)
 - [GitHub](https://github.com/aspose-email/Aspose.Email-for-.NET/tree/master/Plugins/Aspose.Email%20Vs%20VSTO%20Outlook/Code%20Comparison%20of%20Common%20Features/Get%20the%20number%20of%20emails%20in%20the%20mailbox)

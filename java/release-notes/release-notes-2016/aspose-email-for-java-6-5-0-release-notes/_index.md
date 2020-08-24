@@ -14,10 +14,10 @@ Aspose.Email for Java is a class library that enables applications to manipulate
 
 |**Key** |**Summary** |**Category** |
 | :- | :- | :- |
-|[EMAILNET-35201](/pages/createpage.action?spaceKey=emailjava&title=Binding+SMTP+Client+to+Specific+IP+Address+on+Host&linkCreation=true&fromPageId=11665473)|Bind Smtp Client to specific IP on source having multiple IPs |New Feature |
+|[EMAILNET-35201](/email/java/connecting-to-smtp-server/#binding-smtp-client-to-specific-ip-address-on-host)|Bind Smtp Client to specific IP on source having multiple IPs |New Feature |
 |EMAILNET-35192 |Saving EML has date with Weekday abbreviation |Enhancement |
-|[EMAILNET-35198](/pages/createpage.action?spaceKey=emailjava&title=Ability+to+Add+Event+to+Secondary+Calendar+On+Exchange+Server&linkCreation=true&fromPageId=11665473)|Ability to add event to Secondary Calendar of Office 365 |Enhancement |
-|[EMAILNET-35222 ](http://www.aspose.com/docs/display/emailjava/Customizing+Email+Headers#CustomizingEmailHeaders-InsertHeader)|Provide Insert method for adding Header at specific location |Enhancement |
+|[EMAILNET-35198](/email/java/working-with-calendar-items-on-exchange-server/#adding-event-to-secondary-calendar-folder-on-exchange-server)|Ability to add event to Secondary Calendar of Office 365 |Enhancement |
+|[EMAILNET-35222 ](/email/java/creating-and-setting-contents-of-emails/#set-email-headers)|Provide Insert method for adding Header at specific location |Enhancement |
 |EMAILJAVA-33572 |ImapClient: Messages fetched from Office 365 turns special characters into garbage |Bug |
 |EMAILJAVA-33581 |Garbage in Subject with specific encoding and Empty Body (Java) |Bug |
 |EMAILJAVA-33583 |Error while loading EML file |Bug |
@@ -41,7 +41,7 @@ Aspose.Email for Java is a class library that enables applications to manipulate
 ### **Public API and Backward Incompatible Changes**
 The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Email for Java. If you have concerns about any change listed, please raise it on the Aspose.Email support forum.
 ## **Added APIs:**
-{{< highlight java >}}
+``` java
 
  Interface    BindIPEndPointHandler
 
@@ -503,4 +503,4 @@ Method    IEWSClient.updateAppointment(Appointment, String)
 
 Property  IEWSClient.getCurrentCalendarFolderUri, setCurrentCalendarFolderUri
 
-{{< /highlight >}}
+```

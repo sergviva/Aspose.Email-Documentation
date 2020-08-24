@@ -8,7 +8,7 @@ url: /net/creating-an-outlook-message-msg-file-in-aspose-email/
 
 To use Office Automation, Microsoft Outlook must be installed on the machine that the code runs on. A reference to Outlook.interop.dll is also required.
 ### **VSTO**
-{{< highlight csharp >}}
+``` cs
 
  // Creates a new Outlook Application instance
 
@@ -39,11 +39,11 @@ string strMsg = "TestInterop.msg";
 msgInterop.SaveAs(strMsg, Outlook.OlSaveAsType.olMSG);
 
 
-{{< /highlight >}}
+```
 ### **Aspose.Email**
 The samples below use Aspose.Email to create the Outlook MSG file. It's written in pure .NET and does not use COM Interop. Outlook installation is not required for creating the msg file this way.
 
-{{< highlight csharp >}}
+``` cs
 
  // Create an instance of the Aspose.Email.MailMessage class
 
@@ -73,7 +73,7 @@ string strMsg = "TestAspose.msg";
 
 msg.Save(strMsg, MessageFormat.Msg);
 
-{{< /highlight >}}
+```
 ## **Download Sample Code**
 - [Codeplex](https://asposevsto.codeplex.com/downloads/get/772940)
 - [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/5/Creating.an.Outlook.Message.MSG.File.Aspose.Email.zip)

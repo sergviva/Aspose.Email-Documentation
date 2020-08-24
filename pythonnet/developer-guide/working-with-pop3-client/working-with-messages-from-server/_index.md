@@ -13,7 +13,7 @@ We can get information about the mailbox such as the number of messages and the 
 
 It is also possible to get the number of messages using the MessageCount property and the size using the OccupiedSize property. The following sample code shows how to get information about the mailbox. It shows how to:
 
-1. Create a [Pop3Client](/pages/createpage.action?spaceKey=emailpythonnet&title=Aspose.Email.Pop3.Pop3Client+Class&linkCreation=true&fromPageId=66947490).
+1. Create a [Pop3Client](https://apireference.aspose.com/email/net/aspose.email.clients.pop3/pop3client).
 1. Connect to a POP3 server.
 1. Get the size of the mailbox.
 1. Get mailbox info.

@@ -57,7 +57,7 @@ Although Aspose.Email references .NET Framework 1.1, it is possible to use it on
 
 **XML**
 
-{{< highlight csharp >}}
+``` cs
 
  <configuration>
 
@@ -367,6 +367,6 @@ Although Aspose.Email references .NET Framework 1.1, it is possible to use it on
 
 
 
-{{< /highlight >}}
+```
 
 For more information see [MSDN article](http://msdn.microsoft.com/library/default.asp?url/library/en-us/cpguide/html/cpcontargetingnetframeworkversion.asp)

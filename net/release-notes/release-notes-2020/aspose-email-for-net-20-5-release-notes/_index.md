@@ -35,15 +35,15 @@ This page contains release notes information for Aspose.Email for .NET 20.5
 
 We have added a **GetMessageThreads** method for receiving message threads by **ImapClient**.
 
-{{< highlight csharp >}}
+``` cs
 
  GetMessageThreads(BaseSearchConditions conditions)
 
-{{< /highlight >}}
+```
 
 Also, the following properties have been added to check the extensions available for the current IMAP server.
 
-{{< highlight csharp >}}
+``` cs
 
  bool GmExt1Supported // Gets information whether Gmail X-GM-EXT-1 extension is supported
 
@@ -51,7 +51,7 @@ bool ThreadSupported // Gets information whether THREAD extension is supported
 
 string[] ThreadAlgorithms // Gets supported THREAD algorithms
 
-{{< /highlight >}}
+```
 
 Note, if you're working with Gmail, it likely supports X-GM-EXT-1.
 
@@ -59,7 +59,7 @@ Note, if you're working with Gmail, it likely supports X-GM-EXT-1.
 
 The following code samples show the usage of email threading features. Let's say we need to get the email threads from Gmail.
 
-{{< highlight csharp >}}
+``` cs
 
  using (ImapClient client = new ImapClient("imap.gmail.com", 993, "username", "password", SecurityOptions.SSLImplicit))
 
@@ -145,7 +145,7 @@ public static void PrintConversaton(string indent, List<MessageThreadResult> con
 
 }
 
-{{< /highlight >}}
+```
 
 
 
@@ -153,15 +153,15 @@ The code will slightly change if the IMAP server supports THREAD capability:
 
 1. Check if the IMAP server supports THREAD extension:
 
-{{< highlight csharp >}}
+``` cs
 
  if (client.ThreadSupported)
 
-{{< /highlight >}}
+```
 
 1. Сreate the suitable search conditions for a thread:
 
-{{< highlight csharp >}}
+``` cs
 
  var conditions = new ThreadSearchConditions
 
@@ -173,7 +173,7 @@ The code will slightly change if the IMAP server supports THREAD capability:
 
 };
 
-{{< /highlight >}}
+```
 
 
 

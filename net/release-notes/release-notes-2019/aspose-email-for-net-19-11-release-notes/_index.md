@@ -43,7 +43,7 @@ This page contains release notes information for Aspose.Email for .NET 19.11
 ### **Code samples**
 - Renders headers in the order specified by default
 
-{{< highlight csharp >}}
+``` cs
 
  var fileName = @"test.eml";
 
@@ -53,7 +53,7 @@ MhtSaveOptions opt = SaveOptions.DefaultMhtml;
 
 eml.Save(@"test1.mhtml", opt);
 
-{{< /highlight >}}
+```
 
 - Renders headers in the following order:
   - From
@@ -63,7 +63,7 @@ eml.Save(@"test1.mhtml", opt);
 
 
 
-{{< highlight csharp >}}
+``` cs
 
  var fileName = @"test.eml";
 
@@ -81,14 +81,14 @@ opt.RenderingHeaders.Add(MhtTemplateName.Sent);
 
 eml.Save(@"test2.mhtml", opt);
 
-{{< /highlight >}}
+```
 
 - Renders headers in the following order:
   - Attachments
   - Cc
   - Subject
 
-{{< highlight csharp >}}
+``` cs
 
  var fileName = @"test.eml";
 
@@ -106,7 +106,7 @@ opt.RenderingHeaders.Add(MhtTemplateName.Subject);
 
 eml.Save(@"test3.mhtml", opt);
 
-{{< /highlight >}}
+```
 ## **PST password validation functionality**
 **New property:** Aspose.Email.Storage.Pst.MessageStore.IsPasswordProtected
 *Gets a value indicating whether the storage is password protected.*
@@ -114,21 +114,21 @@ eml.Save(@"test3.mhtml", opt);
 **New method:** Aspose.Email.Storage.Pst.MessageStore.IsPasswordValid(System.String)
 *Determines whether the specified string is a valid password for the storage.*
 ### **Code samples**
-{{< highlight csharp >}}
+``` cs
 
  PersonalStorage pst = PersonalStorage.FromFile(@"NewPST.pst");
 
 Console.WriteLine("The storage is password protected - " + pst.Store.IsPasswordProtected);
 
-{{< /highlight >}}
+```
 
-{{< highlight csharp >}}
+``` cs
 
  PersonalStorage pst = PersonalStorage.FromFile(@"NewPST.pst");
 
 Console.WriteLine("Password is valid - " + pst.Store.IsPasswordValid("test123"));
 
-{{< /highlight >}}
+```
 ## **Other**
 New field Aspose.Email.Mapi.MapiPropertyTag.PR_SMTP_ADDRESS
 New field Aspose.Email.Mapi.MapiPropertyTag.PR_SMTP_ADDRESS_W

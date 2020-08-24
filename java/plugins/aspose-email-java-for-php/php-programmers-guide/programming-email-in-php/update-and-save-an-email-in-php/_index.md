@@ -10,7 +10,7 @@ To Update and Save an Email using **Aspose.Email Java for PHP**, simply invoke *
 
 **PHP Code**
 
-{{< highlight php >}}
+``` php
 
  # Initialize and Load an existing MSG file by specifying the MessageFormat
 
@@ -80,7 +80,7 @@ $email->save($dataDir . "UpdateMessage.msg", $mailMessageSaveType->getOutlookMes
 
 print "Updated email message Successfully.".PHP_EOL;
 
-{{< /highlight >}}
+```
 ## **Download Running Code**
 Download **Update and Save an Email (Aspose.Email)** from any of the below mentioned social coding sites:
 

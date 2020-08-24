@@ -10,7 +10,7 @@ Aspose.Email for Java is a class library that enables applications to manipulate
 
 |**Key** |**Summary** |**Category** |
 | :- | :- | :- |
-|EMAILNET-38546 |List only [completed tasks](http://www.aspose.com/docs/display/emailjava/Working+with+Tasks+on+Exchange+Server#WorkingwithTasksonExchangeServer-FilteringTasksfromMailbox) from Exchange server |Enhancement |
+|EMAILNET-38546 |List only [completed tasks](/email/java/working-with-tasks-on-exchange-server/#filtering-tasks-from-mailbox) from Exchange server |Enhancement |
 |EMAILNET-38453 |EWS: Retrieve Extended Properties for Items |Enhancement |
 |EMAILNET-38533 |Filter mail messages by date and time when using EWS |Enhancement |
 |EMAILNET-38550 |Filter mail messages by date and time when using Imap |Enhancement |

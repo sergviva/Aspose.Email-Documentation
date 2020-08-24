@@ -19,7 +19,7 @@ This article explains how to differentiate inline attachments from regular ones 
 
 The following code sample demonstrates to programatically differentiate between inline and regular attachments. The function IsInlineAttachment takes an attachment and MapiMessage as input parameters and returns true if the attachment is an inline attachment.
 
-{{< highlight java >}}
+``` java
 
  	public static boolean IsInlineAttachment(MapiAttachment att, MapiMessage msg)
 
@@ -146,7 +146,7 @@ The following code sample demonstrates to programatically differentiate between 
 	}
 
 
-{{< /highlight >}}
+```
 
 
 
@@ -154,7 +154,7 @@ This code snippet uses the IsInlineAttachment() function to evaluate attachments
 
 **Java**
 
-{{< highlight java >}}
+``` java
 
  String fileName = ("Sample.msg");
 
@@ -186,4 +186,4 @@ for (int i = 0; i < attachments.size(); i++)
 
 }
 
-{{< /highlight >}}
+```

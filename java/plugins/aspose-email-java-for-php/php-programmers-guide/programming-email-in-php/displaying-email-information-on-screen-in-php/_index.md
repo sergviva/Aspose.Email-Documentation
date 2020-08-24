@@ -10,7 +10,7 @@ To Display Email Information using **Aspose.Email Java for PHP**, simply invoke 
 
 **PHP Code**
 
-{{< highlight php >}}
+``` php
 
  # Create MailMessage instance by loading an Eml file
 
@@ -30,7 +30,7 @@ print "HtmlBody: " . (string)$message->getHtmlBody();
 
 print "TextBody: " . (string)$message->getTextBody();
 
-{{< /highlight >}}
+```
 ## **Download Running Code**
 Download **Displaying Email Information (Aspose.Email)** from any of the below mentioned social coding sites:
 

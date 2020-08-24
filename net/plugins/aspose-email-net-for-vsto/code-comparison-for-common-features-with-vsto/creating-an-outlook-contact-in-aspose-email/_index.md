@@ -12,7 +12,7 @@ This migration tip shows how to create a Microsot Outlook contact using Microsof
 1. Populating or setting the property's various properties.
 1. Saving the object.
 ## **VSTO**
-{{< highlight csharp >}}
+``` cs
 
  //Create a new MapiContact Object
 
@@ -50,9 +50,9 @@ mapiContact.ElectronicAddresses.Email1.DisplayName = "Melissa MacBeth (mellissa@
 
 mapiContact.Save("Contact.vcf", ContactSaveFormat.VCard);
 
-{{< /highlight >}}
+```
 ## **Aspose.Email**
-{{< highlight csharp >}}
+``` cs
 
  //Create a new MapiContact Object
 
@@ -90,7 +90,7 @@ mapiContact.ElectronicAddresses.Email1.DisplayName = "Melissa MacBeth (mellissa@
 
 mapiContact.Save("Contact.vcf", ContactSaveFormat.VCard);
 
-{{< /highlight >}}
+```
 ## **Download Sample Code**
 - [Codeplex](https://asposevsto.codeplex.com/downloads/get/772939)
 - [Github](https://github.com/aspose-email/Aspose.Email-for-.NET/releases/download/AsposeEmailVsVSTOv1.1/Creating.an.Outlook.Contact.Aspose.Email.zip)

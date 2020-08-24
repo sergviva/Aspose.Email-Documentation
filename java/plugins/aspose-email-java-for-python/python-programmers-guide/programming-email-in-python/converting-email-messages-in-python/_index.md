@@ -10,7 +10,7 @@ To Convert Email Messages using **Aspose.Email Java for Python**, Use following 
 
 **Python Code**
 
-{{< highlight python >}}
+``` python
 
  # Initialize and Load an existing EML file by specifying the MessageFormat
 
@@ -28,7 +28,7 @@ eml.save(self.dataDir + "AnEmail.msg", saveOptions.getDefaultMsgUnicode())
 
 print "Converted email to msg successfully."
 
-{{< /highlight >}}
+```
 ## **Download Running Code**
 Download **Converting Email Messages (Aspose.Email)** from any of the below mentioned social coding sites:
 

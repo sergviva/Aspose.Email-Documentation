@@ -7,7 +7,7 @@ url: /java/evaluate-aspose-email/
 
 {{% alert color="primary" %}} 
 
-You can download Aspose.Email for Java free for evaluation. The evaluation version provides almost all functionality of the product with certain limitations. The same evaluation version becomes licensed when you purchase a license and add a couple of lines of code to [apply the license](http://www.aspose.com/docs/display/EmailJava/Licensing).
+You can download Aspose.Email for Java free for evaluation. The evaluation version provides almost all functionality of the product with certain limitations. The same evaluation version becomes licensed when you purchase a license and add a couple of lines of code to [apply the license](/email/java/licensing/).
 
 If you want to test Aspose.Email without evaluation version limitations, request a 30 day temporary license. Please refer to [How to get a Temporary License?](http://www.aspose.com/corporate/purchase/temporary-license.aspx)
 

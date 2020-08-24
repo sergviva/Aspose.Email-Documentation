@@ -10,7 +10,7 @@ Conversion
 
 **Java**
 
-{{< highlight java >}}
+``` java
 
  // Initialize and Load an existing MSG file by specifying the MessageFormat
 
@@ -22,16 +22,16 @@ msg.save(dataDir + "AsposeMessage.eml");
 
 msg.save(dataDir + "Asposemessage.mhtml");
 
-{{< /highlight >}}
+```
 
 Aspose.Email makes it easy to convert any message type to another format. To demonstrate this feature, different types of messages can be loaded from disk and saves them back in other formats. The base class SaveOptions and the classes EmlSaveOptions, MsgSaveOptions, MhtSaveOptions, HtmlSaveOptions for additional settings when saving MailMessage can be used for saving messages to other formats. The article shows how to use these classes to save a sample email as:
 
-- [EML format](http://www.aspose.com/docs/display/emailjava/Converting+Email+Messages#ConvertingEmailMessages-SaveAsEML).
-- [Outlook MSG](http://www.aspose.com/docs/display/emailjava/Converting+Email+Messages#ConvertingEmailMessages-SaveAsMSG).
-- [MHTML format](http://www.aspose.com/docs/display/emailjava/Converting+Email+Messages#ConvertingEmailMessages-SaveAsMhtml).
-- [HTML format](http://www.aspose.com/docs/display/emailjava/Converting+Email+Messages#ConvertingEmailMessages-SaveAsHTML).
+- [EML format](/email/java/loading-and-saving-message/#loading-eml-and-saving-as-eml)).
+- [Outlook MSG](/email/java/loading-and-saving-message/#loading-eml-saving-to-msg).
+- [MHTML format](/email/java/loading-and-saving-message/#saving-mailmessage-as-mhtml).
+- [HTML format](/email/java/loading-and-saving-message/#exporting-email-to-eml).
   and also shows how to preserver original email address
-- [Preserve Original Email Address](http://www.aspose.com/docs/display/emailjava/Converting+Email+Messages#ConvertingEmailMessages-PreserveOriginalAddress)
+- [Preserve Original Email Address](/email/java/loading-and-saving-message/)
 ## **Download Running Code**
 - [CodePlex](https://asposeemailjavaapachepoi.codeplex.com/releases/view/618811)
 - [GitHub](https://github.com/aspose-email/Aspose.Email-for-Java/releases/tag/Aspose.Email_Java_for_Apache_POI-v1.0.0)

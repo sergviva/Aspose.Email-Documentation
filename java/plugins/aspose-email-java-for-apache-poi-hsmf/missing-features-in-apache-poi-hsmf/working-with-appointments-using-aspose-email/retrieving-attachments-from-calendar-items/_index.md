@@ -10,7 +10,7 @@ Aspose.Email provides an attachments collection that can be used to retrieve att
 
 **Java**
 
-{{< highlight java >}}
+``` java
 
  String savedFile = dataDir + "AppWithAttachments.ics";
 
@@ -32,7 +32,7 @@ for (int i=0; i< app2.getAttachments().size();i++)
 
 }
 
-{{< /highlight >}}
+```
 ## **Download Running Code**
 - [CodePlex](https://asposeemailjavaapachepoi.codeplex.com/releases/view/618811)
 - [GitHub](https://github.com/aspose-email/Aspose.Email-for-Java/releases/tag/Aspose.Email_Java_for_Apache_POI-v1.0.0)

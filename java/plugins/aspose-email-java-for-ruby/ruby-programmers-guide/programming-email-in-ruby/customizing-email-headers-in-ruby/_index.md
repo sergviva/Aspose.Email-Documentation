@@ -10,7 +10,7 @@ To Customize Email Headers using **Aspose.Email Java for Ruby**, simply invoke *
 
 **Ruby Code**
 
-{{< highlight ruby >}}
+``` ruby
 
  data_dir = File.dirname(File.dirname(File.dirname(File.dirname(__FILE__)))) + '/data/'
 
@@ -66,7 +66,7 @@ message.save(data_dir + "MsgHeaders.msg", Rjb::import('com.aspose.email.MessageF
 
 puts "Customized message headers Successfully."
 
-{{< /highlight >}}
+```
 ## **Download Running Code**
 Download **Customizing Email Headers (Aspose.Email)** from any of the below mentioned social coding sites:
 

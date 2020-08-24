@@ -14,13 +14,13 @@ This feature enables to retrieve results in multiple EWS responses
 ## **Enhancements**
 EMAILNET-34983Provide loading MailMessage with particular types of
 
-{{< highlight java >}}
+``` java
 
  LoadOptions
 
 (mark MailMessageLoadOptions as obsolete, remove it from code)
 
-{{< /highlight >}}
+```
 
 EMAILNET-34954Provision of setting GZip encoding in IEWSClient
 ## **Bugs**
@@ -52,7 +52,7 @@ EMAILNET-34980Sending message with voting button raises exception
 
 The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Email for .NET. If you have concerns about any change listed, please raise it on the Aspose.Email support forum.
 
-{{< highlight java >}}
+``` java
 
  Added:
 
@@ -88,4 +88,4 @@ Property Aspose.Email.Exchange.IEWSClient.EnableDecompression
 
 Property Aspose.Email.Mail.MessageFormat.Tnef
 
-{{< /highlight >}}
+```

@@ -10,7 +10,7 @@ To Manage Attachments in Email using **Aspose.Email Java for Python**, Use follo
 
 **Python Code**
 
-{{< highlight python >}}
+``` python
 
 
 
@@ -58,7 +58,7 @@ message.save(self.dataDir + "Add-Attachment.msg", messageFormat.getMsg())
 
 print "Added attachment successfully."
 
-{{< /highlight >}}
+```
 ## **Download Running Code**
 Download **Manage Attachments in Email Message (Aspose.Email)** from any of the below mentioned social coding sites:
 

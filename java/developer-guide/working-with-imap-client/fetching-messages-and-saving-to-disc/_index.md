@@ -25,7 +25,7 @@ The following example code demonstrates the use of [AscendingSorting](https://a
 ## **Retrieve Extra Parameters as Summary Information**
 
 
-{{< highlight java >}}
+``` java
 
  ImapClient client = new ImapClient("host.domain.com", "username", "password");
 
@@ -99,4 +99,4 @@ The following example code demonstrates the use of [AscendingSorting](https://a
 
 }
 
-{{< /highlight >}}
+```

@@ -41,7 +41,7 @@ Use Aspose.Email and its related namespaces instead of Aspose.Network. Below is 
 
 **C# - Old Code**
 
-{{< highlight csharp >}}
+``` cs
 
  using Aspose.Network.Exchange;
 
@@ -61,11 +61,11 @@ using Aspose.Network.Verify;
 
 
 
-{{< /highlight >}}
+```
 
 **C# - Code after Migration**
 
-{{< highlight csharp >}}
+``` cs
 
  using Aspose.Email.Exchange;
 
@@ -85,11 +85,11 @@ using Aspose.Email.Verify;
 
 
 
-{{< /highlight >}}
+```
 
 **VB.NET - Old Code**
 
-{{< highlight csharp >}}
+``` cs
 
  Imports Aspose.Network.Exchange
 
@@ -109,11 +109,11 @@ Imports Aspose.Network.Verify
 
 
 
-{{< /highlight >}}
+```
 
 **VB.NET - Code after Migration**
 
-{{< highlight csharp >}}
+``` cs
 
  Imports Aspose.Email.Exchange
 
@@ -133,7 +133,7 @@ Imports Aspose.Email.Verify
 
 
 
-{{< /highlight >}}
+```
 
 {{% alert color="primary" %}} 
 
@@ -145,43 +145,43 @@ If you have not used fully qualified class names anywhere, [updating the namespa
 
 **C# - Old Code**
 
-{{< highlight csharp >}}
+``` cs
 
  Aspose.Network.Mail.MailMessage message = new Aspose.Network.Mail.MailMessage();
 
 
 
-{{< /highlight >}}
+```
 
 **C# - Code After Migration**
 
-{{< highlight csharp >}}
+``` cs
 
  Aspose.Email.Mail.MailMessage message = new Aspose.Email.Mail.MailMessage();
 
 
 
-{{< /highlight >}}
+```
 
 **VB.NET - Old Code**
 
-{{< highlight csharp >}}
+``` cs
 
  Dim message As New Aspose.Network.Mail.MailMessage
 
 
 
-{{< /highlight >}}
+```
 
 **VB.NET - Code After Migration**
 
-{{< highlight csharp >}}
+``` cs
 
  Dim message As New Aspose.Email.Mail.MailMessage
 
 
 
-{{< /highlight >}}
+```
 
 {{% alert color="primary" %}} 
 
@@ -193,40 +193,40 @@ Aspose.Network for .NET is a free (and discontinued) product and does not requir
 
 **C# - Old Code**
 
-{{< highlight csharp >}}
+``` cs
 
  Aspose.Network.License licEmail = new Aspose.Network.License();
 
 
 
-{{< /highlight >}}
+```
 
 **C# - Code After Migration**
 
-{{< highlight csharp >}}
+``` cs
 
  Aspose.Email.License licEmail = new Aspose.Email.License();
 
 
 
-{{< /highlight >}}
+```
 
 **VB.NET - Old Code**
 
-{{< highlight csharp >}}
+``` cs
 
  Dim licEmail As New Aspose.Network.License
 
 
 
-{{< /highlight >}}
+```
 
 **VB.NET - Code After Migration**
 
-{{< highlight csharp >}}
+``` cs
 
  Dim licEmail As New Aspose.Email.License
 
 
 
-{{< /highlight >}}
+```

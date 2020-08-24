@@ -10,7 +10,7 @@ Getting information about folders from an IMAP server is very easy with Aspose.E
 
 **Java**
 
-{{< highlight java >}}
+``` java
 
  ImapClient client = new ImapClient();
 
@@ -52,7 +52,7 @@ for (ImapFolderInfo folderInfo:folderInfoColl)
 
 }
 
-{{< /highlight >}}
+```
 ## **Download Running Code**
 Download **Get Folders Information from IMAP Mailbox** from any of the below mentioned social coding sites:
 

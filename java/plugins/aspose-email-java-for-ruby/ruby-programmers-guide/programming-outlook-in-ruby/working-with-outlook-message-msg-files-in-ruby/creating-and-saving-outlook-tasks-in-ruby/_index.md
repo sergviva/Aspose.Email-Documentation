@@ -10,7 +10,7 @@ To Create Outlook Tasks using **Aspose.Email Java for Ruby**, simply invoke **Cr
 
 **Ruby Code**
 
-{{< highlight ruby >}}
+``` ruby
 
  data_dir = File.dirname(File.dirname(File.dirname(File.dirname(__FILE__)))) + '/data/'
 
@@ -66,7 +66,7 @@ task.save(data_dir + "MapiTask.msg", Rjb::import('com.aspose.email.TaskSaveForma
 
 puts "Created outlook task successfully."
 
-{{< /highlight >}}
+```
 ## **Download Running Code**
 Download **Creating and Saving Outlook Tasks (Aspose.Email)** from any of the below mentioned social coding sites:
 

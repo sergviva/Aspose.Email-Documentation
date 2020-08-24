@@ -45,7 +45,7 @@ An **OlmMessageInfo** class has been added, which provides brief information abo
 
 The **OlmFolder** class was extended by the following methods:
 
-{{< highlight csharp >}}
+``` cs
 
  //gets the subfolder by name
 
@@ -67,11 +67,11 @@ IEnumerable<OlmMessageInfo> EnumerateMessages(int startIndex, int count);
 
 IEnumerable<OlmMessageInfo> EnumerateMessages(MailQuery query); 
 
-{{< /highlight >}}
+```
 
 The **OlmStorage** class was extended by the following methods:
 
-{{< highlight csharp >}}
+``` cs
 
  //load OLM storage from file
 
@@ -101,13 +101,13 @@ The **OlmStorage** class was extended by the following methods:
 
  MapiMessage ExtractMapiMessage(OlmMessageInfo messageInfo); 
 
-{{< /highlight >}}
+```
 
 
 
 The following examples show the use of new methods:
 
-{{< highlight csharp >}}
+``` cs
 
  // Enumerates all messages in a given folder
 
@@ -199,23 +199,23 @@ using (OlmStorage olm = OlmStorage.FromFile(fileName))
 
 }
 
-{{< /highlight >}}
+```
 
 **Query by email attachment name using ExchangeQueryBuilder class**
 
 New property was added to **ExchangeQueryBuilder** class:
 
-{{< highlight csharp >}}
+``` cs
 
  // Gets the field that allows to find items with a specified attachment name.
 
 StringComparisonField AttachmentName
 
-{{< /highlight >}}
+```
 
 Code sample:
 
-{{< highlight csharp >}}
+``` cs
 
  ExchangeQueryBuilder builder = new ExchangeQueryBuilder();
 
@@ -225,7 +225,7 @@ MailQuery query = builder.GetQuery();
 
 ExchangeMessageInfoCollection messages = ewsClient.ListMessages(client.MailboxInfo.InboxUri, query, false);
 
-{{< /highlight >}}
+```
 
 
 

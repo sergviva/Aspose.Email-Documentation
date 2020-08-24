@@ -9,7 +9,7 @@ url: /net/delete-email-messages/
 ## **VSTO**
 Below is the code to delete messages using VSTO Outlook.
 
-{{< highlight cs >}}
+``` cs
 
   // Create Application class and get namespace
 
@@ -29,11 +29,11 @@ Below is the code to delete messages using VSTO Outlook.
 
  item.Delete();      
 
-{{< /highlight >}}
+```
 ## **Aspose.Email**
 Below is the code to delete messages using aspose.email for .NET.
 
-{{< highlight cs >}}
+``` cs
 
   string MailBoxURI = "http://MachineName/exchange/Username";
 
@@ -59,7 +59,7 @@ Below is the code to delete messages using aspose.email for .NET.
 
  client.DeleteMessage(MessageURI);
 
-{{< /highlight >}}
+```
 ## **Download Source Code**
 - [CodePlex](https://asposeemailvsto.codeplex.com/SourceControl/latest#Code)
 - [GitHub](https://github.com/aspose-email/Aspose.Email-for-.NET/tree/master/Plugins/Aspose.Email%20Vs%20VSTO%20Outlook/Code%20Comparison%20of%20Common%20Features/Delete%20Messages)

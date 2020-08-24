@@ -31,6 +31,6 @@ Aspose.Email supports wide range of operations on message storage files (both PS
 - Adding MapiNotes, journals, notes, tasks, and distribution lists to a PST.
 - Deleting items from a PST.
 ## **Extracting Contacts from a PST/OST**
-Aspose.Email gives you access to a PST file’s Contacts folder for managing its contents. You can access the contacts information of each contact using the MapiContact class and can save the item either as Outlook MSG or [VCard](http://www.aspose.com/docs/display/emailandroid/Save+Contacts+Information+from+Outlook+PST+to+Disk+in+vCard+format) formats.
+Aspose.Email gives you access to a PST file’s Contacts folder for managing its contents. You can access the contacts information of each contact using the MapiContact class and can save the item either as Outlook MSG or [VCard](/email/java/working-with-outlook-contacts/#create-and-save-a-mapicontact) formats.
 ## **Managing Calendar Items**
 Aspose.Email provides full capability for generating calendar items such as appointments and meetings with the option to add recurring information as well as optional fields to the created item. Appointments can be created and saved to disc in draft format or added to a PST’s calendar items. The MapiCalendar class offers all the properties required to completely define a calendar. It also enables you to access and extract MapiCalendar items from PST and save to ICS format.

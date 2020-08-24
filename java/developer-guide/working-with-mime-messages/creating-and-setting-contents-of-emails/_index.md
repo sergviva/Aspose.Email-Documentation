@@ -153,7 +153,7 @@ Normally an email header contains these fields:
 
 Normally, an email header looks something like this:
 
-{{< highlight csharp >}}
+``` cs
 
  Reply-To: reply@reply.com
 
@@ -167,7 +167,7 @@ Date: 6 Mar 2006 8:2:2 +0800
 
 X-Mailer: Aspose.Email
 
-{{< /highlight >}}
+```
 
 To customize an email header, follow these steps:
 
@@ -185,7 +185,7 @@ In the code given below, we have customized an email header.
 
 The above code snippet produces an email header in the following format. This can be observed by opening the file MsgHeaders.msg in Microsoft Outlook and then view its properties.
 
-{{< highlight csharp >}}
+``` cs
 
  Reply-To: reply@reply.com
 
@@ -205,17 +205,17 @@ X-Mailer: Aspose.Email
 
 secret-header: mystery
 
-{{< /highlight >}}
+```
 ### **Insert Header at Specific Location**
 The Add method of HeadersCollection inserts the header at the end of the collection. However, it may sometimes be necessary to insert a header at a specific location. In such case, the Add method won't be of help. To achieve this, use the Insert method of the HeadersCollection. If collection contains headers with the same name, this header will be inserted before other headers with the same name. Following is the signature of the Insert method and sample code for usage.
 
-{{< highlight java >}}
+``` java
 
  Method Signature
 
 HeaderCollection.insert(String name, String value)
 
-{{< /highlight >}}
+```
 
 {{< gist "" "e3443fa9baa07df6d929fc4a408add67" "Examples-src-main-java-com-aspose-email-examples-email-EmailHeaders-InsertHeaderAtSpecificLocation.java" >}}
 ### **Adding Custom headers to email**

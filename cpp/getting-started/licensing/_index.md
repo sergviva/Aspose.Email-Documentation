@@ -28,19 +28,19 @@ When you call the SetLicense method, the license name that you pass should be th
 
 **C++**
 
-{{< highlight csharp >}}
+``` cs
 
  intrusive_ptr<License> license = new License();
 
 license->SetLicense(new String("Aspose.Email.lic"));
 
-{{< /highlight >}}
+```
 ### **Loading a License from a Stream Object**
 The following example shows how to load a license from a stream.
 
 **C++**
 
-{{< highlight csharp >}}
+``` cs
 
  intrusive_ptr<License>license = new License();
 
@@ -48,4 +48,4 @@ intrusive_ptr<FileStream> myStream = new FileStream(new String("Aspose.Email.lic
 
 license->SetLicense(myStream);
 
-{{< /highlight >}}
+```

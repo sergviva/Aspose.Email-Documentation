@@ -10,7 +10,7 @@ To Add MapiJournal to PST using **Aspose.Email Java for PHP**, simply invoke **A
 
 **PHP Code**
 
-{{< highlight php >}}
+``` php
 
  $d1 = new Date();
 
@@ -44,7 +44,7 @@ $journal_folder->addMapiMessageItem($journal);
 
 print "Added MapiJournal Successfully.".PHP_EOL;
 
-{{< /highlight >}}
+```
 ## **Download Running Code**
 Download **Adding MapiJournal to PST (Aspose.Email)** from any of the below mentioned social coding sites:
 

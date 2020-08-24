@@ -10,7 +10,7 @@ To Convert Email Messages using **Aspose.Email Java for Ruby**, call **convert_e
 
 **Ruby Code**
 
-{{< highlight ruby >}}
+``` ruby
 
  def convert_eml_to_msg()    
 
@@ -30,7 +30,7 @@ To Convert Email Messages using **Aspose.Email Java for Ruby**, call **convert_e
 
 end
 
-{{< /highlight >}}
+```
 ## **Download Running Code**
 Download **Converting Email Messages (Aspose.Email)** from any of the below mentioned social coding sites:
 

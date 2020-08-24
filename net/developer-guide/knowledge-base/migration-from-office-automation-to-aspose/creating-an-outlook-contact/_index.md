@@ -22,7 +22,7 @@ The following code snippet creates an Outlook contact in VCard format and saves 
 
 **C#**
 
-{{< highlight csharp >}}
+``` cs
 
  Microsoft.Office.Interop.Outlook._Application OutlookObject = new Microsoft.Office.Interop.Outlook.Application();
 
@@ -66,13 +66,13 @@ contact.Email1DisplayName = "Melissa MacBeth (mellissa@contoso.com)";
 
 contact.SaveAs("OutlookContact.vcf", OlSaveAsType.olVCard); 
 
-{{< /highlight >}}
+```
 ## **Aspose.Email for .NET**
 The samples below use Aspose.Email to create the Outlook contact in VCard format and save it to disc. The example shows how to create a contact using the [MapiContact](https://apireference.aspose.com/email/net/aspose.email.mapi/index) class and setting the contact details in the object before saving the contact.
 ### **Programming Samples**
 **C#**
 
-{{< highlight csharp >}}
+``` cs
 
  //Create a new MapiContact Object
 
@@ -110,4 +110,4 @@ mapiContact.ElectronicAddresses.Email1.DisplayName = "Melissa MacBeth (mellissa@
 
 mapiContact.Save("Contact.vcf", ContactSaveFormat.VCard);
 
-{{< /highlight >}}
+```

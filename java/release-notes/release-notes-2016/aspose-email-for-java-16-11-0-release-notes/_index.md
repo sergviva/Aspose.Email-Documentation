@@ -10,7 +10,7 @@ Aspose.Email for Java is a class library that enables applications to manipulate
 
 |**Key** |**Summary** |**Category** |
 | :- | :- | :- |
-|EMAILNET-34611|Replace the use of the [interpreter classes](http://www.aspose.com/docs/display/emailjava/Creating+and+Saving+Outlook+Message+%28MSG%29+Files#CreatingandSavingOutlookMessage%28MSG%29Files-ConvertingMSGtoMIMEmessage)|Enhancement |
+|EMAILNET-34611|Replace the use of the [interpreter classes](/email/java/managing-message-files-with-aspose-email-outlook/#converting-msg-to-mime-message)|Enhancement |
 |EMAILNET-38510|Provision of Bcc field in ExchangeMessageInfo|Enhancement |
 |EMAILNET-38497|EML to XPS Layout clipping|Bug |
 |EMAILNET-38500|MSG file cannot be converted to MailMessage using MailMessageInterpretor|Bug|

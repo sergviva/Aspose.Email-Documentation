@@ -10,7 +10,7 @@ To Save Message as Draft using **Aspose.Email Java for PHP**, simply invoke **Sa
 
 **PHP Code**
 
-{{< highlight php >}}
+``` php
 
  # Create a new instance of MailMessage class
 
@@ -56,7 +56,7 @@ $mapi_msg->save($dataDir . "New-Draft.msg");
 
 print "Draft saved Successfully.".PHP_EOL;
 
-{{< /highlight >}}
+```
 ## **Download Running Code**
 Download **Save Message as Draft (Aspose.Email)** from any of the below mentioned social coding sites:
 

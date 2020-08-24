@@ -8,7 +8,7 @@ url: /net/public-api-changes-in-aspose-email-4-6-0/
 
 {{% alert color="primary" %}} 
 
-The following is a list of any changes made to the public API such as [added](/email/net/public-api-changes-in-aspose-email-4-6-0-html/), renamed, [removed](/email/net/public-api-changes-in-aspose-email-4-6-0-html/) or deprecated members as well as any non-backward compatible change made to Aspose.Email for .NET. If you have concerns about any change listed, please raise it on the Aspose.Email support forum.
+The following is a list of any changes made to the public API such as [added](/email/net/public-api-changes-in-aspose-email-4-6-0/), renamed, [removed](/email/net/public-api-changes-in-aspose-email-4-6-0/) or deprecated members as well as any non-backward compatible change made to Aspose.Email for .NET. If you have concerns about any change listed, please raise it on the Aspose.Email support forum.
 
 {{% /alert %}} 
 ## **Added API Elements**

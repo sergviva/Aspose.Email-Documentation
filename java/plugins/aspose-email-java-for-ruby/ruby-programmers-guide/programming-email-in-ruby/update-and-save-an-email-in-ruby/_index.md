@@ -10,7 +10,7 @@ To Update and Save an Email using **Aspose.Email Java for Ruby**, simply invoke 
 
 **Ruby Code**
 
-{{< highlight ruby >}}
+``` ruby
 
  data_dir = File.dirname(File.dirname(File.dirname(File.dirname(__FILE__)))) + '/data/'
 
@@ -84,7 +84,7 @@ email.save(data_dir + "UpdateMessage.msg", Rjb::import('com.aspose.email.MailMes
 
 puts "Updated email message Successfully."
 
-{{< /highlight >}}
+```
 ## **Download Running Code**
 Download **Update and Save an Email (Aspose.Email)** from any of the below mentioned social coding sites:
 

@@ -14,7 +14,7 @@ To use Outlook classes, Outlook.Interop must be referenced in your .NET project.
 1. Sends the meeting request to the recipient.
 1. Microsoft Outlook must be installed on the system where this sample application will run.
 
-{{< highlight csharp >}}
+``` cs
 
  // Create an instance of Outlook Application class
 
@@ -48,7 +48,7 @@ mailItem.To = "recipient@domain.com";
 
 mailItem.Send();
 
-{{< /highlight >}}
+```
 ## **Aspose.Email**
 The code below uses Aspose.Email for .NET to send a meeting request. First, create the meeting request using the Aspose.Email.Appointment class. Then send the email, attach the meeting request and send the email using the Aspose.Email.Mail.SmtpClient class.
 
@@ -56,7 +56,7 @@ Advantages of using Aspose.Email for .NET
 
 Outlook Interop requires Microsoft Outlook to be installed on the system where it is used. Aspose.Email for .NET does not require Microsoft Outlook to be installed and is suitable in server applications.
 
-{{< highlight csharp >}}
+``` cs
 
   // Create attendees of the meeting
 
@@ -102,7 +102,7 @@ SmtpClient client = new SmtpClient("host", 25 ,"user", "password");
 
 client.Send(msg);
 
-{{< /highlight >}}
+```
 ##**Download Sample Code**
 - [Codeplex](https://asposevsto.codeplex.com/downloads/get/772944)
 - [Github](https://github.com/aspose-email/Aspose.Email-for-.NET/releases/download/AsposeEmailVsVSTOv1.1/Sending.Meeting.Request.Aspose.Email.zip)

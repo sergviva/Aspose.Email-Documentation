@@ -39,7 +39,7 @@ A MIME multipart message contains a boundary in the content-type header. This bo
 
 **MIME-version: 1.0**
 
-{{< highlight csharp >}}
+``` cs
 
  Content-type: multipart/mixed; boundary="frontier"
 
@@ -65,7 +65,7 @@ Ym9keSBvZiB0aGUgbWVzc2FnZS48L3A+CiAgPC9ib2R5Pgo8L2h0bWw+Cg==
 
 
 
-{{< /highlight >}}
+```
 
 Each part consists of its own content header and a body. 
 #### **Multipart Subtypes**

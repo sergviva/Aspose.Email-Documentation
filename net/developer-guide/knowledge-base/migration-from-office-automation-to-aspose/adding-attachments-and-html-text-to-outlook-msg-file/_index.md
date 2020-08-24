@@ -21,7 +21,7 @@ Using this method, Microsoft Outlook must be installed on the machine where the 
 
 **VBA**
 
-{{< highlight csharp >}}
+``` cs
 
  ' Create an object of type Outlook.Application
 
@@ -61,7 +61,7 @@ objMsg.Display
 
 
 
-{{< /highlight >}}
+```
 ## **Aspose.Email for .NET**
 The code snippet below uses Aspose.Email for .NET library to create an MSG file, similar to [the one created above](#office-automation), with multiple attachments and HTML body. Since Aspose.Email for .NET is purely written in .NET, COM interop is not required. Also, Microsoft Outlook 2003/2007 does not have to be installed on the machine. The method described below is suitable when Microsoft Outlook is not installed or when you want to generate MSG files on a server.
 
@@ -69,7 +69,7 @@ The code snippets below show how to perform the same task in C# and VB.NET using
 
 **C#**
 
-{{< highlight csharp >}}
+``` cs
 
  // Create an instance of type MailMessage
 
@@ -113,4 +113,4 @@ msg.Save(strSaveFile, MessageFormat.Msg);
 
 
 
-{{< /highlight >}}
+```

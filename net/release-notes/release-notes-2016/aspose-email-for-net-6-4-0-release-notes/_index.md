@@ -8,8 +8,8 @@ url: /net/aspose-email-for-net-6-4-0-release-notes/
 Aspose.Email for .NET is a class library that enables applications to manipulate popular message formats including Microsoft Outlook messages. It also supports communication protocols such as IMAP, SMTP, POP3, and Microsoft Exchange Server. In addition, the API supports working with PST as well as OST file formats.
 ### **Major Features**
 - Sending Calendar invitation
-- [Moving messages using IMAP](/pages/createpage.action?spaceKey=emailnet&title=Moving+Message+from+One+Mailbox+Folder+to+Another&linkCreation=true&fromPageId=11276234)
-- Paging Support in Email clients ([IMAP](/pages/createpage.action?spaceKey=emailnet&title=Listing+Messages+with+Paging+Support&linkCreation=true&fromPageId=11276234), EWS [Listing Messages](/pages/createpage.action?spaceKey=emailnet&title=List+Messages+on+an+Exchange+Server&linkCreation=true&fromPageId=11276234) [Listing Folders](/pages/createpage.action?spaceKey=emailnet&title=List+all+folders+from+the+Exchange+Server&linkCreation=true&fromPageId=11276234) [Listing Appointments](/pages/createpage.action?spaceKey=emailnet&title=Listing+Appointments+with+Paging+Support&linkCreation=true&fromPageId=11276234))
+- [Moving messages using IMAP](/email/net/working-with-folders-on-imap-server/#move-messages-to-another-mailbox-folder)
+- Paging Support in Email clients ([IMAP](/email/net/working-with-messages-from-imap-server/#listing-messages-with-paging-support), EWS [Listing Messages](/email/net/working-with-exchange-mailbox-and-messages/#listing-messages), [Listing Folders](/email/net/working-with-folders-on-exchange-server/#listing-all-folders-from-server) [Listing Appointments](/email/net/filter-appointments-from-exchange-server/))
 - Saving messages as Outlook Template (.oft)
 - Context Timezone support in EWS Client
 - Using [search criteria and paging](/email/net/filter-messages-from-server-using-imap-client/) simultaneously for messages listing using the IMAP client

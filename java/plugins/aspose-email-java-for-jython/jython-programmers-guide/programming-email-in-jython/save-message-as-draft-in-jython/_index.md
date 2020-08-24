@@ -10,7 +10,7 @@ To Save Message as Draft using **Aspose.Email Java for Jython**, simply invoke *
 
 **Jython Code**
 
-{{< highlight python >}}
+``` python
 
  from aspose-email import Settings
 
@@ -86,7 +86,7 @@ if __name__ == '__main__':
 
     SaveMessageAsDraft()
 
-{{< /highlight >}}
+```
 ## **Download Running Code**
 Download **Save Message as Draft (Aspose.Email)** from any of the below mentioned social coding sites:
 

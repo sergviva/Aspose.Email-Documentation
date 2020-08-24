@@ -40,7 +40,7 @@ Aspose.Email provides the capability to fetch messages from Exchange server base
 ### **Listing Messages by Extended Properties**
 In order to list messages having certain extended properties, the overloaded method of ListMessages can be used as shown in code sample below.
 
-{{< highlight java >}}
+``` java
 
  IEWSClient client = EWSClient.getEWSClient("https://outlook.office365.com/ews/exchange.asmx", "Shabir.haider@studentpartner.com", "LoveAir1993");
 
@@ -72,7 +72,7 @@ In order to list messages having certain extended properties, the overloaded met
 
 }
 
-{{< /highlight >}}
+```
 ### **Getting Message Class Information from ExchangeMessageInfo**
 {{< gist "" "e3443fa9baa07df6d929fc4a408add67" "Examples-src-main-java-com-aspose-email-examples-exchangeews-GetMessageClassInformationUsingEWS-GetMessageClassInformationUsingEWS.java" >}}
 ## **Reading Emails from Other User's Mailbox with EWS**

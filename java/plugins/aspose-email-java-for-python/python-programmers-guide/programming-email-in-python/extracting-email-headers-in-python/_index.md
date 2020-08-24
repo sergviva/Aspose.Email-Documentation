@@ -10,7 +10,7 @@ To Extract Email Headers using **Aspose.Email Java for Python**, Use following c
 
 **Python Code**
 
-{{< highlight python >}}
+``` python
 
 
 
@@ -32,7 +32,7 @@ while (i < message.getHeaders().getCount()):
 
     i += 1
 
-{{< /highlight >}}
+```
 ## **Download Running Code**
 Download **Extracting Email Headers (Aspose.Email)** from any of the below mentioned social coding sites:
 

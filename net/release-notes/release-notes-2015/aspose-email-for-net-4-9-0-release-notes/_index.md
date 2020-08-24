@@ -64,7 +64,7 @@ EMAILNET-34600 EWS ListAppointments(CalendarUri) raises Stackoverflow exception
 
 The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Email for .NET. If you have concerns about any change listed, please raise it on the Aspose.Email support forum.
 
-{{< highlight java >}}
+``` java
 
  Method Aspose.Email.Outlook.MapiAttachment.RemoveProperty(System.Int64)
 
@@ -82,4 +82,4 @@ Enum Aspose.Email.Outlook.MapiMessageFlags.MSGFLAG_ORIGIN_X400
 
 Enum Aspose.Email.Outlook.MapiMessageFlags.MSGFLAG_SUBMIT
 
-{{< /highlight >}}
+```

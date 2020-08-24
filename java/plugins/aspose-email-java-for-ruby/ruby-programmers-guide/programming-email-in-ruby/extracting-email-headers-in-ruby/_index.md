@@ -10,7 +10,7 @@ To Extract Email Headers using **Aspose.Email Java for Ruby**, simply invoke **E
 
 **Ruby Code**
 
-{{< highlight ruby >}}
+``` ruby
 
  data_dir = File.dirname(File.dirname(File.dirname(File.dirname(__FILE__)))) + '/data/'
 
@@ -34,7 +34,7 @@ while i < message.getHeaders().getCount()
 
 end 
 
-{{< /highlight >}}
+```
 ## **Download Running Code**
 Download **Extracting Email Headers (Aspose.Email)** from any of the below mentioned social coding sites:
 

@@ -10,7 +10,7 @@ To Extract Email Headers using **Aspose.Email Java for PHP**, simply invoke **Ex
 
 **PHP Code**
 
-{{< highlight php >}}
+``` php
 
  # Initialize and Load an existing EML file by specifying the MessageFormat
 
@@ -32,7 +32,7 @@ $i += 1;
 
 }
 
-{{< /highlight >}}
+```
 ## **Download Running Code**
 Download **Extracting Email Headers (Aspose.Email)** from any of the below mentioned social coding sites:
 

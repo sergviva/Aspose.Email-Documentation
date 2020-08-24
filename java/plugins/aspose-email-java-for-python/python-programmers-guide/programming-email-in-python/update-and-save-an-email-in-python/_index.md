@@ -10,7 +10,7 @@ To Update and Save an Email using **Aspose.Email Java for Python**, Use followin
 
 **Python Code**
 
-{{< highlight python >}}
+``` python
 
 
 
@@ -86,7 +86,7 @@ email.save(self.dataDir + "UpdateMessage.msg", mailMessageSaveType.getOutlookMes
 
 print "Updated email message Successfully."
 
-{{< /highlight >}}
+```
 ## **Download Running Code**
 Download **Update and Save an Email (Aspose.Email)** from any of the below mentioned social coding sites:
 

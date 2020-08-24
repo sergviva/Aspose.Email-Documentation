@@ -10,7 +10,7 @@ Aspose.Email provides an attachments collection that can be used to add attachme
 
 **Java**
 
-{{< highlight java >}}
+``` java
 
  Calendar calendar = Calendar.getInstance(TimeZone.getTimeZone("GMT"));
 
@@ -50,7 +50,7 @@ String savedFile = dataDir + "AppWithAttachments.ics";
 
 app.save(savedFile, AppointmentSaveFormat.Ics);
 
-{{< /highlight >}}
+```
 ## **Download Running Code**
 - [CodePlex](https://asposeemailjavaapachepoi.codeplex.com/releases/view/618811)
 - [GitHub](https://github.com/aspose-email/Aspose.Email-for-Java/releases/tag/Aspose.Email_Java_for_Apache_POI-v1.0.0)

@@ -68,7 +68,7 @@ The following is a list of any changes made to the public API such as added, ren
 
 Added:
 
-{{< highlight java >}}
+``` java
 
  Aspose.Email.Exchange
 
@@ -238,4 +238,4 @@ Property PersonalStorage.DisplayName
 
 Property PersonalStorage.MessageStoreProperties
 
-{{< /highlight >}}
+```

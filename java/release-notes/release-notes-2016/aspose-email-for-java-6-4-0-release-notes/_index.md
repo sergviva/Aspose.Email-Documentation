@@ -8,17 +8,17 @@ url: /java/aspose-email-for-java-6-4-0-release-notes/
 Aspose.Email for Java is a class library that enables applications to manipulate popular message formats including Microsoft Outlook messages. It also supports communication protocols such as IMAP, SMTP, POP3, and Microsoft Exchange Server. In addition, the API supports working with PST as well as OST file formats.
 ### **Major Features In this Release**
 - Sending Calendar invitation
-- [Moving messages using IMAP](/pages/createpage.action?spaceKey=emailjava&title=Moving+Messages+from+One+Folder+to+Another&linkCreation=true&fromPageId=11665444)
-- Paging Support in Email clients ([IMAP](/pages/createpage.action?spaceKey=emailjava&title=Listing+Messages+with+Paging+Support&linkCreation=true&fromPageId=11665444), EWS [List Messages](/email/java/fetch-messages-from-an-exchange-server-mailbox-html/) [List Folders](/email/java/working-with-folders-on-exchange-server-html/) [List Appointments](/pages/createpage.action?spaceKey=emailjava&title=Listing+Appointments+with+Paging+Support&linkCreation=true&fromPageId=11665444))
+- [Moving messages using IMAP](/email/java/working-with-folders-on-imap-server/#move-messages-to-another-mailbox-folder)
+- Paging Support in Email clients ([IMAP](/email/java/working-with-messages-from-imap-server/#listing-messages-with-paging-support), EWS [List Messages](/email/java/fetch-messages-from-an-exchange-server-mailbox) [List Folders](/email/java/working-with-folders-on-exchange-server/) [List Appointments](/email/java/working-with-appointments/))
 - Saving messages as Outlook Template (.oft)
 - Context Timezone support in EWS Client
-- Using [search criteria and paging](/pages/createpage.action?spaceKey=emailjava&title=Filtering+Messages+from+IMAP+Mailbox&linkCreation=true&fromPageId=11665444) simultaneously for messages listing using the IMAP client
-- Getting the [division marker](/pages/createpage.action?spaceKey=emailjava&title=Getting+Markers+Information&linkCreation=true&fromPageId=11665444) when working with MBOX format
+- Using [search criteria and paging](/email/net/filter-messages-from-server-using-imap-client/) simultaneously for messages listing using the IMAP client
+- Getting the division marker when working with MBOX format
 ### **Features and Improvements**
 
 |**Key** |**Summary** |**Category** |
 | :- | :- | :- |
-|EMAILNET-35183 |Support saving [MailMessage](/pages/createpage.action?spaceKey=emailjava&title=Create+New+Email&linkCreation=true&fromPageId=11665444) and [MapiMessage](http://www.aspose.com/docs/display/emailjava/Read+and+Write+Outlook+Template+File+%28OFT%29) to OFT format |Feature |
+|EMAILNET-35183 |Support saving [MailMessage](https://apireference.aspose.com/email/net/aspose.email/mailmessage) and [MapiMessage](https://apireference.aspose.com/email/net/aspose.email.mapi/mapimessage) to OFT format |Feature |
 |EMAILNET-35136 |Sending Calendar Invitation Email |Feature |
 |EMAILNET-35145 |Issue while having hyphen in domain name |Enhancement |
 |EMAILNET-35180 |Can we leave out Attachment Name while saving using Aspose.Email? |Enhancement |
@@ -54,7 +54,7 @@ Aspose.Email for Java is a class library that enables applications to manipulate
 ### **Public API and Backward Incompatible Changes**
 The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Email for Java. If you have concerns about any change listed, please raise it on the Aspose.Email support forum.
 ### **Added APIs:**
-{{< highlight java >}}
+``` java
 
  Class PageInfo
 
@@ -352,4 +352,4 @@ Method IEWSClient.listSubFolders(String, int)
 
 Method IEWSClient.listSubFolders(String, int, int)
 
-{{< /highlight >}}
+```

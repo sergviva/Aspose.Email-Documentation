@@ -59,7 +59,7 @@ The following is a list of any changes made to the public API such as added, ren
 
 Added:
 
-{{< highlight java >}}
+``` java
 
  Class Aspose.Email.Mail.WebDavContactSaveOptions
 
@@ -261,4 +261,4 @@ Method Aspose.Email.Mail.Contact.op_Explicit(Aspose.Email.Mail.Contact)~Aspose.E
 
 Property Aspose.Email.Protocols.Exchange.ExchangeDav.WebDavContactSaveOptions.Default
 
-{{< /highlight >}}
+```

@@ -10,7 +10,7 @@ To Create New PST using **Aspose.Email Java for Python**, Use following code.
 
 **Python Code**
 
-{{< highlight python >}}
+``` python
 
 
 
@@ -32,7 +32,7 @@ pst.getRootFolder().getSubFolder("myInbox").addMessage(mapi_message.fromFile(sel
 
 print "Created PST successfully."
 
-{{< /highlight >}}
+```
 ## **Download Running Code**
 Download **Create New PST (Aspose.Email)** from any of the below mentioned social coding sites:
 

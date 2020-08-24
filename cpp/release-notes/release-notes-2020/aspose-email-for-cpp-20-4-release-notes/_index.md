@@ -20,7 +20,7 @@ Aspose.Email for C++ 20.4 is based on [Aspose.Email for .NET 20.4](/email/net/a
 
 
 
-{{< highlight cpp >}}
+``` cpp
 
  #include <Exceptions/ExceptionManager.h>
 
@@ -56,7 +56,7 @@ void CustomExceptionLogHandler(System::String message)
 
 ExceptionManager::set_IgnoreExceptionsLogHandler(&CustomExceptionHandler);
 
-{{< /highlight >}}
+```
 
 ## **Features not implemented**
 The following features are not implemented in Aspose.Email for C++ 20.4 but they are implemented in [Aspose.Email for .NET 20.4](/email/net/aspose-email-for-net-20-4-release-notes/):

@@ -18,7 +18,7 @@ To use Office Automation objects for Microsoft Outlook, you need to add referenc
 ### **Programming Samples**
 **C#**
 
-{{< highlight csharp >}}
+``` cs
 
  // Add the namespaces
 
@@ -54,7 +54,7 @@ System.Console.WriteLine(string.Format("Text Body:{0}", item.Body));
 
 
 
-{{< /highlight >}}
+```
 ## **Aspose.Email for .NET**
 The following code snippet does the same thing as [the code above](/#office-automation) using Aspose.Email for .NET.
 
@@ -62,7 +62,7 @@ To access the [Aspose.Email.Outlook](https://apireference.aspose.com/email/net/a
 ### **Programming Samples**
 **C#**
 
-{{< highlight csharp >}}
+``` cs
 
  // Add the namespace for Aspose.Email.Outlook
 
@@ -92,4 +92,4 @@ System.Console.WriteLine(string.Format("Rtf Body:{0}", msg.BodyRtf));
 
 
 
-{{< /highlight >}}
+```

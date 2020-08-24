@@ -35,7 +35,7 @@ The source email message can be seen as follow:
 |**Figure: Converted PDF File** |
 **Java**
 
-{{< highlight java >}}
+``` java
 
  static void EmailToPdf(String emailPath) throws Exception
 
@@ -71,4 +71,4 @@ The source email message can be seen as follow:
 
 }
 
-{{< /highlight >}}
+```

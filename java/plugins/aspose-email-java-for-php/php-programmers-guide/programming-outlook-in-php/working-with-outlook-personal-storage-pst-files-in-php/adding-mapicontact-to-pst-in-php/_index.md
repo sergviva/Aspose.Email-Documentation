@@ -10,7 +10,7 @@ To Add MapiContact to PST using **Aspose.Email Java for PHP**, simply invoke **A
 
 **PHP Code**
 
-{{< highlight php >}}
+``` php
 
  # Create an instance of MapiContact
 
@@ -104,7 +104,7 @@ $contactFolder->addMapiMessageItem($contact6);
 
 print "Added MapiContacts Successfully.".PHP_EOL;
 
-{{< /highlight >}}
+```
 ## **Download Running Code**
 Download **Adding MapiContact to PST (Aspose.Email)** from any of the below mentioned social coding sites:
 

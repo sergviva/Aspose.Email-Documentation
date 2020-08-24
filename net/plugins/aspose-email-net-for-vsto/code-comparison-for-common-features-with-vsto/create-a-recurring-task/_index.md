@@ -9,7 +9,7 @@ url: /net/create-a-recurring-task/
 ## **VSTO**
 Below is the code snippet showing recurring of task on the basis of date:
 
-{{< highlight cs >}}
+``` cs
 
      Outlook.TaskItem task = Application.CreateItem(
 
@@ -36,17 +36,17 @@ Below is the code snippet showing recurring of task on the basis of date:
     task.Save();
 
 
-{{< /highlight >}}
+```
 ## **Aspose.Email**
 {{% alert color="primary" %}} 
 
-Aspose.Email for .NET allows you to create Outlook tasks and save them to MSG format. The [MapiTask](/pages/createpage.action?spaceKey=emailnet&title=Aspose.Email.Outlook.MapiTask+Class&linkCreation=true&fromPageId=11276243) class provides a number of properties such as Percentcomplete, Estimatedeffort, ActualEffort, History, LastUpdate, and others, to accommodate and set information required for an Outlook task. This article shows how to create, save and read a MapiTask from disc.
+Aspose.Email for .NET allows you to create Outlook tasks and save them to MSG format. The [MapiTask](https://apireference.aspose.com/email/net/aspose.email.mapi/mapitask) class provides a number of properties such as Percentcomplete, Estimatedeffort, ActualEffort, History, LastUpdate, and others, to accommodate and set information required for an Outlook task. This article shows how to create, save and read a MapiTask from disc.
 
 {{% /alert %}} 
 
 Aspose.Email allows to create a recurring task where the recurrence can be daily, weekly, monthly, or yearly. The following code sample illustrates creating a task with weekly recurrence.
 
-{{< highlight cs >}}
+``` cs
 
    DateTime startDate = new DateTime(2015, 04, 30, 10, 00, 00);
 
@@ -77,7 +77,7 @@ Aspose.Email allows to create a recurring task where the recurrence can be daily
   task.Save("AsposeDaily.msg", TaskSaveFormat.Msg);
 
 
-{{< /highlight >}}
+```
 ## **Download Sample Code**
 - [Codeplex](https://asposevsto.codeplex.com/releases/view/616980)
 - [Github](https://github.com/aspose-email/Aspose.Email-for-.NET/releases/tag/AsposeEmailVsVSTOv1.1)

@@ -20,7 +20,7 @@ The following code snippets create an MSG file using Office Automation.
 
 **C#**
 
-{{< highlight csharp >}}
+``` cs
 
  // Creates a new Outlook Application instance
 
@@ -52,13 +52,13 @@ msgInterop.SaveAs(strMsg, Outlook.OlSaveAsType.olMSG);
 
 
 
-{{< /highlight >}}
+```
 ## **Aspose.Email for .NET**
 The samples below use Aspose.Email to create the Outlook MSG file. It's written in pure .NET and does not use COM Interop. Outlook installation is not required for creating the msg file this way.
 
 **C#**
 
-{{< highlight csharp >}}
+``` cs
 
  // Create an instance of the Aspose.Email.MailMessage class
 
@@ -90,4 +90,4 @@ msg.Save(strMsg, MessageFormat.Msg);
 
 
 
-{{< /highlight >}}
+```

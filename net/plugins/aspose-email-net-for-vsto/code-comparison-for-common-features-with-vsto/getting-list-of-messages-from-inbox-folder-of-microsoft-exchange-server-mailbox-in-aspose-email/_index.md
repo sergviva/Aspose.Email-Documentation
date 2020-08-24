@@ -8,7 +8,7 @@ url: /net/getting-list-of-messages-from-inbox-folder-of-microsoft-exchange-serve
 
 To use Office Automation objects for Microsoft Outlook, add references to Microsoft Office and Microsoft Office Interop for Outlook libraries to the project. Microsoft Office Outlook must also be installed on the machine that the code runs on.
 ## **VSTO**
-{{< highlight csharp >}}
+``` cs
 
  // Create Application class and get namespace
 
@@ -38,11 +38,11 @@ foreach (Outlook.MailItem mail in inbox.Items)
 
 }
 
-{{< /highlight >}}
+```
 ## **Aspose.Email**
 However, Microsoft Outlook does not need to be installed on the machine where the code runs. Reference the Aspose.Email.dll to build and run the project successfully.
 
-{{< highlight csharp >}}
+``` cs
 
  // Create instance of ExchangeClient class by giving credentials
 
@@ -74,7 +74,7 @@ foreach (ExchangeMessageInfo msgInfo in msgCollection)
 
 }
 
-{{< /highlight >}}
+```
 ## **Download Sample Code**
 - [Codeplex](https://asposevsto.codeplex.com/downloads/get/772942)
 - [Github](https://github.com/aspose-email/Aspose.Email-for-.NET/releases/download/AsposeEmailVsVSTOv1.1/Getting.List.of.Messages.from.Inbox.of.Microsoft.Mailbox.Aspose.Email.zip)

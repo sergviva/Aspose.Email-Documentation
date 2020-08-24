@@ -21,11 +21,11 @@ It is very simple and easy to install Aspose.Email Java for Ruby gem, please fol
 
 1. Run following command. 
 
-{{< highlight java >}}
+``` java
 
  $ gem install aspose-emailjava
 
-{{< /highlight >}}
+```
 
 1. Download required Aspose.Email for Java Component from following link.
    <http://www.aspose.com/community/files/72/java-components/aspose.email-for-java/default.aspx>
@@ -33,7 +33,7 @@ It is very simple and easy to install Aspose.Email Java for Ruby gem, please fol
 ## **Using**
 Include the required files for working with the **createnewemail** example.
 
-{{< highlight java >}}
+``` java
 
  require File.dirname(File.dirname(File.dirname(__FILE__))) + '/lib/aspose-emailjava'
 
@@ -43,7 +43,7 @@ include Asposeemailjava::CreateNewEmail
 
 initialize_aspose_email
 
-{{< /highlight >}}
+```
 
 Let's understand the above code.
 

@@ -39,26 +39,26 @@ To create Aspose.Email Maven project for using [Aspose.Email for Java API](http:
 
 Then follow the steps below:
 
-\1. Select **New Project**.
-\2. Select **Aspose.Email Maven Project** 
-\3. Click **Next**. 
+1. Select **New Project**.
+2. Select **Aspose.Email Maven Project** 
+3. Click **Next**. 
 
 ![todo:image_alt_text](http://i.imgur.com/L3LFdZL.jpg)
 
 
-\4. Provide a **GroupId, ArtifactId** and **Version** for your maven project and click **Next.**
+4. Provide a **GroupId, ArtifactId** and **Version** for your maven project and click **Next.**
 
 ![todo:image_alt_text](http://i.imgur.com/bBR5fp3.jpg)
 
 
 `    `You can select "Also Download Examples Source Code" checkbox to download the sample usage examples of the API (as shown in above snapshot)
 
-\6. Provide a **Project Name** and **Location** just like when creating any Java application
+6. Provide a **Project Name** and **Location** just like when creating any Java application
 
 ![todo:image_alt_text](http://i.imgur.com/HJJQcRA.jpg)
 
 
-\7. Click **Finish**.
+7. Click **Finish**.
 `    `This will retrieve the [Aspose.Email for Java API](http://goo.gl/idmYQ1) latest maven dependency reference from Aspose Cloud Maven Repository and configure it in pom.xml
 `    `If you have selected "Also Download Examples Source Code" checkbox. Downloading of the examples will also begin from the [Aspose.Email for Java API GitHub Repository](https://goo.gl/ahCdUL)
 
@@ -78,7 +78,7 @@ To import/ copy [Example Source Codes ](https://goo.gl/ahCdUL)into the project u
 
 Then follow the steps below on IntelliJ IDEA:
 
-\1. Select **File** > **New -** As shown below: 
+1. Select **File** > **New -** As shown below: 
 
 ![todo:image_alt_text](http://i.imgur.com/N8tT9Q0.jpg)
 
@@ -88,7 +88,7 @@ Then follow the steps below on IntelliJ IDEA:
 ![todo:image_alt_text](http://i.imgur.com/aUBWkhp.jpg)
 
 
-\2. Select **Aspose.Email Example** Option from Menu - As shown below: 
+2. Select **Aspose.Email Example** Option from Menu - As shown below: 
 
 ![todo:image_alt_text](http://i.imgur.com/uMacV7p.jpg)
 
@@ -98,13 +98,13 @@ Then follow the steps below on IntelliJ IDEA:
 ![todo:image_alt_text](http://i.imgur.com/5PZwsuq.jpg)
 
 
-\3. **Aspose.Email Examples wizard** dialog will appear, where you can select any examples category to create / copy the examples into your project
+3. **Aspose.Email Examples wizard** dialog will appear, where you can select any examples category to create / copy the examples into your project
 `    `Select any examples category and click **Create** : 
 
 ![todo:image_alt_text](http://i.imgur.com/oXCbKkV.jpg)
 
 
-\5. This will create / copy  the selected category examples into the project under **com.aspose.email.examples** package.
+5. This will create / copy  the selected category examples into the project under **com.aspose.email.examples** package.
 `    `Also any required resources for the execution of the examples will be copied to **src/main/resources** folder - As shown below:
 
 ![todo:image_alt_text](http://i.imgur.com/JUpiGJG.jpg)

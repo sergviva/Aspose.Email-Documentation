@@ -10,7 +10,7 @@ To Display Email Information using **Aspose.Email Java for Ruby**, simply invoke
 
 **Ruby Code**
 
-{{< highlight ruby >}}
+``` ruby
 
  data_dir = File.dirname(File.dirname(File.dirname(File.dirname(__FILE__)))) + '/data/'
 
@@ -30,7 +30,7 @@ puts "HtmlBody: " + message.getHtmlBody().to_s
 
 puts "TextBody: " + message.getTextBody().to_s
 
-{{< /highlight >}}
+```
 ## **Download Running Code**
 Download **Displaying Email Information (Aspose.Email)** from any of the below mentioned social coding sites:
 

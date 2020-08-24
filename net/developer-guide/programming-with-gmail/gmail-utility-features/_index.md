@@ -25,31 +25,31 @@ A Project is to be created on Google Developer Console for a user having Gmail a
 ### **Steps to create a project in Google Developer Console**
 Following is a step by step tutorial for creating a project in Google Developer Console.
 
-\1. Go to link <https://cloud.google.com/console/project> and login using your gmail credentials
+1. Go to link <https://cloud.google.com/console/project> and login using your gmail credentials
 
 |![todo:image_alt_text](gmail-utility-features_1.png)|
 | :- |
-\2. Select the check box "I have read and agree to all Terms of Service for the Google Cloud Platform products." and Press Create button
+2. Select the check box "I have read and agree to all Terms of Service for the Google Cloud Platform products." and Press Create button
 
 |![todo:image_alt_text](gmail-utility-features_2.png)|
 | :- |
-\3. "SMS Verification" will be requested. Press continue button:
+3. "SMS Verification" will be requested. Press continue button:
 
 |![todo:image_alt_text](gmail-utility-features_3.png)|
 | :- |
-\4. Enter your country name and enter mobile number. Press button: Send Verification Code
+4. Enter your country name and enter mobile number. Press button: Send Verification Code
 
 |![todo:image_alt_text](gmail-utility-features_4.png)|
 | :- |
-\5. Enter the verification code received on your mobile.
+5. Enter the verification code received on your mobile.
 
 |![todo:image_alt_text](gmail-utility-features_5.png)|
 | :- |
-\6. In the APIs & auth \ APIs list switch on status of Calendar API and Contacts API. Switch OFF all others.
+6. In the APIs & auth \ APIs list switch on status of Calendar API and Contacts API. Switch OFF all others.
 
 |![todo:image_alt_text](gmail-utility-features_6.png)|
 | :- |
-\7. On the APIs & auth -> Credentials, press button "CREAET NEW CLIENT ID" under "OAuth" section. Select "Installed application" and "Other" from the given choices, and press the "Create Client ID" button. Note the Client ID and Client Secret here that will be used in the sample codes in this section.
+7. On the APIs & auth -> Credentials, press button "CREAET NEW CLIENT ID" under "OAuth" section. Select "Installed application" and "Other" from the given choices, and press the "Create Client ID" button. Note the Client ID and Client Secret here that will be used in the sample codes in this section.
 
 |![todo:image_alt_text](gmail-utility-features_7.png)|
 | :- |

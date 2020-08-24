@@ -57,7 +57,7 @@ The RTF body compression method can be used to generate a smaller size MSG. Howe
 {{< gist "aspose-com-gists" "709d733586ce50505c3bca3f6e8bd18d" "Examples-src-main-java-com-aspose-email-examples-outlook-msg-CreateAndSaveOutlookMessageFile-BodyCompressionFlagSetToFalse.java" >}}
 ### **Preserving Original Email Address**
 {{< gist "aspose-com-gists" "709d733586ce50505c3bca3f6e8bd18d" "Examples-src-main-java-com-aspose-email-examples-email-ConvertEmailMessages-PreservingOriginalEmailAddress.java" >}}
-### ` `**Status of Recipients from a Meeting Request**
+### **Status of Recipients from a Meeting Request**
 {{< gist "aspose-com-gists" "709d733586ce50505c3bca3f6e8bd18d" "Examples-src-main-java-com-aspose-email-examples-email-ConvertEmailMessages-StatusOfRecipientsFromAMeetingRequest.java" >}}
 ### **Converting EML to MSG Preserving Embedded EML format**
 EML files can be loaded into [MapiMessage](https://apireference.aspose.com/java/email/com.aspose.email/mapimessage) class by instantiating a [MailMessage](https://apireference.aspose.com/java/email/com.aspose.email/mailmessage) object and passing it to [MapiMessage.FromMailMessage](https://apireference.aspose.com/java/email/com.aspose.email/MapiMessage#fromMailMessage\(com.aspose.email.MailMessage\)) method. If the EML file contains embedded EML files, use [MapiConversionOptions.setPreserveEmbeddedMessageFormat](https://apireference.aspose.com/java/email/com.aspose.email/MapiConversionOptions#setPreserveEmbeddedMessageFormat\(boolean\)) to retain the format of embedded EML files. The below code snippet shows how to load EML files into [MapiMessage](https://apireference.aspose.com/java/email/com.aspose.email/mapimessage) while preserving the format of embedded EML files.

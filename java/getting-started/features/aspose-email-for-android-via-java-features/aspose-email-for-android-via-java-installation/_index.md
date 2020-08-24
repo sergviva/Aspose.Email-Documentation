@@ -13,7 +13,7 @@ Aspose.Email for Android via Java is platform independent and can be used on any
 1. Add maven repository into your build.gradle
 1. Add 'Aspose.Email for Android via Java' JAR as a dependency
 
-{{< highlight java >}}
+``` java
 
  // 1. Add maven repository into your build.gradle 
 
@@ -49,7 +49,7 @@ dependencies {
 
 }
 
-{{< /highlight >}}
+```
 ## **How to use Aspose.Emil for Android via Java**
 This topic will guide you through the necessary steps by setup Aspose.Email for Android via Java in Android Studio IDE, assuming that you already have the latest version of Android Studio installed on your machine and you have also acquired the latest version of Aspose.Email for Android via Java package.
 
@@ -100,7 +100,7 @@ Now the project has been loaded in the IDE, however, you may wish to change the 
 
 After changing the view to Project, find & load the build.gradle file in the editor and paste the following snippet as shown below.
 
-{{< highlight java >}}
+``` java
 
  dexOptions{
 
@@ -108,7 +108,7 @@ After changing the view to Project, find & load the build.gradle file in the edi
 
 }
 
-{{< /highlight >}}
+```
 
 ![todo:image_alt_text](aspose-email-for-android-via-java-installation_9.png)
 
@@ -131,23 +131,23 @@ Once the APK has been added to the project, it needs to be loaded by the project
 
 - Load the APK in a custom application class using the snippet provided below, and register the custom application class to the AndroidManifest.xml.
 
-{{< highlight java >}}
+``` java
 
  LibsLoadHelper.loadLibs(this);
 
-{{< /highlight >}}
+```
 
 - Load the APK in the OnCreate method of MainActivity.
 
-{{< highlight java >}}
+``` java
 
  LibsLoadHelper.loadLibs(getApplicationContext());
 
-{{< /highlight >}}
+```
 
 Now we are ready to write the code. In order to keep the demonstration easy to understand, we have added a Button widget to the layout and going to handle its click event as follow.
 
-{{< highlight java >}}
+``` java
 
  private class TestEmail extends AsyncTask<Void, String, Boolean> 
 
@@ -195,7 +195,7 @@ Now we are ready to write the code. In order to keep the demonstration easy to u
 
 }
 
-{{< /highlight >}}
+```
 
 When you run the application using the play button on IDE interface (or using SHIFT + F10) the emulator will load the application as shown below.
 

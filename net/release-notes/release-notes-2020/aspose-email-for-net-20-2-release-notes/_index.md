@@ -46,7 +46,7 @@ OAuth 2.0 is the protocol for authorization. OAuth 2.0 provides specific autho
 Now, Pop3Client supports OAuth authorization as it is in SMTP and IMAP clients according to the [article](/email/net/access-smtp-and-imap-server-using-oauth/).
 The following constructors were added to initialize POP3Client using OAuth: 
 
-{{< highlight csharp >}}
+``` cs
 
  public Pop3Client(
 
@@ -76,4 +76,4 @@ public Pop3Client(
 
             SecurityOptions securityOptions) /*Security mode for a mail client*/
 
-{{< /highlight >}}
+```

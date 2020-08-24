@@ -10,7 +10,7 @@ To Add Attachments to a New Email Message using **Aspose.Email Java for Jython**
 
 **Jython Code**
 
-{{< highlight python >}}
+``` python
 
  from aspose-email import Settings
 
@@ -92,7 +92,7 @@ if __name__ == '__main__':
 
     ManageAttachments()
 
-{{< /highlight >}}
+```
 ## **Download Running Code**
 Download **Manage Attachments in Email Message (Aspose.Email)** from any of the below mentioned social coding sites:
 

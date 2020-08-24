@@ -10,7 +10,7 @@ To Displaying Email Information using **Aspose.Email Java for Python**, Use foll
 
 **Python Code**
 
-{{< highlight python >}}
+``` python
 
 
 
@@ -42,7 +42,7 @@ print "TextBody: "
 
 print message.getTextBody()
 
-{{< /highlight >}}
+```
 ## **Download Running Code**
 Download **Displaying Email Information (Aspose.Email)** from any of the below mentioned social coding sites:
 

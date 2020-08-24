@@ -10,7 +10,7 @@ To Convert Email Messages using **Aspose.Email Java for Jython**, call **convert
 
 **Jython Code**
 
-{{< highlight python >}}
+``` python
 
  from aspose-email import Settings
 
@@ -60,7 +60,7 @@ if __name__ == '__main__':
 
     Converter()
 
-{{< /highlight >}}
+```
 ## **Download Running Code**
 Download **Converting Email Messages (Aspose.Email)** from any of the below mentioned social coding sites:
 

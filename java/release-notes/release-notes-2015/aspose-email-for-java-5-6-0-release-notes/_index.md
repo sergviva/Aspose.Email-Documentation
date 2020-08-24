@@ -58,7 +58,7 @@ EMAILJAVA-33519 - ImapClient.ListMessages(MailQuery) raises IllegalAccessError
 
 The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Email for Java. If you have concerns about any change listed, please raise it on the Aspose.Email support forum.
 
-{{< highlight java >}}
+``` java
 
  Class MapiRecipientTrackStatus
 
@@ -82,4 +82,4 @@ Property AttachmentBase.getHeaders()
 
 Property MsgSaveOptions.getPreserveSignature(), setPreserveSignature(boolean value)
 
-{{< /highlight >}}
+```

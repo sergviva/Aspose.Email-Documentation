@@ -29,7 +29,7 @@ Microsoft Outlook must be installed on the system where this sample application 
 ### **Programming Samples**
 **C#**
 
-{{< highlight csharp >}}
+``` cs
 
  // Create an instance of Outlook Application class
 
@@ -65,7 +65,7 @@ mailItem.Send();
 
 
 
-{{< /highlight >}}
+```
 ## **Sending Meeting Request using Aspose.Email for .NET**
 The code below uses Aspose.Email for .NET to send a meeting request. First, create the meeting request using the [Aspose.Email.Appointment](https://apireference.aspose.com/email/net/aspose.email.calendar/appointment) class. Then send the email, attach the meeting request and send the email using the [Aspose.Email.Mail.SmtpClient](https://apireference.aspose.com/email/net/aspose.email.clients.smtp) class.
 #### **Advantages of using Aspose.Email for .NET**
@@ -73,7 +73,7 @@ Outlook Interop requires Microsoft Outlook to be installed on the system where i
 #### **Programming Samples**
 **C#**
 
-{{< highlight csharp >}}
+``` cs
 
  // Create attendees of the meeting
 
@@ -121,4 +121,4 @@ client.Send(msg);
 
 
 
-{{< /highlight >}}
+```

@@ -10,7 +10,7 @@ To Create new Email using **Aspose.Email Java for Ruby**, simply invoke **Create
 
 **Ruby Code**
 
-{{< highlight ruby >}}
+``` ruby
 
  data_dir = File.dirname(File.dirname(File.dirname(File.dirname(__FILE__)))) + '/data/'
 
@@ -60,7 +60,7 @@ message.save(data_dir + "Message.msg", mail_message_save_type.getOutlookMessageF
 
 puts "Created email messages Successfully."
 
-{{< /highlight >}}
+```
 ## **Download Running Code**
 Download **Create New Email (Aspose.Email)** from any of the below mentioned social coding sites:
 

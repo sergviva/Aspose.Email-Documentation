@@ -10,7 +10,7 @@ To Create Outlook Notes using **Aspose.Email Java for Ruby**, simply invoke **Cr
 
 **Ruby Code**
 
-{{< highlight ruby >}}
+``` ruby
 
  data_dir = File.dirname(File.dirname(File.dirname(File.dirname(__FILE__)))) + '/data/'
 
@@ -30,7 +30,7 @@ note.save(data_dir + "MapiNote.msg", Rjb::import('com.aspose.email.NoteSaveForma
 
 puts "Created outlook note successfully."
 
-{{< /highlight >}}
+```
 ## **Download Running Code**
 Download **Creating and Saving Outlook Notes (Aspose.Email)** from any of the below mentioned social coding sites:
 

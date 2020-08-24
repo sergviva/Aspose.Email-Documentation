@@ -18,7 +18,7 @@ To use Office Automation objects for Microsoft Outlook, add references to Micros
 ### **Programming Samples**
 **C#**
 
-{{< highlight csharp >}}
+``` cs
 
  // Create Application class and get namespace
 
@@ -50,7 +50,7 @@ foreach (Outlook.MailItem mail in inbox.Items)
 
 
 
-{{< /highlight >}}
+```
 ## **Using Aspose.Email**
 The following code snippets do the same thing as [the snippets above](#using-microsoft-office-interop) but uses Aspose.Email.
 
@@ -58,7 +58,7 @@ However, Microsoft Outlook does not need to be installed on the machine where th
 ### **Programming Samples**
 **C#**
 
-{{< highlight csharp >}}
+``` cs
 
 
 
@@ -98,4 +98,4 @@ foreach (ExchangeMessageInfo msgInfo in msgCollection)
 
 
 
-{{< /highlight >}}
+```

@@ -22,7 +22,7 @@ To use Office Automation objects for Microsoft Outlook, add references to Micros
 ### **Programming Examples**
 **C#**
 
-{{< highlight csharp >}}
+``` cs
 
  string pstFilePath = @"C:\sample.pst";
 
@@ -78,13 +78,13 @@ foreach (Folder folder in subFolders)
 
 outlookNs.RemoveStore(rootFolder);
 
-{{< /highlight >}}
+```
 ## **Using Aspose.Email**
-The following code snippets do the same thing as [the code above](#using-microsoft-office-interop) but uses Aspose.Email. With Aspose.Email for .NEt installed Microsoft Outlook is no longer needed on the machine. Just reference the Aspose.Email.dll to build and run the project successfully. The namespaces used in the code samples that follows are [Aspose.Email.Outlook.Pst](/pages/createpage.action?spaceKey=emailnet&title=Aspose.Email.Outlook.Pst+namespace&linkCreation=true&fromPageId=11288281) and [Aspose.Email.Outlook](/pages/createpage.action?spaceKey=emailnet&title=Aspose.Email.Outlook+namespace&linkCreation=true&fromPageId=11288281).
+The following code snippets do the same thing as [the code above](#using-microsoft-office-interop) but uses Aspose.Email. With Aspose.Email for .NEt installed Microsoft Outlook is no longer needed on the machine. Just reference the Aspose.Email.dll to build and run the project successfully. The namespaces used in the code samples that follows are Aspose.Email.Outlook.Pst and Aspose.Email.Outlook.
 ### **Programming Samples**
 **C#**
 
-{{< highlight csharp >}}
+``` cs
 
  string pstFilePath = @"C:\sample.pst";
 
@@ -134,4 +134,4 @@ using (PersonalStorage personalStorage = PersonalStorage.FromFile(pstFilePath))
 
 }
 
-{{< /highlight >}}
+```

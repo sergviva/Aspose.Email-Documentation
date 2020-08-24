@@ -10,7 +10,7 @@ The AppointmentFormattingOptions class can be used to format the appointment i
 
 **Java**
 
-{{< highlight java >}}
+``` java
 
  Appointment appointment = Appointment.load(dataDir + "appointment.ics");
 
@@ -24,7 +24,7 @@ formattingOptions.setDescriptionFormat("\r\n*~*~*~*~*~*~*~*~*~*\r\n{0}");
 
 System.out.println(appointment.getAppointmentText(formattingOptions));
 
-{{< /highlight >}}
+```
 ## **Download Running Code**
 - [CodePlex](https://asposeemailjavaapachepoi.codeplex.com/releases/view/618811)
 - [GitHub](https://github.com/aspose-email/Aspose.Email-for-Java/releases/tag/Aspose.Email_Java_for_Apache_POI-v1.0.0)

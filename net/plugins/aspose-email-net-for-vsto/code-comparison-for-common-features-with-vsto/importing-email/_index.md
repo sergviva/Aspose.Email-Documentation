@@ -9,17 +9,17 @@ url: /net/importing-email/
 ## **VSTO**
 Below is the code to import email using VSTO Outlook.
 
-{{< highlight cs >}}
+``` cs
 
   string FilePath = @"E:\Aspose\Aspose VS VSTO\Sample Files\ImportEmail.msg";
 
  Outlook.MailItem email = (Outlook.MailItem)Application.Session.OpenSharedItem(FilePath);       
 
-{{< /highlight >}}
+```
 ## **Aspose.Email**
 Below is the code to import email using aspose.email for .NET.
 
-{{< highlight cs >}}
+``` cs
 
   string FilePath = @"E:\Aspose\Aspose VS VSTO\Sample Files\ImportEmail.msg";  
 
@@ -29,7 +29,7 @@ Below is the code to import email using aspose.email for .NET.
 
    MailMessage eml = MailMessage.Load(FilePath, new MsgLoadOptions());
 
-{{< /highlight >}}
+```
 ## **Download Source Code**
 - [CodePlex](https://asposeemailvsto.codeplex.com/SourceControl/latest#Code)
 - [GitHub](https://github.com/aspose-email/Aspose.Email-for-.NET/tree/master/Plugins/Aspose.Email%20Vs%20VSTO%20Outlook/Code%20Comparison%20of%20Common%20Features/Import%20Email)

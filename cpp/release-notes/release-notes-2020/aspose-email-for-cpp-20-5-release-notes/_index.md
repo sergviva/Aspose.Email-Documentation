@@ -18,15 +18,15 @@ Aspose.Email for C++ 20.5 is based on [Aspose.Email for .NET 20.5](/email/net/a
 
 We have added a **GetMessageThreads** method for receiving message threads by **ImapClient**.
 
-{{< highlight cpp >}}
+``` cpp
 
  SharedPtr<List<SharedPtr<MessageThreadResult>>> GetMessageThreads(SharedPtr<BaseSearchConditions> conditions);
 
-{{< /highlight >}}
+```
 
 Also, the following properties have been added to check the extensions available for the current IMAP server.
 
-{{< highlight cpp >}}
+``` cpp
 
  bool get_GmExt1Supported(); // Gets information whether Gmail X-GM-EXT-1 extension is supported
 
@@ -34,13 +34,13 @@ bool get_ThreadSupported(); // Gets information whether THREAD extension is supp
 
 System::ArrayPtr<System::String> get_ThreadAlgorithms(); // Gets supported THREAD algorithms
 
-{{< /highlight >}}
+```
 
 Note, if you're working with Gmail, it likely supports X-GM-EXT-1.
 
 The following code samples show the usage of email threading features. Let's say we need to get the email threads from Gmail.
 
-{{< highlight cpp >}}
+``` cpp
 
  void PrintConversaton(String indent, SharedPtr<List<SharedPtr<MessageThreadResult>>> conversation, SharedPtr<List<SharedPtr<ImapMessageInfo>>> messages)
 
@@ -142,7 +142,7 @@ void IMAPEmailThreading()
 
 }
 
-{{< /highlight >}}
+```
 
 The full code of the example can be found at [Aspose Email for C++ GitHub examples repository](https://github.com/aspose-email/Aspose.Email-for-C)
 

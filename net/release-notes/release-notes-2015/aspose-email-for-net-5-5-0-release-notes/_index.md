@@ -70,7 +70,7 @@ EMAILNET-34846 Exception "The REPORT.IPM.Note.NDR message class is not supported
 
 The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Email for .NET. If you have concerns about any change listed, please raise it on the Aspose.Email support forum.
 
-{{< highlight java >}}
+``` java
 
  Class Aspose.Email.Outlook.Pst.FolderKind
 
@@ -88,4 +88,4 @@ Method Aspose.Email.Outlook.MapiDistributionList.Save(System.String)
 
 Property Aspose.Email.CredentialsByHostClient.UsePipelining
 
-{{< /highlight >}}
+```

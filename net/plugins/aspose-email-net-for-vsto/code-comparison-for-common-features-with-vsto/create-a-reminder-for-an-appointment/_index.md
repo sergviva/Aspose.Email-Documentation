@@ -9,7 +9,7 @@ url: /net/create-a-reminder-for-an-appointment/
 ## **VSTO**
 Below is the code snippet for creating reminder for an appointment:
 
-{{< highlight cs >}}
+``` cs
 
     Outlook.AppointmentItem appt = Application.CreateItem(
 
@@ -32,7 +32,7 @@ Below is the code snippet for creating reminder for an appointment:
    appt.Save();
 
 
-{{< /highlight >}}
+```
 ## **Aspose.Email**
 {{% alert color="primary" %}} 
 
@@ -42,7 +42,7 @@ A reminder can be added when an appointment is created. These alarms can trigger
 
 There are a number of variants in which the reminder can be set on an appointment.Below is the code snippet:
 
-{{< highlight cs >}}
+``` cs
 
    string location = "Meeting Location: Room 5";
 
@@ -221,7 +221,7 @@ There are a number of variants in which the reminder can be set on an appointmen
     target.Save("savedFile.ics");
 
 
-{{< /highlight >}}
+```
 ## **Download Sample Code**
 - [Codeplex](https://asposevsto.codeplex.com/releases/view/616980)
 - [Github](https://github.com/aspose-email/Aspose.Email-for-.NET/releases/tag/AsposeEmailVsVSTOv1.1)

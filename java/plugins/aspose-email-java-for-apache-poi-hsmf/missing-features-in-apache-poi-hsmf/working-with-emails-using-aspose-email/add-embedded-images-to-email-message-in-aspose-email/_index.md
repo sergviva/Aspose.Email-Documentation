@@ -6,11 +6,11 @@ url: /java/add-embedded-images-to-email-message-in-aspose-email/
 ---
 
 ## **Aspose.Email - Add Embedded Images to Email Message**
-With Aspose.Email Java developers can easily embed any image into an email message as well as attach it, as discussed in [Manage Attachments in Email Message](http://www.aspose.com/docs/display/emailjava/Manage+Attachments+in+Email+Message). To embed an image, Aspose.Email uses a specialized class, [LinkedResource](http://www.aspose.com/docs/display/emailjava/com.aspose.email.LinkedResource+class).
+With Aspose.Email Java developers can easily embed any image into an email message as well as attach it, as discussed in [Manage Attachments in Email Message](/email/java/working-with-message-attachments). To embed an image, Aspose.Email uses a specialized class, [LinkedResource](https://apireference.aspose.com/email/java/com.aspose.email/linkedresource).
 
 **Java**
 
-{{< highlight java >}}
+``` java
 
  // Set Html body. It also contains <img> tag with cid. cid = LinkedResource.ContentID
 
@@ -30,7 +30,7 @@ res.setContentId("companylogo");
 
 message.getLinkedResources().addItem(res);
 
-{{< /highlight >}}
+```
 ## **Download Running Code**
 - [CodePlex](https://asposeemailjavaapachepoi.codeplex.com/releases/view/618811)
 - [GitHub](https://github.com/aspose-email/Aspose.Email-for-Java/releases/tag/Aspose.Email_Java_for_Apache_POI-v1.0.0)

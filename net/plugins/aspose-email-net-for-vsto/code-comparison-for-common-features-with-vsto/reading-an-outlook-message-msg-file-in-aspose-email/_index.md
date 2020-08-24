@@ -8,7 +8,7 @@ url: /net/reading-an-outlook-message-msg-file-in-aspose-email/
 
 To use Office Automation objects for Microsoft Outlook, you need to add references to Microsoft Office and Microsoft Office Interop for Outlook libraries to your project.
 ### **VSTO**
-{{< highlight csharp >}}
+``` cs
 
  // Create a new Application Class
 
@@ -36,11 +36,11 @@ System.Console.WriteLine(string.Format("Html Body:{0}", item.HTMLBody));
 
 System.Console.WriteLine(string.Format("Text Body:{0}", item.Body));
 
-{{< /highlight >}}
+```
 ### **Aspose.Email**
 To access the Aspose.Email.Outlook objects, you need to add a reference to Aspose.Email to your project.
 
-{{< highlight csharp >}}
+``` cs
 
   // Create attendees of the meeting
 
@@ -86,7 +86,7 @@ SmtpClient client = new SmtpClient("host", 25 ,"user", "password");
 
 client.Send(msg);
 
-{{< /highlight >}}
+```
 ## **Download Sample Code**
 - [Codeplex](https://asposevsto.codeplex.com/downloads/get/772943)
 - [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/5/Reading.an.Outlook.Message.MSG.File.Aspose.Email.zip)

@@ -10,7 +10,7 @@ To Save Message as Draft using **Aspose.Email Java for Python**, Use following c
 
 **Python Code**
 
-{{< highlight python >}}
+``` python
 
 
 
@@ -58,7 +58,7 @@ mapi_msg.save(self.dataDir + "New-Draft.msg")
 
 print "Draft saved Successfully."
 
-{{< /highlight >}}
+```
 ## **Download Running Code**
 Download **Save Message as Draft (Aspose.Email)** from any of the below mentioned social coding sites:
 

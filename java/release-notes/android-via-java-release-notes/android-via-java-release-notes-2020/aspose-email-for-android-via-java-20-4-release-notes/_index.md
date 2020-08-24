@@ -71,7 +71,7 @@ An **OlmMessageInfo** class has been added, which provides brief information abo
 
 The **OlmFolder** class was extended by the following methods:
 
-{{< highlight java >}}
+``` java
 
  //gets the subfolder by name
 
@@ -93,11 +93,11 @@ Iterable<OlmMessageInfo> enumerateMessages(int startIndex, int count);
 
 Iterable<OlmMessageInfo> enumerateMessages(MailQuery query);
 
-{{< /highlight >}}
+```
 
 The **OlmStorage** class was extended by the following methods:
 
-{{< highlight java >}}
+``` java
 
   //load OLM storage from file
 
@@ -127,13 +127,13 @@ The **OlmStorage** class was extended by the following methods:
 
  MapiMessage extractMapiMessage(OlmMessageInfo messageInfo);  
 
-{{< /highlight >}}
+```
 
 
 
 The following examples show the use of new methods:
 
-{{< highlight java >}}
+``` java
 
  // Enumerates all messages in a given folder
 
@@ -229,23 +229,23 @@ try {
 
 }
 
-{{< /highlight >}}
+```
 
 **Support For The Ability to Ignore Exceptions**
 
 We have prepared a new functionality to ignore exceptions - **ExceptionManager** class has been added to provide ignore exceptions ability:
 
-{{< highlight java >}}
+``` java
 
  public class ExceptionManager
 
-{{< /highlight >}}
+```
 
 **Code Examples:**
 
 Set a callback to handle exceptions:
 
-{{< highlight java >}}
+``` java
 
  ExceptionManager.setIgnoreExceptionsHandler( new IgnoreExceptionsCallback() {
 
@@ -263,29 +263,29 @@ Set a callback to handle exceptions:
 
 });
 
-{{< /highlight >}}
+```
 
 Or use an **alternative**:
 
-{{< highlight java >}}
+``` java
 
  //Ignore all exceptions on MailMessage.Load
 
 ExceptionManager.getIgnoreList().add("MailMessage\\Load");
 
-{{< /highlight >}}
+```
 
 It’s possible to **ignore all exceptions**:
 
-{{< highlight java >}}
+``` java
 
   ExceptionManager.setIgnoreAll(true);
 
-{{< /highlight >}}
+```
 
 Also, you can set a callback for ignored **exceptions log**:
 
-{{< highlight java >}}
+``` java
 
   ExceptionManager.setIgnoreExceptionsLogHandler( new IgnoreExceptionsLogCallback() {
 
@@ -297,11 +297,11 @@ Also, you can set a callback for ignored **exceptions log**:
 
 });
 
-{{< /highlight >}}
+```
 
 The user will be notified, that the exception can be ignored by an error message. For example:
 
-{{< highlight plain >}}
+```
 
  Exceptioin message:
 
@@ -313,4 +313,4 @@ ExceptionManager.getIgnoreList().add("MailMessage\\Load\\DecodeTnefAttachment\\6
 
 Invalid TNEF Attachment will be interpreted as regular attachment.
 
-{{< /highlight >}}
+```

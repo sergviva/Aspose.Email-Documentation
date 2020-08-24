@@ -10,7 +10,7 @@ To Create new PST using **Aspose.Email Java for Ruby**, simply invoke **CreatePS
 
 **Ruby Code**
 
-{{< highlight ruby >}}
+``` ruby
 
  data_dir = File.dirname(File.dirname(File.dirname(File.dirname(__FILE__)))) + '/data/'
 
@@ -30,7 +30,7 @@ pst.getRootFolder().getSubFolder("myInbox").addMessage(mapi_message.fromFile(dat
 
 puts "Created PST successfully."
 
-{{< /highlight >}}
+```
 ## **Download Running Code**
 Download **Create New PST (Aspose.Email)** from any of the below mentioned social coding sites:
 

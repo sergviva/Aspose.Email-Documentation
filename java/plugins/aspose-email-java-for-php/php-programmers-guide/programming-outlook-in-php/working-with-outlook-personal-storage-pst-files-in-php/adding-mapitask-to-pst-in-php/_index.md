@@ -10,7 +10,7 @@ To Add MapiTask to PST using **Aspose.Email Java for PHP**, simply invoke **AddM
 
 **PHP Code**
 
-{{< highlight php >}}
+``` php
 
  $task = new MapiTask("To Do", "Just click and type to add new task", new Date(), new Date());
 
@@ -50,7 +50,7 @@ $task_folder->addMapiMessageItem($task);
 
 print "Added MapiTask Successfully.".PHP_EOL;
 
-{{< /highlight >}}
+```
 ## **Download Running Code**
 Download **Adding MapiTask to PST (Aspose.Email)** from any of the below mentioned social coding sites:
 

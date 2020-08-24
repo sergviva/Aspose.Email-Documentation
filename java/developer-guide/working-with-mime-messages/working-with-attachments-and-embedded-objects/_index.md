@@ -51,7 +51,7 @@ To save attachments from existing messages:
 Content-Description information about an attachment can be retrieved from attachment headers as shown in the following code sample.
 
 {{< gist "aspose-com-gists" "709d733586ce50505c3bca3f6e8bd18d" "Examples-src-main-java-com-aspose-email-examples-email-RetrieveContentDescriptionInformationFromAttachmentHeaders-.java" >}}
-#### ` `**Determining if Attachment is Embedded Message**
+#### **Determining if Attachment is Embedded Message**
 {{< gist "aspose-com-gists" "709d733586ce50505c3bca3f6e8bd18d" "Examples-src-main-java-com-aspose-email-examples-email-DetermineIfAttachmentIsEmbeddedMessage-.java" >}}
 ## **Working with Embedded Objects**
 ### **Embedding Objects into an Email**

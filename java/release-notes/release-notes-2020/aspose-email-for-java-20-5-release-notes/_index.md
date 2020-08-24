@@ -38,15 +38,15 @@ This page contains release notes information for Aspose.Email for Java 20.5.
 
 We have added a **getMessageThreads** method for receiving message threads by **ImapClient**.
 
-{{< highlight java >}}
+``` java
 
  getMessageThreads(BaseSearchConditions conditions)
 
-{{< /highlight >}}
+```
 
 Also, the following properties have been added to check the extensions available for the current IMAP server.
 
-{{< highlight java >}}
+``` java
 
   boolean getGmExt1Supported // Gets information whether Gmail X-GM-EXT-1 extension is supported
 
@@ -54,7 +54,7 @@ boolean getThreadSupported // Gets information whether THREAD extension is suppo
 
 String[] getThreadAlgorithms // Gets supported THREAD algorithms
 
-{{< /highlight >}}
+```
 
 Note, if you're working with Gmail, it likely supports X-GM-EXT-1.
 
@@ -62,7 +62,7 @@ Note, if you're working with Gmail, it likely supports X-GM-EXT-1.
 
 The following code samples show the usage of email threading features. Let's say we need to get the email threads from Gmail.
 
-{{< highlight java >}}
+``` java
 
   ImapClient client = new ImapClient("imap.gmail.com", 993, "username", "password", SecurityOptions.SSLImplicit);
 
@@ -158,7 +158,7 @@ public static void printConversaton(String indent, Iterable<MessageThreadResult>
 
 }
 
-{{< /highlight >}}
+```
 
 
 
@@ -166,15 +166,15 @@ The code will slightly change if the IMAP server supports THREAD capability:
 
 1. Check if the IMAP server supports THREAD extension:
 
-{{< highlight java >}}
+``` java
 
  if (client.getThreadSupported())
 
-{{< /highlight >}}
+```
 
 1. Сreate the suitable search conditions for a thread:
 
-{{< highlight java >}}
+``` java
 
  ThreadSearchConditions conditions = new ThreadSearchConditions();
 
@@ -182,7 +182,7 @@ conditions.setAlgorithm(client.getThreadAlgorithms()[0]);
 
 conditions.setUseUId(true);
 
-{{< /highlight >}}
+```
 
 
 

@@ -145,7 +145,7 @@ Normally an email header contains these fields:
 
 Normally, an email header looks something like this:
 
-{{< highlight csharp >}}
+``` cs
 
  Reply-To: reply@reply.com
 
@@ -159,7 +159,7 @@ Date: 6 Mar 2006 8:2:2 +0800
 
 X-Mailer: Aspose.Email
 
-{{< /highlight >}}
+```
 
 To customize an email header, follow these steps:
 
@@ -178,7 +178,7 @@ The following code snippet shows you how to set email headers.
 
 The above code snippet produces an email header in the following format. This can be observed by opening the resultant file "MsgHeaders.msg" in Microsoft Outlook and then view the Properties.
 
-{{< highlight csharp >}}
+``` cs
 
  Reply-To: reply@reply.com
 
@@ -198,7 +198,7 @@ X-Mailer: Aspose.Email
 
 secret-header: mystery
 
-{{< /highlight >}}
+```
 ### **Insert Header at Specific Location**
 The [Add](https://apireference.aspose.com/net/email/aspose.email.mime/headercollection/methods/add/index) method of [HeadersCollection](https://apireference.aspose.com/net/email/aspose.email.mime/headercollection) class inserts the header at the end of the collection. However, it may sometimes be necessary to insert a header at a specific location. In such a case, the [Add](https://apireference.aspose.com/net/email/aspose.email.mime/headercollection/methods/add/index) method won't be of help. To achieve this, use the [Insert](https://apireference.aspose.com/net/email/aspose.email.mime/headercollection/methods/insert) method of the [HeadersCollection](https://apireference.aspose.com/net/email/aspose.email.mime/headercollection). If the collection contains headers with the same name, this header will be inserted before other headers with the same name. The following code snippet shows you how to insert header at a specific location.
 

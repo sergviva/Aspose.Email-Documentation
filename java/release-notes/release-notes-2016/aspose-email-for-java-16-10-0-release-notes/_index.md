@@ -11,8 +11,8 @@ Aspose.Email for Java is a class library that enables applications to manipulate
 |**Key** |**Summary** |**Category** |
 | :- | :- | :- |
 |EMAILNET-38433 |Improve GetContacts method to fetch all properties of Contact from Exchange Server |Enhancement |
-|EMAILNET-38453 |EWS: Retrieve [Extended Properties](http://www.aspose.com/docs/display/emailjava/List+Messages+on+Exchange+Server) for Items |Enhancement |
-|EMAILNET-38466 |Add [extra parameters](http://www.aspose.com/docs/display/emailjava/Fetching+Messages+and+Saving+to+Disc#FetchingMessagesandSavingtoDisc-RetrieveExtraParametersasSummaryInformation) for UID FETCH command |Enhancement |
+|EMAILNET-38453 |EWS: Retrieve [Extended Properties](/email/java/working-with-exchange-mailbox-and-messages/#listing-messages) for Items |Enhancement |
+|EMAILNET-38466 |Add [extra parameters](/email/java/fetching-messages-and-saving-to-disc/#retrieve-extra-parameters-as-summary-information) for UID FETCH command |Enhancement |
 |EMAILNET-38469 |Loading and Saving EML back loses email body |Bug |
 |EMAILNET-38478 |Error in recurrence generation |Bug |
 |EMAILNET-38485 |Images are not parsed by MailMessage |Bug |

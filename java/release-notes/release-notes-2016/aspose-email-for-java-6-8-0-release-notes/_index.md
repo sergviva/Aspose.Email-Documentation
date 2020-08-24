@@ -14,10 +14,10 @@ EMAILNET-34829 - Option to split PST based on time and other criterias
 
 |**Key** |**Summary** |**Category** |
 | :- | :- | :- |
-|EMAILNET-34829 |Option to [split PST](http://www.aspose.com/docs/display/emailjava/Splitting+and+Merging+PST+Files#SplittingandMergingPSTFiles-SplitPstOnCriterion) based on time and other criterion |New Feature |
+|EMAILNET-34829 |Option to [split PST](/email/java/splitting-and-merging-pst-files/#split-pst-based-on-defined-criterion) based on time and other criterion |New Feature |
 |EMAILNET-38407 |Move Folder and Sub-folders to some other folder using ImapClient |Enhancement |
-|EMAILNET-38432 |Provide [IsTnefMessage flag](http://www.aspose.com/docs/display/emailjava/Working+with+Messages+Containing+TNEF+Attachments#WorkingwithMessagesContainingTNEFAttachments-DetectTnef) in MailMessage |Enhancement |
-|EMAILNET-38429 |Retrieving [Pop3MessageInfo](http://www.aspose.com/docs/display/emailjava/Getting+Message+Summary+Information#GettingMessageSummaryInformation-UsingUniqueId) using UniqueId |Enhancement |
+|EMAILNET-38432 |Provide [IsTnefMessage flag](/email/net/utility-features-mailmessage/#detect-if-a-message-is-tnef) in MailMessage |Enhancement |
+|EMAILNET-38429 |Retrieving [Pop3MessageInfo](/email/java/working-with-messages-from-server/#retrieve-message-summary-information-using-unique-id) using UniqueId |Enhancement |
 |EMAILJAVA-33588 |Different information in MailMessage and MapiMessage "To" header field - Java |Bug |
 |EMAILNET-38411 |ImapClient hangs on request with special characters like double quote |Bug |
 |EMAILNET-38412 |Inconsistency in adding and searching sub folder in PST |Bug |

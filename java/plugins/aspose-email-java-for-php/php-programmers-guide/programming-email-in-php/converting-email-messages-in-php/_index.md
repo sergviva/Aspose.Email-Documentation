@@ -10,7 +10,7 @@ To Convert Email Messages using **Aspose.Email Java for PHP**, call **convert_em
 
 **PHP Code**
 
-{{< highlight php >}}
+``` php
 
  public static function convert_eml_to_msg($dataDir=null){
 
@@ -32,7 +32,7 @@ print "Converted email to msg successfully.".PHP_EOL;
 
 }
 
-{{< /highlight >}}
+```
 ## **Download Running Code**
 Download **Converting Email Messages (Aspose.Email)** from any of the below mentioned social coding sites:
 

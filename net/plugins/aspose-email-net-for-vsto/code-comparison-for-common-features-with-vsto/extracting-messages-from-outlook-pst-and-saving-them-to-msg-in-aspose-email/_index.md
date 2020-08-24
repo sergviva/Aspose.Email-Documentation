@@ -7,7 +7,7 @@ url: /net/extracting-messages-from-outlook-pst-and-saving-them-to-msg-in-aspose-
 
 
 ## **VSTO**
-{{< highlight csharp >}}
+``` cs
 
  string pstFilePath = "sample.pst";
 
@@ -63,9 +63,9 @@ foreach (Folder folder in subFolders)
 
 outlookNs.RemoveStore(rootFolder);
 
-{{< /highlight >}}
+```
 ## **Aspose.Email**
-{{< highlight csharp >}}
+``` cs
 
  string pstFilePath ="sample.pst";
 
@@ -111,7 +111,7 @@ using (PersonalStorage personalStorage = PersonalStorage.FromFile(pstFilePath))
 
 		}
 
-{{< /highlight >}}
+```
 ## **Download Sample Code**
 - [Codeplex](https://asposevsto.codeplex.com/downloads/get/772941)
 - [Github](https://github.com/aspose-email/Aspose.Email-for-.NET/releases/download/AsposeEmailVsVSTOv1.1/Extract.Messages.from.PST.file.n.Save.in.MSG.Format.Aspose.Email.zip)

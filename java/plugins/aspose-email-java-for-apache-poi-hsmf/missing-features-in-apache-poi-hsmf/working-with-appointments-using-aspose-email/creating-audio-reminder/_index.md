@@ -10,7 +10,7 @@ Adding Audio Reminder to a Calendar
 
 **Java**
 
-{{< highlight java >}}
+``` java
 
  Calendar calendar = Calendar.getInstance(TimeZone.getTimeZone("GMT"));
 
@@ -50,7 +50,7 @@ cal.setReminderFileParameter("data/logon.wav");
 
 cal.save("data/AsposeAudioReminder.ics", AppointmentSaveFormat.Ics);
 
-{{< /highlight >}}
+```
 ## **Download Running Code**
 Download **Creating Audio Reminder** form any of the below mentioned social coding sites:
 

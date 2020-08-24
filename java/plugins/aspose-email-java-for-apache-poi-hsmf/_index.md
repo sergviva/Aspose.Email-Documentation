@@ -85,7 +85,7 @@ There are two projects related to Aspose.Email Java for Apache POI - HSMF
 
 To configure **Aspose.Email for Java API**, include the Aspose repository URL and Aspose.Email for Java API maven dependency in your **pom.xml** as following:
 #### **Aspose Maven Repository**
-{{< highlight java >}}
+``` java
 
  <repositories>
 
@@ -101,9 +101,9 @@ To configure **Aspose.Email for Java API**, include the Aspose repository URL an
 
 </repositories>
 
-{{< /highlight >}}
+```
 #### **Aspose.Email for Java Maven Dependency**
-{{< highlight java >}}
+``` java
 
  <dependency>
 
@@ -117,7 +117,7 @@ To configure **Aspose.Email for Java API**, include the Aspose repository URL an
 
 </dependency>
 
-{{< /highlight >}}
+```
 
 **Note:** Please use the available latest version of the Aspose API.
 ## **Support, Extend and Contribute**

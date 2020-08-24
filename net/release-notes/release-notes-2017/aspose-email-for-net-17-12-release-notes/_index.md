@@ -12,7 +12,7 @@ This page contains release notes information for Aspose.Email for .NET 17.12 ver
 {{% /alert %}} 
 ## **Major Changes**
 ### **Support for .NET Standard 2.0**
-` `Starting from 17.12 release, the API now includes .NET Standard 2.0 version. It has full functionality of standard .NET Framework except the following limitations:
+Starting from 17.12 release, the API now includes .NET Standard 2.0 version. It has full functionality of standard .NET Framework except the following limitations:
 
 - Aspose.Email.Clients.ActiveSync.TransportLayer namespace is not available
 - Aspose.Email.Windows namespace is not available

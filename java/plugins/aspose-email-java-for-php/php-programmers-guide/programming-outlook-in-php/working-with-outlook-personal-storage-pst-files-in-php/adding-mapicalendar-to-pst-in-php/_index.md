@@ -10,7 +10,7 @@ To Add MapiCalendar to PST using **Aspose.Email Java for PHP**, simply invoke **
 
 **PHP Code**
 
-{{< highlight php >}}
+``` php
 
  # Create the appointment
 
@@ -66,7 +66,7 @@ $calendar_folder = $pst->createPredefinedFolder("Calendar", $standardIpmFolder->
 
 print "Added MapiCalendar Successfully.".PHP_EOL;
 
-{{< /highlight >}}
+```
 ## **Download Running Code**
 Download **Adding MapiCalendar to PST (Aspose.Email)** from any of the below mentioned social coding sites:
 

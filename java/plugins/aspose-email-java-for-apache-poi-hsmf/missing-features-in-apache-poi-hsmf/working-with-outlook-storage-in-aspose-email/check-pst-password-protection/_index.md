@@ -10,7 +10,7 @@ Microsoft Outlook lets users password protect PST files to restrict access to th
 
 **Java**
 
-{{< highlight java >}}
+``` java
 
  if (pst.getMessageStoreProperties().contains(MapiPropertyTag.PR_PST_PASSWORD))
 
@@ -22,7 +22,7 @@ Microsoft Outlook lets users password protect PST files to restrict access to th
 
 }
 
-{{< /highlight >}}
+```
 ## **Download Running Code**
 - [CodePlex](https://asposeemailjavaapachepoi.codeplex.com/releases/view/618811)
 - [GitHub](https://github.com/aspose-email/Aspose.Email-for-Java/releases/tag/Aspose.Email_Java_for_Apache_POI-v1.0.0)

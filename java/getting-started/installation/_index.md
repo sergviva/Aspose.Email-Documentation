@@ -10,7 +10,7 @@ Aspose hosts all Java APIs on [Aspose Artifactory](https://repository.aspose.co
 ### **Specify Maven Repository Configuration**
 First, you need to specify the Aspose Maven Repository configuration/location in your Maven pom.xml as follows:
 
-{{< highlight java >}}
+``` java
 
  <repositories>
 
@@ -26,11 +26,11 @@ First, you need to specify the Aspose Maven Repository configuration/location in
 
 </repositories>
 
-{{< /highlight >}}
+```
 ### **Define Aspose.Email for Java API Dependency**
 Then define Aspose.Email for Java API dependency in your pom.xml as follows:
 
-{{< highlight java >}}
+``` java
 
  <dependencies>
 
@@ -48,6 +48,6 @@ Then define Aspose.Email for Java API dependency in your pom.xml as follows:
 
 </dependencies>
 
-{{< /highlight >}}
+```
 
 After performing the above steps, Aspose.Email for Java dependency will finally be defined in your Maven Project.

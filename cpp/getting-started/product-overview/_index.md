@@ -17,7 +17,7 @@ The API can be used on Windows OS for working with emailing file formats.
 
 {{% /alert %}} 
 ## **Product Description**
-` `Aspose.Email for C++ is written in native C and can be used on both Windows as well as Linux applications. It can be used to perform a variety of tasks in applications. For example:
+Aspose.Email for C++ is written in native C and can be used on both Windows as well as Linux applications. It can be used to perform a variety of tasks in applications. For example:
 
 - Opening or saving emails in the form of EML or MHT files.
 - Parsing/reading and saving Microsoft Outlook Messages and Outlook PST files.

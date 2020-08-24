@@ -45,7 +45,7 @@ The easiest way to set a license, is to put the license file in the same folder 
 
 
 
-{{< highlight java >}}
+``` java
 
  // Instantiate an instance of license and set the license file through its path
 
@@ -53,9 +53,9 @@ Aspose.Email.License license = new Aspose.Email.License();
 
 license.SetLicense("Aspose.Email.lic");
 
-{{< /highlight >}}
+```
 
-{{< highlight java >}}
+``` java
 
  // Instantiate an instance of license and set the license through a stream
 
@@ -63,7 +63,7 @@ Aspose.Email.License license = new Aspose.Email.License();
 
 license.SetLicense(myStream);
 
-{{< /highlight >}}
+```
 
 
 
@@ -85,7 +85,7 @@ Please review the example given below to understand this method of setting licen
 
 
 
-{{< highlight java >}}
+``` java
 
  // Instantiate the License class
 
@@ -95,4 +95,4 @@ Aspose.Email.License license = new Aspose.Email.License();
 
 license.SetLicense("Aspose.Email.lic");
 
-{{< /highlight >}}
+```

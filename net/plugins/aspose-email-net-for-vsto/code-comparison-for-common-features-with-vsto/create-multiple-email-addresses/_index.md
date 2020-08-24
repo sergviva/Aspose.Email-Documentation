@@ -9,7 +9,7 @@ url: /net/create-multiple-email-addresses/
 ## **VSTO**
 Below is the code to create multiple addresses using VSTO Outlook.
 
-{{< highlight cs >}}
+``` cs
 
 
 
@@ -28,11 +28,11 @@ Below is the code to create multiple addresses using VSTO Outlook.
  mailItem.Display(false);
 
 
-{{< /highlight >}}
+```
 ## **Aspose.Email**
 Below is the code to create multiple addresses using aspose.email for .NET.
 
-{{< highlight cs >}}
+``` cs
 
   //Create an Instance of MailMessage class
 
@@ -104,7 +104,7 @@ Below is the code to create multiple addresses using aspose.email for .NET.
 
  Console.Read();       
 
-{{< /highlight >}}
+```
 ## **Download Source Code**
 - [url:CodePlex](https://asposeemailvsto.codeplex.com/SourceControl/latest#Code)
 - [url:GitHub](https://github.com/aspose-email/Aspose.Email-for-.NET/tree/master/Plugins/Aspose.Email%20Vs%20VSTO%20Outlook/Code%20Comparison%20of%20Common%20Features/Create%20Multiple%20Email%20Addresses)

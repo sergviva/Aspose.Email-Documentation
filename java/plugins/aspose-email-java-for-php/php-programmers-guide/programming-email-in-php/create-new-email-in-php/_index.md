@@ -10,7 +10,7 @@ To Create new Email using **Aspose.Email Java for PHP**, simply invoke **CreateN
 
 **PHP Code**
 
-{{< highlight php >}}
+``` php
 
  # Create a new instance of MailMessage class
 
@@ -57,7 +57,7 @@ $message->save($dataDir . "Message.msg", $mail_message_save_type->getOutlookMess
 print "Created email messages Successfully.".PHP_EOL;
 
 
-{{< /highlight >}}
+```
 ## **Download Running Code**
 Download **Create New Email (Aspose.Email)** from any of the below mentioned social coding sites:
 

@@ -32,17 +32,17 @@ This page contains release notes information for Aspose.Email for Java 20.4.
 ### **Support for the ability to ignore exceptions**
 We have prepared a new functionality to ignore exceptions - **ExceptionManager** class has been added to provide ignore exceptions ability:
 
-{{< highlight java >}}
+``` java
 
  public class ExceptionManager
 
-{{< /highlight >}}
+```
 
 **Code examples:**
 
 Set a callback to handle exceptions:
 
-{{< highlight java >}}
+``` java
 
  ExceptionManager.setIgnoreExceptionsHandler( new IgnoreExceptionsCallback() {
 
@@ -60,19 +60,19 @@ Set a callback to handle exceptions:
 
 });
 
-{{< /highlight >}}
+```
 
 Or use an **alternative**:
 
-{{< highlight java >}}
+``` java
 
  ExceptionManager.setIgnoreAll(true);
 
-{{< /highlight >}}
+```
 
 Also, you can set a callback for ignored **exceptions log**:
 
-{{< highlight java >}}
+``` java
 
  ExceptionManager.setIgnoreExceptionsLogHandler( new IgnoreExceptionsLogCallback() {
 
@@ -84,13 +84,13 @@ Also, you can set a callback for ignored **exceptions log**:
 
 });
 
-{{< /highlight >}}
+```
 
 
 
 The user will be notified, that the exception can be ignored by an error message. For example:
 
-{{< highlight plain >}}
+```
 
  Exceptioin message:
 
@@ -102,4 +102,4 @@ ExceptionManager.getIgnoreList().add("MailMessage\\Load\\DecodeTnefAttachment\\6
 
 Invalid TNEF Attachment will be interpreted as regular attachment.
 
-{{< /highlight >}}
+```

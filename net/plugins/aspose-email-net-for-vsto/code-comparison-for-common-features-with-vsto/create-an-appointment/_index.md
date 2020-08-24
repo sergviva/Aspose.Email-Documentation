@@ -9,7 +9,7 @@ url: /net/create-an-appointment/
 ## **VSTO**
 Below is the code snippet to create and save an appointment:
 
-{{< highlight cs >}}
+``` cs
 
    Outlook.AppointmentItem appt = Application.CreateItem(
 
@@ -26,7 +26,7 @@ Below is the code snippet to create and save an appointment:
   appt.Display(false);
 
 
-{{< /highlight >}}
+```
 ## **Aspose.Email**
 Following steps are required to create an appointment and save it in ICS format.
 
@@ -45,7 +45,7 @@ The appointment can be opened in Microsoft Outlook or any program that can load 
 
 The following code snippets create and save an appointment to disk in ICS format.
 
-{{< highlight cs >}}
+``` cs
 
    string location = "Meeting Location: Room 5";
 
@@ -64,7 +64,7 @@ The following code snippets create and save an appointment to disk in ICS format
   target.Save("savedFile.ics");
 
 
-{{< /highlight >}}
+```
 ## **Download Sample Code**
 - [Codeplex](https://asposevsto.codeplex.com/releases/view/616980)
 - [Github](https://github.com/aspose-email/Aspose.Email-for-.NET/releases/tag/AsposeEmailVsVSTOv1.1)

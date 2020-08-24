@@ -97,10 +97,10 @@ Aspose.Email API lets you restore a PST file to Exchange Server. However, if the
 
 **Note:** The example needs the following class to be added as well.
 
-{{< highlight csharp >}}
+``` cs
 
  public class CustomAbortRestoreException : Exception { }
 
-{{< /highlight >}}
+```
 
 {{< gist "aspose-email" "9e8fbeb51a8cbc4129dc71ca8cd55f0b" "Examples-CSharp-Exchange_EWS-AbortPSTToExchangeServerOperation-AbortPSTToExchangeServerOperation.cs" >}}

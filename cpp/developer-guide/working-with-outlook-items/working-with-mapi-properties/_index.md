@@ -34,7 +34,7 @@ The following code snippet shows you how to set MAPI properties.
 
 where the definition of convertDateTime method is as follow:
 
-{{< highlight java >}}
+``` java
 
  int64_t filetime = t.ToFileTime();
 
@@ -56,7 +56,7 @@ d[6] = (uint8_t)((filetime & 0xFF000000000000) >> 48);
 
 d[7] = (uint8_t)(((uint64_t)filetime & 0xFF00000000000000) >> 56);
 
-{{< /highlight >}}
+```
 ## **Reading Named MAPI Properties from Outlook MSG Files**
 Microsoft Outlook supports adding named MAPI properties to an MSG file. These named MAPI properties are added by the user. You can add a named property, for example “MyProp”, to an MSG file using Aspose.Email. This article illustrates Aspose.Email's capabilities to:
 

@@ -10,7 +10,7 @@ To Parse Outlook Message file using **Aspose.Email Java for PHP**, simply invoke
 
 **PHP Code**
 
-{{< highlight php >}}
+``` php
 
  $mapiMessage=new MapiMessage();
 
@@ -28,7 +28,7 @@ print "Subject : " . $outlook_message_file->getSubject();
 
 print "Body : " . $outlook_message_file->getBody();
 
-{{< /highlight >}}
+```
 ## **Download Running Code**
 Download **Parsing Outlook Message Files (Aspose.Email)** from any of the below mentioned social coding sites:
 

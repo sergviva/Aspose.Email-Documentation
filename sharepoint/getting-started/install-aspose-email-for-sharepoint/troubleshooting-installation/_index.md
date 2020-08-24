@@ -11,7 +11,7 @@ If you see errors like “Some or all identity references could not be translate
 
 **[DOS]**
 
-{{< highlight csharp >}}
+``` cs
 
 
 
@@ -19,7 +19,7 @@ stsadm.exe -o updatefarmcredentials -userlogin <DOMAIN\username> -password <pass
 
 
 
-{{< /highlight >}}
+```
 
 {{% alert color="primary" %}} 
 

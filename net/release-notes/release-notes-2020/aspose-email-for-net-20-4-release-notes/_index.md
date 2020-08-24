@@ -35,7 +35,7 @@ Now **SmtpClient**, **Pop3Client**, **ImapClient** and **EWSClient** activity ca
 
 To turn on logging, the following settings must be included into the log file, containing the correct path:
 
-{{< highlight javascript >}}
+``` javascript
 
  "SmtpDiagnosticLog" - logging activity of SmtpClient
 
@@ -47,11 +47,11 @@ To turn on logging, the following settings must be included into the log file, 
 
 "WebDavDiagnosticLog" - logging activity of Dav.ExchangeClient
 
-{{< /highlight >}}
+```
 
 Here is an example of **appsettings.json**.
 
-{{< highlight javascript >}}
+``` javascript
 
  {
 
@@ -77,21 +77,21 @@ Here is an example of **appsettings.json**.
 
 }
 
-{{< /highlight >}}
+```
 #### **Support for the ability to ignore exceptions**
 We have prepared a new functionality to ignore exceptions - **ExceptionManager** class has been added to provide ignore exceptions ability:
 
-{{< highlight csharp >}}
+``` cs
 
  public class ExceptionManager
 
-{{< /highlight >}}
+```
 
 **Code examples:**
 
 Set a callback to handle exceptions:
 
-{{< highlight csharp >}}
+``` cs
 
  //exception path: {Module}\{Method}\{Action}\{GUID}
 
@@ -99,37 +99,37 @@ Set a callback to handle exceptions:
 
 ExceptionManager.IgnoreExceptionsHandler = (exception, path) => { return path.Equals(@"MailMessage\Load"); };  //Ignore all exceptions on MailMessage.Load
 
-{{< /highlight >}}
+```
 
 Or use an alternative:
 
-{{< highlight csharp >}}
+``` cs
 
  //Ignore all exceptions on MailMessage.Load
 
 ExceptionManager.IgnoreList.Add(@"MailMessage\Load");
 
-{{< /highlight >}}
+```
 
 It’s possible to ignore all exceptions:
 
-{{< highlight csharp >}}
+``` cs
 
  ExceptionManager.IgnoreAll = true;
 
-{{< /highlight >}}
+```
 
 Also, you can set a callback for ignored exceptions log:
 
-{{< highlight csharp >}}
+``` cs
 
  ExceptionManager.IgnoreExceptionsLogHandler = message => { Console.WriteLine("--- EXCEPTION IGNORED ---" + message); };
 
-{{< /highlight >}}
+```
 
 The user will be notified, that the exception can be ignored by an error message. For example:
 
-{{< highlight plain >}}
+```
 
  Exceptioin message:
 
@@ -141,4 +141,4 @@ ExceptionManager.IgnoreList.Add("MailMessage\\Load\\DecodeTnefAttachment\\641498
 
 Invalid TNEF Attachment will be interpreted as regular attachment.
 
-{{< /highlight >}}
+```

@@ -26,27 +26,27 @@ To install the Aspose.Email license:
 1. Run the SharePoint 2010 Management Shell.
 1. Run stsadm to add the solution to the SharePoint solution: 
 
-{{< highlight java >}}
+``` java
 
  stsadm.exe \-o addsolution \-filename Aspose.Email.SharePoint.License.wsp
 
-{{< /highlight >}}
+```
 
 1. Deploy the solution to all servers in the farm: 
 
-{{< highlight java >}}
+``` java
 
   stsadm.exe \-o deploysolution \-name Aspose.Email.SharePoint.License.wsp \-immediate --force
 
-{{< /highlight >}}
+```
 
 1. Execute administrative timer jobs to complete the deployment immediately: 
 
-{{< highlight java >}}
+``` java
 
  stsadm.exe \-o execadmsvcjobs
 
-{{< /highlight >}}
+```
 
 If the Windows SharePoint Services Administration service has not been started when you deploy the license, an error is shown. Stsadm.exe relies on this service and Windows SharePoint Timer Service to replicate solution data across the farm. If these services are not running on your server farm, you may need to deploy the license on each server. 
 

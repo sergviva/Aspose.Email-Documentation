@@ -18,14 +18,14 @@ Features and Improvements
 
 |**Key** |**Summary** |**Category** |
 | :- | :- | :- |
-|EMAILNET-34828 |Bulk [deletion](http://www.aspose.com/docs/display/emailjava/Delete+Messages+from+PST#DeleteMessagesfromPST-DeleteInBulk) and [update](/pages/createpage.action?spaceKey=emailjava&title=Updating+Message+Properties+in+PST+File&linkCreation=true&fromPageId=11665485) of messages in PST for optimized I/O |New Feature |
+|EMAILNET-34828 |Bulk deletion and update of messages in PST for optimized I/O |New Feature |
 |EMAILNET-35021 |Add support for Gmail IMAP protocol extensions |New Feature |
-|EMAILNET-35167 |Add new features in the [IMAP4 extended list command](http://www.aspose.com/docs/display/emailjava/Support+for+IMAP+Extensions#SupportforIMAPExtensions-IMAPExtListCommand) |New Feature |
-|EMAILNET-35205 |Add new features in the [IMAP4 ID extension (rfc2971)](http://www.aspose.com/docs/display/emailjava/Support+for+IMAP+Extensions#SupportforIMAPExtensions-IMAP4IDExtension) |New Feature |
-|EMAILNET-35226 |Add ability in ImapClient to [delete multiple messages](http://www.aspose.com/docs/display/emailjava/Delete+Messages#DeleteMessages-DeleteSetOfMsgsUsingUIDs) and change flags for set of message |Enhancement |
+|EMAILNET-35167 |Add new features in the [IMAP4 extended list command](/email/java/support-for-imap-extensions/#imap4-extended-list-command) |New Feature |
+|EMAILNET-35205 |Add new features in the [IMAP4 ID extension (rfc2971)](/email/java/support-for-imap-extensions/#support-for-imap4-id-extension) |New Feature |
+|EMAILNET-35226 |Add ability in ImapClient to [delete multiple messages](/email/java/delete-messages/#delete-set-of-messages-using-message-uids) and change flags for set of message |Enhancement |
 |EMAILNET-35230 |Use mail server IP address for connecting the ImapClient and Pop3Client without DNS resolution |Enhancement |
 |EMAILNET-35240 |Option to read X-APPLE-FILENAME for attachments in ICS from IOS |Enhancement |
-|EMAILNET-35242 |Improvement of copy method. Add ability to [copy multiple messages per invocation](http://www.aspose.com/docs/display/emailjava/Copying+Message+from+One+Mailbox+Folder+to+Another#CopyingMessagefromOneMailboxFoldertoAnother-CopyMultiple) |Enhancement |
+|EMAILNET-35242 |Improvement of copy method. Add ability to [copy multiple messages per invocation](/email/java/working-with-exchange-mailbox-and-messages/#copy-messages-from-one-folder-to-other-using-ews) |Enhancement |
 |EMAILJAVA-33586 |Recipient not allowed to respond to the appointment |Bug |
 |EMAILJAVA-33580 |Memory usage and GC in Aspose.Email Java |Bug |
 |EMAILNET-34799 |Delete of items from PST: resultant file has very large size |Bug |

@@ -24,7 +24,7 @@ The API lacks the following namespaces.
 ### **Work Around Method for Working with Xamarin Streams**
 The following code sample illustrates a work around method for loading Android Assets and raw Resources from stream.
 
-{{< highlight java >}}
+``` java
 
  static class Tools
 
@@ -52,13 +52,13 @@ The following code sample illustrates a work around method for loading Android A
 
 }
 
-{{< /highlight >}}
+```
 #### **Usage Example**
-{{< highlight java >}}
+``` java
 
  var stream = Tools.ReadAsset(@"Bounce/new 3.msg");
 
 MapiMessage msg = MapiMessage.FromStream(stream);
 
-{{< /highlight >}}
+```
 

@@ -10,7 +10,7 @@ To Customize Email Headers using **Aspose.Email Java for Python**, Use following
 
 **Python Code**
 
-{{< highlight python >}}
+``` python
 
 
 
@@ -70,7 +70,7 @@ message.save(self.dataDir + "MsgHeaders.msg", messageFormat.getMsg())
 
 print "Customized message headers Successfully."
 
-{{< /highlight >}}
+```
 ## **Download Running Code**
 Download **Customizing Email Headers (Aspose.Email)** from any of the below mentioned social coding sites:
 

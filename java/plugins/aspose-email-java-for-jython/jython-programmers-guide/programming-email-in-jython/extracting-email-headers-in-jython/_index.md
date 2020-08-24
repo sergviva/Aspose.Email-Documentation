@@ -10,7 +10,7 @@ To Extract Email Headers using **Aspose.Email Java for Jython**, simply invoke *
 
 **Jython Code**
 
-{{< highlight python >}}
+``` python
 
  from aspose-email import Settings
 
@@ -52,7 +52,7 @@ if __name__ == '__main__':
 
     ExtractEmailHeaders()
 
-{{< /highlight >}}
+```
 ## **Download Running Code**
 Download **Extracting Email Headers (Aspose.Email)** from any of the below mentioned social coding sites:
 

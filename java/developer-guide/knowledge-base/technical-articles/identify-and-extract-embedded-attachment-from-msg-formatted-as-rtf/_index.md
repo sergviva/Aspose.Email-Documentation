@@ -15,7 +15,7 @@ This article identifies and extracts embedded attachment from MSG file formatted
 
 **Java**
 
-{{< highlight java >}}
+``` java
 
    static void ExtractInlineAttachments()
 
@@ -135,4 +135,4 @@ This article identifies and extracts embedded attachment from MSG file formatted
 
   }
 
-{{< /highlight >}}
+```

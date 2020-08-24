@@ -10,7 +10,7 @@ To Create Outlook Notes using **Aspose.Email Java for PHP**, simply invoke **Cre
 
 **PHP Code**
 
-{{< highlight php >}}
+``` php
 
  $note = new MapiNote();
 
@@ -32,7 +32,7 @@ $note->save($dataDir . "MapiNote.msg", $noteSaveFormat->Msg);
 
 print "Created outlook note successfully.".PHP_EOL;
 
-{{< /highlight >}}
+```
 ## **Download Running Code**
 Download **Creating and Saving Outlook Notes (Aspose.Email)** from any of the below mentioned social coding sites:
 

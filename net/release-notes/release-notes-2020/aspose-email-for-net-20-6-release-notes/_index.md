@@ -45,7 +45,7 @@ We have added the following classes to perform **AQS** search queries in Exchang
 
 Create a search query using query builder:
 
-{{< highlight csharp >}}
+``` cs
 
  using (IEWSClient client = EWSClient.GetEWSClient(exchangeMailboxUri, name, password))
 
@@ -63,11 +63,11 @@ Create a search query using query builder:
 
 }
 
-{{< /highlight >}}
+```
 
 Сreate a search query directly by using AQS:
 
-{{< highlight csharp >}}
+``` cs
 
   using (IEWSClient client = EWSClient.GetEWSClient(exchangeMailboxUri, name, password))
 
@@ -79,7 +79,7 @@ Create a search query using query builder:
 
 }
 
-{{< /highlight >}}
+```
 
 See the [syntax description](https://docs.microsoft.com/exchange/client-developer/exchange-web-services/how-to-perform-an-aqs-search-by-using-ews-in-exchange).
 #### **Render custom icons in message attachment while HTML conversion**
@@ -87,7 +87,7 @@ Sometimes, the message contains in-line attachments, that are shown up as icon
 
 We have fixed this problem so that the user can customize the icons for attachments when converting the message to HTML. For that, the HtmlSaveOptions.ResourceHtmlRendering event has been added added:
 
-{{< highlight csharp >}}
+``` cs
 
   var options = new HtmlSaveOptions();
 
@@ -101,9 +101,9 @@ var mailMessage = MailMessage.Load(fileName);
 
 mailMessage.Save(fileName + ".html", options);
 
-{{< /highlight >}}
+```
 
-{{< highlight csharp >}}
+``` cs
 
  private static void SetAttachmentIcon(object sender, ResourceHtmlRenderingEventArgs e)
 
@@ -147,13 +147,13 @@ mailMessage.Save(fileName + ".html", options);
 
 }
 
-{{< /highlight >}}
+```
 
 
 #### **Get Email Category in MHTML**
 We have introduced the ability to add a category header while converting message to MHML.
 
-{{< highlight csharp >}}
+``` cs
 
  MapiMessage msg = new MapiMessage("from@aaa.com", "to@aaa.com", "subj", "body");
 
@@ -167,7 +167,7 @@ saveOptions.RenderingHeaders.Add(MhtTemplateName.Categories);
 
 msg.Save(fileName + ".mhtml", saveOptions);
 
-{{< /highlight >}}
+```
 
 
 

@@ -64,7 +64,7 @@ It is possible to validate if the license has been set properly or not. The [Lic
 
 **Java**
 
-{{< highlight csharp >}}
+``` cs
 
  License license = new License();
 
@@ -76,6 +76,6 @@ if (License.isLicensed()) {
 
 }
 
-{{< /highlight >}}
+```
 
 

@@ -10,7 +10,7 @@ To Create Distribution List using **Aspose.Email Java for Ruby**, simply invoke 
 
 **Ruby Code**
 
-{{< highlight ruby >}}
+``` ruby
 
  data_dir = File.dirname(File.dirname(File.dirname(File.dirname(__FILE__)))) + '/data/'
 
@@ -34,7 +34,7 @@ dlist.save(data_dir + "distlist.msg")
 
 puts "Saved distribution list successfully."
 
-{{< /highlight >}}
+```
 ## **Download Running Code**
 Download **Working with Distribution Lists (Aspose.Email)** from any of the below mentioned social coding sites:
 

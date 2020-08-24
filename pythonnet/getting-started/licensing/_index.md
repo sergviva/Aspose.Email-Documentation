@@ -35,7 +35,7 @@ You need to set a license before utilizing Aspose.Email if you want to avoid its
 #### **Apply License using File Object**
 The easiest way to set a license, is to put the license file in the same folder as that of the dll of the component (included in Aspose.Email) and specify just the file name without its path.
 
-{{< highlight java >}}
+``` java
 
  // Instantiate an instance of license and set the license file through its path
 
@@ -43,6 +43,6 @@ license lic = new license();
 
 license.set_license("Aspose.Email.Python.lic");
 
-{{< /highlight >}}
+```
 
 When you call SetLicense method, the license name should be same as that of your license file name. For example, you may change the license file name to "Aspose.Email.Python.lic.xml". Then in your code, you should use the modified license name (that is Aspose.Email.Python.lic.xml) for the set_license method.

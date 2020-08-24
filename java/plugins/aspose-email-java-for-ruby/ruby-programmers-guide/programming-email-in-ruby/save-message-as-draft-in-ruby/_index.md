@@ -10,7 +10,7 @@ To Save Message as Draft using **Aspose.Email Java for Ruby**, simply invoke **S
 
 **Ruby Code**
 
-{{< highlight ruby >}}
+``` ruby
 
  data_dir = File.dirname(File.dirname(File.dirname(File.dirname(__FILE__)))) + '/data/'
 
@@ -60,7 +60,7 @@ mapi_msg.save(data_dir + "New-Draft.msg")
 
 puts "Draft saved Successfully."
 
-{{< /highlight >}}
+```
 ## **Download Running Code**
 Download **Save Message as Draft (Aspose.Email)** from any of the below mentioned social coding sites:
 

@@ -10,7 +10,7 @@ To Display Email Information using **Aspose.Email Java for Jython**, simply invo
 
 **Jython Code**
 
-{{< highlight python >}}
+``` python
 
  from aspose-email import Settings
 
@@ -64,7 +64,7 @@ if __name__ == '__main__':
 
     GetEmailInfo()
 
-{{< /highlight >}}
+```
 ## **Download Running Code**
 Download **Displaying Email Information (Aspose.Email)** from any of the below mentioned social coding sites:
 

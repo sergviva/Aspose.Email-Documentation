@@ -53,7 +53,7 @@ An **OlmMessageInfo** class has been added, which provides brief information abo
 
 The **OlmFolder** class was extended by the following methods:
 
-{{< highlight java >}}
+``` java
 
  //gets the subfolder by name
 
@@ -75,11 +75,11 @@ Iterable<OlmMessageInfo> enumerateMessages(int startIndex, int count);
 
 Iterable<OlmMessageInfo> enumerateMessages(MailQuery query); 
 
-{{< /highlight >}}
+```
 
 The **OlmStorage** class was extended by the following methods:
 
-{{< highlight java >}}
+``` java
 
  //load OLM storage from file
 
@@ -101,11 +101,11 @@ OlmFolder getFolder(String name, boolean ignoreCase);
 
 MapiMessage extractMapiMessage(OlmMessageInfo messageInfo); 
 
-{{< /highlight >}}
+```
 
 The following examples show the use of new methods:
 
-{{< highlight java >}}
+``` java
 
  // Enumerates all messages in a given folder
 
@@ -201,23 +201,23 @@ try {
 
 }
 
-{{< /highlight >}}
+```
 
 **Query by email attachment name using ExchangeQueryBuilder class**
 
 New property was added to **ExchangeQueryBuilder** class:
 
-{{< highlight java >}}
+``` java
 
  // Gets the field that allows to find items with a specified attachment name.
 
 StringComparisonField getAttachmentName
 
-{{< /highlight >}}
+```
 
 Code sample:
 
-{{< highlight java >}}
+``` java
 
  ExchangeQueryBuilder builder = new ExchangeQueryBuilder();
 
@@ -227,4 +227,4 @@ MailQuery query = builder.getQuery();
 
 ExchangeMessageInfoCollection messages = ewsClient.listMessages("InboxUri", query, false);
 
-{{< /highlight >}}
+```

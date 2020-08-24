@@ -9,7 +9,7 @@ url: /net/create-a-task/
 ## **VSTO**
 Below is the code for creating and saving task in Outlook:
 
-{{< highlight cs >}}
+``` cs
 
    // Date operations
 
@@ -34,16 +34,16 @@ Below is the code for creating and saving task in Outlook:
   mail.Save();
 
 
-{{< /highlight >}}
+```
 ## **Aspose.Email**
 #### **Creating and Saving Outlook Tasks**
 To create and save a task to disc:
 
-\1. Instantiate a new object of the MapiTask class.
-\2. Enter task property information.
-\3. Save the task to disc in MSG format.
+1. Instantiate a new object of the MapiTask class.
+2. Enter task property information.
+3. Save the task to disc in MSG format.
 
-{{< highlight cs >}}
+``` cs
 
    MapiTask task = new MapiTask("To Do", "Just click and type to add new task", DateTime.Now, DateTime.Now.AddDays(3));
 
@@ -84,7 +84,7 @@ To create and save a task to disc:
   task.Save("MapiTask.msg", TaskSaveFormat.Msg);
 
 
-{{< /highlight >}}
+```
 ## **Download Sample Code**
 - [Codeplex](https://asposevsto.codeplex.com/releases/view/616980)
 - [Github](https://github.com/aspose-email/Aspose.Email-for-.NET/releases/tag/AsposeEmailVsVSTOv1.1)

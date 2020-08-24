@@ -15,7 +15,7 @@ The following code sample illustrates the example of email tracking using Aspose
 
 **Java**
 
-{{< highlight java >}}
+``` java
 
  // Send message with the requested read receipt
 
@@ -127,4 +127,4 @@ The following code sample illustrates the example of email tracking using Aspose
 
 }
 
-{{< /highlight >}}
+```

@@ -51,7 +51,7 @@ url: /java/aspose-email-for-android-via-java-20-1-release-notes/
 #### **Code samples**
 Renders headers in the order specified by default
 
-{{< highlight java >}}
+``` java
 
  String fileName = "test.eml";
 
@@ -61,7 +61,7 @@ MhtSaveOptions opt = SaveOptions.getDefaultMhtml();
 
 eml.save("test.mhtml", opt);
 
-{{< /highlight >}}
+```
 
 Renders headers in the following order:
 
@@ -70,7 +70,7 @@ Renders headers in the following order:
 - To
 - Sent
 
-{{< highlight java >}}
+``` java
 
  String fileName = "test.eml";
 
@@ -88,7 +88,7 @@ opt.getRenderingHeaders().add(MhtTemplateName.SENT);
 
 eml.save("test.mhtml", opt);
 
-{{< /highlight >}}
+```
 
 Renders headers in the following order:
 
@@ -96,7 +96,7 @@ Renders headers in the following order:
 - Cc
 - Subject
 
-{{< highlight java >}}
+``` java
 
  String fileName = "test.eml";
 
@@ -114,7 +114,7 @@ opt.getRenderingHeaders().add(MhtTemplateName.SUBJECT);
 
 eml.save("test.mhtml", opt);
 
-{{< /highlight >}}
+```
 
 -----
 ### **PST password validation functionality**
@@ -124,21 +124,21 @@ eml.save("test.mhtml", opt);
 **Method:** MessageStore.isPasswordValid(String)
 *Determines whether the specified string is a valid password for the storage.*
 #### **Code samples**
-{{< highlight java >}}
+``` java
 
  PersonalStorage pst = PersonalStorage.fromFile("test.pst");
 
 System.out.println("The storage is password protected - " + pst.getStore().isPasswordProtected());
 
-{{< /highlight >}}
+```
 
-{{< highlight java >}}
+``` java
 
  PersonalStorage pst = PersonalStorage.fromFile("test.pst");
 
 System.out.println("Password is valid - " + pst.getStore().isPasswordValid("testPassword"));
 
-{{< /highlight >}}
+```
 
 
 ## **Added APIs:**

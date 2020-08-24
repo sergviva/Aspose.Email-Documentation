@@ -9,7 +9,7 @@ url: /net/extracting-attachment/
 ## **VSTO**
 Below is the code to extract attachment using VSTO Outlook.
 
-{{< highlight cs >}}
+``` cs
 
   string AttachmentFilePath = @"E:\Aspose\Aspose VS VSTO\Sample Files\";
 
@@ -37,11 +37,11 @@ Below is the code to extract attachment using VSTO Outlook.
 
  }
 
-{{< /highlight >}}
+```
 ## **Aspose.Email**
 Below is the code to extract attachment using aspose.email for .NET.
 
-{{< highlight cs >}}
+``` cs
 
   string FilePath = @"E:\Aspose\Aspose VS VSTO\Sample Files\ExtractAttachment.msg";
 
@@ -81,7 +81,7 @@ Below is the code to extract attachment using aspose.email for .NET.
 
  }
 
-{{< /highlight >}}
+```
 ## **Download Source Code**
 - [CodePlex](https://asposeemailvsto.codeplex.com/SourceControl/latest#Code)
 - [GitHub](https://github.com/aspose-email/Aspose.Email-for-.NET/tree/master/Plugins/Aspose.Email%20Vs%20VSTO%20Outlook/Code%20Comparison%20of%20Common%20Features/Extracting%20Attachment)

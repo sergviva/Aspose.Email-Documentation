@@ -12,7 +12,7 @@ In order to save an appointment in draft mode, the Method property of the Appo
 
 **Java**
 
-{{< highlight java >}}
+``` java
 
  String sender = "test@gmail.com";
 
@@ -54,7 +54,7 @@ MapiMessage msg = MapiMessage.fromMailMessage(message);
 
 msg.save("data/AsposeDraft.msg");
 
-{{< /highlight >}}
+```
 ## **Download Running Code**
 Download **Create Draft Appointment Request** form any of the below mentioned social coding sites:
 

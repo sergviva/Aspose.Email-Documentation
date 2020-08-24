@@ -10,7 +10,7 @@ To Add Attachments to a New Email Message using **Aspose.Email Java for PHP**, c
 
 **PHP Code**
 
-{{< highlight php >}}
+``` php
 
  public static function add_attachments($dataDir=null){
 
@@ -60,7 +60,7 @@ print "Added attachment successfully.".PHP_EOL;
 
 }
 
-{{< /highlight >}}
+```
 ## **Download Running Code**
 Download **Manage Attachments in Email Message (Aspose.Email)** from any of the below mentioned social coding sites:
 

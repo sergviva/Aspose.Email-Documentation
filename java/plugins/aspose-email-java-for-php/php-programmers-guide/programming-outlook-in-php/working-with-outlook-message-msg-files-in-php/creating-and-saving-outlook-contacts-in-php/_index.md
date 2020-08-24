@@ -10,7 +10,7 @@ To Create Outlook Contacts using **Aspose.Email Java for PHP**, simply invoke **
 
 **PHP Code**
 
-{{< highlight php >}}
+``` php
 
  $contact = new MapiContact();
 
@@ -110,7 +110,7 @@ $contact->save($dataDir . "OutlookContact.vcf", $contactSaveFormat->VCard);
 
 print "Created outlook contact successfully.".PHP_EOL;
 
-{{< /highlight >}}
+```
 ## **Download Running Code**
 Download **Creating and Saving Outlook Contacts (Aspose.Email)** from any of the below mentioned social coding sites:
 

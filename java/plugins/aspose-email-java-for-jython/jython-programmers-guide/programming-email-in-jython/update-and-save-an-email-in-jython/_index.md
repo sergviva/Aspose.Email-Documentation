@@ -10,7 +10,7 @@ To Update and Save an Email using **Aspose.Email Java for Jython**, simply invok
 
 **Jython Code**
 
-{{< highlight python >}}
+``` python
 
  from aspose-email import Settings
 
@@ -110,7 +110,7 @@ if __name__ == '__main__':
 
     UpdateEmail()
 
-{{< /highlight >}}
+```
 ## **Download Running Code**
 Download **Update and Save an Email (Aspose.Email)** from any of the below mentioned social coding sites:
 

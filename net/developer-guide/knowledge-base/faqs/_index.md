@@ -9,7 +9,7 @@ url: /net/faqs/
 
 Hi! for the following code:
 
-{{< highlight java >}}
+``` java
 
  Aspose.Email.Mime.ContentType ct = new Aspose.Email.Mime.ContentType();
 
@@ -21,7 +21,7 @@ Attachment att = new Attachment("Test.doc", ct);
 
 Console.WriteLine(att.ContentType.Name);
 
-{{< /highlight >}}
+```
 
 att.ContentType.Name returns the name of the attached document. Is this an expected behavior?
 

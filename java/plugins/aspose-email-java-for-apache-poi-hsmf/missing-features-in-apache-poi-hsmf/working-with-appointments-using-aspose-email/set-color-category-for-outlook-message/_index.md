@@ -6,16 +6,16 @@ url: /java/set-color-category-for-outlook-message/
 ---
 
 ## **Aspose.Email - Set Color Category for Outlook Message**
-Microsoft Outlook lets users assign color categories to differentiate emails. A color category marks an email as being of some kind of importance or category. Aspose.Email provides the same feature through the [FollowUpManager](http://www.aspose.com/docs/display/emailjava/com.aspose.email.FollowUpManager+class) class. The following functionality is supported via this class:
+Microsoft Outlook lets users assign color categories to differentiate emails. A color category marks an email as being of some kind of importance or category. Aspose.Email provides the same feature through the [FollowUpManager](https://apireference.aspose.com/email/java/com.aspose.email/class-use/FollowUpManager) class. The following functionality is supported via this class:
 
-- AddCategory() takes [MapiMessage](http://www.aspose.com/docs/display/emailjava/com.aspose.email.MapiMessage+class) and the color category string as arguments.
+- AddCategory() takes [MapiMessage](https://apireference.aspose.com/email/java/com.aspose.email/mapimessage) and the color category string as arguments.
 - removeCategory() takes MapiMessage and the color category string to be removed from the message as arguments.
 - clearCategories() is used to remove all the color categories from the message.
 - getCategories() is used to retrieve all the color categories from a particular message.
 
 **Java**
 
-{{< highlight java >}}
+``` java
 
  MapiMessage msg = MapiMessage.fromFile(dataDir + "message.msg");
 
@@ -41,7 +41,7 @@ FollowUpManager.removeCategory(msg, "Red Category");
 
 msg.save(dataDir + "AsposeCategories.msg");
 
-{{< /highlight >}}
+```
 ## **Download Running Code**
 - [CodePlex](https://asposeemailjavaapachepoi.codeplex.com/releases/view/618811)
 - [GitHub](https://github.com/aspose-email/Aspose.Email-for-Java/releases/tag/Aspose.Email_Java_for_Apache_POI-v1.0.0)

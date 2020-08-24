@@ -10,7 +10,7 @@ To Add File to PST using **Aspose.Email Java for Ruby**, simply invoke **AddFile
 
 **Ruby Code**
 
-{{< highlight ruby >}}
+``` ruby
 
  data_dir = File.dirname(File.dirname(File.dirname(File.dirname(__FILE__)))) + '/data/'
 
@@ -24,7 +24,7 @@ pst.dispose()
 
 puts "Added file to PST"
 
-{{< /highlight >}}
+```
 ## **Download Running Code**
 Download **Adding Files to PST (Aspose.Email)** from any of the below mentioned social coding sites:
 

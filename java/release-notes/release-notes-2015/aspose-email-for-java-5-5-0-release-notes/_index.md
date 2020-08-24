@@ -74,7 +74,7 @@ EMAILNET-34846 - Exception "The REPORT.IPM.Note.NDR message class is not support
 
 The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Email for Java. If you have concerns about any change listed, please raise it on the Aspose.Email support forum.
 
-{{< highlight java >}}
+``` java
 
  Class FolderKind
 
@@ -92,4 +92,4 @@ Method MapiDistributionList.save(String)
 
 Property CredentialsByHostClient.getUsePipelining, setUsePipelining(boolean value)
 
-{{< /highlight >}}
+```

@@ -6,11 +6,11 @@ url: /java/create-new-calendar-item/
 ---
 
 ## **Aspose.Email - Create New Calendar Item**
-Aspose.Email's [MapiCalendar](http://www.aspose.com/docs/display/emailjava/com.aspose.email.MapiCalendar+class) class provides methods and attributes that set various properties of a calendar item.
+Aspose.Email's [MapiCalendar](https://apireference.aspose.com/email/java/com.aspose.email/mapicalendar) class provides methods and attributes that set various properties of a calendar item.
 
 **Java**
 
-{{< highlight java >}}
+``` java
 
  MapiCalendar appointment = new MapiCalendar(
 
@@ -26,7 +26,7 @@ Aspose.Email's [MapiCalendar](http://www.aspose.com/docs/display/emailjava/com.
 
 appointment.save(dataDir + "AsposeCalendarItem.ics", AppointmentSaveFormat.Ics);
 
-{{< /highlight >}}
+```
 ## **Download Running Code**
 - [CodePlex](https://asposeemailjavaapachepoi.codeplex.com/releases/view/618811)
 - [GitHub](https://github.com/aspose-email/Aspose.Email-for-Java/releases/tag/Aspose.Email_Java_for_Apache_POI-v1.0.0)

@@ -34,7 +34,7 @@ url: /java/aspose-email-for-java-6-3-0-release-notes/
 |EMAILNET-35130 |- MSG to MHTML: Issues with Header layout|Bugs |
 |EMAILNET-35115 |- Pop3Exception: Connection failure. Timeout has been reached|Bugs |
 ### **Public API and Backwards Incompatible Changes**
-{{< highlight java >}}
+``` java
 
  The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Email for .NET. If you have concerns about any change listed, please raise it on the Aspose.Email support forum.
 
@@ -68,4 +68,4 @@ Property HtmlSaveOptions.getCheckBodyContentEncoding, setCheckBodyContentEncodin
 
 Property MhtSaveOptions.getCheckBodyContentEncoding, setCheckBodyContentEncoding
 
-{{< /highlight >}}
+```

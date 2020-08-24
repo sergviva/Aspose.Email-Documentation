@@ -21,7 +21,7 @@ This page contains release notes information for Aspose.Email for .NET 19.12
 |EMAILNET-39672|Different attachment name extracted from EML file|Bug|
 |EMAILNET-39675|Timestamps in generated EML file different from the original MSG File |Bug|
 |EMAILNET-39661|Attachments missing in converted emails|Bug|
-|EMAILNET-39662|` `Exception on converting MSG file|Bug|
+|EMAILNET-39662|Exception on converting MSG file|Bug|
 |EMAILNET-39664|Smiley character replaced with character code|Bug|
 |EMAILNET-39665|MailMessage.CheckSignature validating certificate|Bug|
 

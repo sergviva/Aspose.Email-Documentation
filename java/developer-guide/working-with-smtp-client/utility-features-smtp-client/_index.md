@@ -14,7 +14,7 @@ Aspose.Email API provides the capability to create Signed messages using certifi
 ### **Sign a Message**
 **Java**
 
-{{< highlight java >}}
+``` java
 
  String publicCertFile = @"sample.cer";
 
@@ -36,11 +36,11 @@ MailMessage unsigned = decrypted.removeSignature();//The original message with p
 
 MapiMessage mapi = MapiMessage.fromMailMessage(unsigned);
 
-{{< /highlight >}}
+```
 ### **Using Detached Signature Option**
 **Java**
 
-{{< highlight java >}}
+``` java
 
  String privateCertFile = "38445.pfx";
 
@@ -54,7 +54,7 @@ SmtpClient smtp = getSmtpClient(); //some test smtp client
 
 smtp.send(signed);
 
-{{< /highlight >}}
+```
 ## **Sign Emails with DKIM**
 Aspose.Email allows to sign Email with DKIM (DomainKeys Identified Mail). This lets an organization take responsibility for a message that is in transit ([More Info](http://www.dkim.org)). DKIM adds a digital signature to the email message headers that can be validated by recipients. The public key of sender enables the receiver to verify that the signature matches the message's contents. The MailMessage class's DKIMSign method is used to set the cryptographic and signature information for signing the message.
 
@@ -62,7 +62,7 @@ The following code sample illustrates the process of signing an email with DKIM.
 
 **Java**
 
-{{< highlight java >}}
+``` java
 
  String Host= "smtp.domain.com", UserName ="Sender@domain.com", Password = "password";
 
@@ -110,4 +110,4 @@ finally
 
 }
 
-{{< /highlight >}}
+```

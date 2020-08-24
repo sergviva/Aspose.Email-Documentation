@@ -15,7 +15,7 @@ The following code shows converting email message to PDF using Aspose.Email in c
 
 **Java**
 
-{{< highlight java >}}
+``` java
 
  FileInputStream fstream = new FileInputStream(dataDir + "message.msg");
 
@@ -48,7 +48,7 @@ ByteArrayOutputStream foStream = new ByteArrayOutputStream();
 doc.save(foStream, SaveFormat.PDF);
 
 
-{{< /highlight >}}
+```
 ## **Download Running Code**
 - [CodePlex](https://asposeemailjavaapachepoi.codeplex.com/releases/view/618811)
 - [GitHub](https://github.com/aspose-email/Aspose.Email-for-Java/releases/tag/Aspose.Email_Java_for_Apache_POI-v1.0.0)

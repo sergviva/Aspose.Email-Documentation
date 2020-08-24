@@ -47,7 +47,7 @@ EMAILNET-35003 - Exception raised while opening EML converted from MSG
 
 The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Email for .NET. If you have concerns about any change listed, please raise it on the Aspose.Email support forum.
 
-{{< highlight java >}}
+``` java
 
  Added:
 
@@ -1067,4 +1067,4 @@ Method Aspose.Email.MailClientTask.#ctor
 
 Method Aspose.Email.MailClientTask.#ctor(System.MulticastDelegate,System.AsyncCallback)
 
-{{< /highlight >}}
+```

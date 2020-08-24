@@ -8,7 +8,7 @@ url: /net/adding-attachments-and-html-text-to-outlook-msg-file-in-aspose-email/
 
 Using this method, Microsoft Outlook must be installed on the machine where the code runs. The code snippet below creates an Outlook MSG file with attachments and HTML body.
 ## **VSTO**
-{{< highlight csharp >}}
+``` cs
 
  // Create an object of type Outlook.Application
 
@@ -46,13 +46,13 @@ oIMailItem.SaveAs("testvba.msg");
 
 oIMailItem.Display();
 
-{{< /highlight >}}
+```
 ## **Aspose.Email**
 The code snippet below uses Aspose.Email for .NET library to create an MSG file, similar to the one created above, with multiple attachments and HTML body. Since Aspose.Email for .NET is purely written in .NET, COM interop is not required. Also, Microsoft Outlook 2003/2007 does not have to be installed on the machine. The method described below is suitable when Microsoft Outlook is not installed or when you want to generate MSG files on a server.
 
 The code snippets below show how to perform the same task in C# using Aspose.Email for .NET.
 
-{{< highlight csharp >}}
+``` cs
 
  // Create an instance of type MailMessage
 
@@ -92,7 +92,7 @@ string strSaveFile ="TestAspose.msg";
 
 msg.Save(strSaveFile, MessageFormat.Msg);
 
-{{< /highlight >}}
+```
 ## **Download Sample Code**
 - [Codeplex](https://asposevsto.codeplex.com/downloads/get/772938)
 - [Github](https://github.com/Aspose/Aspose.Email-for-.NET/tree/master/Plugins/Aspose.Email%20Vs%20VSTO%20Outlook)

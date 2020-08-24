@@ -10,7 +10,7 @@ To Create New Email using **Aspose.Email Java for Python**, Use following code.
 
 **Python Code**
 
-{{< highlight python >}}
+``` python
 
 
 
@@ -58,7 +58,7 @@ message.save(self.dataDir + "Message.msg", mail_message_save_type.getOutlookMess
 
 print "Created email messages Successfully."
 
-{{< /highlight >}}
+```
 ## **Download Running Code**
 Download **Create New Email (Aspose.Email)** from any of the below mentioned social coding sites:
 

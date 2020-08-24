@@ -41,7 +41,7 @@ This page contains release notes information for Aspose.Email for Java 19.11.
 ### **Code samples**
 - Renders headers in the order specified by default
 
-{{< highlight csharp >}}
+``` cs
 
  String fileName = "test.eml";
 
@@ -51,7 +51,7 @@ MhtSaveOptions opt = SaveOptions.getDefaultMhtml();
 
 eml.save("test1.mhtml", opt);
 
-{{< /highlight >}}
+```
 
 - Renders headers in the following order:
   - From
@@ -59,7 +59,7 @@ eml.save("test1.mhtml", opt);
   - To
   - Sent
 
-{{< highlight csharp >}}
+``` cs
 
  String fileName = "test.eml";
 
@@ -77,14 +77,14 @@ opt.getRenderingHeaders().add(MhtTemplateName.SENT);
 
 eml.save("test2.mhtml", opt);
 
-{{< /highlight >}}
+```
 
 - Renders headers in the following order:
   - Attachments
   - Cc
   - Subject
 
-{{< highlight csharp >}}
+``` cs
 
  String fileName = "test.eml";
 
@@ -102,7 +102,7 @@ opt.getRenderingHeaders().add(MhtTemplateName.SUBJECT);
 
 eml.save("test3.mhtml", opt);
 
-{{< /highlight >}}
+```
 ## **PST password validation functionality**
 **New property:** MessageStore.isPasswordProtected
 *Gets a value indicating whether the storage is password protected.*
@@ -110,21 +110,21 @@ eml.save("test3.mhtml", opt);
 **New method:** MessageStore.isPasswordValid(String)
 *Determines whether the specified string is a valid password for the storage.*
 ### **Code samples**
-{{< highlight csharp >}}
+``` cs
 
  PersonalStorage pst = PersonalStorage.fromFile("NewPST.pst");
 
 System.out.println("The storage is password protected - " + pst.getStore().isPasswordProtected());
 
-{{< /highlight >}}
+```
 
-{{< highlight csharp >}}
+``` cs
 
  PersonalStorage pst = PersonalStorage.fromFile("NewPST.pst");
 
 System.out.println("Password is valid - " + pst.getStore().isPasswordValid("test123"));
 
-{{< /highlight >}}
+```
 ## **Other**
 New field MapiPropertyTag.PR_SMTP_ADDRESS
 New field MapiPropertyTag.PR_SMTP_ADDRESS_W

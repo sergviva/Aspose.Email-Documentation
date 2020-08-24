@@ -23,7 +23,7 @@ We have added the following members to **MhtSaveOptions** class:
 - `MhtSaveOptions::Timeout` - Limits the time in milliseconds of formatting message. The default value is 3000 milliseconds.
 - `MhtSaveOptions::TimeoutReached` - Raised if timed out while saving to MHTML.
 
-{{< highlight cpp >}}
+``` cpp
 
 void TimeoutHandler(System::SharedPtr<System::Object> sender, System::SharedPtr<System::EventArgs> ev)
 {
@@ -37,7 +37,7 @@ System::SharedPtr<MhtSaveOptions> options = SaveOptions::get_DefaultMhtml();
 options->TimeoutReached.connect(&TimeoutHandler);
 mailMessage->Save(ms, options);
 
-{{< /highlight >}}
+```
 
 - [Product Documentation](/email/cpp/home/) – Provides detailed examples of working with the API
 - [API Reference Guide](https://www.aspose.com/api/cpp/email) – Details all the namespaces and classes of the API
