@@ -6,7 +6,7 @@ url: /java/aspose-email-for-java-16-10-0-release-notes/
 ---
 
 Aspose.Email for Java is a class library that enables applications to manipulate popular message formats including Microsoft Outlook messages. It also supports communication protocols such as IMAP, SMTP, POP3, and Microsoft Exchange Server. In addition, the API supports working with PST as well as OST file formats.
-### **Features and Improvements**
+## **Features and Improvements**
 
 |**Key** |**Summary** |**Category** |
 | :- | :- | :- |
@@ -34,7 +34,7 @@ Aspose.Email for Java is a class library that enables applications to manipulate
 |EMAILNET-38493 |Exception while loading the email |Bug |
 
 The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Email for Java. If you have concerns about any change listed, please raise it on the Aspose.Email support forum.
-## **Added APIs:**
+## **Added APIs**
 Method LogEntry.#ctor(String, Date)
 
 Method IEWSClient.listMessages

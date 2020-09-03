@@ -52,7 +52,7 @@ This page contains release notes information for Aspose.Email for .NET 18.11.
 |EMAILNET-39201|ForwardMessageBuilder adds only display name in message body|Bug|
 |EMAILNET-39206|Format-Issue in Converting to MHTML and HTML|Bug|
 
-## **Added APIs:**
+## **Added APIs**
 Class Aspose.Email.Clients.Imap.BackupSettings
 Field/Enum Aspose.Email.Mapi.KnownPropertyList.GDataContactVersion
 Field/Enum Aspose.Email.Mapi.KnownPropertyList.GDataPhotoVersion
@@ -90,7 +90,7 @@ Property Aspose.Email.Clients.Imap.RestoreSettings.NumberOfAttemptsToRrepeat
 Property Aspose.Email.Clients.Imap.RestoreSettings.RestoreConnection
 Property Aspose.Email.Clients.Imap.RestoreSettings.TimeoutBetweenAttempts
 Property Aspose.Email.MsgLoadOptions.DecodeClearSignedContent
-## **Removed APIs:**
+## **Removed APIs**
 Method Aspose.Email.Clients.Imap.ImapClient.Backup(Aspose.Email.Clients.IConnection,Aspose.Email.Clients.Imap.ImapFolderInfoCollection,System.IO.Stream,Aspose.Email.Storage.Pst.BackupOptions)
 Method Aspose.Email.Clients.Imap.ImapClient.Backup(Aspose.Email.Clients.IConnection,Aspose.Email.Clients.Imap.ImapFolderInfoCollection,System.String,Aspose.Email.Storage.Pst.BackupOptions)
 Method Aspose.Email.Clients.Imap.ImapClient.Backup(Aspose.Email.Clients.Imap.ImapFolderInfoCollection,System.IO.Stream,Aspose.Email.Storage.Pst.BackupOptions)

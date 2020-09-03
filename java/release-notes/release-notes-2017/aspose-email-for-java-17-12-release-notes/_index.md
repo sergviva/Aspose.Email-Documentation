@@ -27,6 +27,6 @@ This page contains release notes information for Aspose.Email for Java 17.12 ver
 |EMAILJAVA-34332|MapiConversionOptions - add option to ignore picture validation.|Bug|
 |EMAILJAVA-34333|MapiConversionOptions - add option to ignore uri RFC validation|Bug|
 
-## **Added APIs:**
+## **Added APIs**
 Method MapiContact.setBodyContent(String, /**BodyContentType**/int)
 Property EmlSaveOptions.setPreserveEmbeddedMessageFormat

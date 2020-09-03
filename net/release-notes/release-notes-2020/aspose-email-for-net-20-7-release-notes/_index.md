@@ -19,9 +19,8 @@ This page contains release notes information for Aspose.Email for .NET 20.7
 |EMAILNET-39885|Incorrect parsed EML-File with Aspose.Email|Bug|
 |EMAILNET-39874|Colors of text are lost in exported MHT|Bug|
 
-## **New Features**
 
-#### **Using Timeout for Countering Endless Wait Operations While Saving Message to MHT Format**
+## **Using Timeout for Countering Endless Wait Operations While Saving Message to MHT Format**
 Sometimes, when processing a corrupted message, an operation may be performed infinitely and thus impair the correct functionality of the application.
 By using a configurable timeout, you can stop a stuck operation, handle the event, and continue executing the application.
 

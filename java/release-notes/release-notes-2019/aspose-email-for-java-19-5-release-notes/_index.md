@@ -34,7 +34,7 @@ This page contains release notes information for Aspose.Email for Java 19.5.
 |EMAILJAVA-34530|Exception when converting PST to EML|Bug|
 |EMAILJAVA-34527|Attachment returns not "rewinded" stream for content|Bug|
 
-## **Added APIs:**
+## **Added APIs**
 Class KnownFolders
 Class MultiConnectionMode
 Field/Enum EncryptionProtocols.NotSpecified
@@ -70,5 +70,5 @@ Property ImapRestoreSettings.getRemoveNonexistentFolders, setRemoveNonexistentFo
 Property ImapRestoreSettings.getRemoveNonexistentItems, setRemoveNonexistentItems
 Property OlmFolder.getPath
 Property PersonalStorageQueryBuilder.getOnlyFoldersCreatedByUser
-## **Removed APIs:**
+## **Removed APIs**
 Field/Enum    EncryptionProtocols.None

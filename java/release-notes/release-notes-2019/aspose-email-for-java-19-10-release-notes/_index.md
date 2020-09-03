@@ -37,7 +37,7 @@ This page contains release notes information for Aspose.Email for Java 19.10.
 |EMAILJAVA-34599|ArgumentOutOfRangeException|Bug|
 |EMAILJAVA-34610|RTF body not showing in generated PDF|Bug|
 
-## **Added APIs:**
+## **Added APIs**
 
 |**Type**|**Title**|
 | :- | :- |
@@ -183,5 +183,5 @@ This page contains release notes information for Aspose.Email for Java 19.10.
 |Property|SectionHeader.getType, setType|
 |Property|SectionHeader.getValue, setValue|
 |Property|SectionValue.getData, setData|
-## **Removed APIs:**
+## **Removed APIs**
 No Changes

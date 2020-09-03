@@ -45,7 +45,7 @@ This page contains release notes information for Aspose.Email for Android via Ja
 |EMAILJAVA-34512|Exception on loading the MSG file|Bug|
 |EMAILJAVA-34503|Performance issue while Extracting MSG from PST|Bug|
 
-## **Added APIs:**
+## **Added APIs**
 Field/Enum MapiPropertyTag.PR_SENT_REPRESENTING_SMTP_ADDRESS
 Field/Enum MapiPropertyTag.PR_SENT_REPRESENTING_SMTP_ADDRESS_A
 Field/Enum MapiPropertyTag.PR_SENT_REPRESENTING_SMTP_ADDRESS_W
@@ -55,5 +55,5 @@ Method MapiContactElectronicAddress.toString
 Property MapiCalendarAttendees.getAppointmentUnsendableRecipients, setAppointmentUnsendableRecipients
 Property MapiConversionOptions.getForcedRtfBodyForAppointment, setForcedRtfBodyForAppointment
 Property MapiMessage.getSentRepresentingSmtpAddress
-## **Removed APIs:**
+## **Removed APIs**
 No Changes

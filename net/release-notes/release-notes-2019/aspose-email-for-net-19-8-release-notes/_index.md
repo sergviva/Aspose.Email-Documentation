@@ -27,7 +27,7 @@ This page contains release notes information for Aspose.Email for .NET 19.8
 |EMAILNET-39515|Unhandled exception in SMTP when multiple threads are used.|Bug|
 |EMAILNET-39540|Use an OFT for several appointments|Bug|
 
-## **Added APIs:**
+## **Added APIs**
 Class    Aspose.Email.Storage.Nsf.NotesStorageFacility
 Field/Enum    Aspose.Email.Mapi.MapiRecipientType.MAPI_SUBMITTED
 Method    Aspose.Email.Clients.Exchange.WebService.IEWSClient.CreateAppointment(Aspose.Email.Mapi.MapiCalendar,System.String,System.Boolean)
@@ -36,5 +36,5 @@ Method    Aspose.Email.Storage.Nsf.NotesStorageFacility.#ctor(System.String)
 Method    Aspose.Email.Storage.Nsf.NotesStorageFacility.Dispose
 Method    Aspose.Email.Storage.Nsf.NotesStorageFacility.Dispose(System.Boolean)
 Method    Aspose.Email.Storage.Nsf.NotesStorageFacility.EnumerateMessages
-## **Removed APIs:**
+## **Removed APIs**
 No Changes

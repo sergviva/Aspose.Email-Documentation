@@ -6,10 +6,10 @@ url: /java/aspose-email-for-java-6-8-0-release-notes/
 ---
 
 Aspose.Email for Java is a class library that enables applications to manipulate popular message formats including Microsoft Outlook messages. It also supports communication protocols such as IMAP, SMTP, POP3, and Microsoft Exchange Server. In addition, the API supports working with PST as well as OST file formats.
-### **Major Features**
+## **Major Features**
 - Option to split PST based on time and other criterias
 - Move Folder and Sub-folders to some other folder using ImapClient
-### **Features and Improvements**
+## **Features and Improvements**
 EMAILNET-34829 - Option to split PST based on time and other criterias
 
 |**Key** |**Summary** |**Category** |
@@ -32,9 +32,9 @@ EMAILNET-34829 - Option to split PST based on time and other criterias
 |EMAILNET-38406 |Wrong password causes long time to raise exception using Imapclient |Bug |
 |EMAILNET-38416 |Exception "Item has already been added. Key in dictionary" while loading MSG to MapiMessage |Bug |
 |EMAILNET-38428 |Exceptions while fetching messages from Office 365 |Bug |
-### **Public API and Backward Incompatible Changes**
+## **Public API and Backward Incompatible Changes**
 The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Email for Java. If you have concerns about any change listed, please raise it on the Aspose.Email support forum.
-## **Added APIs:**
+## **Added APIs**
 Property MailMessage.getOriginalIsTnef
 
 Method ImapClient.endMoveFolder(IAsyncResult)

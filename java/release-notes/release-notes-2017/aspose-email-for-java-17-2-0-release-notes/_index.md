@@ -34,7 +34,7 @@ Aspose.Email for Java is a class library that enables applications to manipulate
 |EMAILNET-38621|ArgumentOutOfRangeException is raised when fetching message using IEWSClient|Bug|
 ## **Public API and Backwards Incompatible Changes**
 The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Email for Java.
-### **Added APIs:**
+### **Added APIs**
 Class MailStorageConverter.MailHandler
 Method MailStorageConverter.mboxToPst(InputStream, String, MailHandler)
 Method MailStorageConverter.mboxToPst(String, String, MailHandler)
@@ -108,7 +108,7 @@ Property MhtSaveOptions.getCssStyles, setCssStyles
 Property MhtSaveOptions.getFormatTemplates
 Property MhtSaveOptions.getPreserveOriginalDate, setPreserveOriginalDate
 Property MhtSaveOptions.getSaveAttachments, setSaveAttachments
-### **Removed APIs:**
+### **Removed APIs**
 Class IPropertyDescriptor
 Class PropertyIdentificationMethod
 Field/Enum PropertyIdentificationMethod.Id

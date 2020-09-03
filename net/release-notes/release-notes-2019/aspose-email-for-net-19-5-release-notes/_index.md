@@ -32,7 +32,7 @@ This page contains release notes information for Aspose.Email for .NET 19.5
 |EMAILNET-38840|Appointment properties lost while added to PST|Bug|
 |EMAILNET-39477|Properties lost while added to PST|Bug|
 
-## **Added APIs:**
+## **Added APIs**
 
 
 Class Aspose.Email.Clients.Exchange.WebService.KnownFolders
@@ -70,6 +70,6 @@ Property Aspose.Email.Clients.Imap.RestoreSettings.RemoveNonexistentFolders
 Property Aspose.Email.Clients.Imap.RestoreSettings.RemoveNonexistentItems
 Property Aspose.Email.Storage.Olm.OlmFolder.Path
 Property Aspose.Email.Storage.Pst.PersonalStorageQueryBuilder.OnlyFoldersCreatedByUser
-## **Removed APIs:**
+## **Removed APIs**
 
 Field/Enum Aspose.Email.Clients.Base.EncryptionProtocols.None

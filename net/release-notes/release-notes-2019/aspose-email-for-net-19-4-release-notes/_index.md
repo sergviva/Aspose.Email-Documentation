@@ -51,7 +51,7 @@ This page contains release notes information for Aspose.Email for .NET 19.4
 |EMAILNET-39449|PST Extraction Hangs When Message Has ‘Dead’ Links|Bug|
 |EMAILNET-39450|Exception on PST Extraction|Bug|
 
-## **Added APIs:**
+## **Added APIs**
 
 Field/Enum Aspose.Email.PersonalInfo.VCard.VCardVersion.V30
 Class Aspose.Email.Clients.Imap.AppendMessagesResult
@@ -119,7 +119,7 @@ Property Aspose.Email.Clients.Smtp.SendMessagesResult.Succeeded
 Property Aspose.Email.Clients.Smtp.SmtpClient.SmtpQueueLocation
 Property Aspose.Email.PersonalInfo.VCard.VCardSecurity.Encoding
 Property Aspose.Email.SmtpException.StatusCode
-## **Removed APIs:**
+## **Removed APIs**
 
 
 Class Aspose.Email.Clients.Imap.ImapException

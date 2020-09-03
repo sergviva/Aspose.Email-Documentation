@@ -29,8 +29,8 @@ This page contains release notes information for Aspose.Email for Android via Ja
 |EMAILNET-39208|MapiMessage Attachment reading issue|Bug|
 
 
-## **Added APIs:**
+## **Added APIs**
 Method FolderInfo.addSubFolder(String, boolean)
 Method PersonalStorage.createPredefinedFolder(String, /**StandardIpmFolder**/int, boolean)
-## **Removed APIs:**
+## **Removed APIs**
 None.

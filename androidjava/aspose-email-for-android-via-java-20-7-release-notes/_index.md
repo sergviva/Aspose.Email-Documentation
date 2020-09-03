@@ -51,7 +51,7 @@ This page contains release notes information for Aspose.Email for Android via Ja
 
 ## **New Features**
 
-#### **Render custom icons in message attachment while HTML conversion**
+### **Render custom icons in message attachment while HTML conversion**
 Sometimes, the message contains in-line attachments, that are shown up as icon images in a message body. Such messages may create problems while converting them to HTML, since the icon images are lost. This is because attachment's icons are not held directly in the message.
 
 We have fixed this problem so that the user can customize the icons for attachments when converting the message to HTML. For that, the HtmlSaveOptions.ResourceHtmlRendering event has been added:
@@ -106,7 +106,7 @@ PersonalStorage create(OutputStream stream, int blockSize, /*FileFormatVersion*/
 
 {{< /highlight >}}
 
-#### **Using Timeout for Countering Endless Wait Operations While Saving Message to MHT Format**
+### **Using Timeout for Countering Endless Wait Operations While Saving Message to MHT Format**
 Sometimes, when processing a corrupted message, an operation may be performed infinitely and thus impair the correct functionality of the application.
 By using a configurable timeout, you can stop a stuck operation, handle the event, and continue executing the application.
 
@@ -132,7 +132,7 @@ options.setTimeoutReachedHandler(new TimeoutReachedHandler() {
 mailMessage.save(mhtFileName, options);
 {{< /highlight >}}
 
-#### **The Try-With-Resources Statement**
+### **The Try-With-Resources Statement**
 We have added a `java.io.Closeable` implementation for all classes that implement `IDisposable`.
 {{< highlight java >}}
 try (PersonalStorage pst = PersonalStorage.fromFile(fileName, false)) {

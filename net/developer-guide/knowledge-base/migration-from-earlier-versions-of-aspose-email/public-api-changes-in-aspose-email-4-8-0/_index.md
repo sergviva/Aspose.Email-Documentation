@@ -7,7 +7,7 @@ url: /net/public-api-changes-in-aspose-email-4-8-0/
 
 
 The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Email for .NET. If you have concerns about any change listed, please raise it on the Aspose.Email support forum.
-## **Added APIs:**
+## **Added APIs**
 Class Aspose.Email.Mail.ContactLoadFormat
 Class Aspose.Email.Mail.EmlSaveOptions
 Class Aspose.Email.Mail.HtmlSaveOptions
@@ -126,7 +126,7 @@ Property Aspose.Email.Outlook.MapiMessageItemBase.Sensitivity
 Property Aspose.Email.Outlook.MapiMessageItemBase.Subject
 Property Aspose.Email.Outlook.MapiMessageItemBase.SubjectPrefix
 Property Aspose.Email.Outlook.MapiMessageItemBase.SubStorages
-## **Removed APIs:**
+## **Removed APIs**
 Field/Enum Aspose.Email.Mail.MhtFormatOptions.NoEncodeCharactersToMht
 Field/Enum Aspose.Email.Mail.MhtFormatOptions.WriteCompleteBccEmailAddressToMht
 Field/Enum Aspose.Email.Mail.MhtFormatOptions.WriteCompleteCcEmailAddressToMht

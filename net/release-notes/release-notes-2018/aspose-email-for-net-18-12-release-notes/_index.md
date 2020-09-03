@@ -27,7 +27,7 @@ This page contains release notes information for Aspose.Email for .NET 18.12.
 |EMAILNET-39218|File format detected as Unknown|Bug|
 |EMAILNET-39208|MapiMessage Attachment reading issue|Bug|
 
-## **Added APIs:**
+## **Added APIs**
 ###### **ImapClient**
 Method BeginRestore(IConnection, PersonalStorage, ImapFolderInfoCollection, RestoreSettings)
 Method BeginRestore(IConnection, PersonalStorage, ImapFolderInfoCollection, RestoreSettings, AsyncCallback)
@@ -80,7 +80,7 @@ Method Restore(String, RestoreSettings)
 
 Method FolderInfo.AddSubFolder(String, Boolean)
 Method PersonalStorage.CreatePredefinedFolder(String, StandardIpmFolder,Boolean)
-## **Removed APIs:**
+## **Removed APIs**
 ###### **ImapClient**
 Method BeginRestore(IConnection, PersonalStorage, ImapFolderInfoCollection, RestoreOptions)
 Method BeginRestore(IConnection, PersonalStorage, ImapFolderInfoCollection, RestoreOptions, AsyncCallback)

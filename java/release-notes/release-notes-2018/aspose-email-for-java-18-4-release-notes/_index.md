@@ -10,7 +10,7 @@ url: /java/aspose-email-for-java-18-4-release-notes/
 This page contains information about Aspose.Email for Java 18.4 version.
 
 {{% /alert %}} 
-### **Major Changes**
+## **Major Changes**
 
 |**Key**|**Summary**|**Category**|
 | :- | :- | :- |
@@ -26,7 +26,7 @@ This page contains information about Aspose.Email for Java 18.4 version.
 |EMAILNET-38927|EWSClient.FetchMapiMessage raises exception|Bug|
 |EMAILJAVA-34363|An exception raises while loading EML message|Bug|
 
-### **Added APIs**
+## **Added APIs**
 Class TrackingStringDictionary
 Field/Enum MapiMessageFlags.MSGFLAG_ZERO
 Field/Enum MapiProperty.signedFlag
@@ -73,7 +73,7 @@ Method LogEntry.#ctor(String,IGenericDictionary<String,String>)
 Method LogEntry.#ctor(String,Throwable,LogLevel,String,int,String,IGenericDictionary<String,String>)
 Property TrackingStringDictionary.get_Item(String)
 Property TrackingStringDictionary.getKeys
-### **Removed APIs**
+## **Removed APIs**
 Field/Enum MapiProperty.signed
 Method ByNumberCollection.sort
 Method AssociatedPerson.compareTo(Object)

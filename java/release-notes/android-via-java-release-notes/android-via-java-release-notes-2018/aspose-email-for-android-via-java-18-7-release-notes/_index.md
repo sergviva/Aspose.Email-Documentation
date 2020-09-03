@@ -65,7 +65,7 @@ Method LinkedResourceRemovedEventArgs.#ctor(Iterable<String>)
 Method MapiAttachment.setProperty(PropertyDescriptor,Object)
 Property AlternateViewRemovedEventArgs.getAlternateView
 Property LinkedResourceRemovedEventArgs.getListContentId
-## **Removed APIs:**
+## **Removed APIs**
 Class MhtMessageFormatter
 Class MthTemplateName
 Field/Enum MapiRecipientType.MAPI_SUBMITTED

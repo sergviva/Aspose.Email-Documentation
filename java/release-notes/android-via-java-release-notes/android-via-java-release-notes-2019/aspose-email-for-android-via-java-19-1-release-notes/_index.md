@@ -36,7 +36,7 @@ This page contains release notes information for Aspose.Email for Android via Ja
 |EMAILJAVA-34484|Unable to open EML file with MailMessage|Bug|
 |EMAILJAVA-34485|Converting MSG to MHT throws an exception|Bug|
 
-## **Added APIs:**
+## **Added APIs**
 No Changes
-## **Removed APIs:**
+## **Removed APIs**
 No Changes

@@ -6,11 +6,11 @@ url: /java/aspose-email-for-java-6-5-0-release-notes/
 ---
 
 Aspose.Email for Java is a class library that enables applications to manipulate popular message formats including Microsoft Outlook messages. It also supports communication protocols such as IMAP, SMTP, POP3, and Microsoft Exchange Server. In addition, the API supports working with PST as well as OST file formats.
-### **Major Features**
+## **Major Features**
 - Ability to add event to Secondary Calendar of Office 365
 - Bind Smtp Client to specific IP on source having multiple IPs
 - Provide Insert method for adding Header at specific location
-### **Features and Improvements**
+## **Features and Improvements**
 
 |**Key** |**Summary** |**Category** |
 | :- | :- | :- |
@@ -38,9 +38,9 @@ Aspose.Email for Java is a class library that enables applications to manipulate
 |EMAILJAVA-33582 |Exception raised for MapiCalendarMonthlyRecurrencePattern Day value |Bug |
 |EMAILNET-35182 |FirstChanceException: System.ArgumentOutOfRangeException |Bug |
 |EMAILNET-35219 |msg.ToMapiMessageItem raises Exception |Bug |
-### **Public API and Backward Incompatible Changes**
+## **Public API and Backward Incompatible Changes**
 The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Email for Java. If you have concerns about any change listed, please raise it on the Aspose.Email support forum.
-## **Added APIs:**
+## **Added APIs**
 ``` java
 
  Interface    BindIPEndPointHandler

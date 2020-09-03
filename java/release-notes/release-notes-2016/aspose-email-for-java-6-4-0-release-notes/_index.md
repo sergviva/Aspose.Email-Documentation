@@ -6,7 +6,7 @@ url: /java/aspose-email-for-java-6-4-0-release-notes/
 ---
 
 Aspose.Email for Java is a class library that enables applications to manipulate popular message formats including Microsoft Outlook messages. It also supports communication protocols such as IMAP, SMTP, POP3, and Microsoft Exchange Server. In addition, the API supports working with PST as well as OST file formats.
-### **Major Features In this Release**
+## **Major Features In this Release**
 - Sending Calendar invitation
 - [Moving messages using IMAP](/email/java/working-with-folders-on-imap-server/#move-messages-to-another-mailbox-folder)
 - Paging Support in Email clients ([IMAP](/email/java/working-with-messages-from-imap-server/#listing-messages-with-paging-support), EWS [List Messages](/email/java/fetch-messages-from-an-exchange-server-mailbox) [List Folders](/email/java/working-with-folders-on-exchange-server/) [List Appointments](/email/java/working-with-appointments/))
@@ -14,7 +14,7 @@ Aspose.Email for Java is a class library that enables applications to manipulate
 - Context Timezone support in EWS Client
 - Using [search criteria and paging](/email/net/filter-messages-from-server-using-imap-client/) simultaneously for messages listing using the IMAP client
 - Getting the division marker when working with MBOX format
-### **Features and Improvements**
+## **Features and Improvements**
 
 |**Key** |**Summary** |**Category** |
 | :- | :- | :- |
@@ -51,9 +51,9 @@ Aspose.Email for Java is a class library that enables applications to manipulate
 |EMAILNET-35141 |MailboxConverter.ConvertPersonalStorageToMbox raises System.UnauthorizedAccessException |Bug |
 |EMAILNET-35175 |EML to MSG raises Exception |Bug |
 |EMAILNET-35177 |Detach Add Signature option raises exception with attachment |Bug |
-### **Public API and Backward Incompatible Changes**
+## **Public API and Backward Incompatible Changes**
 The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Email for Java. If you have concerns about any change listed, please raise it on the Aspose.Email support forum.
-### **Added APIs:**
+## **Added APIs**
 ``` java
 
  Class PageInfo

@@ -34,7 +34,7 @@ This page contains release notes information for Aspose.Email for .NET 18.10.
 |EMAILNET-39147|MBX to PST Conversion Issue|Bug|
 |EMAILNET-39150|Spanish accents in "From" and "Recipients" is turned into a ?|Bug|
 
-## **Added APIs:**
+## **Added APIs**
 Class Aspose.Email.Clients.Base.EncryptionProtocols
 Class Aspose.Email.Storage.Olm.OlmFolder
 Class Aspose.Email.Storage.Olm.OlmStorage
@@ -58,7 +58,7 @@ Property Aspose.Email.Storage.Olm.OlmFolder.HasMessages
 Property Aspose.Email.Storage.Olm.OlmFolder.Name
 Property Aspose.Email.Storage.Olm.OlmFolder.SubFolders
 Property Aspose.Email.Storage.Olm.OlmStorage.FolderHierarchy
-## **Removed APIs:**
+## **Removed APIs**
 Field/Enum Aspose.Email.Clients.CredentialsByHostClient.diagnosticLogger
 Field/Enum Aspose.Email.Clients.CredentialsByHostClient.diagnosticLoggerSyncObj
 Field/Enum Aspose.Email.Clients.CredentialsByHostClient.logFileNameDefinedByConfig

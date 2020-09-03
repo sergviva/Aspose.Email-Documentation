@@ -25,7 +25,7 @@ This page contains release notes information for Aspose.Email for Android via Ja
 |EMAILNET-38895|Adding EML to Mbox creates multiple emails in Mbox|Bug|
 |EMAILJAVA-34337|While instancing a MailMessage object an exception raises|Bug|
 
-## **Added APIs:**
+## **Added APIs**
 Class AllowedConferenceSolutionTypes
 Class ConferenceProperties
 Field/Enum AllowedConferenceSolutionTypes.eventHangout
@@ -35,7 +35,7 @@ Field/Enum AllowedConferenceSolutionTypes.NotDefined
 Method ConferenceProperties.#ctor
 Property Calendar.getConferenceProperties
 Property ConferenceProperties.getAllowedConferenceSolutions
-## **Removed APIs:**
+## **Removed APIs**
 Method AsposeArgumentException.#ctor(String, String)
 Method AsposeArgumentNullException.#ctor(String, String)
 Property AsposeArgumentException.getMessage

@@ -6,7 +6,7 @@ url: /java/public-api-changes-in-aspose-email-4-7-0/
 ---
 
 The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Email for .NET. If you have concerns about any change listed, please raise it on the Aspose.Email support forum.
-## **Added APIs:**
+## **Added APIs**
 Class MapiConversionOptions
 
 Field/Enum MailMessageSaveOptions.WriteCompleteBccEmailAddressToMht
@@ -37,6 +37,6 @@ Property MapiConversionOptions.getUnicodeFormat()
 Property MapiConversionOptions.getUseBodyCompression()
 Property MapiMessage.getSenderSmtpAddress()
 Property MapiMessage.setSenderSmtpAddress()
-## **Removed APIs:**
+## **Removed APIs**
 none[Add Labels](http://support.aspose.dynabic.com/wiki/display/relnotes/Aspose.Email+for+Java+4.7.0+-+October+2014?showComments=true&showCommentArea=true)
 

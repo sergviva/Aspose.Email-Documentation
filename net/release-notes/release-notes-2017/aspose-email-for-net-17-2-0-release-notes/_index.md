@@ -39,7 +39,7 @@ Aspose.Email for .NET is a class library that enables applications to manipulate
 |EMAILNET-38621|ArgumentOutOfRangeException is raised when fetching message using IEWSClient|Bug|
 ## **Public API and Backwards Incompatible Changes**
 The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Email for .NET.
-## **Added APIs:**
+## **Added APIs**
 **Aspose.Email.Formats**
 
 Class MailStorageConverter.MailHandler
@@ -123,7 +123,7 @@ Property MhtSaveOptions.CssStyles
 Property MhtSaveOptions.FormatTemplates
 Property MhtSaveOptions.PreserveOriginalDate
 Property MhtSaveOptions.SaveAttachments
-## **Removed APIs:**
+## **Removed APIs**
 Class Aspose.Email.IPropertyDescriptor
 Class Aspose.Email.Mapi.PropertyIdentificationMethod
 Field/Enum Aspose.Email.Mapi.PropertyIdentificationMethod.Id

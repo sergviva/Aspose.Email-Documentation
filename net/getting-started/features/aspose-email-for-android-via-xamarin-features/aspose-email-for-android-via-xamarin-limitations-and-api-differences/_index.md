@@ -21,7 +21,7 @@ The API lacks the following namespaces.
 1. You can not embed linked images into message body in both RTF as well as HTML format
 1. It also has no functionality of Signing or Encrypting/Decrypting messages
 1. All Aspose.Email methods taking System.Stream as a parameter require the stream to be seekable and has a length. This may not be the case for some Xamarin Streams. For example, Android Assets and raw Resources are available as streams, but if one will pass such a stream to the Aspose.Email API, it will result in NotSupportedException.
-### **Work Around Method for Working with Xamarin Streams**
+## **Work Around Method for Working with Xamarin Streams**
 The following code sample illustrates a work around method for loading Android Assets and raw Resources from stream.
 
 ``` java
@@ -53,7 +53,7 @@ The following code sample illustrates a work around method for loading Android A
 }
 
 ```
-#### **Usage Example**
+## **Usage Example**
 ``` java
 
  var stream = Tools.ReadAsset(@"Bounce/new 3.msg");

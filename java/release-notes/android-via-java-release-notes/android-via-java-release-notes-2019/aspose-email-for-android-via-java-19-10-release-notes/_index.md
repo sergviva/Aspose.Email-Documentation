@@ -58,7 +58,7 @@ This page contains release notes information for Aspose.Email for Android via Ja
 |EMAILJAVA-34599|ArgumentOutOfRangeException|Bug|
 |EMAILJAVA-34610|RTF body not showing in generated PDF|Bug|
 
-## **Added APIs:**
+## **Added APIs**
 Class    NotesStorageFacility
 Field/Enum    MapiRecipientType.MAPI_SUBMITTED
 Method    NotesStorageFacility.#ctor(InputStream)
@@ -210,7 +210,7 @@ Property    Section.getValue, setValue
 Property    SectionHeader.getType, setType
 Property    SectionHeader.getValue, setValue
 Property    SectionValue.getData, setData
-## **Removed APIs:**
+## **Removed APIs**
 Field/Enum    MapiRecipientType.MAPI_ORIG
 Property    Appointment.getMethod, setMethod
 Property    IcsSaveOptions.getMethod, setMethod

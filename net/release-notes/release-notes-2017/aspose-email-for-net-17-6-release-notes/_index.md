@@ -46,7 +46,7 @@ This page contains information about Aspose.Email for .NET 17.6.
 |EMAILNET-38748|Not Setting license raises Argument Out Of Range exception for MapiMessage.FromMailMessage for ICS files|Bug|
 |EMAILNET-38753|IEWClient raises exception while fetching contacts from office365|Bug|
 
-### **Added APIs:**
+### **Added APIs**
 **Aspose.Email**
 
 Property MhtSaveOptions.SkipInlineImages
@@ -77,7 +77,7 @@ Method MapiProperty.CreateMapiPropertyFromBytes(Int64, Byte[])
 Method MapiProperty.CreateMapiPropertyFromDateTime(Int64, DateTime)
 Method MapiProperty.CreateMapiPropertyFromLong(Int64, Int64)
 Method MapiProperty.CreateMapiPropertyFromLong(Int64, Int64, Int64)
-### **Removed APIs:**
+### **Removed APIs**
 **Aspose.Email.Clients**
 
 Method Imap.ImapException.#ctor(SerializationInfo, StreamingContext)

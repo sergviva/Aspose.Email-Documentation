@@ -7,7 +7,7 @@ url: /net/aspose-email-for-android-via-xamarin-features/
 
 
 This section provides a comparison of availability of features between Aspose.Email for .NET and Aspose.Email for Android via Xamarin.
-### **File Format and Conversions**
+## **File Format and Conversions**
 
 |**Feature**|**Description**|**Aspose.Email for .NET**|**Aspose.Email for Android via Xamarin**|
 | :- | :- | :- | :- |
@@ -20,7 +20,7 @@ This section provides a comparison of availability of features between Aspose.E
 |HTML File| |{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Outlook Personal Storage (PST)|<p>Microsoft Outlook Storage file format for</p><p>archiving messages and other items</p>|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |iCalendar (ics)| |{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-### **Email Messages Processing Capabilities**
+## **Email Messages Processing Capabilities**
 
 |**Feature**|**Description**|**Aspose.Email for .NET**|**Aspose.Email for Android via Xamarin**|
 | :- | :- | :- | :- |
@@ -33,13 +33,13 @@ This section provides a comparison of availability of features between Aspose.E
 |Encrypt/Decrypt messages| |{{< emoticons/tick >}}|{{< emoticons/cross >}} (planned in upcoming version)|
 |Windows Forms Support| |{{< emoticons/tick >}}|{{< emoticons/cross >}} (planned in upcoming version)|
 
-### **Rendering and Printing Features**
+## **Rendering and Printing Features**
 
 |**Feature**|**Description**|**Aspose.Email for .NET**|**Aspose.Email for Android via Xamarin**|
 | :- | :- | :- | :- |
 |Rendering emails to TIFF|Converts email messages to TIFF image file format|{{< emoticons/tick >}}|{{< emoticons/cross >}}|
 |Rendering emails to XPS|Converts email messages to XPS file format|{{< emoticons/tick >}}|{{< emoticons/cross >}}|
-### **Emailing Sending using SMTP**
+## **Emailing Sending using SMTP**
 
 |**Feature**|**Description**|**Aspose.Email for .NET**|**Aspose.Email for Android via Xamarin**|
 | :- | :- | :- | :- |
@@ -50,7 +50,7 @@ This section provides a comparison of availability of features between Aspose.E
 |Sending Emails Synchronously| |{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Sending Emails Asynchronously| |{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Sending Meetings| |{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-### **POP3**
+## **POP3**
 
 |**Feature**|**Description**|**Aspose.Email for .NET**|**Aspose.Email for Android via Xamarin**|
 | :- | :- | :- | :- |
@@ -59,7 +59,7 @@ This section provides a comparison of availability of features between Aspose.E
 |Filter Emails from Server based on different criterion| |{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Delete Messages from Server| |{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Listing Server Extensions| |{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-### **IMAP**
+## **IMAP**
 
 |**Feature**|**Description**|**Aspose.Email for .NET**|**Aspose.Email for Android via Xamarin**|
 | :- | :- | :- | :- |
@@ -71,7 +71,7 @@ This section provides a comparison of availability of features between Aspose.E
 |Connect to different mailbox folders| |{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Append messages to server| |{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Setting Message flags on server| |{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-### **Exchange Server**
+## **Exchange Server**
 
 |**Feature**|**Description**|**Aspose.Email for .NET**|**Aspose.Email for Android via Xamarin**|
 | :- | :- | :- | :- |
@@ -83,13 +83,13 @@ This section provides a comparison of availability of features between Aspose.E
 |Working with Tasks| |{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Support for Active Sync| |{{< emoticons/tick >}}|{{< emoticons/cross >}}|
 |Working with Folders| |{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-### **Outlook Storage Files**
+## **Outlook Storage Files**
 
 |**Feature**|**Description**|**Aspose.Email for .NET**|**Aspose.Email for Mac via Xamarin**|
 | :- | :- | :- | :- |
 |PST| |{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |OST| |{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-### **MBox Storage Files**
+## **MBox Storage Files**
 
 |**Feature**|**Description**|**Aspose.Email for .NET**|**Aspose.Email for Android via Xamarin**|
 | :- | :- | :- | :- |

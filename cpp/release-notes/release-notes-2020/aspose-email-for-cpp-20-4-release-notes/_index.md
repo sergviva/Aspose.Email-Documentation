@@ -13,7 +13,7 @@ This page contains release notes information for Aspose.Email for C++ 20.4.
 
 Aspose.Email for C++ 20.4 is based on [Aspose.Email for .NET 20.4](/email/net/aspose-email-for-net-20-4-release-notes/).
 ## **New features**
-#### **Support For The Ability To Ignore Exceptions**
+### **Support For The Ability To Ignore Exceptions**
 **ExceptionManager** class has been added to **provide ignore exceptions ability**. 
 
 **Code examples:**

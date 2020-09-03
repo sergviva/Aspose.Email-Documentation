@@ -39,7 +39,7 @@ This page contains release notes information for Aspose.Email for Java 19.6.
 |EMAILJAVA-34546|Issues Parsing Email With Korean Autodetect Codepage|Bug|
 |EMAILJAVA-34535|Exception on adding subfolders for PST|Bug|
 
-## **Added APIs:**
+## **Added APIs**
 Method MailMessage.getHtmlBodyText(boolean)
-## **Removed APIs:**
+## **Removed APIs**
 No Changes

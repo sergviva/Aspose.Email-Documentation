@@ -14,7 +14,7 @@ This page contains release notes information for Aspose.Email for C++ 20.7.
 Aspose.Email for C++ 20.7 is based on [Aspose.Email for .NET 20.7](/email/net/aspose-email-for-net-20-7-release-notes/).
 
 ## **New Features**
-#### **Using Timeout for Countering Endless Wait Operations While Saving Message to MHT Format**
+### **Using Timeout for Countering Endless Wait Operations While Saving Message to MHT Format**
 Sometimes, when processing a corrupted message, an operation may be performed infinitely and thus impair the correct functionality of the application.
 By using a configurable timeout, you can stop a stuck operation, handle the event, and continue executing the application.
 

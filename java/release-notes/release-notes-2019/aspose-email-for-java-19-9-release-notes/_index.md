@@ -35,10 +35,10 @@ This page contains release notes information for Aspose.Email for Java 19.9.
 |EMAILJAVA-34575|TLS 1.2 support for EWSClient and AutodiscoverService|Bug|
 |EMAILJAVA-34552|Appointment in PST does not display timezone set by the user when opened in Outlook|Bug|
 
-## **Added APIs:**
+## **Added APIs**
 Delegate HyperlinkRenderingCallback(String source)
 Method MailMessage.getHtmlBodyText(HyperlinkRenderingCallback hyperlinkRenderingCallback)
-## **Removed APIs:**
+## **Removed APIs**
 Field/Enum    MapiRecipientType.MAPI_ORIG
 Method    IEWSClient.deleteContact(MapiContact)
 Method    IEWSClient.listMessages(String,/*ExchangeListMessagesOptions*/int,Iterable<String>)

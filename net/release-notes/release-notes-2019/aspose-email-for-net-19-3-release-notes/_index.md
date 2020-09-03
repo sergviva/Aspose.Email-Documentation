@@ -36,7 +36,7 @@ This page contains release notes information for Aspose.Email for .NET 19.3
 |EMAILNET-39347|Exception on loading the MSG file|Bug|
 |EMAILNET-39002|The encrypted message cannot be sent using SmtpClient|Bug|
 
-## **Added APIs:**
+## **Added APIs**
 Class Aspose.Email.Clients.ConnectionAsgmtType
 Class Aspose.Email.Clients.EmailClient
 Class Aspose.Email.Clients.Imap.ImapMessageInfoCollectionBase
@@ -176,7 +176,7 @@ Property Aspose.Email.Clients.MessageInfoBase.To
 Property Aspose.Email.Mapi.MapiCalendarAttendees.AppointmentUnsendableRecipients
 Property Aspose.Email.Mapi.MapiConversionOptions.ForcedRtfBodyForAppointment
 Property Aspose.Email.Mapi.MapiMessage.SentRepresentingSmtpAddress
-## **Removed APIs:**
+## **Removed APIs**
 Event Aspose.Email.Clients.CredentialsByHostClient.BindIPEndPoint
 Event Aspose.Email.Clients.CredentialsByHostClient.OnConnect
 Method Aspose.Email.Clients.CredentialsByHostClient.CancelAsyncOperation(System.IAsyncResult)

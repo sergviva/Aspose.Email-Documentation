@@ -36,7 +36,7 @@ The API has now been upgraded to version 17.4.0 that comes with several new feat
 |EMAILNET-38685|MailPrinter raises exception converting email to TIFF|Bug|
 ## **Public API and Backwards Incompatible Changes**
 The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Email for Java.
-## **Added APIs:**
+## **Added APIs**
 Class MhtTemplateName
 Field/Enum MapiPropertyType.PT_FLOAT
 Field/Enum MhtTemplateName.ANNIVERSARY
@@ -98,7 +98,7 @@ Property ExchangeClientBase.getLogFileName, setLogFileName
 Property ExchangeClientBase.getUseDateInLogFileName, setUseDateInLogFileName
 Property IEWSClient.getLogFileName, setLogFileName
 Property IEWSClient.getUseDateInLogFileName, setUseDateInLogFileName
-## **Removed APIs:**
+## **Removed APIs**
 Method MapiPropertyCollection.Add(Object, Object)
 Method MapiPropertyCollection.Contains(Int64)
 Method MapiPropertyCollection.Contains(Object)

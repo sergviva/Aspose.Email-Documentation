@@ -27,7 +27,7 @@ This page contains release notes information for Aspose.Email for .NET 19.12
 
 ## **Added API**
 #### **Aspose.Email.Clients.Graph namespace**
-##### **Classes:**
+##### **Classes**
 BaseRestObject
 Bucket
 CategoryPreset
@@ -52,7 +52,7 @@ Thumbnail
 ThumbnailSet
 UpdateSettings
 UserRole
-##### **Fields and enums:**
+##### **Fields and enums**
 CategoryPreset.None
 CategoryPreset.Preset0
 CategoryPreset.Preset1
@@ -112,7 +112,7 @@ UserRole.Contributor
 UserRole.None
 UserRole.Owner
 UserRole.Reader
-##### **Methods:**
+##### **Methods:*
 FolderInfo.ToString
 
 GraphClient.Dispose

@@ -35,8 +35,8 @@ This page contains release notes information for Aspose.Email for .NET 19.6
 |EMAILNET-39480|MSG to EML conversion issue|Bug|
 |EMAILNET-39508|Exception on loading EML file|Bug|
 
-## **Added APIs:**
+## **Added APIs**
 Method Aspose.Email.MailMessage.GetHtmlBodyText(System.Boolean)
 Property Aspose.Email.IMessage.CC
-## **Removed APIs:**
+## **Removed APIs**
 Property Aspose.Email.IMessage.Cc

@@ -6,7 +6,7 @@ url: /java/public-api-changes-in-aspose-email-5-7-0/
 ---
 
 The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Email for .NET. If you have concerns about any change listed, please raise it on the Aspose.Email support forum.
-## **Added APIs:**
+## **Added APIs**
 Class ImapMonitoringEventArgs
 Class ImapMonitoringEventHandler
 Class EmlLoadOptions
@@ -43,6 +43,6 @@ Property MessageFormat.getHtml()
 Property MhtmlLoadOptions.getPreserveTnefAttachments(), setPreserveTnefAttachments()
 Property MsgLoadOptions.getPreserveTnefAttachments(), setPreserveTnefAttachments()
 Property PersonalStorageQueryBuilder.getMessageId()
-## **Removed APIs:**
+## **Removed APIs**
 Class Pop3Authentication
 Method FolderInfo.deleteChildMessages(MessageInfoCollection)

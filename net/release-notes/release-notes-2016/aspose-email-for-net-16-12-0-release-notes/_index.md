@@ -34,7 +34,7 @@ Aspose.Email for .NET is a class library that enables applications to manipulate
 |EMAILNET-38547 |System.OutOfMemoryException while loading mail object to MapiMessage |Bug|
 ### **Public API and Backwards Incompatible Changes**
 The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Email for .NET. If you have concerns about any change listed, please raise it on the Aspose.Email support forum.
-## **Added APIs:**
+## **Added APIs**
 **Aspose.Email**
 
 Class EnumComparisonField
@@ -1149,7 +1149,7 @@ Method FetchMessages(IEnumerable<String>)
 Method FetchMessages(IEnumerable<String>, IEnumerable<PropertyDescriptor>)
 Method ListMessages(String, ExchangeListMessagesOptions, IEnumerable<PropertyDescriptor>)
 Property ExchangeQueryBuilder.TaskStatus
-## **Removed APIs:**
+## **Removed APIs**
 **Aspose.Email**
 
 Property MailQueryBuilder.MessageId

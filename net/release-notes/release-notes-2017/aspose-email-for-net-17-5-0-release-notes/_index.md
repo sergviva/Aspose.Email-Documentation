@@ -39,7 +39,7 @@ The API has now been upgraded to version 17.5.0 that comes with several new feat
 |EMAILNET-38700|Out Of memory exception when processing Mbox file|Bug|
 |EMAILNET-38709|Exception raised while updating attachment name containing double single quote|Bug|
 
-## **Added APIs:**
+## **Added APIs**
 **Aspose.Email**
 
 Class MhtTemplateName.Contact
@@ -172,7 +172,7 @@ Property MapiCalendarYearlyAndMonthlyRecurrencePattern.DayOfWeek
 Property MapiCalendarYearlyAndMonthlyRecurrencePattern.Frequency
 Property MapiCalendarYearlyAndMonthlyRecurrencePattern.Period
 Property MapiCalendarYearlyAndMonthlyRecurrencePattern.Position
-## **Removed APIs:**
+## **Removed APIs**
 Method BeginSend(IConnection, IEnumerable)
 Method BeginSend(IConnection, IEnumerable, AsyncCallback)
 Method BeginSend(IConnection, IEnumerable, AsyncCallback,System.Object)

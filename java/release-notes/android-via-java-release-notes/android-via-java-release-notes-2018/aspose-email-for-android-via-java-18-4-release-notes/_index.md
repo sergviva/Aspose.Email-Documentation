@@ -70,7 +70,7 @@ Method LogEntry.#ctor(String,IGenericDictionary<String,String>)
 Method LogEntry.#ctor(String,Throwable,LogLevel,String,int,String,IGenericDictionary<String,String>)
 Property TrackingStringDictionary.get_Item(String)
 Property TrackingStringDictionary.getKeys
-## **Removed APIs:**
+## **Removed APIs**
 Field/Enum MapiProperty.signed
 Method ByNumberCollection.sort
 Method AssociatedPerson.compareTo(Object)

@@ -35,7 +35,7 @@ This page contains release notes information for Aspose.Email for Java 20.6.
 |EMAILNET-39842|Multipart/related part marked with content-dispotion attachment missing in MailMessage|Bug|
 |EMAILJAVA-34706|Exceptions on Exchange EWS listMessages() and fetchItem() functions|Bug|
 ## **New features**
-#### **Render custom icons in message attachment while HTML conversion**
+### **Render custom icons in message attachment while HTML conversion**
 Sometimes, the message contains in-line attachments, that are shown up as icon images in a message body. Such messages may create problems while converting them to HTML, since the icon images are lost. This is because attachment's icons are not held directly in the message.
 
 We have fixed this problem so that the user can customize the icons for attachments when converting the message to HTML. For that, the HtmlSaveOptions.ResourceHtmlRendering event has been added:
@@ -85,7 +85,7 @@ MailMessage mailMessage = MailMessage.load(fileName);
 mailMessage.save("fileName.html", options);
 
 ```
-#### **Get Email Category in MHTML**
+### **Get Email Category in MHTML**
 We have introduced the ability to add a category header while converting message to MHML.
 
 ``` java
@@ -105,7 +105,7 @@ saveOptions.getRenderingHeaders().add(MhtTemplateName.CATEGORIES);
 msg.save("fileName.mhtml", saveOptions);
 
 ```
-#### **Create PST with size more than 2Gb using OutputStream**
+### **Create PST with size more than 2Gb using OutputStream**
 The user can optimize PST internal cache using new PersonalStorage API method:
 
 blockSize - The optimal block size to expand cache buffer(in bytes)

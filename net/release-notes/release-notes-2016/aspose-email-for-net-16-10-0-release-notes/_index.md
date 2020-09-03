@@ -33,7 +33,7 @@ Aspose.Email for .NET is a class library that enables applications to manipulate
 |EMAILNET-38493 |Exception while loading the email |Bug |
 
 The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Email for .NET. If you have concerns about any change listed, please raise it on the Aspose.Email support forum.
-## **Added APIs:**
+## **Added APIs**
 **Aspose.Email**
 
 Method Logging.LogEntry.#ctor(System.String,System.DateTime)

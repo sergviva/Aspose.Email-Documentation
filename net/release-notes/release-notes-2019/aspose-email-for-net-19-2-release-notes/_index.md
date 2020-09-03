@@ -30,7 +30,7 @@ This page contains release notes information for Aspose.Email for .NET 19.2.
 |EMAILNET-39288|Error with accented characters when converting MSG to MHT|Bug|
 |EMAILNET-39291|Saving the message as HTML without body and HTML tag while receiving emails from Gmail|Bug|
 
-## **Added APIs:**
+## **Added APIs**
 Method Aspose.Email.Clients.Exchange.WebService.IEWSClient.ArchiveItem(System.String, Aspose.Email.Calendar.Appointment)
 Method Aspose.Email.Clients.Exchange.WebService.IEWSClient.ArchiveItem(System.String, Aspose.Email.Clients.Exchange.WebService.ExchangeTask)
 Method Aspose.Email.Clients.Exchange.WebService.IEWSClient.ArchiveItem(System.String, Aspose.Email.Mapi.MapiMessageItemBase)

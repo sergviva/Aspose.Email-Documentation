@@ -12,8 +12,8 @@ This article shows how to:
 
 - [Access Gmail contacts](/email/net/working-with-gmail-contacts/).
 - [Create new Gmail contacts](/email/net/working-with-gmail-contacts/).
-- [Update existing contacts]/net/working-with-gmail-contacts/).
-- [Delete a contact]/net/working-with-gmail-contacts/).
+- [Update existing contacts](/email/net/working-with-gmail-contacts/).
+- [Delete a contact](/email/net/working-with-gmail-contacts/).
 - [Save contact](/email/net/working-with-gmail-contacts/).
 ## **Access Gmail Contacts**
 Following is a sample application which can be used to access the detail of contacts in all the groups.

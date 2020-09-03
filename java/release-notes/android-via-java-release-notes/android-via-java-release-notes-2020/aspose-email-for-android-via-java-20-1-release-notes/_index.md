@@ -45,10 +45,10 @@ url: /java/aspose-email-for-android-via-java-20-1-release-notes/
 |EMAILJAVA-34647|From field is improperly rendered in saved MSG|Bug|
 |EMAILJAVA-34649|MapiPropertyContainer cannot be cast to MapiMessage|Bug|
 
-### **Custom ordering of information in MHTML**
+## **Custom ordering of information in MHTML**
 **Property:** MhtSaveOptions.getRenderingHeaders
 *Gets list of headers for rendering. The order of headers rendering will correspond to the order of adding headers to the collection.*
-#### **Code samples**
+### **Code samples**
 Renders headers in the order specified by default
 
 ``` java
@@ -117,13 +117,13 @@ eml.save("test.mhtml", opt);
 ```
 
 -----
-### **PST password validation functionality**
+## **PST password validation functionality**
 **Property:** MessageStore.isPasswordProtected
 *Gets a value indicating whether the storage is password protected.*
 
 **Method:** MessageStore.isPasswordValid(String)
 *Determines whether the specified string is a valid password for the storage.*
-#### **Code samples**
+### **Code samples**
 ``` java
 
  PersonalStorage pst = PersonalStorage.fromFile("test.pst");
@@ -141,7 +141,7 @@ System.out.println("Password is valid - " + pst.getStore().isPasswordValid("test
 ```
 
 
-## **Added APIs:**
+## **Added APIs**
 
 
 Class    INamedPropertyTagProvider
@@ -178,5 +178,5 @@ Property    PropertyDescriptor.getMultipleValuesDataType
 
 Field/Enum    MapiPropertyTag.PR_SMTP_ADDRESS
 Field/Enum    MapiPropertyTag.PR_SMTP_ADDRESS_W
-## **Deleted APIs:**
+## **Deleted APIs**
 Method    PropertyDescriptor.equals(Object)

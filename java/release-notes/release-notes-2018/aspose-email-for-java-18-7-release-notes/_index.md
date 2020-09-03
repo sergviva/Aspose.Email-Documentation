@@ -112,7 +112,7 @@ Property Proxy.getPort, setPort
 Property Proxy.getUsername, setUsername
 Property ElementProcessingException.getElementIndex
 Property LinkedResourceRemovedEventArgs.getListContentId
-## **Removed APIs:**
+## **Removed APIs**
 Class MhtMessageFormatter
 Class MthTemplateName
 Field/Enum ExchangeListContactsOptions.FetchAttachmentAndFullPhotoInformation

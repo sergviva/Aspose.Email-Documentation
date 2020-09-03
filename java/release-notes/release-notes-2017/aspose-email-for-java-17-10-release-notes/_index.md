@@ -35,7 +35,7 @@ This page contains release notes of Aspose.Email for Java 17.10.
 |EMAILJAVA-34310|Start and End Date same for full day event|Bug|
 |EMAILJAVA-34314|Some characters garbled while conversion from EMLX to EML|Bug|
 
-## **Added APIs:**
+## **Added APIs**
 Class AppointmentQueryBuilder
 Method ExchangeClient.folderExists(String, String)
 Method ExchangeClient.listMessages(String)
@@ -102,7 +102,7 @@ Property ExchangeQueryBuilder.getAppointment
 Property IEWSClient.getMailboxInfo
 Property IEWSClient.getMailboxUri, setMailboxUri
 Property ImapClient.getSaslIrSupported, setSaslIrSupported
-## **Removed APIs:**
+## **Removed APIs**
 Method ExchangeClientBase.#ctor
 Method ExchangeClientBase.appendMessage(String, MailMessage)
 Method ExchangeClientBase.appendMessage(String, MailMessage, boolean)

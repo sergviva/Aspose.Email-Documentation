@@ -32,7 +32,7 @@ The following is a list of any changes made to the public API such as added, ren
 |EMAILNET-38584|ListMessages and ListMessagesFromPublicFolder raises NullReferenceException|Bug|
 |EMAILNET-38585|Loading of MSG file raises FormatException|Bug|
 ## **Public API and Backwards Incompatible Changes**
-### **Added APIs:**
+### **Added APIs**
 **Aspose.Email**
 
 Class AsposeArgumentOutOfRangeException
@@ -206,7 +206,7 @@ Property PropertyDescriptor.ForceUseUnicode
 **Aspose.Email.Outlook**
 
 Property MapiConversionOptions.PreserveEmbeddedMessageFormat
-### **Removed APIs:**
+### **Removed APIs**
 Field/Enum Aspose.Email.Outlook.MapiPropertyTag.PR_RTF_DECOMPRESSED
 Method Aspose.Email.Exchange.IEWSClient.CreateContact(Contact)
 Method Aspose.Email.Exchange.IEWSClient.DeleteContact(Contact)

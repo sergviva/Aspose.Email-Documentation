@@ -7,7 +7,7 @@ url: /java/utility-features-smtp-client/
 
 ## **Listing Extension Servers using Smtp Client**
 Aspose.Email's SmtpClient lets you retrieve the server extensions that a server supports such as IDLE, UNSELECT, QUOTA, etc. This helps in identifying the availability of an extension before using the client for that particular functionality. The getCapabilities() method returns the supported extension types in the form of a string array.
-#### **Java**
+### **Java**
 {{< gist "" "e3443fa9baa07df6d929fc4a408add67" "Examples-src-main-java-com-aspose-email-examples-smtp-RetrieveServerExtensions-.java" >}}
 ## **Working with Signed Messages**
 Aspose.Email API provides the capability to create Signed messages using certificates. The AttachSignature method can be used to sign a message for saving or even sending it using the SmtpClient.

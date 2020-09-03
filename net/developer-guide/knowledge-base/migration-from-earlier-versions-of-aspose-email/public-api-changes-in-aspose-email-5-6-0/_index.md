@@ -7,7 +7,7 @@ url: /net/public-api-changes-in-aspose-email-5-6-0/
 
 
 The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Email for .NET. If you have concerns about any change listed, please raise it on the Aspose.Email support forum.
-## **Added APIs:**
+## **Added APIs**
 Class Aspose.Email.Google.GoogleContactGroup
 Method Aspose.Email.Google.GoogleContactGroup.ToString
 Property Aspose.Email.Google.GoogleContactGroup.Content
@@ -85,7 +85,7 @@ Property Aspose.Email.MailClientTask.IsCanceled
 
 Property Aspose.Email.Protocols.ActiveSync.TransportLayer.ActiveSyncTLClient.PolicyState
 Property Aspose.Email.Protocols.ActiveSync.TransportLayer.IBaseActiveSyncTLClient.PolicyState
-## **Removed APIs:**
+## **Removed APIs**
 Class Aspose.Email.Common.Commands.BaseCommand
 Class Aspose.Email.OAuth.BaseTokenProvider
 Class Aspose.Email.OAuth.GoogleTokenProvider

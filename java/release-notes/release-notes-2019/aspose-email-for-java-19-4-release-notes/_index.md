@@ -53,7 +53,7 @@ This page contains release notes information for Aspose.Email for Java 19.4.
 |EMAILNET-39449|PST Extraction Hangs When Message Has ‘Dead’ Links|Bug|
 |EMAILNET-39450|Exception on PST Extraction|Bug|
 
-## **Added APIs:**
+## **Added APIs**
 Field/Enum VCardVersion.V30
 Class AppendMessagesResult
 Class SendMessagesResult
@@ -103,7 +103,7 @@ Property SendMessagesResult.getNotHandled
 Property SendMessagesResult.getSucceeded
 Property SmtpClient.getSmtpQueueLocation, setSmtpQueueLocation
 Property VCardSecurity.getEncoding, setEncoding
-## **Removed APIs:**
+## **Removed APIs**
 Class SmtpAuthentication
 Method ImapClient.beginSelectFolder(IConnection, String, boolean, AsyncCallback, Object)
 Method ImapClient.beginSelectFolder(String, boolean, AsyncCallback, Object)

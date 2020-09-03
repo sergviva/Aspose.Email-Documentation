@@ -37,7 +37,7 @@ This page contains release notes information for Aspose.Email for Java 19.3.
 |EMAILNET-39002|The encrypted message cannot be sent using SmtpClient|Bug|
 |EMAILJAVA-34503|Performance issue while Extracting MSG from PST|Bug|
 
-## **Added APIs:**
+## **Added APIs**
 Class ConnectionAsgmtType
 Class EmailClient
 Class ImapMessageInfoCollectionBase
@@ -174,7 +174,7 @@ Property MessageInfoBase.getTo
 Property MapiCalendarAttendees.getAppointmentUnsendableRecipients, setAppointmentUnsendableRecipients
 Property MapiConversionOptions.getForcedRtfBodyForAppointment, setForcedRtfBodyForAppointment
 Property MapiMessage.getSentRepresentingSmtpAddress
-## **Removed APIs:**
+## **Removed APIs**
 Event CredentialsByHostClient.bindIPEndPoint
 Method CredentialsByHostClient.cancelAsyncOperation(IAsyncResult)
 Method CredentialsByHostClient.createConnection

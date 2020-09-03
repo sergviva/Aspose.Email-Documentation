@@ -51,7 +51,7 @@ Aspose.Email for .NET is a class library that enables applications to manipulate
 |EMAILNET-35177 |Detach Add Signature option raises exception with attachment |Bug |
 ### **Public API and Backward Incompatible Changes**
 The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Email for .NET. If you have concerns about any change listed, please raise it on the Aspose.Email support forum.
-## **Added APIs:**
+## **Added APIs**
 #### **Aspose.Email**
 Class PageInfo
 Field PageInfo.next
@@ -178,7 +178,7 @@ Method MapiMessage.SaveAsTemplate(Stream)
 Method MapiMessage.SaveAsTemplate(String)
 Property MapiCalendarRecurrencePattern.EndDate
 Property MapiCalendarRecurrencePattern.StartDate
-## **Obsolete API:**
+## **Obsolete API**
 #### **Aspose.Email.Exchange**
 ***Please use same property from 'Aspose.Email.PageInfo' class instead***
 

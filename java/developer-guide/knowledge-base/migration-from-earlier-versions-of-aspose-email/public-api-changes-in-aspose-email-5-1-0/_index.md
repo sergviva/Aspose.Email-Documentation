@@ -6,7 +6,7 @@ url: /java/public-api-changes-in-aspose-email-5-1-0/
 ---
 
 The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Email for .NET. If you have concerns about any change listed, please raise it on the Aspose.Email support forum.
-## **Added APIs:**
+## **Added APIs**
 Class BaseTokenProvider
 Class OutlookTokenProvider
 
@@ -21,7 +21,7 @@ Property BaseTokenProvider.getClientId()
 Property BaseTokenProvider.getClientSecret()
 Property BaseTokenProvider.getRefreshToken()
 Property MapiConversionOptions.getPreserveOriginalAddresses(), MapiConversionOptions.setPreserveOriginalAddresses(boolean)
-## **Removed APIs:**
+## **Removed APIs**
 Method GoogleTokenProvider.getAccessToken()
 Method GoogleTokenProvider.getAccessToken(boolean)
 Method AppointmentMailMessageInterpretor.loadMessageHeader(MailMessage,MapiMessage)

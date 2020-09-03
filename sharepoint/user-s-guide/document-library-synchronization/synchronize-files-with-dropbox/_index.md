@@ -20,7 +20,7 @@ Aspose.Email for SharePoint allows synchronization in either direction:
 In the illustration below, the synchronization goes from Dropbox to SharePoint. 
 
 {{% /alert %}} 
-### **Synchronizing Files with Dropbox**
+## **Synchronizing Files with Dropbox**
 To setup the synchronization:
 
 1. In a SharePOint document library, click **Sync List with Dropbox** on the **Aspose Tools** ribbon.

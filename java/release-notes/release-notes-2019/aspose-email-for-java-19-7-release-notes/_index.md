@@ -30,7 +30,7 @@ This page contains release notes information for Aspose.Email for Java 19.7.
 |EMAILNET-39523|Method MailMessage.Body gives incorrect output for mail headers|Bug|
 |EMAILJAVA-34561|MailMessage.checkSignature() method raises exception for detached signature|Bug|
 
-## **Added APIs:**
+## **Added APIs**
 Class    ConversionProgressEventHandler
 Class    ProgressEventHandlerInfo
 Class    ProgressEventType
@@ -54,5 +54,5 @@ Property    SaveOptions.getCustomProgressHandler, setCustomProgressHandler
 Property    OlmFolder.getMessageCount
 Property    TgzReader.getCurrentDirectory
 Property    TgzReader.getCurrentMessage
-## **Removed APIs:**
+## **Removed APIs**
 No Changes

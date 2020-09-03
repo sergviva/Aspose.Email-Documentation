@@ -7,7 +7,7 @@ url: /net/public-api-changes-in-aspose-email-6-1-0/
 
 
 The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Email for .NET. If you have concerns about any change listed, please raise it on the Aspose.Email support forum.
-## **Added APIs:**
+## **Added APIs**
 Class Aspose.Email.Mail.WebDavContactSaveOptions
 Method Aspose.Email.Mail.WebDavContactSaveOptions.#ctor
 Property Aspose.Email.Mail.WebDavContactSaveOptions.Default
@@ -122,6 +122,6 @@ Method Aspose.Email.Mail.SmtpClient.Send(Aspose.Email.IConnection,System.String,
 Method Aspose.Email.Mail.SmtpClient.Send(Aspose.Email.Mail.MailMessage[])
 Method Aspose.Email.Mail.SmtpClient.Send(Aspose.Email.Mail.MailMessageCollection)
 Method Aspose.Email.Mail.SmtpClient.Send(System.Collections.IEnumerable)
-## **Removed APIs:**
+## **Removed APIs**
 Method Aspose.Email.Mail.Contact.op_Explicit(Aspose.Email.Mail.Contact)~Aspose.Email.Outlook.MapiContact
 Property Aspose.Email.Protocols.Exchange.ExchangeDav.WebDavContactSaveOptions.Default

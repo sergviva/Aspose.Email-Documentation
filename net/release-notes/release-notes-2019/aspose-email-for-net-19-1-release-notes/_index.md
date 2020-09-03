@@ -39,7 +39,7 @@ This page contains release notes information for Aspose.Email for .NET 19.1.
 |EMAILNET-39269|Unable to open EML file with MailMessage|Bug|
 |EMAILNET-39275|Converting MSG to MHT throws exception|Bug|
 
-## **Added APIs:**
+## **Added APIs**
 Class Aspose.Email.Clients.Imap.ImapMailboxInfo
 Field/Enum Aspose.Email.Clients.Imap.ImapSpecialFolderTypes.NotSpecified
 Method Aspose.Email.Clients.Pop3.Pop3Client.BeginLoadMessageInfoList(Aspose.Email.Clients.IConnection,System.Collections.Generic.IEnumerable<Aspose.Email.Clients.Pop3.Pop3MessageInfo>)

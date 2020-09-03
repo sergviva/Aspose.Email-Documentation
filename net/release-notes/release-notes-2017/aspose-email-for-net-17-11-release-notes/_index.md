@@ -30,7 +30,7 @@ This page contains release notes information for Aspose.Email for .NET 17.11.
 |EMAILNET-38866|Notes created from 2016 Note file don't open in MS Outlook|Bug|
 |EMAILNET-38826|Fetch calendar items returns error "Input string was not in a correct format"|Bug|
 
-## **Added APIs:**
+## **Added APIs**
 Class Aspose.Email.AsposeInvalidEnumArgumentException
 Class Aspose.Email.Clients.Exchange.WebService.CalendarDeletionOptions
 Class Aspose.Email.Clients.Exchange.WebService.DeletionOptions
@@ -123,7 +123,7 @@ Property Aspose.Email.Mapi.MapiPropertyCollection.Item(PropertyDescriptor)
 Property Aspose.Email.Mapi.PropertyDescriptor.Use8BitStringAsUnicode
 Property Aspose.Email.Storage.Pst.ItemMovedEventArgs.IsFolder
 Property Aspose.Email.Storage.Pst.ItemMovedEventArgs.IsMessage
-## **Removed APIs:**
+## **Removed APIs**
 Class Aspose.Email.Clients.Exchange.ExchangeException
 Method Aspose.Email.Calendar.Task.ToMapiTask
 Method Aspose.Email.Clients.Exchange.ExchangeException.#ctor

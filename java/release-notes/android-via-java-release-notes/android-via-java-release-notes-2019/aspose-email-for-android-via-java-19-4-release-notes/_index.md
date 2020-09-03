@@ -40,11 +40,11 @@ This page contains release notes information for Aspose.Email for Android via Ja
 |EMAILNET-39449|PST Extraction Hangs When Message Has ‘Dead’ Links|Bug|
 |EMAILNET-39450|Exception on PST Extraction|Bug|
 
-## **Added APIs:**
+## **Added APIs**
 Field/Enum VCardVersion.V30
 Method VCardSecurity.saveToPEM(OutputStream)
 Method VCardSecurity.saveToPEM(String)
 Property AsposeException.getErrorDetails
 Property VCardSecurity.getEncoding, setEncoding
-## **Removed APIs:**
+## **Removed APIs**
 No Changes

@@ -6,7 +6,7 @@ url: /java/aspose-email-for-java-6-6-0-release-notes/
 ---
 
 Aspose.Email for Java is a class library that enables applications to manipulate popular message formats including Microsoft Outlook messages. It also supports communication protocols such as IMAP, SMTP, POP3, and Microsoft Exchange Server. In addition, the API supports working with PST as well as OST file formats.
-### **Major Features**
+## **Major Features**
 - Bulk deletion and update of messages in PST
 - Support for Gmail IMAP protocol extensions
 - ImapClient: Delete and change message flags for set of messages
@@ -39,7 +39,7 @@ Features and Improvements
 |EMAILNET-35225 |Signed and Encrypted message body is null while fetched by Aspose.Email |Bug |
 |EMAILNET-35224 |Saving Contact as MSG raises ArgumentException |Bug |
 |EMAILNET-35236 |System.Format Exception raised while loading ICS file |Bug |
-### **Public API and Backward Incompatible Changes**
+## **Public API and Backward Incompatible Changes**
 The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Email for Java. If you have concerns about any change listed, please raise it on the Aspose.Email support forum.
 
 Class CompressionType
@@ -693,7 +693,7 @@ Property ImapFolderInfo.getUidNotSticky
 
 Property ImapQueryBuilder.getESearchParameters, setESearchParameters
 Property ImapQueryBuilder.getModSeq
-## **Removed APIs:**
+## **Removed APIs**
 Class HeaderCollection.KeysCollection
 Method HeaderCollection.KeysCollection.copyTo(Array, int)
 Method HeaderCollection.KeysCollection.get(int)

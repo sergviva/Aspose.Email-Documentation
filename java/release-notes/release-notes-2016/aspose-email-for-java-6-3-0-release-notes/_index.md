@@ -5,13 +5,13 @@ weight: 100
 url: /java/aspose-email-for-java-6-3-0-release-notes/
 ---
 
-### **Features**
+## **Features**
 - Detecting different file formats. This feature allows to define any supported by Aspose.Email file or stream format.
-### **Other features and improvements**
+## **Other features and improvements**
 - Support for adding message headers while converting to HTML
 - Auto-detection of html body encoding to correct message conversion into mhtml and html
 - Message signing with detached signature
-### **All Changes**
+## **All Changes**
 
 |**Key** |**Summary** |**Category** |
 | :- | :- | :- |
@@ -33,7 +33,7 @@ url: /java/aspose-email-for-java-6-3-0-release-notes/
 |EMAILNET-35131 |- Number of attachments differ for inner EML while source mail is converted from EML to MSG|Bugs |
 |EMAILNET-35130 |- MSG to MHTML: Issues with Header layout|Bugs |
 |EMAILNET-35115 |- Pop3Exception: Connection failure. Timeout has been reached|Bugs |
-### **Public API and Backwards Incompatible Changes**
+## **Public API and Backwards Incompatible Changes**
 ``` java
 
  The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Email for .NET. If you have concerns about any change listed, please raise it on the Aspose.Email support forum.

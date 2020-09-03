@@ -27,7 +27,7 @@ This page contains release notes information for Aspose.Email for Java 19.8.
 |EMAILNET-39515|Unhandled exception in SMTP when multiple threads are used.|Bug|
 |EMAILNET-39540|Use an OFT for several appointments|Bug|
 
-## **Added APIs:**
+## **Added APIs**
 Class    NotesStorageFacility
 Field/Enum    MapiRecipientType.MAPI_SUBMITTED
 Method    IEWSClient.createAppointment(MapiCalendar,String,boolean)
@@ -36,5 +36,5 @@ Method    NotesStorageFacility.#ctor(String)
 Method    NotesStorageFacility.dispose
 Method    NotesStorageFacility.dispose(boolean)
 Method    NotesStorageFacility.enumerateMessages
-## **Removed APIs:**
+## **Removed APIs**
 No Changes

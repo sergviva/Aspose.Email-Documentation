@@ -40,7 +40,7 @@ This page contains release notes information for Aspose.Email for Android via Ja
 |EMAILNET-39153|PST modification. System.ArgumentException: An item with the same key has already been added.|Bug|
 
 
-## **Added APIs:**
+## **Added APIs**
 Class OlmFolder
 Class OlmStorage
 Field/Enum Aspose.Email.MhtTemplateName.TabField
@@ -54,7 +54,7 @@ Property OlmFolder.hasMessages
 Property OlmFolder.getName
 Property OlmFolder.getSubFolders
 Property OlmStorage.getFolderHierarchy
-## **Removed APIs:**
+## **Removed APIs**
 None.
 
 

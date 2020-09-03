@@ -17,7 +17,7 @@ Aspose.Email for .NET is a class library that enables applications to manipulate
 
 |**Key** |**Summary** |**Category** |
 | :- | :- | :- |
-|EMAILNET-34828 |Bulk [deletion]/net/working-with-messages-in-a-pst-file/) and [update](/email/net/working-with-messages-in-a-pst-file/) of messages in PST for optimized I/O |New Feature |
+|EMAILNET-34828 |Bulk [deletion](/net/working-with-messages-in-a-pst-file/) and [update](/email/net/working-with-messages-in-a-pst-file/) of messages in PST for optimized I/O |New Feature |
 |EMAILNET-35021 |Add support for Gmail IMAP protocol extensions |New Feature |
 |EMAILNET-35167 |Add new features in the [IMAP4 extended list command](/email/net/support-for-imap-idle-command-and-extensions/)|New Feature |
 |EMAILNET-35205 |Add new features in the [IMAP4 ID extension (rfc2971)](/email/net/support-for-imap-idle-command-and-extensions/)|New Feature |
@@ -39,7 +39,7 @@ Aspose.Email for .NET is a class library that enables applications to manipulate
 |EMAILNET-35236 |System.Format Exception raised while loading ICS file |Bug |
 ### **Public API and Backward Incompatible Changes**
 The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Email for .NET. If you have concerns about any change listed, please raise it on the Aspose.Email support forum.
-## **Added APIs:**
+## **Added APIs**
 **Aspose.Email**
 
 Class CompressionType
@@ -699,7 +699,7 @@ Property ImapFolderInfo.UidNotSticky
 
 Property ImapQueryBuilder.ESearchParameters
 Property ImapQueryBuilder.ModSeq
-## **Removed APIs:**
+## **Removed APIs**
 **Aspose.Email.Mime**
 
 Class HeaderCollection.KeysCollection

@@ -6,7 +6,7 @@ url: /net/public-api-changes-in-aspose-email-6-2-0/
 ---
 
 The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Email for .NET. If you have concerns about any change listed, please raise it on the Aspose.Email support forum.
-### **Added APIs:**
+### **Added APIs**
 Class Aspose.Email.Exchange.AppointmentCollection
 Class Aspose.Email.Mail.HtmlFormatOptions
 Field/Enum Aspose.Email.Mail.HtmlFormatOptions.None
@@ -64,7 +64,7 @@ Property Aspose.Email.Imap.ImapMessageInfoCollection.LastItemOffset
 Property Aspose.Email.Imap.ImapMessageInfoCollection.LastPage
 Property Aspose.Email.Imap.ImapMessageInfoCollection.TotalCount
 Property Aspose.Email.Mail.HtmlSaveOptions.HtmlFormatOptions
-### **Removed APIs:**
+### **Removed APIs**
 Class Aspose.Email.Mail.MailMessageSaveOptions
 Event Aspose.Email.Mail.SmtpClient.SendCompleted
 Field/Enum Aspose.Email.Mail.MailMessageSaveOptions.HideExtraPrintHeader

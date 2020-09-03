@@ -17,5 +17,5 @@ This page contains release notes information for Aspose.Email for .NET 19.1.1 ho
 | :- | :- | :- |
 |EMAILNET-39259|Incorrect dll being copied|Bug|
 
-## **Added APIs:**
+## **Added APIs**
 None

@@ -16,17 +16,17 @@ Below are the steps to create PST from scratch:
 
 
 {{< gist "aspose-com-gists" "709d733586ce50505c3bca3f6e8bd18d" "Examples-src-main-java-com-aspose-email-examples-outlook-pst-CreateNewPST-.java" >}}
-### **Change a Folder's Container Class**
+## **Change a Folder's Container Class**
 Sometimes it is necessary to change a folder's container class. A common example is where messages of different types (appointments, messages, for example) are added to the same folder. In such cases, the folder class needs to be changed for all elements in the folder to display properly. The following code sample shows how to change the container class of a folder in PST for this purpose.
 
 {{< gist "aspose-com-gists" "709d733586ce50505c3bca3f6e8bd18d" "Examples-src-main-java-com-aspose-email-examples-outlook-pst-ChangeAFoldersContainerClass-.java" >}}
-### **Add Bulk Messages with Improved Performance**
+## **Add Bulk Messages with Improved Performance**
 Adding individual messages to a PST implies more I/O operations to disc and may slow down the performance. For improved performance, messages can be added to the PST in bulk mode to minimize I/O operations. The [addMessages(Iterable<MapiMessage> messages)](https://apireference.aspose.com/java/email/com.aspose.email/FolderInfo#addMessages\(java.lang.Iterable\)) method allows you to add messages in bulk and can be used as in the following scenarios. In addition, the [MessageAdded](https://apireference.aspose.com/java/email/com.aspose.email/FolderInfo#MessageAdded) event occurs when a message is added to the folder.
-#### **Add Messages from Another PST**
+## **Add Messages from Another PST**
 To add messages from another PST, use the [FolderInfo.enumerateMapiMessages()](https://apireference.aspose.com/java/email/com.aspose.email/FolderInfo#enumerateMapiMessages\(\)) method that returns IEnumerable<[MapiMessage](https://apireference.aspose.com/java/email/com.aspose.email/MapiMessage)>:
 
 {{< gist "aspose-com-gists" "709d733586ce50505c3bca3f6e8bd18d" "Examples-src-main-java-com-aspose-email-examples-outlook-pst-AddBulkMessagesWithImprovedPerformance-BulkAddFromAnotherPst.java" >}}
-#### **Adding Bulk Messages from Disc**
+## **Adding Bulk Messages from Disc**
 {{< gist "aspose-com-gists" "709d733586ce50505c3bca3f6e8bd18d" "Examples-src-main-java-com-aspose-email-examples-outlook-pst-AddBulkMessagesWithImprovedPerformance-AddMessagesInBulkMode.java" >}}
-#### **Example Code for IEnumerable Implementation for Adding Messages from Files in a Directory**
+## **Example Code for IEnumerable Implementation for Adding Messages from Files in a Directory**
 {{< gist "aspose-com-gists" "709d733586ce50505c3bca3f6e8bd18d" "Examples-src-main-java-com-aspose-email-examples-outlook-pst-MapiMessageCollection-.java" >}}

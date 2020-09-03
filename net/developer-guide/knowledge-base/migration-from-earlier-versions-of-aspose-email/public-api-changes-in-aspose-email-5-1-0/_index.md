@@ -7,7 +7,7 @@ url: /net/public-api-changes-in-aspose-email-5-1-0/
 
 
 The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Email for .NET. If you have concerns about any change listed, please raise it on the Aspose.Email support forum.
-## **Added APIs:**
+## **Added APIs**
 Class Aspose.Email.OAuth.BaseTokenProvider
 Class Aspose.Email.OAuth.OutlookTokenProvider
 Method Aspose.Email.Exchange.IEWSClient.ResolveContacts(System.String,Aspose.Email.Exchange.ExchangeListContactsOptions)
@@ -22,7 +22,7 @@ Property Aspose.Email.OAuth.BaseTokenProvider.ClientId
 Property Aspose.Email.OAuth.BaseTokenProvider.ClientSecret
 Property Aspose.Email.OAuth.BaseTokenProvider.RefreshToken
 Property Aspose.Email.Outlook.MapiConversionOptions.PreserveOriginalAddresses
-## **Removed APIs:**
+## **Removed APIs**
 Class Aspose.Email.Common.Commands.BaseAsyncCommand
 Event Aspose.Email.Common.Commands.BaseAsyncCommand.ExecutionCompleted
 Method Aspose.Email.Common.Commands.BaseAsyncCommand.#ctor

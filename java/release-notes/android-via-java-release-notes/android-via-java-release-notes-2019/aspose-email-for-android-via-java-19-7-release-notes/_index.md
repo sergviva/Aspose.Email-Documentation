@@ -64,7 +64,7 @@ This page contains release notes information for Aspose.Email for Android via Ja
 |EMAILJAVA-34530|Exception when converting PST to EML|Bug|
 |EMAILJAVA-34527|Attachment returns not "rewinded" stream for content|Bug|
 
-## **Added APIs:**
+## **Added APIs**
 
 |**Type**|**Name**|
 | :- | :- |
@@ -96,5 +96,5 @@ This page contains release notes information for Aspose.Email for Android via Ja
 |Field/Enum|`   `StandardIpmFolder.SyncIssues|
 |Property|`   `OlmFolder.getPath|
 |Property|`   `PersonalStorageQueryBuilder.getOnlyFoldersCreatedByUser|
-## **Removed APIs:**
+## **Removed APIs**
 No Changes

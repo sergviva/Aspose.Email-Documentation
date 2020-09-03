@@ -7,7 +7,7 @@ url: /net/public-api-changes-in-aspose-email-5-7-0/
 
 
 The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Email for .NET. If you have concerns about any change listed, please raise it on the Aspose.Email support forum.
-## **Added APIs:**
+## **Added APIs**
 Class Aspose.Email.Imap.ImapMonitoringEventArgs
 Class Aspose.Email.Imap.ImapMonitoringEventHandler
 Class Aspose.Email.Mail.EmlLoadOptions
@@ -55,7 +55,7 @@ Property Aspose.Email.Mail.MessageFormat.Html
 Property Aspose.Email.Mail.MhtmlLoadOptions.PreserveTnefAttachments
 Property Aspose.Email.Mail.MsgLoadOptions.PreserveTnefAttachments
 Property Aspose.Email.Outlook.Pst.PersonalStorageQueryBuilder.MessageId
-## **Removed APIs:**
+## **Removed APIs**
 Class Aspose.Email.Pop3.Pop3Authentication
 Method Aspose.Email.Outlook.Pst.FolderInfo.DeleteChildMessages(Aspose.Email.Outlook.Pst.MessageInfoCollection)
 Method Aspose.Email.Pop3.Pop3Authentication.Equals(System.Object)

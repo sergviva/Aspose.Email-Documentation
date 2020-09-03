@@ -32,7 +32,7 @@ This page contains release notes information for Aspose.Email for .NET 19.10
 |EMAILNET-39612|MailMessage.MessageId has a new value for each run|Bug|
 |EMAILNET-39627|Parsing To fails|Bug|
 
-## **Added APIs:**
+## **Added APIs**
 
 |**Type**|**Title**|
 | :- | :- |
@@ -178,5 +178,5 @@ This page contains release notes information for Aspose.Email for .NET 19.10
 |Property|Aspose.Email.Amp.SectionHeader.Type|
 |Property|Aspose.Email.Amp.SectionHeader.Value|
 |Property|Aspose.Email.Amp.SectionValue.Data|
-## **Removed APIs:**
+## **Removed APIs**
 No Changes

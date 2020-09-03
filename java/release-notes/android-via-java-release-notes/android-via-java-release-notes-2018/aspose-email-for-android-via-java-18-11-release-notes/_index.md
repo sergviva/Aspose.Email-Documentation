@@ -53,12 +53,12 @@ This page contains release notes information for Aspose.Email for Android via Ja
 |EMAILJAVA-34457|Failed to Set License|Bug|
 
 
-## **Added APIs:**
+## **Added APIs**
 Field/Enum KnownPropertyList.GDATA_CONTACT_VERSION
 Field/Enum KnownPropertyList.GDATA_PHOTO_VERSION
 Property Appointment.getCreatedDate, setCreatedDate
 Property Appointment.getLastModifiedDate, setLastModifiedDate
 Property IcsSaveOptions.getProductId, setProductId
 Property MsgLoadOptions.getDecodeClearSignedContent, setDecodeClearSignedContent
-## **Removed APIs:**
+## **Removed APIs**
 None.

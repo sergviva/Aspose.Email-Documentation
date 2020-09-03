@@ -7,7 +7,7 @@ url: /net/public-api-changes-in-aspose-email-5-4-0/
 
 
 The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Email for .NET. If you have concerns about any change listed, please raise it on the Aspose.Email support forum.
-## **Added APIs:**
+## **Added APIs**
 Class Aspose.Email.Mail.Bounce.BounceResult
 Class Aspose.Email.Mail.Bounce.DSNAction
 Class Aspose.Email.OAuthNetworkCredential
@@ -96,7 +96,7 @@ Property Aspose.Email.Outlook.MapiCalendarRecurrencePattern.SlidingFlag
 Property Aspose.Email.Outlook.Pst.ItemMovedEventArgs.DestinationFolder
 Property Aspose.Email.Outlook.Pst.StorageProcessedEventArgs.Chunk
 Property Aspose.Email.Outlook.Pst.StorageProcessedEventArgs.FileName
-## **Removed APIs:**
+## **Removed APIs**
 Field/Enum Aspose.Email.ConnectionState.Connecting
 Field/Enum Aspose.Email.ConnectionState.Executing
 Field/Enum Aspose.Email.ConnectionState.Fetching

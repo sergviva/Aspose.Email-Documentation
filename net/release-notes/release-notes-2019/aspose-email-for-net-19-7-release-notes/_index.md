@@ -28,7 +28,7 @@ This page contains release notes information for Aspose.Email for .NET 19.7
 |EMAILNET-39530|An exception is thrown when extracting a message from PST to stream|Bug|
 |EMAILNET-39523|MailMessage.Body method gives incorrect output for mail headers|Bug|
 
-## **Added APIs:**
+## **Added APIs**
 Class    Aspose.Email.ConversionProgressEventHandler
 Class    Aspose.Email.ProgressEventHandlerInfo
 Class    Aspose.Email.ProgressEventType
@@ -51,5 +51,5 @@ Property    Aspose.Email.SaveOptions.CustomProgressHandler
 Property    Aspose.Email.Storage.Olm.OlmFolder.MessageCount
 Property    Aspose.Email.Storage.Zimbra.TgzReader.CurrentDirectory
 Property    Aspose.Email.Storage.Zimbra.TgzReader.CurrentMessage
-## **Removed APIs:**
+## **Removed APIs**
 No Changes

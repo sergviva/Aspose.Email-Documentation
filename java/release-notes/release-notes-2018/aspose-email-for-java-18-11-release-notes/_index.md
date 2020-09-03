@@ -54,7 +54,7 @@ This page contains release notes information for Aspose.Email for Java 18.11. 
 |EMAILJAVA-34457|Failed to Set License|Bug|
 
 
-## **Added APIs:**
+## **Added APIs**
 Class BackupSettings
 Field/Enum KnownPropertyList.GDATA_CONTACT_VERSION
 Field/Enum KnownPropertyList.GDATA_PHOTO_VERSION
@@ -92,7 +92,7 @@ Property ImapRestoreSettings.getNumberOfAttemptsToRrepeat, setNumberOfAttemptsTo
 Property ImapRestoreSettings.getRestoreConnection, setRestoreConnection
 Property ImapRestoreSettings.getTimeoutBetweenAttempts, setTimeoutBetweenAttempts
 Property MsgLoadOptions.getDecodeClearSignedContent, setDecodeClearSignedContent
-## **Removed APIs:**
+## **Removed APIs**
 Method ImapClient.backup(IConnection,ImapFolderInfoCollection,OutputStream,/**BackupOptions**/int)
 Method ImapClient.backup(IConnection,ImapFolderInfoCollection,String,/**BackupOptions**/int)
 Method ImapClient.backup(ImapFolderInfoCollection,OutputStream,/**BackupOptions**/int)

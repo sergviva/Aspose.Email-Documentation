@@ -35,7 +35,7 @@ This page contains release notes of Aspose.Email for .NET 17.10.
 |EMAILNET-38847|Start and End Date same for full day event|Bug|
 |EMAILNET-38849|Some characters garbled while conversion from EMLX to EML|Bug|
 
-## **Added APIs:**
+## **Added APIs**
 Class Aspose.Email.Clients.Exchange.AppointmentQueryBuilder
 Method Aspose.Email.Clients.Exchange.Dav.ExchangeClient.FolderExists(System.String, System.String)
 Method Aspose.Email.Clients.Exchange.Dav.ExchangeClient.ListMessages(System.String)
@@ -102,7 +102,7 @@ Property Aspose.Email.Clients.Exchange.ExchangeQueryBuilder.Appointment
 Property Aspose.Email.Clients.Exchange.WebService.IEWSClient.MailboxInfo
 Property Aspose.Email.Clients.Exchange.WebService.IEWSClient.MailboxUri
 Property Aspose.Email.Clients.Imap.ImapClient.SaslIrSupported
-## **Removed APIs:**
+## **Removed APIs**
 Method Aspose.Email.Clients.Exchange.ExchangeClientBase.#ctor
 Method Aspose.Email.Clients.Exchange.ExchangeClientBase.AppendMessage(System.String,Aspose.Email.MailMessage)
 Method Aspose.Email.Clients.Exchange.ExchangeClientBase.AppendMessage(System.String,Aspose.Email.MailMessage,System.Boolean)

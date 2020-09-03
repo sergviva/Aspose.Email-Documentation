@@ -30,7 +30,7 @@ This page contains release notes information for Aspose.Email for .NET 20.4
 |EMAILNET-39792|MSG to EML output wrong (Plain Text)|Bug|
 |EMAILNET-39791|ImapClient crashes application even called in try catch|Bug|
 
-#### **Enable mail clients activity logging in a .NET Core projects**
+## **Enable mail clients activity logging in a .NET Core projects**
 Now **SmtpClient**, **Pop3Client**, **ImapClient** and **EWSClient** activity can be logged by modifying (or adding) **appsettings.json** file in .NET Core project. For that, it is needed to set the special settings into the file.
 
 To turn on logging, the following settings must be included into the log file, containing the correct path:
@@ -78,7 +78,7 @@ Here is an example of **appsettings.json**.
 }
 
 ```
-#### **Support for the ability to ignore exceptions**
+## **Support for the ability to ignore exceptions**
 We have prepared a new functionality to ignore exceptions - **ExceptionManager** class has been added to provide ignore exceptions ability:
 
 ``` cs

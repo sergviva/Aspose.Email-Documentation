@@ -7,7 +7,7 @@ url: /net/public-api-changes-in-aspose-email-6-3-0/
 
 
 The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Email for .NET. If you have concerns about any change listed, please raise it on the Aspose.Email support forum.
-## **Added APIs:**
+## **Added APIs**
 Class Aspose.Email.FileFormatType
 Class Aspose.Email.FileFormatInfo
 Class Aspose.Email.FileFormatUtil

@@ -7,7 +7,7 @@ url: /net/public-api-changes-in-aspose-email-5-3-0/
 
 
 The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Email for .NET. If you have concerns about any change listed, please raise it on the Aspose.Email support forum.
-## **Added APIs:**
+## **Added APIs**
 Class Aspose.Email.Exchange.SyncFolderResult
 Class Aspose.Email.TextFormat
 Field/Enum Aspose.Email.MailClientTask.callback
@@ -38,7 +38,7 @@ Property Aspose.Email.Mail.MailMessage.ReadReceiptTo
 Property Aspose.Email.MailClientTask.Canceled
 Property Aspose.Email.Outlook.MapiMessage.ReadReceiptRequested
 Property Aspose.Email.Pop3.Pop3Client.UseSingleConnection
-## **Removed APIs:**
+## **Removed APIs**
 Class Aspose.Email.Imap.ImapSslSecurityMode
 Class Aspose.Email.Mail.MesageLoadOptions
 Class Aspose.Email.Mail.SmtpSslSecurityMode

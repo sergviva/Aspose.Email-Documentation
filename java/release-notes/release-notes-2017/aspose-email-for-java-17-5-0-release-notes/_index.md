@@ -36,7 +36,7 @@ The API has now been upgraded to version 17.5.0 that comes with several new feat
 |EMAILJAVA-34260|Out Of memory exception when processing Mbox file|Bug|
 |EMAILNET-38709|Exception raised while updating attachment name containing double single quote|Bug|
 
-## **Added APIs:**
+## **Added APIs**
 Class MhtTemplateName.Contact
 Class ContactFieldsSet
 Field/Enum ContactFieldsSet.AllExisting
@@ -163,7 +163,7 @@ Property MapiCalendarYearlyAndMonthlyRecurrencePattern.getDayOfWeek, setDayOfWee
 Property MapiCalendarYearlyAndMonthlyRecurrencePattern.getFrequency, setFrequency
 Property MapiCalendarYearlyAndMonthlyRecurrencePattern.getPeriod, setPeriod
 Property MapiCalendarYearlyAndMonthlyRecurrencePattern.getPosition, setPosition
-## **Removed APIs:**
+## **Removed APIs**
 Property MapiCalendarMonthlyNthRecurrencePattern.getDayOfWeek, setDayOfWeek
 Property MapiCalendarMonthlyNthRecurrencePattern.getFrequency, setFrequency
 Property MapiCalendarMonthlyNthRecurrencePattern.getPeriod, setPeriod

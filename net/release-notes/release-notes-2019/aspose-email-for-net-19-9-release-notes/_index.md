@@ -31,10 +31,10 @@ This page contains release notes information for Aspose.Email for .NET 19.9
 |EMAILNET-39575|Exception while converting from MapiMessage to MailMessage|Bug|
 |EMAILNET-39578|Email body changing|Bug|
 
-## **Added APIs:**
+## **Added APIs**
 Delegate Aspose.Email.MailMessage.HyperlinkRenderingCallback(string source)
 Method Aspose.Email.MailMessage.GetHtmlBodyText(HyperlinkRenderingCallback hyperlinkRenderingCallback)
-## **Removed APIs:**
+## **Removed APIs**
 Field/Enum    Aspose.Email.Mapi.MapiRecipientType.MAPI_ORIG
 Method    Aspose.Email.Clients.Exchange.WebService.IEWSClient.DeleteContact(Aspose.Email.Mapi.MapiContact)
 Method    Aspose.Email.Clients.Exchange.WebService.IEWSClient.ListMessages(System.String,Aspose.Email.Clients.Exchange.ExchangeListMessagesOptions,System.Collections.Generic.IEnumerable{System.String})

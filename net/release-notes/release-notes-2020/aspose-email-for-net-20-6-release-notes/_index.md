@@ -34,7 +34,7 @@ This page contains release notes information for Aspose.Email for .NET 20.6
 |EMAILNET-39861|MapiCalendar does not save Attendees to ICS|Bug|
 |EMAILNET-39842|Multipart/related part marked with content-dispotion attachment missing in MailMessage|Bug|
 
-#### **Advanced Query Search (AQS) search with EWSClient**
+## **Advanced Query Search (AQS) search with EWSClient**
 [**Advanced Query Syntax (AQS)**](https://docs.microsoft.com/en-us/exchange/client-developer/exchange-web-services/how-to-perform-an-aqs-search-by-using-ews-in-exchange) is the query syntax used by Exchange as an alternative to searching filters for expressing search criteria. AQS is a more flexible way to perform searches and deliver search results for all commonly used fields on the items. AQS is also user-friendly and easy to understand and quickly mastering.
 Using AQS is suitable for finding messages by attachments and recipients.
 
@@ -82,7 +82,7 @@ Create a search query using query builder:
 ```
 
 See the [syntax description](https://docs.microsoft.com/exchange/client-developer/exchange-web-services/how-to-perform-an-aqs-search-by-using-ews-in-exchange).
-#### **Render custom icons in message attachment while HTML conversion**
+## **Render custom icons in message attachment while HTML conversion**
 Sometimes, the message contains in-line attachments, that are shown up as icon images in a message body. Such messages may create problems while converting them to HTML, since the icon images are lost. This is because attachment's icons are not held directly in the message.
 
 We have fixed this problem so that the user can customize the icons for attachments when converting the message to HTML. For that, the HtmlSaveOptions.ResourceHtmlRendering event has been added added:
@@ -150,7 +150,7 @@ mailMessage.Save(fileName + ".html", options);
 ```
 
 
-#### **Get Email Category in MHTML**
+## **Get Email Category in MHTML**
 We have introduced the ability to add a category header while converting message to MHML.
 
 ``` cs

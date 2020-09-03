@@ -10,7 +10,7 @@ The following is a list of any changes made to the public API such as added, ren
 The class RecurrencePattern renamed to CalendarRecurrence class.
 The class CalendarRecurrencePattern renamed to RecurrencePattern class.
 The class CalendarRecurrencePattern is obsolete and will be removed soon. Please, use 'RecurrencePattern' class instead of it.
-## **Added APIs:**
+## **Added APIs**
 Class FileFormatType
 Class FileFormatInfo
 Class FileFormatUtil

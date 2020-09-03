@@ -47,7 +47,7 @@ This page contains information about Aspose.Email for Java 17.6.
 |EMAILNET-38748|Not Setting license raises Argument Out Of Range exception for MapiMessage.FromMailMessage for ICS files|Bug|
 |EMAILNET-38753|IEWClient raises exception while fetching contacts from office365|Bug|
 
-## **Added APIs:**
+## **Added APIs**
 Property MhtSaveOptions.getSkipInlineImages, setSkipInlineImages
 
 Method ImapMessageFlags.keyword(String)

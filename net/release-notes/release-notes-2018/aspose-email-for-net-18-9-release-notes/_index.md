@@ -32,7 +32,7 @@ This page contains release notes information for Aspose.Email for .NET 18.9.
 |EMAILNET-39120|Email to mhtml to png fails with the latest version - Infinite Loop Error|Bug|
 |EMAILNET-39123|The Mapi message isn't properly saved to MSG format|Bug|
 
-## **Added APIs:**
+## **Added APIs**
 
-## **Removed APIs:**
+## **Removed APIs**
 

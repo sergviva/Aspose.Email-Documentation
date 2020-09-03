@@ -35,7 +35,7 @@ Aspose.Email for .NET is a class library that enables applications to manipulate
 |EMAILNET-38606|IEWSClient.MoveItem() function raises exception "Item Move Failed" while moving item to other user account|Bug|
 ## **Public API and Backwards Incompatible Changes**
 The following is a list of any changes made to the public API such as added, renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Email for .NET.
-## **Added APIs:**
+## **Added APIs**
 Class Aspose.Email.MthTemplateName
 Class Aspose.Email.SSPIException
 Field/Enum Aspose.Email.HtmlFormatOptions.DisplayAsOutlook
