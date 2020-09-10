@@ -26,5 +26,5 @@ To do any operation with Dropbox using Aspose.Email for SharePoint, you need to 
 
 Now, you can transfer or synchronize files between SharePoint and Dropbox file services:
 
-- [Send files to Dropbox](/sharepoint/send-selected-files-to-dropbox/).
-- [Synchronize files with Dropbox](/sharepoint/synchronize-files-with-dropbox/).
+- [Send files to Dropbox](/email/sharepoint/send-selected-files-to-dropbox/).
+- [Synchronize files with Dropbox](/email/sharepoint/synchronize-files-with-dropbox/).

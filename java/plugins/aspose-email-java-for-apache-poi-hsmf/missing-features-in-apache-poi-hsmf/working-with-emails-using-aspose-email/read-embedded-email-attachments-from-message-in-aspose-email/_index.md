@@ -73,6 +73,6 @@ for (int i = 0; i < message.getAttachments().size(); i++)
 
 {{% alert color="primary" %}} 
 
-For more details, visit [Read Embedded Email Attachments from Message](/java/working-with-attachments-and-embedded-objects/).
+For more details, visit [Read Embedded Email Attachments from Message](/email/java/working-with-attachments-and-embedded-objects/).
 
 {{% /alert %}}

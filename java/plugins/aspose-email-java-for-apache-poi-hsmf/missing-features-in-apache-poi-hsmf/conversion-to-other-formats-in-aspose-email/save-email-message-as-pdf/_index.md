@@ -58,6 +58,6 @@ doc.save(foStream, SaveFormat.PDF);
 
 {{% alert color="primary" %}} 
 
-For more details, visit [Saving A MSG as PDF](/java/creating-and-saving-msg-files/).
+For more details, visit [Saving A MSG as PDF](/email/java/creating-and-saving-msg-files/).
 
 {{% /alert %}}

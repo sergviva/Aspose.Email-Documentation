@@ -22,9 +22,9 @@ The API can be used on Windows OS for working with emailing file formats.
 
 Following are the links to some useful resources you may need to accomplish your tasks.
 
-- [Aspose.Email for C++ Online Documentation](/cpp/)
-- [Aspose.Email for C++ Features](/cpp/features-overview/)
-- [Aspose.Email for C++ Release Notes](/cpp/release-notes/)
+- [Aspose.Email for C++ Online Documentation](/email/cpp/)
+- [Aspose.Email for C++ Features](/email/cpp/features-overview/)
+- [Aspose.Email for C++ Release Notes](/email/cpp/release-notes/)
 - [Aspose.Email for C++ Product Page](https://products.aspose.com/cpp)
 - [Install Aspose.Email for C++ NuGet Package](https://www.nuget.org/packages/aspose.email.cpp.vc140/)
 - [Aspose.Email for C++ API Reference Guide](https://apireference.aspose.com/cpp)

@@ -12,7 +12,7 @@ Synchronize emails in SharePoint's custom list of emails with a mail server. Ins
 
 |<p>- Mail Protocol</p><p>- POP3</p><p>- IMAP</p><p>- Microsoft Exchange</p><p>- Mail server address</p>|<p>- Port</p><p>- SSL security</p><p>- Username</p><p>- Password</p><p>- Schedule (the hours or minutes after which the synchronization will take place).</p>|
 | :- | :- |
-[Read more about email synchronization](/sharepoint/email-synchronization/).
+[Read more about email synchronization](/email/sharepoint/email-synchronization/).
 
 {{% /alert %}}
 

@@ -60,6 +60,6 @@ mapimessage.save(dataDir + "AsposeInvitation.msg");
 
 {{% alert color="primary" %}} 
 
-For more details, visit [Read Outlook Template File (OFT)](/java/managing-message-files-with-aspose-email-outlook/).
+For more details, visit [Read Outlook Template File (OFT)](/email/java/managing-message-files-with-aspose-email-outlook/).
 
 {{% /alert %}}

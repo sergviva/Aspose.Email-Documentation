@@ -17,7 +17,7 @@ Aspose.Email for .NET is a class library that enables applications to manipulate
 
 |**Key** |**Summary** |**Category** |
 | :- | :- | :- |
-|EMAILNET-34828 |Bulk [deletion](/net/working-with-messages-in-a-pst-file/) and [update](/email/net/working-with-messages-in-a-pst-file/) of messages in PST for optimized I/O |New Feature |
+|EMAILNET-34828 |Bulk [deletion](/email/net/working-with-messages-in-a-pst-file/) and [update](/email/net/working-with-messages-in-a-pst-file/) of messages in PST for optimized I/O |New Feature |
 |EMAILNET-35021 |Add support for Gmail IMAP protocol extensions |New Feature |
 |EMAILNET-35167 |Add new features in the [IMAP4 extended list command](/email/net/support-for-imap-idle-command-and-extensions/)|New Feature |
 |EMAILNET-35205 |Add new features in the [IMAP4 ID extension (rfc2971)](/email/net/support-for-imap-idle-command-and-extensions/)|New Feature |

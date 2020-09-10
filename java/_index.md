@@ -18,11 +18,11 @@ Aspose.Email for Java is a Java API that enables Java applications to read and w
 
 Following are the links to some useful resources you may need to accomplish your tasks.
 
-- [Aspose.Email for Java Online Documentation](/java/)
-- [Aspose.Email for Java Features](/java/features-overview/)
-- [Aspose.Email for Java Release Notes](/java/release-notes/)
+- [Aspose.Email for Java Online Documentation](/email/java/)
+- [Aspose.Email for Java Features](/email/java/features-overview/)
+- [Aspose.Email for Java Release Notes](/email/java/release-notes/)
 - [Aspose.Email for Java Product Page](https://products.aspose.com/email/java)
-- [Install Aspose.Email for Java from Maven Repository](/java/installation/)
+- [Install Aspose.Email for Java from Maven Repository](/email/java/installation/)
 - [Aspose.Email for Java API Reference Guide](https://apireference.aspose.com/java/email)
 - [Download Aspose.Email for Java from GitHub Repository](https://github.com/aspose-email/Aspose.Email-for-Java)
 - [Aspose.Email for Java Free Support Forum](https://forum.aspose.com/c/email)

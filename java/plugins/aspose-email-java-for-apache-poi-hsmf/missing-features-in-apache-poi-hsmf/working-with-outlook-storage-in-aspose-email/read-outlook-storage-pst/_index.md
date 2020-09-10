@@ -33,6 +33,6 @@ System.out.println("Display Name: " + pst.getDisplayName());
 
 {{% alert color="primary" %}} 
 
-For more details, visit [Read Outlook PST File and Get Folders and Subfolders Information](/java/read-outlook-pst-file-and-get-folders-and-subfolders-information/).
+For more details, visit [Read Outlook PST File and Get Folders and Subfolders Information](/email/java/read-outlook-pst-file-and-get-folders-and-subfolders-information/).
 
 {{% /alert %}}

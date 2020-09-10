@@ -5,7 +5,7 @@ weight: 70
 url: /java/working-with-contacts-on-exchange-server-using-ews/
 ---
 
-Exchange Server accounts hold more than just email messages. As well as [fetching](/java/fetch-messages-from-an-exchange-server-mailbox/), [moving](/java/working-with-exchange-mailbox-and-messages/#moving-messages-between-folders-using-ews), [sending](/java/working-with-exchange-mailbox-and-messages/#send-email-message-using-ews) and [deleting email messages](/java/working-with-exchange-mailbox-and-messages/#deleting-messages-from-exchange-server) from Exchange Servers, Aspose.Email allows you to work with contacts. This article explains how to retrieve contact information from an Exchange Server directly or using Exchange Web Services. This article also shows how you can list contacts from the Contacts folder or resolve contacts based on contact name.
+Exchange Server accounts hold more than just email messages. As well as [fetching](/email/java/fetch-messages-from-an-exchange-server-mailbox/), [moving](/email/java/working-with-exchange-mailbox-and-messages/#moving-messages-between-folders-using-ews), [sending](/email/java/working-with-exchange-mailbox-and-messages/#send-email-message-using-ews) and [deleting email messages](/email/java/working-with-exchange-mailbox-and-messages/#deleting-messages-from-exchange-server) from Exchange Servers, Aspose.Email allows you to work with contacts. This article explains how to retrieve contact information from an Exchange Server directly or using Exchange Web Services. This article also shows how you can list contacts from the Contacts folder or resolve contacts based on contact name.
 
 - Get Contacts from Exchange Server.
 - Resolve Contacts using Contact Name.

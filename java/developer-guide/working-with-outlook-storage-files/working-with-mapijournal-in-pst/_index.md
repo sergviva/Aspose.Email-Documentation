@@ -6,7 +6,7 @@ url: /java/working-with-mapijournal-in-pst/
 ---
 
 ## **Adding MapiJournal to PST**
-[Create New PST, Add Sub-folders and Messages](/java/create-new-pst-add-sub-folders-and-messages/) showed how to create a PST file and add a subfolder to it. With Aspose.Email you can add MapiJournal to the Journal subfolder of a PST file that you have created or loaded. Below are the steps to add MapiJournal to a PST:
+[Create New PST, Add Sub-folders and Messages](/email/java/create-new-pst-add-sub-folders-and-messages/) showed how to create a PST file and add a subfolder to it. With Aspose.Email you can add MapiJournal to the Journal subfolder of a PST file that you have created or loaded. Below are the steps to add MapiJournal to a PST:
 
 1. Create a [MapiJournal](https://apireference.aspose.com/java/email/com.aspose.email/MapiJournal) object.
 1. Set the [MapiJournal](https://apireference.aspose.com/java/email/com.aspose.email/MapiJournal) properties using a constructor and methods.

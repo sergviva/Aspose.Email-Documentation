@@ -15,9 +15,9 @@ The evaluation version of Aspose.Email for SharePoint has no time limit, and fre
 The full and evaluation versions of Aspose.Email are installed from the same download.To get the evaluation version, simply:
 
 1. Download Aspose.Email for SharePoint from the [download page](http://www.aspose.com/community/files/73/sharepoint-components/aspose.email-for-sharepoint/default.aspx).
-1. [Install it](/sharepoint/installing-aspose-email-for-sharepoint//).
+1. [Install it](/email/sharepoint/installing-aspose-email-for-sharepoint//).
 
-By default, Aspose.Email runs in evaluation mode. To run the full version, [license Aspose.Email](/sharepoint/license-aspose-email-for-sharepoint//).
+By default, Aspose.Email runs in evaluation mode. To run the full version, [license Aspose.Email](/email/sharepoint/license-aspose-email-for-sharepoint//).
 ### **Evaluation Version Limits**
 The evaluation version has the following limits: 
 

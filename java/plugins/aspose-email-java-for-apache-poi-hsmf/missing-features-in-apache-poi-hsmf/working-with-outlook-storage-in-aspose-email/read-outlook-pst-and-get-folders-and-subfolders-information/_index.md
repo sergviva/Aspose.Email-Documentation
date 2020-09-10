@@ -54,6 +54,6 @@ for (int i = 0; i < folderInfoCollection.size(); i++)
 
 {{% alert color="primary" %}} 
 
-For more details, visit [Read Outlook PST File and Get Folders and Subfolders Information](/java/read-outlook-pst-file-and-get-folders-and-subfolders-information/).
+For more details, visit [Read Outlook PST File and Get Folders and Subfolders Information](/email/java/read-outlook-pst-file-and-get-folders-and-subfolders-information/).
 
 {{% /alert %}}

@@ -42,6 +42,6 @@ System.out.println("Text Body:"+ msg.getTextBody());
 
 {{% alert color="primary" %}} 
 
-For more details, visit [Displaying Email Information on Screen](/java/display-information-in-custom-order-in-mhtml-files/).
+For more details, visit [Displaying Email Information on Screen](/email/java/display-information-in-custom-order-in-mhtml-files/).
 
 {{% /alert %}}

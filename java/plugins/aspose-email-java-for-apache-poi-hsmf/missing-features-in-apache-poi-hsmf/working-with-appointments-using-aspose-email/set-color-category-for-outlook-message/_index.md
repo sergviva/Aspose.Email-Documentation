@@ -51,6 +51,6 @@ msg.save(dataDir + "AsposeCategories.msg");
 
 {{% alert color="primary" %}} 
 
-For more details, visit [Setting Color Category for Outlook Message (MSG) Files](/java/managing-message-files-with-aspose-email-outlook/).
+For more details, visit [Setting Color Category for Outlook Message (MSG) Files](/email/java/managing-message-files-with-aspose-email-outlook/).
 
 {{% /alert %}}

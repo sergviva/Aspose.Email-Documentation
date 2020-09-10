@@ -17,4 +17,4 @@ Aspose.Email for SharePoint's email conversion features allows you to extract at
 ![todo:image_alt_text](extract-attachments-from-emails_1.png)
 
 
-[Find out more about working with attachments](/sharepoint/extract-attachments-from-email/).
+[Find out more about working with attachments](/email/sharepoint/extract-attachments-from-email/).

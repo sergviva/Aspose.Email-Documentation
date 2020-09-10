@@ -8,7 +8,7 @@ url: /sharepoint/synchronize-files-with-dropbox/
 
 {{% alert color="primary" %}} 
 
-[Send Files to Dropbox](/sharepoint/send-selected-files-to-dropbox/), showed how to sending files to Dropbox. This is when there are several files in a SharePoint document library but we only want to transfer some of them.
+[Send Files to Dropbox](/email/sharepoint/send-selected-files-to-dropbox/), showed how to sending files to Dropbox. This is when there are several files in a SharePoint document library but we only want to transfer some of them.
 
 If we need to automatically synchronize all files between Dropbox and SharePoint, the **Sync List with Dropbox** option is the better choice.
 

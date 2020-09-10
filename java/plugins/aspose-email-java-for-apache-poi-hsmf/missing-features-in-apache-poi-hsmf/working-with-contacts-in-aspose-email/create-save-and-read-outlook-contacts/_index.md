@@ -61,6 +61,6 @@ MapiContact mapiContact = (MapiContact)msg.toMapiMessageItem();
 
 {{% alert color="primary" %}} 
 
-For more details, visit [Creating, Saving and Reading Outlook Contacts](/java/working-with-outlook-contacts/).
+For more details, visit [Creating, Saving and Reading Outlook Contacts](/email/java/working-with-outlook-contacts/).
 
 {{% /alert %}}

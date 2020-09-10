@@ -61,6 +61,6 @@ Download **Creating Audio Reminder** form any of the below mentioned social codi
 
 {{% alert color="primary" %}} 
 
-For more details, visit [Working with MapiCalendar](/java/working-with-mapicalendar/).
+For more details, visit [Working with MapiCalendar](/email/java/working-with-mapicalendar/).
 
 {{% /alert %}}

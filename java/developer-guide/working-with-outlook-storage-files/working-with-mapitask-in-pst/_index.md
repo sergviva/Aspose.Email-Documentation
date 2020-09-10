@@ -6,7 +6,7 @@ url: /java/working-with-mapitask-in-pst/
 ---
 
 ## **Adding MapiTask to PST**
-[Create New PST, Add Sub-folders and Messages](/java/create-new-pst-add-sub-folders-and-messages/) showed how to create a PST file and add a subfolder to it. With Aspose.Email you can add MapiTask to the Tasks subfolder of a PST file that you have created or loaded.
+[Create New PST, Add Sub-folders and Messages](/email/java/create-new-pst-add-sub-folders-and-messages/) showed how to create a PST file and add a subfolder to it. With Aspose.Email you can add MapiTask to the Tasks subfolder of a PST file that you have created or loaded.
 
 Below are the steps to add MapiTask to a PST:
 

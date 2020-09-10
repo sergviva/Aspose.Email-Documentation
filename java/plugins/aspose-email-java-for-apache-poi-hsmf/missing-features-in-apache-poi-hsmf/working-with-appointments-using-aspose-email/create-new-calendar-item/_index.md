@@ -36,6 +36,6 @@ appointment.save(dataDir + "AsposeCalendarItem.ics", AppointmentSaveFormat.Ics);
 
 {{% alert color="primary" %}} 
 
-For more details, visit [Working with MapiCalendar](/java/working-with-mapicalendar/).
+For more details, visit [Working with MapiCalendar](/email/java/working-with-mapicalendar/).
 
 {{% /alert %}}

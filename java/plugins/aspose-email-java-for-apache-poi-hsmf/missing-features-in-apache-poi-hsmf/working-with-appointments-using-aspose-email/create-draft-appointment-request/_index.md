@@ -65,6 +65,6 @@ Download **Create Draft Appointment Request** form any of the below mentioned so
 
 {{% alert color="primary" %}} 
 
-For more details, visit [Create a Draft Appointment Request](/java/working-with-appointments/).
+For more details, visit [Create a Draft Appointment Request](/email/java/working-with-appointments/).
 
 {{% /alert %}}

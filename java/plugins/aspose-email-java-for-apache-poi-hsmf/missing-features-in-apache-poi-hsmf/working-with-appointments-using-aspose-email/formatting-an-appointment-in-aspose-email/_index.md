@@ -34,6 +34,6 @@ System.out.println(appointment.getAppointmentText(formattingOptions));
 
 {{% alert color="primary" %}} 
 
-For more details, visit [Formatting an Appointment](/java/working-with-appointments/).
+For more details, visit [Formatting an Appointment](/email/java/working-with-appointments/).
 
 {{% /alert %}}

@@ -15,7 +15,7 @@ Aspose.Email's synchronization component provides features for transferring file
 
 {{% /alert %}} 
 
-When the Document Library Synchronization component has been [installed](/sharepoint/installing-aspose-email-for-/sharepoint/) and [activated](/sharepoint/activation-and-de-activation-after-installation/), the **Aspose Tools** ribbon is added to the document library. 
+When the Document Library Synchronization component has been [installed](/email/sharepoint/installing-aspose-email-for-/sharepoint/) and [activated](/email/sharepoint/activation-and-de-activation-after-installation/), the **Aspose Tools** ribbon is added to the document library. 
 
 **The Aspose.Tools ribbon in the document library.** 
 

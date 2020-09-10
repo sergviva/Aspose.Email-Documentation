@@ -7,7 +7,7 @@ url: /java/public-api-changes-in-aspose-email-4-1-0/
 
 {{% alert color="primary" %}} 
 
-The following is a list of any changes made to the public API such as [added](/java/public-api-changes-in-aspose-email-4-1-0/), renamed, removed or [deprecated](/java/public-api-changes-in-aspose-email-4-1-0/) members as well as any non-backward compatible change made to Aspose.Email for Java. If you have concerns about any change listed, please raise it on the Aspose.Email support forum.
+The following is a list of any changes made to the public API such as [added](/email/java/public-api-changes-in-aspose-email-4-1-0/), renamed, removed or [deprecated](/email/java/public-api-changes-in-aspose-email-4-1-0/) members as well as any non-backward compatible change made to Aspose.Email for Java. If you have concerns about any change listed, please raise it on the Aspose.Email support forum.
 ## **Added Enumeration Members**
 ### **MhtFormatOptions Enumeration with Members WriteCompleteEmailAddressToMht and HideExtraPrintHeader**
 

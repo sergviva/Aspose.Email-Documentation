@@ -54,6 +54,6 @@ MAPIMessage msg = new MAPIMessage(filename);
 
 {{% alert color="primary" %}} 
 
-For more details, visit [Update and Save an Email](/java/loading-and-saving-message/).
+For more details, visit [Update and Save an Email](/email/java/loading-and-saving-message/).
 
 {{% /alert %}}

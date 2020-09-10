@@ -6,7 +6,7 @@ url: /java/working-with-mapinote-in-pst/
 ---
 
 ## **Adding MapiNote to PST**
-[Create New PST, Add Sub-folders and Messages](/java/create-new-pst-add-sub-folders-and-messages/) showed how to create a PST file and add a subfolder to it. With Aspose.Email you can add a MapiNote to the Notes subfolder of a PST file that you have created or loaded.
+[Create New PST, Add Sub-folders and Messages](/email/java/create-new-pst-add-sub-folders-and-messages/) showed how to create a PST file and add a subfolder to it. With Aspose.Email you can add a MapiNote to the Notes subfolder of a PST file that you have created or loaded.
 
 Below are the steps to add MapiNote to a PST:
 

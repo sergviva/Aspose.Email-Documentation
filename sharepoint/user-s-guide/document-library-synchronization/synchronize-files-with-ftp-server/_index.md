@@ -23,7 +23,7 @@ When setting up FTP synchronization, you can apply the following settings:
 
 {{% alert color="primary" %}} 
 
-Either specify the FTP credentials manually in this window or load them using [previously saved settings](/sharepoint/ftp-settings/).
+Either specify the FTP credentials manually in this window or load them using [previously saved settings](/email/sharepoint/ftp-settings/).
 
 {{% /alert %}} 
 

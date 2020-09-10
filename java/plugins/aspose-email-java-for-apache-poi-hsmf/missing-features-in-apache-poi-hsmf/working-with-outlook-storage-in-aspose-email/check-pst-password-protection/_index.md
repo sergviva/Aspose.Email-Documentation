@@ -32,6 +32,6 @@ Microsoft Outlook lets users password protect PST files to restrict access to th
 
 {{% alert color="primary" %}} 
 
-For more details, visit [Working with PST Password Protection Properties](/java/working-with-calendar-items-in-pst-file/).
+For more details, visit [Working with PST Password Protection Properties](/email/java/working-with-calendar-items-in-pst-file/).
 
 {{% /alert %}}

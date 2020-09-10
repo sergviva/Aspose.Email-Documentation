@@ -42,6 +42,6 @@ for (int i=0; i< app2.getAttachments().size();i++)
 
 {{% alert color="primary" %}} 
 
-For more details, visit [Adding Attachments from Calendar Items](/java/adding-attachments-to-calendar-items/).
+For more details, visit [Adding Attachments from Calendar Items](/email/java/adding-attachments-to-calendar-items/).
 
 {{% /alert %}}

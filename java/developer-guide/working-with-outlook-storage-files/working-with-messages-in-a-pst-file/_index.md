@@ -6,7 +6,7 @@ url: /java/working-with-messages-in-a-pst-file/
 ---
 
 ## **Get the Messages Information from the Outlook PST File**
-[Read Outlook PST File and Get Folders and Subfolders Information](/java/read-outlook-pst-file-and-get-folders-and-subfolders-information/) discussed how to load an Outlook PST file and browse its folders to get folder names and the number of messages in each folder. This article explains how to read all the folders and subfolders in the PST file and display the information about messages, for example, subject, sender, recipients, and so on.
+[Read Outlook PST File and Get Folders and Subfolders Information](/email/java/read-outlook-pst-file-and-get-folders-and-subfolders-information/) discussed how to load an Outlook PST file and browse its folders to get folder names and the number of messages in each folder. This article explains how to read all the folders and subfolders in the PST file and display the information about messages, for example, subject, sender, recipients, and so on.
 
 The Outlook PST file can contain nested folders. Use a recursive method to read all the folders (including nested folders). Below is the complete code of a console application that reads an Outlook PST file and displays the folder and message contents recursively.
 

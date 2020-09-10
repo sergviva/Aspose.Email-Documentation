@@ -24,4 +24,4 @@ Aspose.Email for SharePoint includes features for synchronizing files in the doc
 ![todo:image_alt_text](synchronize-files-in-document-library-with-ftp-server_1.png)
 
 
-[Find out more about synchronizing files with FTP servers](/sharepoint/synchronize-files-with-ftp-server/).
+[Find out more about synchronizing files with FTP servers](/email/sharepoint/synchronize-files-with-ftp-server/).

@@ -12,10 +12,10 @@ ASpose.EMail's Email Synchronization component allows you to synchronize emails 
 
 {{% /alert %}} 
 
-After [installing](/sharepoint/installing-aspose-email-for-sharepoint/) and [activating](/sharepoint/activation-and-de-activation-after-installation/) the Email Synchronization component, an **Aspose Tools** ribbon is available in SharePoint’s custom list of emails. 
+After [installing](/email/sharepoint/installing-aspose-email-for-sharepoint/) and [activating](/email/sharepoint/activation-and-de-activation-after-installation/) the Email Synchronization component, an **Aspose Tools** ribbon is available in SharePoint’s custom list of emails. 
 
 **The Aspose Tools ribbon showing email synchronization options.** 
 
 ![todo:image_alt_text](about-email-synchronization_1.png)
 
-Find out how to [synchronize emais with POP3](/sharepoint/synchronize-emails-using-pop3/).
+Find out how to [synchronize emais with POP3](/email/sharepoint/synchronize-emails-using-pop3/).

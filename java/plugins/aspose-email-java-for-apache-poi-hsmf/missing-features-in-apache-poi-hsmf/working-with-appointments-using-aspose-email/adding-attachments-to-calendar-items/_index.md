@@ -60,6 +60,6 @@ app.save(savedFile, AppointmentSaveFormat.Ics);
 
 {{% alert color="primary" %}} 
 
-For more details, visit [Adding and Retrieving Attachments from Calendar Items](/java/working-with-appointments/).
+For more details, visit [Adding and Retrieving Attachments from Calendar Items](/email/java/working-with-appointments/).
 
 {{% /alert %}}

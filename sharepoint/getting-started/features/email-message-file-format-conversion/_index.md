@@ -19,4 +19,4 @@ Aspose.Email for SharePoint supports loading of the following email documents:
 
 ![todo:image_alt_text](email-message-file-format-conversion_1.png)
 
-[Find out more about conversion](/sharepoint/email-conversion/).
+[Find out more about conversion](/email/sharepoint/email-conversion/).

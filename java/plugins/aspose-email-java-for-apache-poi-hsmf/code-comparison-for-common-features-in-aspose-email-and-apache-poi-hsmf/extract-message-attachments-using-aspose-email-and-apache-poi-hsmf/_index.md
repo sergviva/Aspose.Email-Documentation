@@ -119,6 +119,6 @@ if (attachments.length > 0)
 
 {{% alert color="primary" %}} 
 
-For more details, visit [Manage Attachments in Email Message](/java/working-with-attachments-and-embedded-objects/).
+For more details, visit [Manage Attachments in Email Message](/email/java/working-with-attachments-and-embedded-objects/).
 
 {{% /alert %}}

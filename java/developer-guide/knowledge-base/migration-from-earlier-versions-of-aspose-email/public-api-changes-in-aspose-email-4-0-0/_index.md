@@ -7,7 +7,7 @@ url: /java/public-api-changes-in-aspose-email-4-0-0/
 
 {{% alert color="primary" %}} 
 
-The following is a list of any changes made to the public API such as [added](/java/public-api-changes-in-aspose-email-4-0-0/), renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Email for Java. If you have concerns about any change listed, please raise it on the Aspose.Email support forum.
+The following is a list of any changes made to the public API such as [added](/email/java/public-api-changes-in-aspose-email-4-0-0/), renamed, removed or deprecated members as well as any non-backward compatible change made to Aspose.Email for Java. If you have concerns about any change listed, please raise it on the Aspose.Email support forum.
 
 ## **Added Methods and Enumeration Options**
 **MapiTask.getReminderFileParameter(), MapiTask.getReminderSet(), MapiTask.getReminderTime(), MapiTask.setReminderFileParameter(java.lang.String), MapiTask.setReminderSet(Boolean) and MapiTask.setReminderTime(java.util.Date)**

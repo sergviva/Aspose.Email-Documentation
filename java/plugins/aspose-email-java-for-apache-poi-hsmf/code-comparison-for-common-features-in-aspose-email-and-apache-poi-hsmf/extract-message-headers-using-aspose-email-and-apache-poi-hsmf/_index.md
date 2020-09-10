@@ -54,6 +54,6 @@ System.out.println("Subject: " + msg.getSubject());
 
 {{% alert color="primary" %}} 
 
-For more details, visit [Extracting Email Headers](/java/extracting-message-contents-from-emails/).
+For more details, visit [Extracting Email Headers](/email/java/extracting-message-contents-from-emails/).
 
 {{% /alert %}}

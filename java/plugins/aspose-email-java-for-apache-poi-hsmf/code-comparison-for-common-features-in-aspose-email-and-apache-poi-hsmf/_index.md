@@ -15,10 +15,10 @@ If you are a Java developer looking to choose a email processing library to proc
 
 This section includes the following Code Comparison Examples:
 
-- [Extract Message Attachments using Aspose.Email and Apache POI HSMF](/java/extract-message-attachments-using-aspose-email-and-apache-poi-hsmf/)
-- [Extract Message Body using Aspose.Email and Apache POI HSMF](/java/extract-message-body-using-aspose-email-and-apache-poi-hsmf/)
-- [Extract Message Headers using Aspose.Email and Apache POI HSMF](/java/extract-message-headers-using-aspose-email-and-apache-poi-hsmf/)
-- [Load Email Message using Aspose.Email and Apache POI HSMF](/java/load-email-message-using-aspose-email-and-apache-poi-hsmf/)
-- [Save Email Message using Aspose.Email and Apache POI HSMF](/java/save-email-message-using-aspose-email-and-apache-poi-hsmf/)
+- [Extract Message Attachments using Aspose.Email and Apache POI HSMF](/email/java/extract-message-attachments-using-aspose-email-and-apache-poi-hsmf/)
+- [Extract Message Body using Aspose.Email and Apache POI HSMF](/email/java/extract-message-body-using-aspose-email-and-apache-poi-hsmf/)
+- [Extract Message Headers using Aspose.Email and Apache POI HSMF](/email/java/extract-message-headers-using-aspose-email-and-apache-poi-hsmf/)
+- [Load Email Message using Aspose.Email and Apache POI HSMF](/email/java/load-email-message-using-aspose-email-and-apache-poi-hsmf/)
+- [Save Email Message using Aspose.Email and Apache POI HSMF](/email/java/save-email-message-using-aspose-email-and-apache-poi-hsmf/)
 
 **Note:** Many more code comparisons are yet to be available soon. 

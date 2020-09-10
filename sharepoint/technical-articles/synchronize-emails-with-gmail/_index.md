@@ -16,7 +16,7 @@ This article shows how to use Aspose.Email for SharePoint's email synchronizatio
 ## **Synchronizing Emails**
 Aspose.Email for SharePoint's email conversion component is an easy-to-use tool for synchronizing emails with SharePoint’s custom list of emails. With support for popular protocols and email servers, like POP3, IMAP and Microsoft Exchange Server, Aspose.Email can connect with a variety of email servers and synchronize email. 
 
-This article explains how to [set up Gmail](/sharepoint/synchronize-emails-with-gmail/) so that emails can be downloaded, [set up SharePoint](/sharepoint/synchronize-emails-with-gmail/) to synchronize emails and how to [run the synchronization manually](/sharepoint/synchronize-emails-with-gmail/).
+This article explains how to [set up Gmail](/email/sharepoint/synchronize-emails-with-gmail/) so that emails can be downloaded, [set up SharePoint](/email/sharepoint/synchronize-emails-with-gmail/) to synchronize emails and how to [run the synchronization manually](/email/sharepoint/synchronize-emails-with-gmail/).
 ### **Setting up Gmail**
 To get emails from Gmail using an email client, POP or IMAP must be enabled from the Gmail settings page. By default, it is disabled.
 
@@ -89,6 +89,6 @@ To start synchronization manually:
 
 ![todo:image_alt_text](synchronize-emails-with-gmail_5.png)
 ## **References**
-- [Installing Aspose.Email for SharePoint](/sharepoint/install-aspose-email-for-sharepoint/)
-- [Synchronize Emails with Mail Server](/sharepoint/email-synchronization/)
-- [About Email Synchronization Component for SharePoint](/sharepoint/about-email-synchronization/)
+- [Installing Aspose.Email for SharePoint](/email/sharepoint/install-aspose-email-for-sharepoint/)
+- [Synchronize Emails with Mail Server](/email/sharepoint/email-synchronization/)
+- [About Email Synchronization Component for SharePoint](/email/sharepoint/about-email-synchronization/)

@@ -8,7 +8,7 @@ url: /sharepoint/activation-and-de-activation-after-installation/
 
 {{% alert color="primary" %}} 
 
-After [installing Aspose.Email for SharePoint](/sharepoint/installing-aspose-email-for-sharepoint/), activate the features at the root website. 
+After [installing Aspose.Email for SharePoint](/email/sharepoint/installing-aspose-email-for-sharepoint/), activate the features at the root website. 
 
 {{% /alert %}} 
 ## **Activating and De-activeting Aspose.Email**

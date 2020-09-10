@@ -68,9 +68,9 @@ To download IntellliJ IDEA
   - In Search Box type: "Aspose"
   - Select "**Aspose.Email Java for IntelliJ IDEA Maven**" plugin to install.
 ## **Installing**
-[Installing Aspose.Email for IntelliJ IDEA - Maven](/java/installing-and-using-aspose-email-for-intellij-idea-maven/#installing)
+[Installing Aspose.Email for IntelliJ IDEA - Maven](/email/java/installing-and-using-aspose-email-for-intellij-idea-maven/#installing)
 ## **Using**
-[Using Aspose.Email for IntelliJ IDEA - Maven](/java/installing-and-using-aspose-email-for-intellij-idea-maven/#using)
+[Using Aspose.Email for IntelliJ IDEA - Maven](/email/java/installing-and-using-aspose-email-for-intellij-idea-maven/#using)
 ## **Video Demo**
 Please check [the video](https://youtu.be/LXvXi19njJI) below to see Aspose.Email Maven Project Wizard and Aspose.Email Example Wizard in action.
 ## **Support, Extend and Contribute**

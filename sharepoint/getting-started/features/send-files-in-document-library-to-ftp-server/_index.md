@@ -17,4 +17,4 @@ With Aspose. Email for SharePoint installed and activated, the â€œAspose Toolsâ€
 ![todo:image_alt_text](send-files-in-document-library-to-ftp-server_1.png)
 
 
-[Find out more about how to send files to FTP](/sharepoint/send-selected-files-to-ftp-server/).
+[Find out more about how to send files to FTP](/email/sharepoint/send-selected-files-to-ftp-server/).

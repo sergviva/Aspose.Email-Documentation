@@ -63,9 +63,9 @@ Following are three recommended methods for the successful downloading and insta
   [http://cdn.aspose.com/marketplace/eclipse/java/maven/aspose-email](http://cdn.aspose.com/marketplace/eclipse/java/maven/asposeemail/)
   Then select "Aspose.Email Java (Maven) for Eclipse" and **Finish**. Accept License Agreement and Install the plugin.
 ## **Installing**
-[Installing Aspose.Email Java (Maven) for Eclipse](/java/installing-and-using-aspose-email-java-for-eclipse-maven/#installing)
+[Installing Aspose.Email Java (Maven) for Eclipse](/email/java/installing-and-using-aspose-email-java-for-eclipse-maven/#installing)
 ## **Using the Plugin**
-[Using Aspose.Email Java (Maven) for Eclipse](/java/installing-and-using-aspose-email-java-for-eclipse-maven/#using)
+[Using Aspose.Email Java (Maven) for Eclipse](/email/java/installing-and-using-aspose-email-java-for-eclipse-maven/#using)
 ### **How to apply Aspose License?**
 This Plugin uses an evaluation version of Aspose.Email. Once you are happy with your evaluation, you can purchase a license at the [Aspose website](http://www.aspose.com/purchase/default.aspx).
 To remove evaluation message and feature limitations, product license should be applied. You will receive a license file after you have purchased the product. Please follow the steps below to apply the license
