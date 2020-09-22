@@ -8,7 +8,7 @@ url: /androidjava/
 
 {{% alert color="primary" %}} 
 
-![Aspose.Email for Android via Java Product Logo](home_1)
+![Aspose.Email for Android via Java Product Logo](home_1.png)
 
 **Welcome to Aspose.Email for Android via Java**
 
