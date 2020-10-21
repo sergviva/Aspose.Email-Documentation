@@ -1,7 +1,7 @@
 ---
 title: Aspose.Email for CPP 20.9 Release Notes
 type: docs
-weight: 7
+weight: 6
 url: /cpp/aspose-email-for-cpp-20-9-release-notes/
 ---
 
