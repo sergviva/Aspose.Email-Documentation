@@ -41,11 +41,11 @@ Aspose.Email for Java is a Java API that enables Java applications to read and w
 
 Following are the links to some useful resources you may need to accomplish your tasks.
 
-- [Aspose.Email for Java Online Documentation](/java/)
-- [Aspose.Email for Java Features](/java/features-overview)
-- [Aspose.Email for Java Release Notes](/java/release-notes)
+- [Aspose.Email for Java Online Documentation](/email/java/)
+- [Aspose.Email for Java Features](/email/java/features-overview)
+- [Aspose.Email for Java Release Notes](/email/java/release-notes)
 - [Aspose.Email for Java Product Page](https://products.aspose.com/email/java)
-- [Install Aspose.Email for Java from Maven Repository](/java/installation/)
+- [Install Aspose.Email for Java from Maven Repository](/email/java/installation/)
 - [Aspose.Email for Java API Reference Guide](https://apireference.aspose.com/java/email)
 - [Download Aspose.Email for Java from GitHub Repository](https://github.com/aspose-email/Aspose.Email-for-Java)
 - [Aspose.Email for Java Free Support Forum](https://forum.aspose.com/c/email)
@@ -65,9 +65,9 @@ The API can be used on Windows OS for working with emailing file formats.
 
 Following are the links to some useful resources you may need to accomplish your tasks.
 
-- [Aspose.Email for C++ Online Documentation](/cpp/)
-- [Aspose.Email for C++ Features](/cpp/features-overview)
-- [Aspose.Email for C++ Release Notes](/cpp/release-notes)
+- [Aspose.Email for C++ Online Documentation](/email/cpp/)
+- [Aspose.Email for C++ Features](/email/cpp/features-overview)
+- [Aspose.Email for C++ Release Notes](/email/cpp/release-notes)
 - [Aspose.Email for C++ Product Page](https://products.aspose.com/email/cpp)
 - [Install Aspose.Email for C++ NuGet Package](https://www.nuget.org/packages/aspose.email.cpp.vc140/)
 - [Aspose.Email for C++ API Reference Guide](https://apireference.aspose.com/cpp/email)
@@ -90,8 +90,8 @@ Aspose.Email implements a number of network protocols, for example SMTP, MIME, P
 
 Following are the links to some useful resources you may need to accomplish your tasks.
 
-- [Aspose.Email for Python via .NET Features](/pythonnet/features/)
-- [Aspose.Email for Python via .NET Release Notes](/pythonnet/release-notes)
+- [Aspose.Email for Python via .NET Features](/email/pythonnet/features/)
+- [Aspose.Email for Python via .NET Release Notes](/email/pythonnet/release-notes)
 - [Aspose.Email for Python via .NET Product Page](https://products.aspose.com/email/python-net)
 - [Aspose.Email for Python via .NET API Reference Guide](https://apireference.aspose.com/net/email)
 - [Aspose.Email for Python via .NET Free Support Forum](https://forum.aspose.com/)
@@ -109,10 +109,10 @@ Aspose.Email for Android via Java API gives you the tools you need to create, re
 
 Following are the links to some useful resources you may need to accomplish your tasks.
 
-- [Aspose.Email for Java Online Documentation](/java/) (Aspose.Email for Android via Java is very similar to Aspose.Email for Java. So, you can use the same documentation)
-- [Aspose.Email for Android via Java Features](/java/aspose-email-for-android-via-java-features/)
-- [Aspose.Email for Android via Java Limitations and API Differences](/java/aspose-email-for-android-via-java-jimitations-and-api-differences/)
-- [Aspose.Email for Android via Java Release Notes](/java/android-via-java-release-notes)
+- [Aspose.Email for Java Online Documentation](/email/java/) (Aspose.Email for Android via Java is very similar to Aspose.Email for Java. So, you can use the same documentation)
+- [Aspose.Email for Android via Java Features](/email/java/aspose-email-for-android-via-java-features/)
+- [Aspose.Email for Android via Java Limitations and API Differences](/email/java/aspose-email-for-android-via-java-jimitations-and-api-differences/)
+- [Aspose.Email for Android via Java Release Notes](/email/java/android-via-java-release-notes)
 - [Aspose.Email for Android via Java Product Page](https://products.aspose.com/email/android-java)
 - [Aspose.Email for Android via Java API Reference Guide](https://apireference.aspose.com/java/email) 
 
@@ -120,7 +120,7 @@ Following are the links to some useful resources you may need to accomplish your
 
 Following are the links to some useful resources you may need to accomplish your tasks.
 
-- [Aspose.Email for SharePoint Getting Started](/sharepoint/getting-started/)
-- [Aspose.Email for SharePoint Users Guide](/sharepoint/user-s-guide/)
-- [Aspose.Email for SharePoint Technical Articles](/sharepoint/technical-articles/) 
-- [Aspose.Email for SharePoint Release Notes](/sharepoint/home/release-notes/)
+- [Aspose.Email for SharePoint Getting Started](/email/sharepoint/getting-started/)
+- [Aspose.Email for SharePoint Users Guide](/email/sharepoint/user-s-guide/)
+- [Aspose.Email for SharePoint Technical Articles](/email/sharepoint/technical-articles/) 
+- [Aspose.Email for SharePoint Release Notes](/email/sharepoint/home/release-notes/)
