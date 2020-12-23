@@ -45,4 +45,4 @@ builder.getInternalDate().orderBy(false); // sort the date descending  
 
 ExchangeMessageInfoCollection miColl = client.listMessages(client.getMailboxInfo().getInboxUri(), builder.getQuery());
 
-​```
+```
