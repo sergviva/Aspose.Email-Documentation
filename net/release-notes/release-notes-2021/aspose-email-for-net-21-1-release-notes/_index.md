@@ -22,6 +22,7 @@ This page contains release notes information for Aspose.Email for .NET 21.1
 |EMAILNET-40023|Pictures inserted (AttachMethod = 6) in MapiJournal cannot be displayed normally|Bug|
 |EMAILNET-40020|The body (BodyContentType.Rtf) of mapijournal in pst cannot be displayed correctly|Bug|
 |EMAILNET-40021|Parsing the Outlook Email message stream|Bug|
+|EMAILNET-40064|Conflicting dependencies in Nuget update|Bug|
 
 
 ## **New Features**
