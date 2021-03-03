@@ -38,7 +38,7 @@ for (MapiAttachment att : msg.getAttachments())
     System.out.println("Attachment Display Name: " + att.getDisplayName());
 }
 ~~~
-## **Loading from Stream**
+## **Loading From Stream**
 The following code snippet shows you how to load file from stream.
 
 
