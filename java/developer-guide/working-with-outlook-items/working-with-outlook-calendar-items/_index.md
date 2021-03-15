@@ -29,7 +29,11 @@ Date startDate = cal.getTime();
 cal.set(2012, Calendar.OCTOBER, 2, 14, 0, 0);
 Date endDate = cal.getTime();
 
-MapiCalendar calendar = new MapiCalendar("LAKE ARGYLE WA 6743", "Appointment", "This is a very important meeting :)", startDate, endDate);
+MapiCalendar calendar = new MapiCalendar("LAKE ARGYLE WA 6743", 
+                                         "Appointment", 
+                                         "This is a very important meeting :)", 
+                                         startDate, 
+                                         endDate);
 
 calendar.save(dataDir + "CalendarItem_out.ics", AppointmentSaveFormat.Ics);
 ~~~
@@ -59,7 +63,11 @@ Date endDate = jCalendar.getTime();
 MailAddressCollection attendees = new MailAddressCollection();
 attendees.addItem(new MailAddress("attendee@domain.com", "Attendee"));
 // Create Appointment
-Appointment app = new Appointment("Home", startDate, endDate, new MailAddress("organizer@domain.com", "Organizer"), attendees);
+Appointment app = new Appointment("Home", 
+                                  startDate, 
+                                  endDate, 
+                                  new MailAddress("organizer@domain.com", "Organizer"), 
+                                  attendees);
 MailMessage msg = new MailMessage();
 msg.addAlternateView(app.requestApointment());
 MapiMessage mapi = MapiMessage.fromMailMessage(msg);
@@ -89,7 +97,11 @@ Date endDate = jCalendar.getTime();
 MailAddressCollection attendees = new MailAddressCollection();
 attendees.addItem(new MailAddress("attendee@domain.com", "Attendee"));
 
-Appointment app = new Appointment("Home", startDate, endDate, new MailAddress("organizer@domain.com", "Organizer"), attendees);
+Appointment app = new Appointment("Home", 
+                                  startDate, 
+                                  endDate, 
+                                  new MailAddress("organizer@domain.com", "Organizer"), 
+                                  attendees);
 
 MailMessage msg = new MailMessage();
 msg.addAlternateView(app.requestApointment());
@@ -125,7 +137,11 @@ files[2] = "Desert.jpg";
 MailAddressCollection attendees = new MailAddressCollection();
 attendees.addItem(new MailAddress("attendee@domain.com", "Attendee"));
 
-Appointment app1 = new Appointment("Home", startDate, endDate, new MailAddress("organizer@domain.com", "Organizer"), attendees);
+Appointment app1 = new Appointment("Home", 
+                                   startDate, 
+                                   endDate, 
+                                   new MailAddress("organizer@domain.com", "Organizer"), 
+                                   attendees);
 for (String file : files) {
     app1.getAttachments().addItem(new Attachment(dataDir + file));
 }
@@ -152,7 +168,7 @@ for (MapiRecipient recipient : message.getRecipients()) {
 }
 ~~~
 ### **Create MapiCalendarTimeZone from Standard Timezone**
-The following code snippet shows you how to Create MapiCalendarTimeZone from standard Timezone.
+The following code snippet shows you how to Create [MapiCalendarTimeZone](https://apireference.aspose.com/email/java/com.aspose.email/MapiCalendarTimeZone) from standard Timezone.
 
 
 
