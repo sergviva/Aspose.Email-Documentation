@@ -14,11 +14,11 @@ Aspose.Email supports creating Outlook message (MSG) files. This article explain
 - Save a message as a draft.
 - Work with body compression.
 ## **Creating and Saving Outlook Messages**
-The [MailMessage](https://apireference.aspose.com/java/email/com.aspose.email/mailmessage) class has the [save()](https://apireference.aspose.com/java/email/com.aspose.email/MailMessage#save\(java.lang.String\)) method that can save Outlook MSG files to disk or stream. The code snippets below create an instance of the [MailMessage](https://apireference.aspose.com/java/email/com.aspose.email/mailmessage) class, set properties like from, to, subject and body. The [save()](https://apireference.aspose.com/java/email/com.aspose.email/MailMessage#save\(java.lang.String\)) method takes the file name as an argument. In addition, the Outlook Messages can be created with a [compressed RTF body](#creating-msg-files-with-rtf-body) using the [MapiConversionOptions](https://apireference.aspose.com/email/java/com.aspose.email/MapiConversionOptions).
+The [MailMessage](https://apireference.aspose.com/java/email/com.aspose.email/mailmessage) class has the [save](https://apireference.aspose.com/java/email/com.aspose.email/MailMessage#save\(java.lang.String\)) method that can save Outlook MSG files to disk or stream. The code snippets below create an instance of the [MailMessage](https://apireference.aspose.com/java/email/com.aspose.email/mailmessage) class, set properties like from, to, subject and body. The [save](https://apireference.aspose.com/java/email/com.aspose.email/MailMessage#save\(java.lang.String\)) method takes the file name as an argument. In addition, the Outlook Messages can be created with a [compressed RTF body](#creating-msg-files-with-rtf-body) using the [MapiConversionOptions](https://apireference.aspose.com/email/java/com.aspose.email/MapiConversionOptions).
 
 1. Create a new instance of the [MailMessage](https://apireference.aspose.com/java/email/com.aspose.email/mailmessage) class and set the From, To, Subject and Body properties.
 1. Call the [MapiMessage](https://apireference.aspose.com/email/java/com.aspose.email/MapiMessage) class [fromMailMessage](https://apireference.aspose.com/java/email/com.aspose.email/MapiMessage#fromMailMessage\(java.lang.String\)) method which accepts the object of the [MailMessage](https://apireference.aspose.com/java/email/com.aspose.email/mailmessage) type. The [fromMailMessage](https://apireference.aspose.com/java/email/com.aspose.email/MapiMessage#fromMailMessage\(java.lang.String\)) method converts the [MailMessage](https://apireference.aspose.com/java/email/com.aspose.email/mailmessage) into a [MapiMessage](https://apireference.aspose.com/email/java/com.aspose.email/MapiMessage) (MSG).
-1. Call the [MapiMessage.save()](https://apireference.aspose.com/java/email/com.aspose.email/MapiMessage#save\(java.lang.String\)) method to save the MSG file.
+1. Call the [MapiMessage.save](https://apireference.aspose.com/java/email/com.aspose.email/MapiMessage#save\(java.lang.String\)) method to save the MSG file.
 
 
 ~~~Java
@@ -43,7 +43,7 @@ String strMsgFile = "CreatingAndSavingOutlookMessages_out.msg";
 outlookMsg.save(dataDir + strMsgFile);
 ~~~
 ## **Creating MSG Files With Attachments**
-[In the example above](/email/net/managing-message-files-with-aspose-email-outlook/#managingmessagefileswithaspose-email-outlook-creatingandsavingoutlookmessages), we created a simple MSG file. Aspose.Email also supports saving message files with attachments. All you need to do is to add the attachments to the [MailMessage](https://apireference.aspose.com/java/email/com.aspose.email/mailmessage) instance. Add attachments by calling the *add()* method on the [MailMessage.getAttachments](https://apireference.aspose.com/email/java/com.aspose.email/MailMessage#getAttachments()) collection.
+[In the example above](#creating-and-saving-outlook-messages), we created a simple MSG file. Aspose.Email also supports saving message files with attachments. All you need to do is to add the attachments to the [MailMessage](https://apireference.aspose.com/java/email/com.aspose.email/mailmessage) instance. Add attachments by calling the *addItem* method on the [MailMessage.getAttachments](https://apireference.aspose.com/email/java/com.aspose.email/MailMessage#getAttachments()) collection.
 
 
 
