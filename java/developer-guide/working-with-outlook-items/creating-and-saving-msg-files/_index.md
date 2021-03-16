@@ -43,7 +43,7 @@ String strMsgFile = "CreatingAndSavingOutlookMessages_out.msg";
 outlookMsg.save(dataDir + strMsgFile);
 ~~~
 ## **Creating MSG Files With Attachments**
-[In the example above](#creating-and-saving-outlook-messages), we created a simple MSG file. Aspose.Email also supports saving message files with attachments. All you need to do is to add the attachments to the [MailMessage](https://apireference.aspose.com/java/email/com.aspose.email/mailmessage) instance. Add attachments by calling the *addItem* method on the [MailMessage.getAttachments](https://apireference.aspose.com/email/java/com.aspose.email/MailMessage#getAttachments()) collection.
+[In the example above](#creating-and-saving-outlook-messages), we created a simple MSG file. Aspose.Email also supports saving message files with attachments. All you need to do is to add the attachments to the [MailMessage](https://apireference.aspose.com/java/email/com.aspose.email/mailmessage) instance. Add attachments by calling the *addItem* method on the [MailMessage.Attachments](https://apireference.aspose.com/email/java/com.aspose.email/MailMessage#getAttachments()) collection.
 
 
 
