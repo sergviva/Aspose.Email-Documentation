@@ -17,7 +17,7 @@ The following code sample demonstrates retrieving server extensions using Pop3Cl
 // Connect and log in to POP3
 Pop3Client client = new Pop3Client("pop.gmail.com", "username", "password");
 client.setSecurityOptions(SecurityOptions.Auto);
-client.setPort(993);
+client.setPort(995);
 String[] getCaps = client.getCapabilities();
 for (String item : getCaps) {
     System.out.println(item);
