@@ -1,7 +1,7 @@
 ---
 title: Working with Voting Option Using MapiMessage
 type: docs
-weight: 50
+weight: 40
 url: /java/working-with-voting-option-using-mapimessage/
 ---
 
