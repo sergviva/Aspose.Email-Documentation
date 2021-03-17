@@ -114,7 +114,6 @@ for (MapiRecipient recipient : msg.getRecipients()) {
     System.out.println();
 }
 ~~~
-{{< gist "aspose-com-gists" "6e5185a63aec6fd70d83098e82b06a32" "Examples-CSharp-Outlook-ReadVoteResultsInformation-ReadVoteResultsInformation.cs" >}}
 ### **Sample Methods Used In Examples**
 The following code snippet shows you how to create the sample message used in examples.
 
