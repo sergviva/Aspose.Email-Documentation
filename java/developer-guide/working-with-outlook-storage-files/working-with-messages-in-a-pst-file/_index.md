@@ -183,7 +183,7 @@ private static void displayFolderContents(FolderInfo folderInfo, PersonalStorage
 }
 ~~~
 ## **Extracting Messages Form PST Files**
-This article shows how to read Microsoft Outlook PST files and [extract messages](#extracting-messages-form-pst-files). The messages are then saved to disk in MSG format. The article also shows how to [extract a specific number of messages](#extracting-n-number-of-messages-from-a-pst-file) from a PST file. Use a recursive method to browse all the folders (including any nested folders) and call the PersonalStorage.extractMessage() method to get Outlook messages into an instance of the [MapiMessage](https://apireference.aspose.com/email/java/com.aspose.email/MapiMessage) class. After that, call the MapiMessage.save() method to save the message to either disk or stream in MSG format. The following code snippet shows you how to extract messages from PST file is give below.
+This article shows how to read Microsoft Outlook PST files and [extract messages](#extracting-messages-form-pst-files). The messages are then saved to disk in MSG format. The article also shows how to [extract a specific number of messages](#extracting-n-number-of-messages-from-a-pst-file) from a PST file. Use a recursive method to browse all the folders (including any nested folders) and call the [PersonalStorage.extractMessage()](https://apireference.aspose.com/email/java/com.aspose.email/PersonalStorage#extractMessage(byte[])) method to get Outlook messages into an instance of the [MapiMessage](https://apireference.aspose.com/email/java/com.aspose.email/MapiMessage) class. After that, call the [MapiMessage.save()](https://apireference.aspose.com/email/java/com.aspose.email/MapiMessage#save(java.io.OutputStream)) method to save the message to either disk or stream in MSG format. The following code snippet shows you how to extract messages from PST file is give below.
 
 
 ~~~Java
@@ -239,7 +239,7 @@ private static void extractMsgFiles(FolderInfo folderInfo, PersonalStorage pst) 
 }
 ~~~
 ### **Saving Messages Directly from PST to Stream**
-To save messages from a PST file directly to stream, without extracting the MsgInfo for messages, use the SaveMessageToStream() method. The following code snippet shows you how to save messages directly from PST to stream.
+To save messages from a PST file directly to stream, without extracting the MsgInfo for messages, use the [saveMessageToStream()](https://apireference.aspose.com/java/email/com.aspose.email/PersonalStorage#saveMessageToStream\(java.lang.String,%20java.io.OutputStream\)) method. The following code snippet shows you how to save messages directly from PST to stream.
 
 
 ~~~Java
