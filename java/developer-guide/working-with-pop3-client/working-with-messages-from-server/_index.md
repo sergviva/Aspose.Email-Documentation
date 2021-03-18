@@ -42,7 +42,7 @@ System.out.println("Number of messages in mailbox are " + nMessageCount);
 long nOccupiedSize = info.getOccupiedSize();
 System.out.println("Occupied size is " + nOccupiedSize);
 ~~~
-## **Getting email count in the mailbox**
+## **Getting Email Count in the Mailbox**
 The following code snippet shows you how to count the email messages in a mailbox.
 
 
@@ -379,10 +379,10 @@ builder.or(builder.getSubject().contains("test"), builder.getFrom().contains("no
 #### **Applying Case Sensitive Filters**
 The API also provides the capability to filter emails from the mailbox based on a case sensitive criteria. The following methods provide the capability to search emails specifying case sensitive flag.
 
-- Method Aspose.Email.StringComparisonField.Contains(string value, bool ignoreCase)
-- Method Aspose.Email.StringComparisonField.Equals(string value, bool ignoreCase)
-- Method Aspose.Email.StringComparisonField.NotContains(string value, bool ignoreCase)
-- Method Aspose.Email.StringComparisonField.NotEquals(string value, bool ignoreCase)
+- Method StringComparisonField.contains(String value, boolean ignoreCase)
+- Method StringComparisonField.equals(String value, boolean ignoreCase)
+- Method StringComparisonField.notContains(String boolean, bool ignoreCase)
+- Method StringComparisonField.notEquals(String boolean, bool ignoreCase)
 
 
 ~~~Java
