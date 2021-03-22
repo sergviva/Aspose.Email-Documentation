@@ -20,7 +20,7 @@ client.setPassword("password");
 
 try {
     ImapMessageInfoCollection messageInfoCol = client.listMessages("Inbox");
-    for (ImapMessageInfo info : (Iterable<ImapMessageInfo>) messageInfoCol) {
+    for (ImapMessageInfo info : messageInfoCol) {
         // Display MIME Message ID
         System.out.println("Message Id = " + info.getMessageId());
     }
@@ -117,7 +117,7 @@ pageSettings.setAscendingSorting(false);
 ImapPageInfo pageInfo = imapClient.listMessagesByPage(5, pageSettings);
 ImapMessageInfoCollection messages = pageInfo.getItems();
 
-for (ImapMessageInfo message : (Iterable<ImapMessageInfo>) messages) {
+for (ImapMessageInfo message : messages) {
     System.out.println(message.getSubject() + " -> " + message.getDate().toString());
 }
 ~~~
@@ -310,7 +310,7 @@ private static void listMessagesInFolder(ImapFolderInfo folderInfo, String rootF
         client.selectFolder(folderInfo.getName());
         ImapMessageInfoCollection msgInfoColl = client.listMessages();
         System.out.println("Listing messages....");
-        for (ImapMessageInfo msgInfo : (Iterable<ImapMessageInfo>) msgInfoColl) {
+        for (ImapMessageInfo msgInfo : msgInfoColl) {
             // Get subject and other properties of the message
             System.out.println("Subject: " + msgInfo.getSubject());
             System.out.println("Read: " + msgInfo.isRead() + ", Recent: " + msgInfo.getRecent() + ", Answered: " + msgInfo.getAnswered());
