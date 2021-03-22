@@ -61,7 +61,7 @@ client.addMessageFlags(uid, com.aspose.email.ImapMessageFlags.op_BitwiseOr(ImapM
 client.selectFolder(ImapFolderInfo.IN_BOX);
 
 ImapMessageInfoCollection messageInfos = client.listMessages();
-for (ImapMessageInfo inf : (Iterable<ImapMessageInfo>) messageInfos) {
+for (ImapMessageInfo inf : messageInfos) {
     ImapMessageFlags[] flags = inf.getFlags().split();
 
     if (inf.containsKeyword("custom1"))
