@@ -210,10 +210,8 @@ In scenarios, where the email server contains a large number of messages in the 
 
 ~~~Java
 // For complete examples and data files, please go to https://github.com/aspose-email/Aspose.Email-for-Java
-/// <summary>
-/// This example shows the paging support of ImapClient for listing messages from the server
-/// Available in Aspose.Email for .NET 6.4.0 and onwards
-/// </summary>
+// This example shows the paging support of ImapClient for listing messages from the server
+// Available in Aspose.Email for Java and onwards
 final ImapClient client = new ImapClient("host.domain.com", 993, "username", "password");
 try {
     try {
@@ -282,7 +280,7 @@ public static void run() throws Exception {
         // Create the root folder and List all the folders from IMAP server
         new File(rootFolder).mkdirs();
         ImapFolderInfoCollection folderInfoCollection = client.listFolders();
-        for (ImapFolderInfo folderInfo : (Iterable<ImapFolderInfo>) folderInfoCollection) {
+        for (ImapFolderInfo folderInfo : folderInfoCollection) {
             // Call the recursive method to read messages and get sub-folders
             listMessagesInFolder(folderInfo, rootFolder, client);
         }
@@ -330,7 +328,7 @@ private static void listMessagesInFolder(ImapFolderInfo folderInfo, String rootF
     try {
         // If this folder has sub-folders, call this method recursively to get messages
         ImapFolderInfoCollection folderInfoCollection = client.listFolders(folderInfo.getName());
-        for (ImapFolderInfo subfolderInfo : (Iterable<ImapFolderInfo>) folderInfoCollection) {
+        for (ImapFolderInfo subfolderInfo : folderInfoCollection) {
             listMessagesInFolder(subfolderInfo, rootFolder, client);
         }
     } catch (java.lang.RuntimeException e) {
@@ -379,7 +377,7 @@ try {
 }
 ~~~
 ## **Getting List-Unsubscribe Header Information**
-List-Unsubscribe header contains the URL for unsubscribing from email lists e.g. advertisements, newsletters, etc. To get the List-Unsubscribe header, use the [ListUnsubscribe](https://apireference.aspose.com/email/java/com.aspose.email/MessageInfoBase#getListUnsubscribe\(\)) property of the [ImapMessageInfo](https://apireference.aspose.com/email/java/com.aspose.email/imapmessageinfo) class. The following example shows the use of the [ListUnsubscribe](https://apireference.aspose.com/email/java/com.aspose.email/MessageInfoBase#getListUnsubscribe\(\)) property to get the List-Unsubscribe header.
+List-Unsubscribe header contains the URL for unsubscribing from email lists e.g. advertisements, newsletters, etc. To get the List-Unsubscribe header, use the [listUnsubscribe](https://apireference.aspose.com/email/java/com.aspose.email/MessageInfoBase#getListUnsubscribe\(\)) property of the [ImapMessageInfo](https://apireference.aspose.com/email/java/com.aspose.email/imapmessageinfo) class. The following example shows the use of the [listUnsubscribe](https://apireference.aspose.com/email/java/com.aspose.email/MessageInfoBase#getListUnsubscribe\(\)) property to get the List-Unsubscribe header.
 
 
 
