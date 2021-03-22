@@ -167,7 +167,7 @@ try {
         // Verify that the messages have been added to the mailbox
         client.selectFolder(ImapFolderInfo.IN_BOX);
         ImapMessageInfoCollection msgsColl = client.listMessages();
-        for (ImapMessageInfo msgInfo : (Iterable<ImapMessageInfo>) msgsColl)
+        for (ImapMessageInfo msgInfo : msgsColl)
             System.out.println(msgInfo.getSubject());
 
         // Copy multiple messages using the CopyMessages command and Verify that messages are copied to the destination folder
@@ -175,7 +175,7 @@ try {
 
         client.selectFolder(folderName);
         msgsColl = client.listMessages();
-        for (ImapMessageInfo msgInfo : (Iterable<ImapMessageInfo>) msgsColl)
+        for (ImapMessageInfo msgInfo : msgsColl)
             System.out.println(msgInfo.getSubject());
     } finally {
         try {
