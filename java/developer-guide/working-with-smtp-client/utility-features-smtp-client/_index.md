@@ -5,7 +5,7 @@ weight: 30
 url: /java/utility-features-smtp-client/
 ---
 
-# Utility Features - SMTP Client
+
 ## **Listing Extension Servers using Smtp Client**
 Aspose.Email's [SmtpClient](https://apireference.aspose.com/email/java/com.aspose.email/SmtpClient) lets you retrieve the server extensions that a server supports such as IDLE, UNSELECT, QUOTA, etc. This helps in identifying the availability of an extension before using the client for that particular functionality. The [getCapabilities()](https://apireference.aspose.com/email/java/com.aspose.email/EmailClient#getCapabilities\(\)) method returns the supported extension types in the form of a string array.
 ### **Retrieving Server Extensions**
