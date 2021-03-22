@@ -392,7 +392,7 @@ imapClient.setSupportedEncryption(EncryptionProtocols.Tls);
 imapClient.setSecurityOptions(SecurityOptions.SSLImplicit);
 
 ImapMessageInfoCollection messageInfoCol = imapClient.listMessages();
-for (ImapMessageInfo imapMessageInfo : (Iterable<ImapMessageInfo>) messageInfoCol) {
+for (ImapMessageInfo imapMessageInfo : messageInfoCol) {
     System.out.println("ListUnsubscribe Header: " + imapMessageInfo.getListUnsubscribe());
 }
 ~~~
