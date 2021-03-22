@@ -10,7 +10,7 @@ The [ImapClient](https://apireference.aspose.com/email/java/com.aspose.email/Im
 ## **Filtering Messages from Mailbox**
 1. [Connect and log in to an IMAP server](/email/java/connecting-to-imap-server#connecting-with-imap-server)
 1. Create an instance of the [MailQuery](https://apireference.aspose.com/email/java/com.aspose.email/mailquery) and set the properties
-1. Call the [ImapClient.listMessages(MailQuery query)](https://apireference.aspose.com/email/java/com.aspose.email/ImapClient#ImapClient\(java.lang.String,%20int,%20java.lang.String,%20java.lang.String,%20com.aspose.ms.System.Net.Security.RemoteCertificateValidationCallback\)) method and pass the [MailQuery](https://apireference.aspose.com/email/java/com.aspose.email/ImapClient#listMessagesBySequences\(com.aspose.email.IConnection,%20java.lang.String,%20java.lang.Iterable\)) with the parameters to get filtered messages only.
+1. Call the [ImapClient.listMessages(MailQuery query)](https://apireference.aspose.com/email/java/com.aspose.email/ImapClient#listMessages\(com.aspose.email.MailQuery\)) method and pass the [MailQuery](https://apireference.aspose.com/email/java/com.aspose.email/mailquery) with the parameters to get filtered messages only.
 
 The following code snippet shows you how to connect to an IMAP mailbox and get messages that arrived today and have the word "newsletter" in the subject.
 
@@ -148,7 +148,7 @@ builder.getInternalDate().on(new Date());
 // Build the query and Get list of messages
 MailQuery query = builder.getQuery();
 ImapMessageInfoCollection messages = client.listMessages(query);
-for (ImapMessageInfo info : (Iterable<ImapMessageInfo>) messages) {
+for (ImapMessageInfo info : messages) {
     System.out.println("Internal Date: " + info.getInternalDate());
 }
 
