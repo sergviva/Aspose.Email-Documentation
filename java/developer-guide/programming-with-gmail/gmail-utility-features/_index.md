@@ -78,46 +78,44 @@ A Project is to be created on Google Developer Console for a user having Gmail a
 ### **Steps to Create a Project in Google Developer Console**
 Following is a step by step tutorial for creating a project in Google Developer Console.
 
-| :- |
 1. Go to link <https://console.cloud.google.com> and login using your gmail credentials
 
-| :- |
 2. Select the check box "I have read and agree to all Terms of Service for the Google Cloud Platform products." and Press **NEW PROJECT** button
 
 |![todo:image_alt_text](gmail-utility-features_1.png)|
-| :- |
+
 3. **Create** and **Select** new project
 
 |![todo:image_alt_text](gmail-utility-features_2.png)|
-| :- |
+
 4. Open **OAuth consent screen**
 
 |![todo:image_alt_text](gmail-utility-features_3.png)|
-| :- |
+
 5. Select **External** check box and Press **CREATE** button
 
 |![todo:image_alt_text](gmail-utility-features_4.png)|
-| :- |
+
 6. Edit app registration and Press **SAVE AND CONTINUE** button
 
 |![todo:image_alt_text](gmail-utility-features_5.png)|
-| :- |
+
 7. Select **Library** and enable Contact and Calendar API
 
 |![todo:image_alt_text](gmail-utility-features_6.png)|
-| :- |
+
 8. Add scopes and Press **UPDATE** button
 
 |![todo:image_alt_text](gmail-utility-features_7.png)|
-| :- |
-6. Create OAuth credentials
+
+9. Create OAuth credentials
 
 |![todo:image_alt_text](gmail-utility-features_8.png)|
-| :- |
-7. Client ID and Client Secret here that will be used in the sample codes in this section.
+
+10. Client ID and Client Secret here that will be used in the sample codes in this section.
 
 |![todo:image_alt_text](gmail-utility-features_9.png)|
-| :- |
+
 ## **Helper Classes**
 Following helper classes are required to run the codes in this section. These classes are just for simplification of demonstration. The methods in these classes use non-public structure of web-pages that may change any time.
 ### **GoogleOAuthHelper Class**
