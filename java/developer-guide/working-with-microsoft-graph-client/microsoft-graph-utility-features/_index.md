@@ -17,6 +17,7 @@ Following is a step by step tutorial for creating a project in Azure Active Dire
 #### 2. Create an Azure AD Application in your tenant.
 
 In the left side pane click the label **Azure Active Directory**. This will open up the blade for Azure Active Directory. In that screen should see a label **App registrations**. This is the starting point of a registering an Azure AD Application. This blade will allow you to create a new application for Azure AD.
+
 Click on the button **New registration** to create a new application.
 
 ![todo:image_alt_text](microsoft-graph-utility-features_1.png)
@@ -38,6 +39,7 @@ Click **Register** button.
 ![todo:image_alt_text](microsoft-graph-utility-features_6.png)
 
 #### 5. Allowing permissions for Microsoft Graph API.
+
 Click on the **API permissions** label.
 
 Azure has already given you **User.Read** delegated permissions for your application. This permission will allow us to read user information for a logged in user. These are Microsoft Graph API permissions, in other hand we can call them as **Scopes**.
