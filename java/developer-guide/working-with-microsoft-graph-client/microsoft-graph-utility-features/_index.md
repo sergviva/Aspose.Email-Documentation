@@ -13,9 +13,8 @@ A Project is to be created on Azure Active Directory admin center for a user hav
 
 Following is a step by step tutorial for creating a project in Azure Active Directory admin center.
 
-1. Go to link <https://aad.portal.azure.com/> and login using your MS Office credentials.
-
-2. Create an Azure AD Application in your tenant.
+#### 1. Go to link <https://aad.portal.azure.com/> and login using your MS Office credentials.
+#### 2. Create an Azure AD Application in your tenant.
 
 In the left side pane click the label **Azure Active Directory**.
 
