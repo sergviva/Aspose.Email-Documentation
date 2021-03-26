@@ -7,8 +7,10 @@ url: /java/microsoft-graph-utility-features/
 
 
 ## **Creating Project in Azure Active Directory Admin Center**
+
 A Project is to be created on Azure Active Directory admin center for a user having MS Office account.
 ### **Steps to Create a Project in Azure Active Directory Admin Center**
+
 Following is a step by step tutorial for creating a project in Azure Active Directory admin center.
 
 1. Go to link <https://aad.portal.azure.com/> and login using your MS Office credentials.
@@ -69,9 +71,11 @@ Specifies whether the application is a public client. Appropriate for apps using
 ![todo:image_alt_text](microsoft-graph-utility-features_5.png)
 
 ## **Helper Classes**
+
 Following helper classes are required to run the codes in this section. These classes are just for simplification of demonstration.
 
 ### **AzureROPCTokenProvider Class**
+
 An instance of the GraphClient class handles building requests, sending them to the Microsoft Graph API, and processing the responses. To create a new instance of this  class, you need to provide an instance of ITokenProvider, which can authenticate requests to Microsoft Graph.
 
 ~~~Java
