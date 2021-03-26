@@ -63,11 +63,6 @@ for (GraphFolderInfo folderInfo : folders) {
 ~~~Java
 GraphFolderInfoCollection inboxFolders = client.listFolders(GraphKnownFolders.Inbox);
 ~~~
-### ****
-
-
-~~~Java
-~~~
 ### **Create Root Folder**
 
 
