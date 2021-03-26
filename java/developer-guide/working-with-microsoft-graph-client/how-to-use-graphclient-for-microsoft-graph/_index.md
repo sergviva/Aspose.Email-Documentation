@@ -278,3 +278,13 @@ InboxRule updatedRule = client.updateRule(createdRule);
 
 client.delete(createdRule.getRuleId());
 ~~~
+## **Using Resource to Support Multiple Mailboxes**
+
+
+~~~Java
+сlient.setResource(ResourceType.Users);
+сlient.setResourceId("mailbox");
+сlient.listMessages("mailfolder")
+// back to the current mailbox
+сlient.setResource(ResourceType.Me);
+~~~
