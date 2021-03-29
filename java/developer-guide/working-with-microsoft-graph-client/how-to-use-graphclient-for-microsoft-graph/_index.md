@@ -6,9 +6,9 @@ url: /java/how-to-use-graphclient-for-microsoft-graph/
 ---
 
 
-## **Working with [GraphClient](https://apireference.aspose.com/email/java/com.aspose.email/GraphClient)**
+## **Working with GraphClient**
 An instance of the [IGraphClient](https://apireference.aspose.com/email/java/com.aspose.email/IGraphClient) class handles building requests, sending them to the Microsoft Graph API, and processing the responses.
-### **Create an [ITokenProvider](https://apireference.aspose.com/email/java/com.aspose.email/ITokenProvider) object**
+### **Create an ITokenProvider Object**
 To create a new instance of [IGraphClient](https://apireference.aspose.com/email/java/com.aspose.email/IGraphClient) class, you need to provide an instance of [ITokenProvider](https://apireference.aspose.com/email/java/com.aspose.email/ITokenProvider), which can authenticate requests to Microsoft Graph.
 
 
