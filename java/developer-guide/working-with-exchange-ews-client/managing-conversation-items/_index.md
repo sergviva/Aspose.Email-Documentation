@@ -10,8 +10,8 @@ Aspose.Email for Java can be used to manage the conversation items on Exchange S
 ## **Finding Conversations**
 To get the conversation information from a specific folder on the Exchange Server:
 
-1. Connect to the Exchange Server using the [IEWSClient](https://apireference.aspose.com/email/java/com.aspose.email/IEWSClient) class.
-1. Call the [IEWSClient.findConversations()](https://apireference.aspose.com/email/java/com.aspose.email/IEWSClient#findConversations\(java.lang.String\)) method to find all the conversation items from a folder.
+1. Connect to the Exchange Server using the IEWSClient class.
+1. Call the IEWSClient.findConversations() method to find all the conversation items from a folder.
 1. Display the conversation item properties like ID, conversation topic and flag status.
 
 The following code snippet shows you how to find conversations.
@@ -35,8 +35,8 @@ for (ExchangeConversation conversation : conversations) {
 ## **Copying Conversations**
 To copy conversations from one folder to another:
 
-1. Connect to the Exchange Server using the [IEWSClient](https://apireference.aspose.com/email/java/com.aspose.email/IEWSClient) class.
-1. Call the [IEWSClient.copyConversationItems()](https://apireference.aspose.com/email/java/com.aspose.email/IEWSClient#copyConversationItems\(java.lang.String,%20java.lang.String\)) method to copy the conversation item from source folder to destination folder.
+1. Connect to the Exchange Server using the IEWSClient class.
+1. Call the IEWSClient.copyConversationItems() method to copy the conversation item from source folder to destination folder.
 
 The following code snippet shows you how to copying conversations.
 
@@ -60,8 +60,8 @@ for (ExchangeConversation conversation : conversations) {
 ## **Moving Conversations**
 To move conversations from one folder to another:
 
-1. Connect to the Exchange Server using the [IEWSClient](https://apireference.aspose.com/email/java/com.aspose.email/IEWSClient) class.
-1. Call the [IEWSClient.moveConversationItems()](https://apireference.aspose.com/email/java/com.aspose.email/IEWSClient#moveConversationItems\(java.lang.String,%20java.lang.String\)) method to move a conversation from the source folder to the destination folder.
+1. Connect to the Exchange Server using the IEWSClient class.
+1. Call the IEWSClient.moveConversationItems() method to move a conversation from the source folder to the destination folder.
 
 The following code snippet shows you how to moving conversations.
 
@@ -86,8 +86,8 @@ for (ExchangeConversation conversation : conversations) {
 ## **Deleting Conversations**
 To delete conversations from a folder:
 
-1. Connect to the Exchange Server using the [IEWSClient](https://apireference.aspose.com/email/java/com.aspose.email/IEWSClient) class.
-1. Call the [IEWSClient.deleteConversationItems()](https://apireference.aspose.com/email/java/com.aspose.email/IEWSClient#deleteConversationItems\(java.lang.String\)) method to delete the conversation item from the source folder.
+1. Connect to the Exchange Server using the IEWSClient class.
+1. Call the IEWSClient.deleteConversationItems() method to delete the conversation item from the source folder.
 
 The following code snippet shows you how to delete conversations.
 

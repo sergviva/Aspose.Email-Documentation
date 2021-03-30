@@ -17,8 +17,8 @@ The [IEWSClient](https://apireference.aspose.com/email/java/com.aspose.email/IE
 To get filtered messages from a mailbox:
 
 1. Connect to the Exchange server.
-1. Create an instance of [MailQuery](https://apireference.aspose.com/email//java/com.aspose.email/mailquery) and set the desired properties.
-1. Call the [IEWSClient.listMessages()](https://apireference.aspose.com/email/java/com.aspose.email/IEWSClient#listMessages\(java.lang.String,%20com.aspose.email.MailQuery\)) method and pass the [MailQuery](https://apireference.aspose.com/email//java/com.aspose.email/mailquery) in the parameters to get the filtered messages only.
+1. Create an instance of MailQuery and set the desired properties.
+1. Call the IEWSClient.listMessages() method and pass the MailQuery in the parameters to get the filtered messages only.
 
 The following code snippet shows you how to connect to an IMAP mailbox and get messages that have the string "Newsletter" in the subject and were sent today.
 

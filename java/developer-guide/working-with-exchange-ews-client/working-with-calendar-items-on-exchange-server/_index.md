@@ -9,9 +9,9 @@ url: /java/working-with-calendar-items-on-exchange-server/
 ## **Sending Meeting Requests**
 This article shows how to send a meeting request to multiple recipients using Exchange Web Services and Aspose.Email.
 
-1. Create a meeting request using the [Appointment](https://apireference.aspose.com/email/java/com.aspose.email/appointment) class and set the location, time and attendees.
-1. Create an instance of the [MailMessage](https://apireference.aspose.com/email/java/com.aspose.email/MailMessage) class and set the appointment using the [MailMessage.addAlternateView()](https://apireference.aspose.com/email/java/com.aspose.email/MailMessage#addAlternateView\(com.aspose.email.AlternateView\)) method.
-1. Connect to the Exchange Server and send the meeting request using the [send(MailMessage)](https://apireference.aspose.com/email/java/com.aspose.email/IEWSClient#send\(com.aspose.email.MailMessage\)) method.
+1. Create a meeting request using the Appointment class and set the location, time and attendees.
+1. Create an instance of the MailMessage class and set the appointment using the MailMessage.addAlternateView() method.
+1. Connect to the Exchange Server and send the meeting request using the send(MailMessage) method.
 
 The [EWSClient](https://apireference.aspose.com/email/java/com.aspose.email/ewsclient) class can be used to connect to an Exchange Servers with Exchange Web Services (EWS) support. For this to work, the server has to be Exchange Server 2007 or later. The following code snippet shows you how to use EWS to send the meeting requests.
 
