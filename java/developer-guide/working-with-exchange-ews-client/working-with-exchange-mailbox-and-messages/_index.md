@@ -65,8 +65,8 @@ A list of the email messages in an Exchange mailbox can be fetched by calling th
 ### **Simple Messages Listing**
 To list the messages in an Exchange mail box:
 
-1. Create an instance of the [IEWSClient](https://apireference.aspose.com/email/java/com.aspose.email/IEWSClient) class.
-1. Call the [listMessages](https://apireference.aspose.com/email/java/com.aspose.email/IEWSClient#listMessages\(java.lang.String\)) method and create a message collection.
+1. Create an instance of the IEWSClient class.
+1. Call the listMessages method and create a message collection.
 1. Loop through the collection and display message information.
 
 The following code snippet shows you how to connects to an exchange server using EWS and lists messages from the inbox folder.
@@ -112,11 +112,6 @@ ExchangeMessageInfoCollection msgCollection = client.listMessages(strFolderURI);
 The following code snippet shows you how to get a list of messages with paging support.
 
 ~~~Java
-~~~
-### **Getting Message Type Information from ExchangeMessageInfo**
-
-
-~~~Java
 // For complete examples and data files, please go to https://github.com/aspose-email/Aspose.Email-for-Java
 final IEWSClient client = EWSClient.getEWSClient("exchange.domain.com", "username", "password");
 try {
@@ -159,6 +154,15 @@ try {
     client.dispose();
 }
 ~~~
+### **Getting Message Type Information from ExchangeMessageInfo**
+
+
+~~~Java
+IEWSClient client = EWSClient.getEWSClient(mailboxUri, credentials);
+
+ExchangeMessageInfoCollection list = client.listMessages(client.getMailboxInfo().getDeletedItemsUri());
+System.out.println(list.get_Item(0).getMessageInfoType()); // MessageInfoType
+~~~
 ## **Saving Messages**
 This article shows how to get messages from an Exchange Server mailbox and save them to disk in EML and MSG formats:
 
@@ -168,12 +172,12 @@ This article shows how to get messages from an Exchange Server mailbox and save 
 ### **Saving Messages to EML**
 To get messages and save in EML format:
 
-1. Create an instance of the [IEWSClient](https://apireference.aspose.com/email/java/com.aspose.email/IEWSClient) class.
+1. Create an instance of the IEWSClient class.
 1. Provide the mailboxUri, username, password and domain.
-1. Call the [IEWSClient.listMessages()](https://apireference.aspose.com/email/java/com.aspose.email/IEWSClient#listMessages\(java.lang.String\)) method to get an instance of the [ExchangeMessagesInfoCollection](https://apireference.aspose.com/email//java/com.aspose.email/exchangemessageinfocollection) collection.
-1. Loop through the [ExchangeMessagesInfoCollection](https://apireference.aspose.com/email//java/com.aspose.email/exchangemessageinfocollection) collection to get the unique URI for each message.
-1. Call the [IEWSClient.saveMessage()](https://apireference.aspose.com/email/java/com.aspose.email/IEWSClient#saveMessage\(java.lang.String,%20java.lang.String\)) method and pass the unique URI as a parameter.
-1. Provide a the [saveMessage()](https://apireference.aspose.com/email/java/com.aspose.email/IEWSClient#saveMessage\(java.lang.String,%20java.lang.String\)) method with a path to where you want to save the file.
+1. Call the IEWSClient.listMessages() method to get an instance of the ExchangeMessagesInfoCollection collection.
+1. Loop through the ExchangeMessagesInfoCollection collection to get the unique URI for each message.
+1. Call the IEWSClient.saveMessage() method and pass the unique URI as a parameter.
+1. Provide a the saveMessage() method with a path to where you want to save the file.
 
 The following code snippet shows you how to use EWS to connect to the Exchange Server and save messages as EML files.
 
@@ -238,7 +242,7 @@ for (ExchangeMessageInfo msgInfo : (Iterable<ExchangeMessageInfo>) msgCollection
 }
 ~~~
 ## **Getting ExchangeMessageInfo from Message URI**
-An email message is represented by its unique identifier, URI, and is integral part of the [ExchangeMessageInfo](https://apireference.aspose.com/email/java/com.aspose.email/ExchangeMessageInfo) object. In case, only message URI is available, then [ExchangeMessageInfo](https://apireference.aspose.com/email/java/com.aspose.email/ExchangeMessageInfo) object can also be retrieved using this available information. The overload version of listMessages takes a list of Ids to use [ExchangeMessageInfoCollection](https://apireference.aspose.com/email/java/com.aspose.email/ExchangeMessageInfoCollection). The following code snippet shows you how to get [ExchangeMessageInfo](https://apireference.aspose.com/email/java/com.aspose.email/ExchangeMessageInfo) from message URI.
+An email message is represented by its unique identifier, URI, and is integral part of the [ExchangeMessageInfo](https://apireference.aspose.com/email/java/com.aspose.email/ExchangeMessageInfo) object. In case, only message URI is available, then [ExchangeMessageInfo](https://apireference.aspose.com/email/java/com.aspose.email/ExchangeMessageInfo) object can also be retrieved using this available information. The overload version of [listMessages](https://apireference.aspose.com/email/java/com.aspose.email/IEWSClient#listMessages\(java.lang.Iterable\)) takes a list of Ids to use [ExchangeMessageInfoCollection](https://apireference.aspose.com/email/java/com.aspose.email/ExchangeMessageInfoCollection). The following code snippet shows you how to get [ExchangeMessageInfo](https://apireference.aspose.com/email/java/com.aspose.email/ExchangeMessageInfo) from message URI.
 
 
 
@@ -266,11 +270,11 @@ for (ExchangeMessageInfo messageInfo : (Iterable<ExchangeMessageInfo>) messageIn
 ## **Fetch Messages from an Exchange Server Mailbox**
 Listing Messages on an Exchange Server used the [listMessages()](https://apireference.aspose.com/email/java/com.aspose.email/IEWSClient#listMessages\(java.lang.String\)) method to get a list of messages from an Exchange Server mailbox. The [listMessages()](https://apireference.aspose.com/email/java/com.aspose.email/IEWSClient#listMessages\(java.lang.String\)) method gets basic information about messages, for example, the subject, the message ID, from and to. To get the complete message details, Aspose.Email.Exchange provides the IEWSClient.fetchMessage() method. This method accepts the message URI as a parameter and returns am instance of the [MailMessage](https://apireference.aspose.com/email/java/com.aspose.email/MailMessage) class. The [MailMessage](https://apireference.aspose.com/email/java/com.aspose.email/MailMessage) class then provides message details like body, headers and attachments. Find out more about the [MailMessage](https://apireference.aspose.com/email/java/com.aspose.email/MailMessage) API, or find out how to manage emails with the [MailMessage](https://apireference.aspose.com/email/java/com.aspose.email/MailMessage) class. To fetch messages from Exchange Server Mailbox:
 
-1. Create an instance of type [IEWSClient](https://apireference.aspose.com/email/java/com.aspose.email/IEWSClient).
+1. Create an instance of type IEWSClient.
 1. Specify the server name, user name, password and domain.
-1. Call [listMessages](https://apireference.aspose.com/email/java/com.aspose.email/IEWSClient#listMessages\(java.lang.String\)) to get the [ExchangeMessageInfoCollection](https://apireference.aspose.com/email/java/com.aspose.email/ExchangeMessageInfoCollection).
-1. Loop through the [ExchangeMessageInfoCollection](https://apireference.aspose.com/email/java/com.aspose.email/ExchangeMessageInfoCollection) collection to get [ExchangeMessageInfo.UniqueURI](https://apireference.aspose.com/email/java/com.aspose.email/ExchangeMessageInfo#getUniqueUri\(\)) values.
-1. Call [IEWSClient.fetchMessage()](https://apireference.aspose.com/email/java/com.aspose.email/IEWSClient#fetchMessage\(java.lang.String\)) and pass [ExchangeMessageInfo.UniqueURI](https://apireference.aspose.com/email/java/com.aspose.email/ExchangeMessageInfo#getUniqueUri\(\)) as parameter.
+1. Call listMessages to get the ExchangeMessageInfoCollection.
+1. Loop through the ExchangeMessageInfoCollection collection to get ExchangeMessageInfo.UniqueURI values.
+1. Call IEWSClient.fetchMessage() and pass ExchangeMessageInfo.UniqueURI as parameter.
 
 The following code snippet shows you connect to the Exchange Server mailbox and fetches all the messages using EWS.
 
@@ -494,7 +498,7 @@ for (ExchangeMessageInfo msgInfo : (Iterable<ExchangeMessageInfo>) msgInfoColl) 
 }
 ~~~
 ## **Copying Messages**
-Aspose.Email API allows to copy a message from one folder to another folder using the CopyItem method. The overloaded version of this method returns the Unique URI of the copied message as shown in this article.
+Aspose.Email API allows to copy a message from one folder to another folder using the [copyItem](https://apireference.aspose.com/email/java/com.aspose.email/IEWSClient#copyItem\(java.lang.String,%20java.lang.String\)) method. The overloaded version of this method returns the Unique URI of the copied message as shown in this article.
 ### **Copying a Message to Another Folder**
 The following code snippet shows you how to copy a message to another folder.
 

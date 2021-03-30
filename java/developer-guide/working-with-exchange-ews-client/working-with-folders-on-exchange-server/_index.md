@@ -108,10 +108,10 @@ while (!pagedMessageInfoCol.getLastPage()) {
 ## **Accessing Mailbox Custom Folders or Subfolders**
 [IEWSClient](https://apireference.aspose.com/email/java/com.aspose.email/IEWSClient) lets developers access any custom folder or subfolder from the mailbox. The [folderExists()](https://apireference.aspose.com/email/java/com.aspose.email/IEWSClient#folderExists\(java.lang.String,%20java.lang.String\)) function of [IEWSClient](https://apireference.aspose.com/email/java/com.aspose.email/IEWSClient) returns the URI of a specified custom folder/sub-folder, which can be used then to access the target folder. In the following example, a custom folder named "TestInbox", which is created under INBOX is accessed and all the messages are displayed from this custom folder. To perform this task, the following are the steps:
 
-1. Initialize the [IEWSClient](https://apireference.aspose.com/email/java/com.aspose.email/IEWSClient) object by providing valid credentials.
+1. Initialize the IEWSClient object by providing valid credentials.
 1. Access the default mailbox.
 1. Access the parent folder, which is INBOX in this example. This parent folder can also be a custom folder itself.
-1. Use [folderExists()](https://apireference.aspose.com/email/java/com.aspose.email/IEWSClient#folderExists\(java.lang.String,%20java.lang.String\)) to search the specified custom subfolder, for example "TestInbox". It will return the URI of "TestInbox".
+1. Use folderExists() to search the specified custom subfolder, for example "TestInbox". It will return the URI of "TestInbox".
 1. Use this Uri to access all the messages in that custom folder.
 
 The following code snippet shows you how to access mailbox custom folders or subfolders with EWS.
@@ -234,9 +234,9 @@ Users are assigned permissions to public folders on Exchange Server, which limit
 
 To perform this task:
 
-1. Initialize the [EWSClient](https://apireference.aspose.com/email/java/com.aspose.email/ewsclient).
-1. Use the [listPublicFolders](https://apireference.aspose.com/email/java/com.aspose.email/IEWSClient#listPublicFolders\(\)) to get a list of all public folders
-1. Retrieve the permissions associated with a folder using the [getFolderPermissions()](https://apireference.aspose.com/email/java/com.aspose.email/IEWSClient#getFolderPermissions\(java.lang.String\)) method
+1. Initialize the EWSClient.
+1. Use the listPublicFolders to get a list of all public folders
+1. Retrieve the permissions associated with a folder using the getFolderPermissions() method
 
 The following code snippet shows you how to use the [EWSClient](https://apireference.aspose.com/email/java/com.aspose.email/ewsclient) class to retrieve permissions applied to a folder.
 
@@ -286,9 +286,9 @@ try {
 ## **Creating Folders and Sub-Folders**
 Aspose.Email API provides the capability to create folders in an Exchange mailbox. The [CreateFolder](https://apireference.aspose.com/email/java/com.aspose.email/IEWSClient#createFolder\(java.lang.String\)) method of [IEWSClient](https://apireference.aspose.com/email/java/com.aspose.email/IEWSClient) can be used for this purpose. In order to create a folder in the Exchange server mailbox, the following steps can be used.
 
-1. Create an instance of [IEWSClient](https://apireference.aspose.com/email/java/com.aspose.email/IEWSClient).
-1. Set the [UseSlashAsFolderSeparator](https://apireference.aspose.com/email/java/com.aspose.email/IEWSClient#setUseSlashAsFolderSeparator\(boolean\)) property as required. If set to **true**, the application will consider the "Slash" as folder separator and the subfolder will be created after the slash.
-1. Use the [createFolder](https://apireference.aspose.com/email/java/com.aspose.email/IEWSClient#createFolder\(java.lang.String\)) method to create the folder.
+1. Create an instance of IEWSClient.
+1. Set the UseSlashAsFolderSeparator property as required. If set to **true**, the application will consider the "Slash" as folder separator and the subfolder will be created after the slash.
+1. Use the createFolder method to create the folder.
 
 The following code snippet shows you how to create folders and sub-Folders.
 
@@ -327,9 +327,9 @@ try {
 ## **Backup Exchange Folders to PST**
 It often so happens that users may want to take a backup of all or some of the mailbox folders. Aspose.Email provides the capability to take a backup of all or specified Exchange mailbox folders to a PST. This article describes taking backup of Exchange folders to a PST with sample code. In order to take the backup of Exchange server folders, the following steps may be followed.
 
-1. Initiate the [IEWSClient](https://apireference.aspose.com/email/java/com.aspose.email/IEWSClient) with user credentials
-1. Add the required folder's info to [ExchangeFolderInfoCollection](https://apireference.aspose.com/email/java/com.aspose.email/ExchangeFolderInfoCollection)
-1. User the client's [backup](https://apireference.aspose.com/email/java/com.aspose.email/IEWSClient#backup\(com.aspose.email.ExchangeFolderInfoCollection,%20java.io.OutputStream,%20int\)) method to export the folder's contents to PST
+1. Initiate the IEWSClient with user credentials
+1. Add the required folder's info to ExchangeFolderInfoCollection
+1. User the client's backup method to export the folder's contents to PST
 
 The following code snippet shows you how to backup exchange folders to PST.
 

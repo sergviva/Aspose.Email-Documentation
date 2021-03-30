@@ -25,8 +25,8 @@ private static IEWSClient getExchangeEWSClient() {
 ### **Reading User Configuration**
 To get the user configuration information of a specific folder from the Exchange Server:
 
-1. Connect to Exchange Server using the [IEWSClient](https://apireference.aspose.com/email/java/com.aspose.email/IEWSClient) class.
-1. Call the [IEWSClient.getUserConfiguration()](https://apireference.aspose.com/email/java/com.aspose.email/IEWSClient#getUserConfiguration\(com.aspose.email.UserConfigurationName\)) method to get the user configuration for a folder.
+1. Connect to Exchange Server using the IEWSClient class.
+1. Call the IEWSClient.getUserConfiguration() method to get the user configuration for a folder.
 1. Display the user configuration properties like ID, name and dictionary items as key-value pairs.
 
 The following code snippet shows you how to read user configuration.
@@ -52,8 +52,8 @@ for (Object key : userConfig.getDictionary().keySet()) {
 ### **Creating User Configurations**
 To create the user configuration for a specific folder on an Exchange Server:
 
-1. Connect to the Exchange Server using the [IEWSClient](https://apireference.aspose.com/email/java/com.aspose.email/IEWSClient) class.
-1. Call the [IEWSClient.createUserConfiguration()](https://apireference.aspose.com/email/java/com.aspose.email/IEWSClient#createUserConfiguration\(com.aspose.email.UserConfiguration\)) method to create the user configuration for a folder.
+1. Connect to the Exchange Server using the IEWSClient class.
+1. Call the IEWSClient.createUserConfiguration() method to create the user configuration for a folder.
 
 The following code snippet shows you how to creating user configurations.
 
@@ -74,8 +74,8 @@ client.createUserConfiguration(userConfig);
 ### **Updating User Configuration**
 To update the user configuration for a specific folder in the Exchange Server:
 
-1. Connect to the Exchange Server using the [IEWSClient](https://apireference.aspose.com/email/java/com.aspose.email/IEWSClient) class.
-1. Call the [IEWSClient.updateUserConfiguration()](https://apireference.aspose.com/email/java/com.aspose.email/IEWSClient#updateUserConfiguration\(com.aspose.email.UserConfiguration\)) method to update the user configuration for a folder.
+1. Connect to the Exchange Server using the IEWSClient class.
+1. Call the IEWSClient.updateUserConfiguration() method to update the user configuration for a folder.
 
 The following code snippet shows you how to update user configuration.
 
@@ -97,8 +97,8 @@ client.updateUserConfiguration(userConfig);
 ### **Deleting User Configuration**
 To delete the user configuration for a specific folder in the Exchange Server:
 
-1. Connect to the Exchange Server using the [IEWSClient](https://apireference.aspose.com/email/java/com.aspose.email/IEWSClient) class.
-1. Call the [IEWSClient.deleteUserConfiguration()](https://apireference.aspose.com/email/java/com.aspose.email/IEWSClient#deleteUserConfiguration\(com.aspose.email.UserConfigurationName\)) method to delete the user configuration for a folder.
+1. Connect to the Exchange Server using the IEWSClient class.
+1. Call the IEWSClient.deleteUserConfiguration() method to delete the user configuration for a folder.
 
 The following code snippet shows you how to delete user configuration.
 

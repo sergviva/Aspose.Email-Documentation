@@ -17,8 +17,8 @@ Microsoft Exchange Server 2010 Service Pack 1 is required for all features descr
 ### **Read Rules**
 To get all the rules from the Exchange Server:
 
-1. Connect to an Exchange Server using the [IEWSClient](https://apireference.aspose.com/email/java/com.aspose.email/IEWSClient) class.
-1. Call the [IEWSClient.getInboxRules()](https://apireference.aspose.com/email/java/com.aspose.email/IEWSClient#getInboxRules\(\)) method to get all the rules.
+1. Connect to an Exchange Server using the IEWSClient class.
+1. Call the IEWSClient.getInboxRules() method to get all the rules.
 1. In a foreach loop, browse through all the rules and display the rule properties like conditions, actions, and name.
 
 The following code snippet shows you how to read rules.
@@ -59,12 +59,12 @@ for (InboxRule inboxRule : inboxRules) {
 ### **Creating a New Rule**
 To create a new rule on the Exchange Server, perform the following steps:
 
-1. Connect to an Exchange Server using the [IEWSClient](https://apireference.aspose.com/email/java/com.aspose.email/IEWSClient) class.
-1. Create a new instance of the [InboxRule](https://apireference.aspose.com/email/java/com.aspose.email/inboxrule) class and set the following mandatory properties:
+1. Connect to an Exchange Server using the IEWSClient class.
+1. Create a new instance of the InboxRule class and set the following mandatory properties:
    1. DisplayName
    1. Conditions
    1. Actions
-1. Call the [IEWSClient.createInboxRule()](https://apireference.aspose.com/email/java/com.aspose.email/IEWSClient#createInboxRule\(com.aspose.email.InboxRule\)) method to create the rule.
+1. Call the IEWSClient.createInboxRule() method to create the rule.
 
 The following code snippet shows you how to create a new rule.
 
@@ -94,11 +94,11 @@ client.createInboxRule(rule);
 ### **Updating a Rule**
 To update a rule on the Exchange Server:
 
-1. Connect to an Exchange Server using the [IEWSClient](https://apireference.aspose.com/email/java/com.aspose.email/IEWSClient) class.
-1. Call the [IEWSClient.getInboxRules()](https://apireference.aspose.com/email/java/com.aspose.email/IEWSClient#getInboxRules\(\)) method to get all the rules.
+1. Connect to an Exchange Server using the IEWSClient class.
+1. Call the IEWSClient.getInboxRules() method to get all the rules.
 1. In a foreach loop, browse through all the rules and get the rule you want to change by matching the DisplayName in a condition.
 1. Update the rule properties
-1. Call the [IEWSClient.updateInboxRule()](https://apireference.aspose.com/email/java/com.aspose.email/IEWSClient#updateInboxRule\(com.aspose.email.InboxRule\)) method to update the rule.
+1. Call the IEWSClient.updateInboxRule() method to update the rule.
 
 The following code snippet shows you how to update a rule.
 
