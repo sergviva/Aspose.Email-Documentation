@@ -86,6 +86,37 @@ try {
     System.out.println("Error in program" + ex.getMessage());
 }
 ~~~
+## **OAuth Support for EWS with Office 365**
+Aspose.Email API provides support for Exchange Web Service (EWS) with Office 365. The API’s [EWSClient](https://apireference.aspose.com/email/java/com.aspose.email/ewsclient) interface provides overload method that provides the [OAuthNetworkCredential](https://apireference.aspose.com/email/java/com.aspose.email/OAuthNetworkCredential) as input for accessing the Exchange account via OAuth. User needs to provide the Authority, Client Id, Client App Uri, and Resource parameters for this to work. The following code snippet shows OAuth Support for EWS with Office 365.
+
+
+~~~Java
+// token provider
+/*ITokenProvider provider = new ITokenProvider() {
+
+    @Override
+    public void dispose() {
+    }
+
+    @Override
+    public OAuthToken getAccessToken(boolean ignoreExistingToken) {
+        return null;
+    }
+
+    @Override
+    public OAuthToken getAccessToken() {
+        return null;
+    }
+};
+
+NetworkCredential credentials = new OAuthNetworkCredential(provider);*/
+
+// accessToken
+NetworkCredential credentials = new OAuthNetworkCredential("accessToken");
+
+IEWSClient client = EWSClient.getEWSClient("https://outlook.office365.com/ews/exchange.asmx", credentials);
+client.listMessages();
+~~~
 ## **Support for Logging in Exchange Clients**
 Aspose.Email API provides the capability to provide logging facility of Exchange Web Service client.
 ### **Logging for EWS Client**
