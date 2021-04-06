@@ -14,8 +14,8 @@ The [ExchangeClient](http://www.aspose.com/api/java/email/com.aspose.email/class
 To get filtered messages from a mailbox:
 
 1. Connect to Exchange server.
-1. Create an instance of [MailQuery](http://www.aspose.com/api/java/email/com.aspose.email/classes/MailQuery) and set the desired properties.
-1. Call the [ExchangeClient](http://www.aspose.com/api/java/email/com.aspose.email/classes/ExchangeClient).listMessages(MailQuery query) method and pass the MailQuery in the parameters to get the filtered messages only.
+1. Create an instance of MailQuery and set the desired properties.
+1. Call the ExchangeClient.listMessages(MailQuery query) method and pass the MailQuery in the parameters to get the filtered messages only.
 
 The code examples below show how to connect to an Exchange mailbox and get messages that have the string "Newsletter" in the subject and were sent today.
 
