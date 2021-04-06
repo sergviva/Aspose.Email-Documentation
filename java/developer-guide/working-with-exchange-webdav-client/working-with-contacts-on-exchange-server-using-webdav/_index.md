@@ -16,10 +16,10 @@ The [ExchangeClient](https://apireference.aspose.com/email/java/com.aspose.email
 
 To get contacts from an Exchange Server:
 
-1. Initialize the [ExchangeClient](https://apireference.aspose.com/email/java/com.aspose.email/ExchangeClient) class with address and credentials.
-1. Get the Contacts folder's URI with the [ExchangeClient.getMailboxInfo().getContactsUri()](https://apireference.aspose.com/email/java/com.aspose.email/ExchangeMailboxInfo#getContactsUri\(\)) property.
-1. Call the [listContacts()](https://apireference.aspose.com/email/java/com.aspose.email/ExchangeClient#listContacts\(java.lang.String\)) method. It returns an array of [MapiContact](https://apireference.aspose.com/email/java/com.aspose.email/MapiContact).
-1. Do a foreach loop on the [MapiContact](https://apireference.aspose.com/email/java/com.aspose.email/MapiContact) array to read the contact information.
+1. Initialize the ExchangeClient class with address and credentials.
+1. Get the Contacts folder's URI with the ExchangeClient.getMailboxInfo().getContactsUri() property.
+1. Call the listContacts() method. It returns an array of MapiContact.
+1. Do a foreach loop on the MapiContact array to read the contact information.
 
 The following code snippet shows you how to use [ExchangeClient](https://apireference.aspose.com/email/java/com.aspose.email/ExchangeClient) class to read all contacts from an Exchange Server.
 
