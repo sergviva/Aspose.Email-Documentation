@@ -1,7 +1,7 @@
 ---
 title: Compatibility with JDK 11
 type: docs
-weight: 30
+weight: 60
 url: /java/compatibility-with-jdk-11/
 ---
 
@@ -17,7 +17,7 @@ The JAXB APIs are considered to be Java EE APIs, and therefore are no longer con
 
 The following Maven JAXB dependencies shall be added to the project:
 
-``` java
+~~~Java
 
  <dependency>
 
@@ -59,4 +59,4 @@ The following Maven JAXB dependencies shall be added to the project:
 
 </dependency> 
 
-```
+~~~
