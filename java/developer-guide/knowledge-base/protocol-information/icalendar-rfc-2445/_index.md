@@ -15,7 +15,7 @@ Aspose.Email implements the schedule-related elements of the RFC since these hav
 This articles describes the elements of the RFC that relate to Aspose.Email. We recommend that you consult with the iCalendar standard <http://www.faqs.org/rfcs/rfc2445.html> for the complete picture. 
 
 {{% /alert %}} 
-### **Recurrence Patterns in the Real World**
+## **Recurrence Patterns in the Real World**
 A recurrence pattern describes the rules when the event occurs. A recurrence pattern engine such as Aspose iCalendar is needed to calculate the dates and times of the occurrences for a given recurrence pattern.
 We encounter schedules or recurrence patterns in many situations, for example:
 

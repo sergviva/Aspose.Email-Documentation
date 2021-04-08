@@ -18,23 +18,23 @@ Multipurpose Internet Mail Extensions (MIME) is an Internet standard that extend
 SMTP supports only 7 bit ASCII characters which effectively means that it only supports a small number of languages. Languages based on the Latin alphabet are fine in SMTP; other languages are not displayed correctly when the email is delivered. MIME, however, extends the ASCII character support of SMPT so that emails using other character sets, images and sounds can be sent and displayed. Generally, all email clients and SMTP servers correctly map messages of MIME format. 
 
 {{% /alert %}} 
-### **Understanding MIME Headers**
+## **Understanding MIME Headers**
 MIME headers contain information about the protocol.
-#### **MIME-Version**
+### **MIME-Version**
 This indicates that the message is MIME-formatted. It appears as:
 
 MIME-Version: 1.0
-#### **Content-Type**
+### **Content-Type**
 This indicates the content type of the message, given as a type and subtype pair: text/plain, text/html, for example. The multipart content type can contain text, HTML, attachments, images, audio, video and so on. 
 
 Content-Type: multipart
-#### **Content-Transfer-Encoding**
+### **Content-Transfer-Encoding**
 Indicates whether a binary-to-text encoding scheme is used on top on top of the enciding specified by content-type. If it has, states which one. We can specify 7-bit, 8-bit and binary coding type here. 
-#### **Encoded-Word**
+### **Encoded-Word**
 SMTP messages headers normally use ASCII characters. Non-ASCII characters must use MIME encoded word syntax instead of a literal string. The format is: 
 
 "=? *charset* ? *encoding* ? *encoded text* ?=". 
-#### **Multipart-Messages**
+### **Multipart-Messages**
 A MIME multipart message contains a boundary in the content-type header. This boundary, which must not occur in any of the parts, is placed between the parts, and at the beginning and end of the body of the message, as follows:
 
 **MIME-version: 1.0**
@@ -66,7 +66,7 @@ Ym9keSBvZiB0aGUgbWVzc2FnZS48L3A+CiAgPC9ib2R5Pgo8L2h0bWw+Cg==
 ~~~
 
 Each part consists of its own content header and a body. 
-#### **Multipart Subtypes**
+### **Multipart Subtypes**
 The MIME standard defines various multipart-message subtypes. The subtype is specified in the "Content-Type" header of the overall message.
 
 The following is a list of the most commonly used subtypes.
