@@ -1,8 +1,8 @@
 ---
-title: FAQs
+title: Creating Simple Application
 type: docs
 weight: 10
-url: /java/simple_application/
+url: /androidjava/creating-simple-application/
 ---
 
 ## **How to use Aspose.Emil for Android via Java**
