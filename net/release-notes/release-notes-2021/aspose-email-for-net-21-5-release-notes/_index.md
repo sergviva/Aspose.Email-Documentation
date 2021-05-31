@@ -34,7 +34,7 @@ This page contains release notes information for Aspose.Email for .NET 21.5
 The MIME format allows text (i.e. preamble) between the blank line following the headers, and the first multipart boundary and text (i.e. epilogue) between the last boundary and the end of the message. Normally this text is never visible in mail readers. 
 However, some MIME implementations use this space to insert a note for recipients who read the message using non-MIME-compliant programs.
 
-We added appropriate properties to the MailMessage:
+We have added appropriate properties to the MailMessage:
 
 ```csharp
 // Gets or sets a preamble text.
@@ -46,7 +46,7 @@ public string Epilogue
 
 ### **Support for multiple contacts in VCard format**
 
-We added support for reading multiple contacts in VCard format.
+We have added support for reading multiple contacts in VCard format.
 
 **Changes in public API:**
 
