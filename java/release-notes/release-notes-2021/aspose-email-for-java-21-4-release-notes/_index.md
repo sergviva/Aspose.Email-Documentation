@@ -1,7 +1,7 @@
 ---
 title: Aspose.Email for Java 21.4 Release Notes
 type: docs
-weight: 60
+weight: 45
 url: /java/aspose-email-for-java-21-4-release-notes/
 ---
 
