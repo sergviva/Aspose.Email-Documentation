@@ -525,3 +525,35 @@ try (PersonalStorage newPst = PersonalStorage.create(dataDir + "AddAttachmentToM
     newFolder.addMapiMessageItem(calendar);
 }
 ~~~
+## **Set Calendar Event Time Zone**
+Aspose.Email API provides the capability to set calendar time zone:
+- time zone information for start/end date
+- time zone information for a recurring meeting
+- time zone information that describes how to convert the meeting date and time on a recurring series to and from UTC
+
+The following code snippet shows you how to set calendar time zone information:
+
+~~~Java
+MapiCalendar event = new MapiCalendar("location", "summary", "description", startDate, endDate);
+// UTC time zone
+MapiCalendarTimeZone utcTimeZone = new MapiCalendarTimeZone("UTC");
+event.setStartDateTimeZone(utcTimeZone);
+event.setEndDateTimeZone(utcTimeZone);
+
+MapiCalendarDailyRecurrencePattern pattern = new MapiCalendarDailyRecurrencePattern();
+pattern.setPeriod(1);
+pattern.setStartDate(startDate);
+pattern.setEndDate(untilDate);
+pattern.setEndType(MapiCalendarRecurrenceEndType.EndAfterDate);
+pattern.setPatternType(MapiCalendarRecurrencePatternType.Day);
+pattern.setDayOfWeek(DayOfWeek.Monday);
+
+MapiCalendarEventRecurrence r = new MapiCalendarEventRecurrence();
+r.setRecurrencePattern(pattern);
+r.setClipStart(startDate);
+r.setClipEnd(pattern.getEndDate());
+//https://docs.microsoft.com/en-us/office/client-developer/outlook/mapi/pidlidappointmenttimezonedefinitionrecur-canonical-property
+r.setAppointmentTimeZoneDefinitionRecur(utcTimeZone); // <---
+r.setTimeZoneStruct(utcTimeZone); // <---
+event.setRecurrence(r);
+~~~
