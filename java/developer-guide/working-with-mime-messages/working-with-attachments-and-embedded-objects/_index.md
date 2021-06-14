@@ -5,30 +5,63 @@ weight: 20
 url: /java/working-with-attachments-and-embedded-objects/
 ---
 
+
 ## **Managing Email Attachments**
-Email messages can contain attachments, files that are included either to improve the look and layout of the message, or files that the sender wants to share with the recipient. Sometimes, developers need to access and manipulate a message's attachments. Aspose.Email Java provides a handful of collections and methods for this purpose. Furthermore, it allows developers to add or remove attachments at run time. To demonstrate these features, this article loads an email message from the disk and accesses its attachment collection.
-{{% alert %}}
-**Try it out!**
+An email attachment is a file that is sent along with an email message. The file may be sent as a separate message as well as a part of the message to which it is attached. The [Attachment](https://apireference.aspose.com/java/email/com.aspose.email/attachment) class is used with the [MailMessage](https://apireference.aspose.com/java/email/com.aspose.email/mailmessage) class. All messages include a body. In addition to the body, you might want to send additional files. These are sent as attachments and are represented as an instance of the [Attachment](https://apireference.aspose.com/java/email/com.aspose.email/attachment) class. You can send any number of attachments but the size of the attachment is limited by the mail server. Gmail, for example, does not support file sizes greater than 10MB.
 
-Add or remove email attachments with the free [**Aspose.Email Editor App**](https://products.aspose.app/email/editor).
-{{% /alert %}}
 ### **Adding Attachment**
-The code below shows how to add several attachments to an email message, after first creating the message.
+To attach an attachment to an email, please follow these steps:
 
-{{< gist "aspose-com-gists" "709d733586ce50505c3bca3f6e8bd18d" "Examples-src-main-java-com-aspose-email-examples-email-AddAttachmentToANewEmailMessage-.java" >}}
+1. Create an instance of the [MailMessage](https://apireference.aspose.com/java/email/com.aspose.email/mailmessage) class.
+1. Create an instance of the [Attachment](https://apireference.aspose.com/java/email/com.aspose.email/attachment) class.
+1. Load attachment into the [Attachment](https://apireference.aspose.com/java/email/com.aspose.email/attachment) instance.
+1. Add the [Attachment](https://apireference.aspose.com/java/email/com.aspose.email/attachment) instance into the [MailMessage](https://apireference.aspose.com/java/email/com.aspose.email/mailmessage) instance.
+
+The following code snippet shows you how to add an attachment to an email.
+
+
+
+~~~Java
+// The path to the File directory.
+String dataDir = "data/";
+
+// Create an instance of MailMessage class
+MailMessage message = new MailMessage();
+message.setFrom(new MailAddress("sender@sender.com"));
+message.getTo().add("receiver@gmail.com");
+
+// Load an attachment
+Attachment attachment = new Attachment(dataDir + "1.txt");
+
+// Add Multiple Attachment in instance of MailMessage class and Save message to disk
+message.getAttachments().addItem(attachment);
+message.addAttachment(new Attachment(dataDir + "1.jpg"));
+message.addAttachment(new Attachment(dataDir + "1.doc"));
+message.addAttachment(new Attachment(dataDir + "1.rar"));
+message.addAttachment(new Attachment(dataDir + "1.pdf"));
+message.save(dataDir + "outputAttachments_out.msg", SaveOptions.getDefaultMsgUnicode());
+~~~
+
+
+Above, we described how to add attachments to your email message with Aspose.Email. What follows shows how to remove attachments, and display information about them on screen.
 ### **Removing an Attachment**
-The following sequence of steps adds and then removes attachments from an existing message:
+To remove an attachment, follow the steps given below:
 
-1. Create an instance of the [MailMessage](https://apireference.aspose.com/java/email/com.aspose.email/mailmessage) class.
-1. Load an email message using the [MailMessage](https://apireference.aspose.com/java/email/com.aspose.email/mailmessage) class' [load()](https://apireference.aspose.com/java/email/com.aspose.email/MailMessage#load\(java.io.InputStream\)) method, specifying the correct [MessageFormat](https://apireference.aspose.com/java/email/com.aspose.email/messageformat).
-1. Create an instance of the [AttachmentCollection](https://apireference.aspose.com/java/email/com.aspose.email/attachmentcollection) class and fill it with attachments from the instance of the [MailMessage](https://apireference.aspose.com/java/email/com.aspose.email/mailmessage) class using the [getAttachments()](https://apireference.aspose.com/java/email/com.aspose.email/MailMessage#getAttachments\(\)) method.
-1. Remove any attachment at any indexed position by calling the [AttachmentCollection](https://apireference.aspose.com/java/email/com.aspose.email/attachmentcollection) collection's removeAt() method.
-1. Add an attachment by calling the [MailMessage](https://apireference.aspose.com/java/email/com.aspose.email/mailmessage) class' [addAttachment()](https://apireference.aspose.com/java/email/com.aspose.email/MailMessage#addAttachment\(com.aspose.email.Attachment\)) method, passing an instance of the [Attachment](https://apireference.aspose.com/java/email/com.aspose.email/attachment) class as a parameter.
-1. Save the message to disk with the [MailMessage](https://apireference.aspose.com/java/email/com.aspose.email/mailmessage) class' [save()](https://apireference.aspose.com/java/email/com.aspose.email/MailMessage#save\(java.io.OutputStream\)) method, specifying the correct [MailMessageSaveType](https://apireference.aspose.com/java/email/com.aspose.email/mailmessagesavetype).
+- Create an instance of [Attachment](https://apireference.aspose.com/java/email/com.aspose.email/attachment) class.
+- Load attachment in the instance of [Attachment](https://apireference.aspose.com/java/email/com.aspose.email/attachment) class.
+- Add the attachment to the instance of [MailMessage](https://apireference.aspose.com/java/email/com.aspose.email/mailmessage) class.
+- Remove the attachments from the instance of [Attachment](https://apireference.aspose.com/java/email/com.aspose.email/attachment) class using the [MailMessage](https://apireference.aspose.com/java/email/com.aspose.email/mailmessage) class instance.
+
+The following code snippet shows you how to remove an attachment.
 
 
 
-{{< gist "aspose-com-gists" "709d733586ce50505c3bca3f6e8bd18d" "Examples-src-main-java-com-aspose-email-examples-email-AddOrRemoveAttachmentFromAnExistingMessage-.java" >}}
+~~~Java
+// Load attachment to your Mail Message, Add attachment and Remove attachment from your MailMessage
+Attachment attachment = new Attachment("1.txt");
+message.getAttachments().addItem(attachment);
+message.getAttachments().removeItem(attachment);
+~~~
 ### **Displaying Attachment File Name**
 To display the attachment file name, follow these steps:
 
@@ -39,68 +72,265 @@ To display the attachment file name, follow these steps:
 The following code snippet shows you how to display an attachment file name on the screen.
 
 
-
-{{< gist "aspose-com-gists" "709d733586ce50505c3bca3f6e8bd18d" "Examples-src-main-java-com-aspose-email-examples-email-DisplayAttachmentFileName-DisplayAttachmentFileName.java" >}}
+~~~Java
+// Create a loop to display the no. of attachments present in email message
+for (Attachment attachment : message.getAttachments()) {
+    // Display the the attachment file name
+    System.out.println(attachment.getName());
+}
+~~~
 ### **Extracting Email Attachments**
-To save attachments from existing messages:
+This topic explains how to extract an attachment from an email file. An email attachment is a file that is sent along with an email message. The file may be sent as a separate message as well as a part of the message to which it is attached. All email messages include an option to send additional files. These are sent as attachments and are represented as instances of the [Attachment](https://apireference.aspose.com/java/email/com.aspose.email/attachment) class. The [Attachment](https://apireference.aspose.com/java/email/com.aspose.email/attachment) class is used with the [MailMessage](https://apireference.aspose.com/java/email/com.aspose.email/mailmessage) class to work with attachments. To extract attachments from an email message, follow these steps:
 
-1. Create an instance of the [MailMessage](https://apireference.aspose.com/java/email/com.aspose.email/mailmessage) class.
-1. Load the existing email message using the [MailMessage](https://apireference.aspose.com/java/email/com.aspose.email/mailmessage) class' [load()](https://apireference.aspose.com/java/email/com.aspose.email/MailMessage#load\(java.io.InputStream\)) method, specifying the correct [MessageFormat](https://apireference.aspose.com/java/email/com.aspose.email/messageformat).
-1. Create an instance of the [AttachmentCollection](https://apireference.aspose.com/java/email/com.aspose.email/attachmentcollection) class and fill it with attachments from the [MailMessage](https://apireference.aspose.com/java/email/com.aspose.email/mailmessage) instance using the [getAttachments()](https://apireference.aspose.com/java/email/com.aspose.email/MailMessage#getAttachments\(\)) method.
-1. Iterate over the [AttachmentCollection](https://apireference.aspose.com/java/email/com.aspose.email/attachmentcollection) collection.
-1. Create an instance of the [Attachment](https://apireference.aspose.com/java/email/com.aspose.email/attachment) class and fill it with the indexed value from the [AttachmentCollection](https://apireference.aspose.com/java/email/com.aspose.email/attachmentcollection) using the get_Item() method.
-1. Save the attachment to disk using the [Attachment](https://apireference.aspose.com/java/email/com.aspose.email/attachment) class' [save()](https://apireference.aspose.com/java/email/com.aspose.email/AttachmentBase#save\(java.io.OutputStream\)) method.
+- Create an instance of the [MailMessage](https://apireference.aspose.com/java/email/com.aspose.email/mailmessage) class.
+- Load an email file into the [MailMessage](https://apireference.aspose.com/java/email/com.aspose.email/mailmessage) instance.
+- Create an instance of the [Attachment](https://apireference.aspose.com/java/email/com.aspose.email/attachment) class and use it in a loop to extract all attachments.
+- Save the attachment and display it on screen.
 
-{{< gist "aspose-com-gists" "709d733586ce50505c3bca3f6e8bd18d" "Examples-src-main-java-com-aspose-email-examples-email-ExtractAttachments-.java" >}}
-#### **Retrieving Content-Description from Attachment**
-Content-Description information about an attachment can be retrieved from attachment headers as shown in the following code sample.
-
-{{< gist "aspose-com-gists" "709d733586ce50505c3bca3f6e8bd18d" "Examples-src-main-java-com-aspose-email-examples-email-RetrieveContentDescriptionInformationFromAttachmentHeaders-.java" >}}
-#### **Determining if Attachment is Embedded Message**
-{{< gist "aspose-com-gists" "709d733586ce50505c3bca3f6e8bd18d" "Examples-src-main-java-com-aspose-email-examples-email-DetermineIfAttachmentIsEmbeddedMessage-.java" >}}
-## **Working with Embedded Objects**
-### **Embedding Objects into an Email**
-With Aspose.Email Java developers can easily embed any image into an email message as well as attach it by using the [LinkedResource](https://apireference.aspose.com/java/email/com.aspose.email/linkedresource) class.
-
-The example below shows how to use the [LinkedResource](https://apireference.aspose.com/java/email/com.aspose.email/linkedresource) class to embed an image:
-
-1. Create an instance of the [MailMessage](https://apireference.aspose.com/java/email/com.aspose.email/mailmessage) class.
-1. Set the [MailMessage](https://apireference.aspose.com/java/email/com.aspose.email/mailmessage) object's properties, for example, subject, from, to and CC.
-1. Set the HtmlBody with an extra <img> tag.
-1. Set the image source using the pattern <img src=[cid:abc](http://cidabc)>.
-1. Create an instance of the [LinkedResource](https://apireference.aspose.com/java/email/com.aspose.email/linkedresource) class by supplying the path to the image in the constructor.
-1. Set the ContentId of [LinkedResource](https://apireference.aspose.com/java/email/com.aspose.email/linkedresource) using the [setContentId()](https://apireference.aspose.com/java/email/com.aspose.email/AttachmentBase#setContentId\(java.lang.String\)) method and passing the CID as a parameter.
-1. Add the [LinkedResource](https://apireference.aspose.com/java/email/com.aspose.email/linkedresource) to the message’s [LinkedRecourceCollection](https://apireference.aspose.com/java/email/com.aspose.email/LinkedResourceCollection) collection using the [MailMessage](https://apireference.aspose.com/java/email/com.aspose.email/mailmessage) class' [getLinkedResources.Add()](https://apireference.aspose.com/java/email/com.aspose.email/MailMessage#getLinkedResources\(\)) method.
-1. Call the [MailMessage](https://apireference.aspose.com/java/email/com.aspose.email/mailmessage) class' [save()](https://apireference.aspose.com/java/email/com.aspose.email/MailMessage#save\(java.io.OutputStream\)) method to save the message to disk in various formats like MSG, EML, MHT.
-
-|![todo:image_alt_text](http://i.imgur.com/E0tpRCT.png)|
+|**Extracted attachments in email**|
 | :- |
-|**Figure: Output file, showing an embedded image**|
-{{< gist "aspose-com-gists" "709d733586ce50505c3bca3f6e8bd18d" "Examples-src-main-java-com-aspose-email-examples-email-AddEmbeddedImagesToEmailMessage-.java" >}}
-### **Removing Embedded Objects from Email**
-[LinkedRecourceCollection](https://apireference.aspose.com/java/email/com.aspose.email/LinkedResourceCollection) accessed via [MailMessage.LinkedResources](https://apireference.aspose.com/java/email/com.aspose.email/MailMessage#getLinkedResources\(\)) property that provides a method to completely remove embedded objects added into an email message. Use the overloaded version of [LinkedResourceCollection.RemoveAt](https://apireference.aspose.com/java/email/com.aspose.email/LinkedResourceCollection#removeAt\(int,%20boolean\)) method to remove all traces of an embedded object from the email message.
+|![todo:image_alt_text](working-with-attachments-and-embedded-objects_1.png)|
+The following code snippet shows you how to Extract Email Attachments.
 
-The sample code below shows how to remove embedded objects from email message.
 
-{{< gist "aspose-com-gists" "709d733586ce50505c3bca3f6e8bd18d" "Examples-src-main-java-com-aspose-email-examples-email-RemoveLRTracesFromMessageBody-RemoveLRTracesFromMessageBody.java" >}}
-### **Extracting Embedded Objects**
-Sometimes, we get emails with other emails embedded in them as attachments. These embedded emails are complete messages with their own recipient list, subject, body, and even attachments. Each of these messages can also contain embedded messages.
+~~~Java
+// The path to the File directory.
+String dataDir = "data/";
 
-Using Aspose.Email for Java, developers can access each embedded message as an individual message. This example demonstrates reading embedded messages from emails.
+// Create an instance of MailMessage and load an email file
+MailMessage mailMsg = MailMessage.load(dataDir + "Message.msg", new MsgLoadOptions());
 
-To read attachments embedded into an email message:
+for (Attachment attachment : mailMsg.getAttachments()) {
+    // To display the the attachment file name
+    attachment.save(dataDir + "MessageEmbedded_out.msg");
+
+    System.out.println(attachment.getName());
+}
+~~~
+#### **Retrieving Content-Description from Attachment**
+Aspose.Email API provides the capability to read attachment's Content-Description from attachment header. The following code snippet shows you how to retrieve the content description from the attachment.
+
+
+
+~~~Java
+MailMessage message = MailMessage.load(fileName);
+String description = message.getAttachments().get_Item(0).getHeaders().get_Item("Content-Description");
+~~~
+#### **Determining if Attachment is Embedded Message**
+The following code snippet demonstrates how to determine if the attachment is an embedded message or not.
+
+
+~~~Java
+MailMessage eml = MailMessage.load(fileName);
+
+if (eml.getAttachments().get_Item(0).isEmbeddedMessage())
+    System.out.println("Attachment is an embedded message.");
+else
+    System.out.println("Attachment is not an embedded message.");
+~~~
+## **Working with Embedded Objects**
+An embedded object is an object that was created with one application and enclosed within a document or file created by another application. For example, a Microsoft Excel spreadsheet can be embedded into a Microsoft Word report, or a video file can be embedded into a Microsoft PowerPoint presentation. When a file is embedded, rather than inserted or pasted into another document, it retains its original format. The embedded document can be opened in the original application and modified.
+### **Embedding Objects into an Email**
+The [LinkedResource](https://apireference.aspose.com/java/email/com.aspose.email/linkedresource) class is used with the [MailMessage](https://apireference.aspose.com/java/email/com.aspose.email/mailmessage) class to embed objects in your email messages. To add an embedded object, follow these steps
 
 1. Create an instance of the [MailMessage](https://apireference.aspose.com/java/email/com.aspose.email/mailmessage) class.
-1. Load the existing email message using the [MailMessage](https://apireference.aspose.com/java/email/com.aspose.email/mailmessage) class' [load()](https://apireference.aspose.com/java/email/com.aspose.email/MailMessage#load\(java.io.InputStream\)) method, specifying the correct [MessageFormat](https://apireference.aspose.com/java/email/com.aspose.email/messageformat).
-1. Call the *Recursive* method by passing the instance of the [MailMessage](https://apireference.aspose.com/java/email/com.aspose.email/mailmessage) class as a parameter.
-1. Iterate over [MailMessage](https://apireference.aspose.com/java/email/com.aspose.email/mailmessage) instance's attachment collection.
-1. Replace invalid characters from the attachment name and restrict the name to 50 chars.
-1. Save the attachment to disk using the [Attachment](https://apireference.aspose.com/java/email/com.aspose.email/attachment) class' [save()](https://apireference.aspose.com/java/email/com.aspose.email/AttachmentBase#save\(java.io.OutputStream\)) method.
-1. Repeat 1 – 6.
- 
+1. Specify the from, to and subject values in [MailMessage](https://apireference.aspose.com/java/email/com.aspose.email/mailmessage) instance.
+1. Create an instance of the [AlternateView](https://apireference.aspose.com/email/java/com.aspose.email/alternateview) class.
+1. Create an instance of the [LinkedResource](https://apireference.aspose.com/java/email/com.aspose.email/linkedresource) class.
+1. Load an embedded object into the [LinkedResourceCollection](https://apireference.aspose.com/email/java/com.aspose.email/linkedresourcecollection).
+1. Add the loaded embedded object into the [MailMessage](https://apireference.aspose.com/java/email/com.aspose.email/mailmessage) class instance.
+1. Add the [AlternateView](https://apireference.aspose.com/email/java/com.aspose.email/alternateview) instance to the [MailMessage](https://apireference.aspose.com/java/email/com.aspose.email/mailmessage) class instance.
 
-{{< gist "aspose-com-gists" "709d733586ce50505c3bca3f6e8bd18d" "Examples-src-main-java-com-aspose-email-examples-email-ReadEmbeddedEmailAttachmentsFromMessage-.java" >}}
+The code snippets below produce an email message with both plain text and HTML bodies and an image embedded into the HTML
+
+|**Image embedded into email**|
+| :- |
+|![todo:image_alt_text](working-with-attachments-and-embedded-objects_2.png)|
+You can send any number of embedded objects. The size of the attachment is limited by the mail server. Gmail, for example, does not support file sizes greater than 10MB. The code snippets below demonstrate how to embed objects into an Email.
+
+
+
+~~~Java
+// The path to the File directory.
+String dataDir = "data/";
+String dstEmail = dataDir + "EmbeddedImage.msg";
+
+// Create an instance of the MailMessage class and Set the addresses and Set the content
+MailMessage mail = new MailMessage();
+mail.setFrom(new MailAddress("test001@gmail.com"));
+mail.getTo().add("test001@gmail.com");
+mail.setSubject("This is an email");
+
+// Create the plain text part It is viewable by those clients that don't support HTML
+AlternateView plainView = AlternateView.createAlternateViewFromString("This is my plain text content", null, "text/plain");
+
+/*
+ * Create the HTML part.To embed images, we need to use the prefix 'cid' in the img src value. The cid value will map to the Content-Id of a Linked resource. Thus <img
+ * src='cid:barcode'> will map to a LinkedResource with a ContentId of //'barcode'.
+ */
+AlternateView htmlView = AlternateView.createAlternateViewFromString("Here is an embedded image.<img src=cid:barcode>", null, "text/html");
+
+// Create the LinkedResource (embedded image) and Add the LinkedResource to the appropriate view
+LinkedResource barcode = new LinkedResource(dataDir + "1.jpg", MediaTypeNames.Image.JPEG);
+barcode.setContentId("barcode");
+
+mail.getLinkedResources().addItem(barcode);
+mail.getAlternateViews().addItem(plainView);
+mail.getAlternateViews().addItem(htmlView);
+mail.save(dataDir + "EmbeddedImage_out.msg", SaveOptions.getDefaultMsgUnicode());
+~~~
+### **Removing Embedded Objects from Email**
+[LinkedResourceCollection](https://apireference.aspose.com/email/java/com.aspose.email/linkedresourcecollection) accessed via [MailMessage.LinkedResources](https://apireference.aspose.com/email/java/com.aspose.email/MailMessage#getLinkedResources\(\)) property. The [LinkedResourceCollection](https://apireference.aspose.com/email/java/com.aspose.email/linkedresourcecollection) collection provides a method to completely remove embedded objects added into an email message. Use the overloaded version of [LinkedResourceCollection.removeAt](https://apireference.aspose.com/email/java/com.aspose.email/LinkedResourceCollection#removeAt\(int,%20boolean\)) method to remove all traces of an embedded object from an email message.
+
+The sample code below shows how to remove embedded objects from an email message.
+
+
+
+~~~Java
+String dataDir = "data/";
+
+// sample input file
+String fileName = "EmlWithLinkedResources.eml";
+
+// Load the test message with Linked Resources
+MailMessage msg = MailMessage.load(dataDir + fileName);
+
+// Remove a LinkedResource
+msg.getLinkedResources().removeAt(0, true);
+
+// Now clear the Alternate View for linked Resources
+msg.getAlternateViews().get_Item(0).getLinkedResources().clear(true);
+~~~
+### **Extracting Embedded Objects**
+This topic explains how to extract embedded objects from an email file. An embedded object is an object that was created with one application and enclosed within a document or file created by another application. For example, a Microsoft Excel spreadsheet can be embedded into a Microsoft Word report, or a video file can be embedded into a Microsoft PowerPoint presentation. When a file is embedded, rather than inserted or pasted into another document, it retains its original format. The embedded document can be opened in the original application and be modified. To extract an embedded object from an email message, follow these steps:
+
+1. Create an instance of the [MailMessage](https://apireference.aspose.com/java/email/com.aspose.email/mailmessage) class.
+1. Load an email file in the [MailMessage](https://apireference.aspose.com/java/email/com.aspose.email/mailmessage) instance.
+1. Create a loop and create an instance of the [Attachment](https://apireference.aspose.com/java/email/com.aspose.email/attachment) class in it.
+1. Save the attachment and display it on screen.
+1. Specify the sender and recipient address in the [MailMessage](https://apireference.aspose.com/java/email/com.aspose.email/mailmessage) instance.
+1. Send email using the [SmtpClient](https://apireference.aspose.com/email/java/com.aspose.email/smtpclient) class.
+
+The code snippet below extracts embedded objects from an email.
+
+|**Extracted embedded objects in email**|
+| :- |
+|![todo:image_alt_text](working-with-attachments-and-embedded-objects_3.png)|
+The following code snippet shows you how to Extracting Embedded Objects.
+
+
+
+~~~Java
+// The path to the File directory.
+String dataDir = "data/";
+
+// Create an instance of MailMessage and load an email file
+MailMessage mailMsg = MailMessage.load(dataDir + "Message.msg", new MsgLoadOptions());
+
+for (Attachment attachment : mailMsg.getAttachments()) {
+    // To display the the attachment file name
+    attachment.save(dataDir + "MessageEmbedded_out.msg");
+
+    System.out.println(attachment.getName());
+}
+~~~
 #### **Identify and Extract embedded attachment from MSG formatted as RTF**
-Email messages with an RTF formatted body may contain inline attachments that are either embedded as a whole object or as an icon. In order to differentiate between these two types of attachments, certain properties of the attachment need to be investigated first. After meeting certain criteria based on the attachment properties, the attachment can be saved by extracting it from its ObjectData. This article identifies and extracts embedded attachment from MSG file formatted as RTF.
+For messages formatted as RTF, the following code can be used to differentiate and extract attachments that are either Inline or appear as Icon in the message body. The following code snippet shows you how to Identify and Extract embedded attachment from MSG formatted as RTF.
 
-{{< gist "aspose-com-gists" "709d733586ce50505c3bca3f6e8bd18d" "Examples-src-main-java-com-aspose-email-examples-email-ExtractMSGEmbeddedAttachments-ExtractMSGEmbeddedAttachments.java" >}}
+
+
+~~~Java
+public static void extractInlineAttachments(String dataDir) {
+    MapiMessage message = MapiMessage.fromFile(dataDir + "MSG file with RTF Formatting.msg");
+    MapiAttachmentCollection attachments = message.getAttachments();
+    for (MapiAttachment attachment : attachments) {
+
+        if (isAttachmentInline(attachment)) {
+            try {
+                saveAttachment(attachment, UUID.randomUUID().toString());
+            } catch (Exception ex) {
+                System.err.println(ex);
+            }
+        }
+    }
+}
+
+static boolean isAttachmentInline(MapiAttachment attachment) {
+    for (MapiProperty property : attachment.getObjectData().getProperties().get_Values()) {
+        if ("\u0003ObjInfo".equals(property.getName())) {
+            byte[] data = property.getData();
+            int odtPersist1 = data[1] << 8 | data[0];
+            return (odtPersist1 & 0x40) == 0;
+        }
+    }
+    return false;
+}
+
+static void saveAttachment(MapiAttachment attachment, String fileName) throws IOException {
+    for (MapiProperty property : attachment.getObjectData().getProperties().get_Values()) {
+        if ("Package".equals(property.getName())) {
+            try (FileOutputStream fs = new FileOutputStream(fileName)) {
+                fs.write(property.getData(), 0, property.getData().length);
+            }
+        }
+    }
+}
+~~~
+
+### **Working with Content-Type and Content-Disposition**
+Aspose.Email API provides the capability to working with attachment's [Content-Type](https://tools.ietf.org/html/rfc2045#section-5) and [Content-Disposition](https://tools.ietf.org/html/rfc2183) from attachment header. The following code snippet shows you how to get and change the content description from the attachment.
+
+
+#### **Displaying Content-Type and Content-Disposition parameters**
+The following code snippet shows you how to display an parameters of Content-Type and Content-Disposition on the screen:
+
+
+
+~~~Java
+void run(MailMessage message) {
+    // Attachments
+    for (Attachment attachment : message.getAttachments()) {
+        ContentDisposition contentDisposition = attachment.getContentDisposition();
+        printContentDisposition(contentDisposition);
+        ContentType contentType = attachment.getContentType();
+        printContentType(contentType);
+    }
+    // Linked Resources
+    for (LinkedResource attachment : message.getLinkedResources()) {
+        ContentDisposition contentDisposition = attachment.getContentDisposition();
+        printContentDisposition(contentDisposition);
+        ContentType contentType = attachment.getContentType();
+        printContentType(contentType);
+    }
+}
+
+void printContentType(ContentType contentType) {
+    System.out.println("media-type: " + contentType.getMediaType());
+    System.out.println("charset: " + contentType.getCharSet());
+    System.out.println("name: " + contentType.getName());
+}
+
+void printContentDisposition(ContentDisposition contentDisposition) {
+    System.out.println("disposition-type: " + contentDisposition.getDispositionType());
+    System.out.println("is-inline: " + contentDisposition.getInline());
+    System.out.println("filename: " + contentDisposition.getFileName());
+    System.out.println("creation-date: " + contentDisposition.getCreationDate());
+    System.out.println("modification-date: " + contentDisposition.getModificationDate());
+    System.out.println("read-date: " + contentDisposition.getReadDate());
+    System.out.println("size: " + contentDisposition.getSize());
+}
+~~~
+#### **Using Content-Type and Content-Disposition parameters with Attachments**
+The following code snippet shows you how to use the Content-Type and Content-Disposition parameters  with Attachment:
+
+
+
+~~~Java
+MailMessage eml = MailMessage.load(fileName);
+
+Attachment attachment = new Attachment(pdfFileName, new ContentType("application/octet-stream"));
+attachment.getContentDisposition().setDispositionType("attachment");
+attachment.getContentDisposition().setFileName(fileName);
+
+eml.addAttachment(attachment);
+~~~
