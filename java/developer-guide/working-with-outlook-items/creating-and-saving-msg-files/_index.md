@@ -103,6 +103,10 @@ outlookMsg.save(dataDir + "CreatingMSGFilesWithRTFBody_out.msg");
 ## **Saving Message in Draft Status**
 Emails are saved as drafts when someone has started editing them but wants to return to them to complete them later. Aspose.Email supports saving email messages in draft status by setting a message flag. Below is the sample code to save an Outlook email message (MSG) as a draft.
 
+{{% alert %}}
+Please note that in the draft status, Outlook does not display any sender information assigned to MapiMessage.
+If we need to display Sender information we should set MSGFLAG_READ flag.
+{{% /alert %}}
 
 
 ~~~Java
