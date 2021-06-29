@@ -34,7 +34,7 @@ We have added the `ReturnClientRequestId` property to `EWSClient`:
 
 ```csharp
 // Gets or sets a value to indicate whether 
-// the client requires the server side to return the request id.
+// the client requires the server-side to return the request-id.
 public bool ReturnClientRequestId
 ```
 
@@ -54,11 +54,11 @@ using (IEWSClient client = TestUtil.CreateEWSClient(user))
 
 ### **Setting the cryptographic protocol without compatibility checks**
 
-We have added an `EmailClient.SetSupportedEncryptionUnsafe(EncryptionProtocols value)` method. This method sets the certain cryptographic protocol without any compatibility checks.
+We have added an `EmailClient.SetSupportedEncryptionUnsafe(EncryptionProtocols value)` method. This method sets a certain cryptographic protocol without any compatibility checks.
 
 **For example:**
 
-TLS 1.2 generally not supported by .NET Framework 3.5. 
+TLS 1.2 is generally not supported by .NET Framework 3.5. 
 
 But when you call
 
